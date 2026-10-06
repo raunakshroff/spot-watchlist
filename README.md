@@ -84,3 +84,22 @@ Base path is `/spot-watchlist/` (GitHub Pages project site).
 ## Disclaimer
 
 Research / personal tracking only — **not investment advice**.
+
+
+## Deploy note (PAT / workflow scope)
+
+The intended setup uses GitHub Actions workflows under `.github/workflows/`:
+
+- `pages.yml` — build & deploy on push to `main`
+- `daily-update.yml` — weekday cron market update
+
+The token used to bootstrap this repo lacked the classic PAT **`workflow`** scope, so workflow files could not be pushed. **Identical YAML lives in `scripts/github-workflows/`.**
+
+To activate Actions:
+
+1. Add `workflow` scope to the PAT (or use a fine-grained token that can manage Actions), **or** paste the files via the GitHub UI:
+   - Copy `scripts/github-workflows/pages.yml` → `.github/workflows/pages.yml`
+   - Copy `scripts/github-workflows/daily-update.yml` → `.github/workflows/daily-update.yml`
+2. Until then, the site is served from the **`/docs` folder on `main`** (GitHub Pages).
+3. After workflows are in place, you can switch Pages source to **GitHub Actions** and optionally stop committing `docs/`.
+
