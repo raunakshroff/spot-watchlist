@@ -23,6 +23,7 @@ except ImportError:
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "public" / "data"
+DOCS_DATA = ROOT / "docs" / "data"
 IST = ZoneInfo("Asia/Kolkata")
 
 
@@ -145,6 +146,15 @@ def main() -> int:
     save("watchlist.json", watchlist)
     save("history.json", history)
     save("meta.json", meta)
+
+    # Keep GitHub Pages /docs mirror in sync (when present)
+    if DOCS_DATA.is_dir():
+        for name in ("watchlist.json", "history.json", "meta.json", "dropped.json"):
+            src = DATA / name
+            if src.exists():
+                (DOCS_DATA / name).write_text(src.read_text(encoding="utf-8"), encoding="utf-8")
+        print("Synced docs/data/")
+
     print(f"Updated {updated}/{len(watchlist)} tickers for {day}")
     return 0
 
