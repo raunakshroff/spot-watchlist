@@ -10,6 +10,7 @@ export type StockStatus =
 export interface WatchlistStock {
   ticker: string;
   name: string;
+  sector: string;
   status: StockStatus;
   thesis: string;
   buyZone: boolean;
@@ -53,6 +54,7 @@ export interface HistoryEntry {
 export interface DroppedStock {
   ticker: string;
   name: string;
+  sector: string;
   droppedDate: string;
   lastPrice: number | null;
   reason: string;
@@ -69,3 +71,14 @@ export interface Meta {
   repoUrl: string;
   disclaimer: string;
 }
+
+/** Preferred display order for sector sections */
+export const SECTOR_ORDER = [
+  "Pharma",
+  "Capital Goods / Industrial",
+  "Capital Goods / Infrastructure",
+  "Defence / Aerospace",
+  "Auto Ancillaries",
+  "IT / Cloud / Data center",
+  "FMCG",
+] as const;

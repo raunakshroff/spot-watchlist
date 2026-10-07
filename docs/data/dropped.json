@@ -2,8 +2,9 @@
   {
     "ticker": "ITC.NS",
     "name": "ITC",
+    "sector": "FMCG",
     "droppedDate": "2026-10-06",
-    "lastPrice": 265.80,
+    "lastPrice": 265.8,
     "reason": "Bounce faded below 200DMA (~294); 3M weak; demoted from active",
     "priorStatus": "Active",
     "notes": "Invalidation was close <254. Last price ~265.80."

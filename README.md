@@ -10,9 +10,10 @@ Modern NSE stock-tracking dashboard for **Raunak Shroff**. Dark technical UI, JS
 
 ## Features
 
-- **Overview** — status filters, ticker search, buy-zone / RSI alerts, expandable cards with levels + thesis + sparkline
+- **Overview** — status filters, ticker search, buy-zone / RSI alerts, expandable cards with levels + thesis + sparkline + sector badge
+- **Sector** — group active names by NSE sector; filter pills per sector; same expandable cards
 - **History** — pick any logged market day and see that day's roster, prices, RSI, and whether anything was dropped
-- **Dropped archive** — drop date, last price, reason
+- **Dropped archive** — drop date, last price, sector, reason
 - **Daily auto-update** — weekday cron at `45 10 * * 1-5` UTC (= **4:15 PM IST**), plus manual `workflow_dispatch`
 
 ## Stack
@@ -39,7 +40,7 @@ Modern NSE stock-tracking dashboard for **Raunak Shroff**. Dark technical UI, JS
 
 ## How to add a stock
 
-1. Edit `public/data/watchlist.json` — append an object with `ticker`, `name`, `status`, thesis, levels, etc.
+1. Edit `public/data/watchlist.json` — append an object with `ticker`, `name`, `sector`, `status`, thesis, levels, etc.
 2. Append a first row to `public/data/history.json` for today (`droppedThatDay: false`).
 3. Commit & push to `main` (Pages rebuilds automatically).
 

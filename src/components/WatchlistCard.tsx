@@ -24,6 +24,7 @@ export function WatchlistCard({ stock }: { stock: WatchlistStock }) {
             {stock.name}
             {stock.sharesHeld ? ` · ${stock.sharesHeld} sh` : ""}
           </div>
+          {stock.sector && <span className="sector-chip">{stock.sector}</span>}
         </div>
 
         <div className="metric">

@@ -2,6 +2,7 @@
   {
     "ticker": "E2E.NS",
     "name": "E2E Networks",
+    "sector": "IT / Cloud / Data center",
     "status": "Breakout-watch",
     "thesis": "AI/GPU cloud; Q1 FY27 rev +334%; P/E ~455; up to ₹1500 Cr raise approved",
     "buyZone": false,
@@ -37,6 +38,7 @@
   {
     "ticker": "TRANSRAILL.NS",
     "name": "Transrail Lighting",
+    "sector": "Capital Goods / Infrastructure",
     "status": "Holding",
     "thesis": "T&D EPC; order wins Sep 30 ₹574 Cr + Oct 6 ₹412 Cr; YTD intake ₹2021 Cr; exploring ~₹600 Cr QIP",
     "buyZone": false,
@@ -72,6 +74,7 @@
   {
     "ticker": "TORNTPHARM.NS",
     "name": "Torrent Pharma",
+    "sector": "Pharma",
     "status": "Active",
     "thesis": "Pharma RS; above 200-DMA; MR at support",
     "buyZone": true,
@@ -107,6 +110,7 @@
   {
     "ticker": "GLENMARK.NS",
     "name": "Glenmark",
+    "sector": "Pharma",
     "status": "Active",
     "thesis": "Pharma MR new",
     "buyZone": true,
@@ -142,6 +146,7 @@
   {
     "ticker": "HAL.NS",
     "name": "Hindustan Aeronautics",
+    "sector": "Defence / Aerospace",
     "status": "Dip-buy",
     "thesis": "Defence RS; don't chase",
     "buyZone": false,
@@ -177,6 +182,7 @@
   {
     "ticker": "DIVISLAB.NS",
     "name": "Divi's Laboratories",
+    "sector": "Pharma",
     "status": "Dip-buy",
     "thesis": "Strongest large-pharma RS",
     "buyZone": false,
@@ -212,6 +218,7 @@
   {
     "ticker": "AUROPHARMA.NS",
     "name": "Aurobindo Pharma",
+    "sector": "Pharma",
     "status": "Dip-buy",
     "thesis": "RS hold; modest R:R",
     "buyZone": false,
@@ -247,6 +254,7 @@
   {
     "ticker": "ABB.NS",
     "name": "ABB India",
+    "sector": "Capital Goods / Industrial",
     "status": "Active",
     "thesis": "Cap-goods MR; mixed rate beta",
     "buyZone": true,
@@ -282,6 +290,7 @@
   {
     "ticker": "BOSCHLTD.NS",
     "name": "Bosch",
+    "sector": "Auto Ancillaries",
     "status": "Watch-only",
     "thesis": "Auto-ancillary MR; rate-sensitive",
     "buyZone": false,
@@ -317,6 +326,7 @@
   {
     "ticker": "CGPOWER.NS",
     "name": "CG Power",
+    "sector": "Capital Goods / Industrial",
     "status": "Watch-only",
     "thesis": "Cap-goods; extended",
     "buyZone": false,

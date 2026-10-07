@@ -14,6 +14,7 @@ export function DroppedView({ dropped }: { dropped: DroppedStock[] }) {
             <tr>
               <th>Ticker</th>
               <th>Name</th>
+              <th>Sector</th>
               <th>Dropped</th>
               <th>Last price</th>
               <th>Prior status</th>
@@ -33,6 +34,9 @@ export function DroppedView({ dropped }: { dropped: DroppedStock[] }) {
                     </strong>
                   </td>
                   <td>{d.name}</td>
+                  <td>
+                    <span className="sector-chip">{d.sector ?? "—"}</span>
+                  </td>
                   <td style={{ fontFamily: "var(--mono)" }}>{d.droppedDate}</td>
                   <td style={{ fontFamily: "var(--mono)" }}>{formatPrice(d.lastPrice)}</td>
                   <td>{d.priorStatus ?? "—"}</td>

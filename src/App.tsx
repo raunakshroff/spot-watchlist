@@ -4,8 +4,9 @@ import type { DroppedStock, HistoryEntry, Meta, WatchlistStock } from "./types";
 import { Overview } from "./components/Overview";
 import { HistoryView } from "./components/HistoryView";
 import { DroppedView } from "./components/DroppedView";
+import { SectorView } from "./components/SectorView";
 
-type Tab = "overview" | "history" | "dropped";
+type Tab = "overview" | "sector" | "history" | "dropped";
 
 async function loadJson<T>(path: string): Promise<T> {
   const base = import.meta.env.BASE_URL;
@@ -84,6 +85,13 @@ export default function App() {
         </button>
         <button
           type="button"
+          className={`tab ${tab === "sector" ? "active" : ""}`}
+          onClick={() => setTab("sector")}
+        >
+          Sector
+        </button>
+        <button
+          type="button"
           className={`tab ${tab === "history" ? "active" : ""}`}
           onClick={() => setTab("history")}
         >
@@ -107,6 +115,7 @@ export default function App() {
           setStatusFilter={setStatusFilter}
         />
       )}
+      {tab === "sector" && <SectorView stocks={watchlist} />}
       {tab === "history" && <HistoryView history={history} />}
       {tab === "dropped" && <DroppedView dropped={dropped} />}
 
