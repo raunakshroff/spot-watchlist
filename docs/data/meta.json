@@ -6,5 +6,5 @@
   "howToDrop": "Move the ticker from watchlist.json into dropped.json with droppedDate, lastPrice, and reason. Append a history row with status Dropped for that day. Commit and push — the next Pages deploy picks it up.",
   "repoUrl": "https://github.com/raunakshroff/spot-watchlist",
   "disclaimer": "Research / personal tracking only — not investment advice.",
-  "lastRunUtc": "2026-10-07T10:59:12Z"
+  "lastRunUtc": "2026-10-07T18:12:47Z"
 }
