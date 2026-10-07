@@ -12,7 +12,7 @@ Modern NSE stock-tracking dashboard for **Raunak Shroff**. Dark technical UI, JS
 
 - **Overview** — status filters, ticker search, buy-zone / RSI alerts, expandable cards with levels + thesis + sparkline + sector badge
 - **Sector** — group active names by NSE sector; filter pills per sector; same expandable cards
-- **vs Nifty** — Daily / Weekly toggle; every NSE equity index (Broad Market, Sectoral, Thematic, Strategy) plus BSE Sensex / 100 / 500 ranked above or below Nifty 50. Search, group filters, Above/Below filter, Ranked or By-group layout, ★ watchlist-linked filter. "My sectors" keeps the watchlist-sector cards.
+- **vs Nifty** — Daily / Weekly toggle; curated major indices (broad market incl. Sensex, 15 sectoral, 10 key thematic) ranked by return with Nifty 50 as a highlighted row — above it outperformed, below it underperformed. Search, group filters, Above/Below filter, Ranked or By-group layout, ★ watchlist-linked filter; "My sectors" keeps the watchlist-sector cards. Edit the list in `MAJOR_INDICES` / `BSE_INDICES` in `scripts/daily_update.py`.
 - **History** — pick any logged market day and see that day's roster, prices, RSI, and whether anything was dropped
 - **Dropped archive** — drop date, last price, sector, reason
 - **Daily auto-update** — weekday cron at `45 10 * * 1-5` UTC (= **4:15 PM IST**), plus manual `workflow_dispatch`
@@ -32,7 +32,7 @@ Modern NSE stock-tracking dashboard for **Raunak Shroff**. Dark technical UI, JS
 | `public/data/history.json` | Daily snapshots (one row per ticker per day) |
 | `public/data/dropped.json` | Archived / dropped names |
 | `public/data/meta.json` | Title, timezone, last update, how-to blurbs |
-| `public/data/indices.json` | Nifty 50 benchmark + `indices[]` (all NSE equity indices + BSE) + watchlist `sectors[]`, daily / weekly vs Nifty |
+| `public/data/indices.json` | Nifty 50 benchmark + `indices[]` (curated major NSE indices + Sensex + a Nifty 50 benchmark row) + watchlist `sectors[]`, daily / weekly vs Nifty |
 
 ### Status values
 

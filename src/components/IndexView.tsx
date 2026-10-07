@@ -14,6 +14,16 @@ type Layout = "ranked" | "grouped";
 
 const GROUP_ORDER = ["Broad Market", "Sectoral", "Thematic", "Strategy", "BSE"];
 
+/** Sort by period return (desc); rows without data sink to the bottom. */
+function byReturn(a: Ranked, b: Ranked): number {
+  if (a.ret == null && b.ret == null) return a.row.name.localeCompare(b.row.name);
+  if (a.ret == null) return 1;
+  if (b.ret == null) return -1;
+  if (b.ret !== a.ret) return b.ret - a.ret;
+  // tie on return: benchmark first so equal performers read as "in line"
+  return (b.row.isBenchmark ? 1 : 0) - (a.row.isBenchmark ? 1 : 0);
+}
+
 function fmtPct(n: number | null | undefined, digits = 2): string {
   if (n == null || Number.isNaN(n)) return "—";
   const sign = n > 0 ? "+" : "";
@@ -102,7 +112,6 @@ function UniverseTable({
   maxAbs: number;
   startRank?: number;
 }) {
-  const firstBelow = items.findIndex((x) => x.vs == null || x.vs < 0);
   return (
     <div className="ix-table" role="table">
       <div className="ix-tr ix-head" role="row">
@@ -114,23 +123,21 @@ function UniverseTable({
       </div>
       {items.map((x, i) => {
         const r = x.row;
-        const showDivider = i === firstBelow && firstBelow > 0;
+        const bench = !!r.isBenchmark;
         const width = x.vs == null ? 0 : Math.max(3, (Math.abs(x.vs) / maxAbs) * 100);
         return (
           <div key={r.id} className="ix-row-wrap">
-            {showDivider && (
-              <div className="ix-divider">
-                <span>Nifty 50 line</span>
-              </div>
-            )}
             <div
-              className={`ix-tr ${x.vs == null ? "na" : x.vs >= 0 ? "above" : "below"}`}
+              className={`ix-tr ${
+                bench ? "bench" : x.vs == null ? "na" : x.vs > 0 ? "above" : x.vs < 0 ? "below" : "level"
+              }`}
               role="row"
             >
-              <span className="ix-rank">{x.vs == null ? "–" : startRank + i}</span>
+              <span className="ix-rank">{x.ret == null ? "–" : startRank + i}</span>
               <span className="ix-name">
                 <span className="ix-title">{r.name}</span>
                 <span className="ix-meta">
+                  {bench && <span className="ix-chip bench">Benchmark</span>}
                   {showGroup && <span className="ix-chip">{r.group}</span>}
                   {r.watchlistSectors.length > 0 && (
                     <span
@@ -141,7 +148,7 @@ function UniverseTable({
                     </span>
                   )}
                   <span className="ix-sym">{r.yahooSymbol ?? r.nseSymbol}</span>
-                  {r.dataSource === "yahoo" && r.group !== "BSE" && (
+                  {r.dataSource === "yahoo" && r.nseSymbol && !bench && (
                     <span className="ix-chip warn">Yahoo</span>
                   )}
                 </span>
@@ -149,7 +156,7 @@ function UniverseTable({
               <span className="ix-num ix-last">{fmtLevel(r.last)}</span>
               <span className={`ix-num ${tone(x.ret)}`}>{fmtPct(x.ret)}</span>
               <span className={`ix-num ix-spread ${tone(x.vs)}`}>
-                {fmtPct(x.vs)}
+                {bench ? "±0.00%" : fmtPct(x.vs)}
                 <span className="ix-bar-wrap" aria-hidden>
                   <span
                     className={`ix-bar ${(x.vs ?? 0) >= 0 ? "up" : "down"}`}
@@ -195,9 +202,20 @@ export function IndexView({ data, loadError }: Props) {
       .map(([g, n]) => ({ group: g, count: n }));
   }, [universe]);
 
+  const benchRow = useMemo<Ranked | null>(() => {
+    const b = universe.find((r) => r.isBenchmark);
+    if (!b) return null;
+    return {
+      row: b,
+      ret: period === "daily" ? b.dailyPct : b.weeklyPct,
+      vs: period === "daily" ? b.vsNiftyDaily : b.vsNiftyWeekly,
+    };
+  }, [universe, period]);
+
   const ranked = useMemo<Ranked[]>(() => {
     const q = search.trim().toLowerCase();
     return universe
+      .filter((r) => !r.isBenchmark)
       .filter((r) => group === "All" || r.group === group)
       .filter((r) => !watchlistOnly || r.watchlistSectors.length > 0)
       .filter(
@@ -214,12 +232,7 @@ export function IndexView({ data, loadError }: Props) {
         ret: period === "daily" ? r.dailyPct : r.weeklyPct,
         vs: period === "daily" ? r.vsNiftyDaily : r.vsNiftyWeekly,
       }))
-      .sort((a, b) => {
-        if (a.vs == null && b.vs == null) return a.row.name.localeCompare(b.row.name);
-        if (a.vs == null) return 1;
-        if (b.vs == null) return -1;
-        return b.vs - a.vs;
-      });
+      .sort(byReturn);
   }, [universe, group, watchlistOnly, search, period]);
 
   const aboveN = ranked.filter((x) => x.vs != null && x.vs >= 0).length;
@@ -238,6 +251,10 @@ export function IndexView({ data, loadError }: Props) {
     () => Math.max(0.5, ...visible.map((x) => Math.abs(x.vs ?? 0))),
     [visible],
   );
+
+  /** Nifty 50 is always shown as the reference row inside every ranked table. */
+  const withBench = (items: Ranked[]): Ranked[] =>
+    benchRow ? [...items, benchRow].sort(byReturn) : items;
 
   const { aboveSectors, belowSectors } = useMemo(() => {
     if (!data) return { aboveSectors: [] as IndexSectorRow[], belowSectors: [] as IndexSectorRow[] };
@@ -309,7 +326,7 @@ export function IndexView({ data, loadError }: Props) {
             {data.asOf}
           </div>
           <div className="hint">
-            {hasUniverse ? `${universe.length} indices` : `${data.sectors.length} sectors`}
+            {hasUniverse ? `${universe.length - (benchRow ? 1 : 0)} indices + Nifty 50` : `${data.sectors.length} sectors`}
             {sourceTxt ? ` · ${sourceTxt}` : ""}
           </div>
         </div>
@@ -340,7 +357,7 @@ export function IndexView({ data, loadError }: Props) {
                 className={`pill ${effScope === "all" ? "active" : ""}`}
                 onClick={() => setScope("all")}
               >
-                All indices ({universe.length})
+                Major indices ({universe.length - (benchRow ? 1 : 0)})
               </button>
               <button
                 type="button"
@@ -428,7 +445,7 @@ export function IndexView({ data, loadError }: Props) {
             ? data.weeklyBasis ?? "Weekly = close vs close one week earlier."
             : "Daily = today's close vs previous close."}{" "}
           {isAll
-            ? "Levels from NSE's official index feed; BSE rows via Yahoo Finance."
+            ? "Ranked by return — the highlighted Nifty 50 row splits outperformers (above) from underperformers (below). Levels from NSE's official index feed; Sensex via Yahoo Finance."
             : "Watchlist sectors use their official NSE index; otherwise equal-weight average of watchlist names."}
         </p>
       </div>
@@ -437,7 +454,7 @@ export function IndexView({ data, loadError }: Props) {
         visible.length === 0 ? (
           <div className="empty compact">No indices match these filters.</div>
         ) : layout === "ranked" || group !== "All" ? (
-          <UniverseTable items={visible} showGroup={group === "All"} maxAbs={maxAbs} />
+          <UniverseTable items={withBench(visible)} showGroup={group === "All"} maxAbs={maxAbs} />
         ) : (
           <div className="ix-groups">
             {GROUP_ORDER.concat(groups.map((g) => g.group).filter((g) => !GROUP_ORDER.includes(g)))
@@ -455,7 +472,7 @@ export function IndexView({ data, loadError }: Props) {
                         <span className="down">▼ {dn}</span>
                       </span>
                     </div>
-                    <UniverseTable items={items} showGroup={false} maxAbs={maxAbs} />
+                    <UniverseTable items={withBench(items)} showGroup={false} maxAbs={maxAbs} />
                   </div>
                 );
               })}

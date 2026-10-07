@@ -58,276 +58,102 @@ SECTOR_INDEX_MAP = [
     {"sector": "FMCG", "nseSymbol": "NIFTY FMCG"},
 ]
 
-# Not equity sector/market indices -> excluded from the vs-Nifty board
-EXCLUDE_NSE_KEYS = {"FIXED INCOME INDICES"}
-EXCLUDE_NSE_SYMBOLS = {
-    "NIFTY 50",  # benchmark itself
-    "INDIA VIX",  # volatility, not a price index
-    "NIFTY50 TR 2X LEV",
-    "NIFTY50 PR 2X LEV",
-    "NIFTY50 TR 1X INV",
-    "NIFTY50 PR 1X INV",
-    "NIFTY50 DIV POINT",
-}
-
-GROUP_BY_NSE_KEY = {
-    "BROAD MARKET INDICES": "Broad Market",
-    "SECTORAL INDICES": "Sectoral",
-    "THEMATIC INDICES": "Thematic",
-    "STRATEGY INDICES": "Strategy",
-}
-# Derivatives-eligible block mixes broad + sectoral; pin these explicitly
-GROUP_OVERRIDES = {
-    "NIFTY BANK": "Sectoral",
-    "NIFTY FIN SERVICE": "Sectoral",
-    "NIFTY NEXT 50": "Broad Market",
-    "NIFTY MID SELECT": "Broad Market",
-    "NIFTY FPI 150": "Broad Market",
-}
-
-BSE_INDICES = [
-    {"name": "BSE Sensex", "symbol": "^BSESN"},
-    {"name": "BSE 100", "symbol": "BSE-100.BO"},
-    {"name": "BSE 500", "symbol": "BSE-500.BO"},
+# ---------------------------------------------------------------------------
+# Curated MAJOR index board for the vs Nifty tab — edit here.
+#
+# Only indices listed in MAJOR_INDICES (plus BSE_INDICES) are tracked; every
+# other index in NSE's feed is dropped. To bring one back, add a row:
+#   (NSE indexSymbol, display name, group)
+# indexSymbol = the `indexSymbol` field in https://www.nseindia.com/api/allIndices
+# ---------------------------------------------------------------------------
+MAJOR_INDICES: list[tuple[str, str, str]] = [
+    # Benchmarks / broad market (Nifty 50 itself is added as the benchmark row)
+    ("NIFTY NEXT 50", "Nifty Next 50", "Broad Market"),
+    ("NIFTY 100", "Nifty 100", "Broad Market"),
+    ("NIFTY 500", "Nifty 500", "Broad Market"),
+    ("NIFTY MIDCAP 100", "Nifty Midcap 100", "Broad Market"),
+    ("NIFTY MIDCAP 150", "Nifty Midcap 150", "Broad Market"),
+    ("NIFTY SMLCAP 100", "Nifty Smallcap 100", "Broad Market"),
+    ("NIFTY SMLCAP 250", "Nifty Smallcap 250", "Broad Market"),
+    # Sectoral
+    ("NIFTY BANK", "Nifty Bank", "Sectoral"),
+    ("NIFTY PSU BANK", "Nifty PSU Bank", "Sectoral"),
+    ("NIFTY PVT BANK", "Nifty Private Bank", "Sectoral"),
+    ("NIFTY FIN SERVICE", "Nifty Financial Services", "Sectoral"),
+    ("NIFTY AUTO", "Nifty Auto", "Sectoral"),
+    ("NIFTY FMCG", "Nifty FMCG", "Sectoral"),
+    ("NIFTY IT", "Nifty IT", "Sectoral"),
+    ("NIFTY MEDIA", "Nifty Media", "Sectoral"),
+    ("NIFTY METAL", "Nifty Metal", "Sectoral"),
+    ("NIFTY PHARMA", "Nifty Pharma", "Sectoral"),
+    ("NIFTY HEALTHCARE", "Nifty Healthcare", "Sectoral"),
+    ("NIFTY REALTY", "Nifty Realty", "Sectoral"),
+    ("NIFTY CONSR DURBL", "Nifty Consumer Durables", "Sectoral"),
+    ("NIFTY OIL AND GAS", "Nifty Oil & Gas", "Sectoral"),
+    ("NIFTY CHEMICALS", "Nifty Chemicals", "Sectoral"),  # NSE lists under Sectoral
+    # Key thematic
+    ("NIFTY ENERGY", "Nifty Energy", "Thematic"),
+    ("NIFTY INFRA", "Nifty Infrastructure", "Thematic"),
+    ("NIFTY COMMODITIES", "Nifty Commodities", "Thematic"),
+    ("NIFTY CPSE", "Nifty CPSE", "Thematic"),
+    ("NIFTY PSE", "Nifty PSE", "Thematic"),
+    ("NIFTY CONSUMPTION", "Nifty India Consumption", "Thematic"),
+    ("NIFTY IND DEFENCE", "Nifty India Defence", "Thematic"),
+    ("NIFTY CAPITAL MKT", "Nifty Capital Markets", "Thematic"),
+    ("NIFTY MNC", "Nifty MNC", "Thematic"),
+    ("NIFTY INDIA MFG", "Nifty India Manufacturing", "Thematic"),
 ]
 
-# NSE indexSymbol -> Yahoo symbol (each verified to return data on 2026-10-07)
+# BSE rows (Yahoo Finance). Add {"name": "BSE 100", "symbol": "BSE-100.BO",
+# "group": "Broad Market"} etc. to bring others back.
+BSE_INDICES = [
+    {"name": "BSE Sensex", "symbol": "^BSESN", "group": "Broad Market"},
+]
+
+# Deliberately NOT tracked (documentation; anything absent from MAJOR_INDICES
+# is dropped automatically): fixed income / G-sec, India VIX, Nifty50
+# leverage / inverse / dividend points, strategy & factor indices (Alpha,
+# Momentum, Quality, Value, Low Vol, Equal Weight, High Beta, ...), ESG /
+# Shariah variants, corporate-group indices (Tata, MAATR, Conglomerate), IPO,
+# SME Emerge, niche thematics, extra broad/size cuts, BSE 100 / BSE 500.
+
+# NSE indexSymbol -> Yahoo symbol (verified 2026-10-07); used only if NSE is
+# unreachable. Midcap 150 / Smallcap 250 have no Yahoo symbol (NSE-only).
 YAHOO_SYMBOLS: dict[str, str] = {
     "NIFTY 50": "^NSEI",
     "NIFTY NEXT 50": "^NSMIDCP",
-    "NIFTY BANK": "^NSEBANK",
-    "NIFTY FIN SERVICE": "NIFTY_FIN_SERVICE.NS",
-    "NIFTY MID SELECT": "NIFTY_MID_SELECT.NS",
-    "NIFTY FPI 150": "NIFTY_FPI_150.NS",
     "NIFTY 100": "^CNX100",
-    "NIFTY 200": "^CNX200",
     "NIFTY 500": "^CRSLDX",
-    "NIFTY MIDCAP 50": "^NSEMDCP50",
     "NIFTY MIDCAP 100": "NIFTY_MIDCAP_100.NS",
     "NIFTY SMLCAP 100": "^CNXSC",
-    "INDIA VIX": "^INDIAVIX",
-    "NIFTY500 MULTICAP": "NIFTY500_MULTICAP.NS",
-    "NIFTY LARGEMID250": "NIFTY_LARGEMID250.NS",
-    "NIFTY TOTAL MKT": "NIFTY_TOTAL_MKT.NS",
-    "NIFTY MICROCAP250": "NIFTY_MICROCAP250.NS",
-    "NIFTY500 LMS EQL": "NIFTY500_LMS_EQL.NS",
-    "NIFTY SMALLCAP 500": "NIFTY_SMALLCAP_500.NS",
+    "NIFTY BANK": "^NSEBANK",
+    "NIFTY PSU BANK": "^CNXPSUBANK",
+    "NIFTY PVT BANK": "NIFTY_PVT_BANK.NS",
+    "NIFTY FIN SERVICE": "NIFTY_FIN_SERVICE.NS",
     "NIFTY AUTO": "^CNXAUTO",
-    "NIFTY FINSRV25 50": "^CNXFIN",
     "NIFTY FMCG": "^CNXFMCG",
     "NIFTY IT": "^CNXIT",
     "NIFTY MEDIA": "^CNXMEDIA",
     "NIFTY METAL": "^CNXMETAL",
     "NIFTY PHARMA": "^CNXPHARMA",
-    "NIFTY PSU BANK": "^CNXPSUBANK",
-    "NIFTY PVT BANK": "NIFTY_PVT_BANK.NS",
-    "NIFTY REALTY": "^CNXREALTY",
     "NIFTY HEALTHCARE": "NIFTY_HEALTHCARE.NS",
+    "NIFTY REALTY": "^CNXREALTY",
     "NIFTY CONSR DURBL": "NIFTY_CONSR_DURBL.NS",
     "NIFTY OIL AND GAS": "NIFTY_OIL_AND_GAS.NS",
-    "NIFTY MIDSML HLTH": "NIFTY_MIDSML_HLTH.NS",
-    "NIFTY FINSEREXBNK": "NIFTY_FINSEREXBNK.NS",
-    "NIFTY MS FIN SERV": "NIFTY_MS_FIN_SERV.NS",
-    "NIFTY MS IT TELCM": "NIFTY_MS_IT_TELCM.NS",
     "NIFTY CHEMICALS": "NIFTY_CHEMICALS.NS",
-    "NIFTY500 HEALTH": "NIFTY500_HEALTH.NS",
-    "NIFTY REITS REALTY": "NIFTY_REITS_REALTY.NS",
-    "NIFTY CEMENT": "NIFTY_CEMENT.NS",
-    "NIFTY DIV OPPS 50": "^CNXDIVOP",
-    "NIFTY100 EQL WGT": "NIFTY100_EQL_WGT.NS",
-    "NIFTY200MOMENTM30": "NIFTY200MOMENTM30.NS",
-    "NIFTY M150 QLTY50": "NIFTY_M150_QLTY50.NS",
-    "NIFTY200 ALPHA 30": "NIFTY200_ALPHA_30.NS",
-    "NIFTYM150MOMNTM50": "NIFTYM150MOMNTM50.NS",
-    "NIFTY500MOMENTM50": "NIFTY500MOMENTM50.NS",
-    "NIFTYMS400 MQ 100": "NIFTYMS400_MQ_100.NS",
-    "NIFTYSML250MQ 100": "NIFTYSML250MQ_100.NS",
-    "NIFTY TOP 10 EW": "NIFTY_TOP_10_EW.NS",
-    "NIFTY AQL 30": "NIFTY_AQL_30.NS",
-    "NIFTY AQLV 30": "NIFTY_AQLV_30.NS",
-    "NIFTY HIGHBETA 50": "NIFTY_HIGHBETA_50.NS",
-    "NIFTY LOW VOL 50": "NIFTY_LOW_VOL_50.NS",
-    "NIFTY QLTY LV 30": "NIFTY_QLTY_LV_30.NS",
-    "NIFTY SML250 Q50": "NIFTY_SML250_Q50.NS",
-    "NIFTY TOP 15 EW": "NIFTY_TOP_15_EW.NS",
-    "NIFTY100 ALPHA 30": "NIFTY100_ALPHA_30.NS",
-    "NIFTY200 VALUE 30": "NIFTY200_VALUE_30.NS",
-    "NIFTY500 EW": "NIFTY500_EW.NS",
-    "NIFTY MULTI MQ 50": "NIFTY_MULTI_MQ_50.NS",
-    "NIFTY500 VALUE 50": "NIFTY500_VALUE_50.NS",
-    "NIFTY TOP 20 EW": "NIFTY_TOP_20_EW.NS",
-    "NIFTY500 QLTY50": "NIFTY500_QLTY50.NS",
-    "NIFTY500 LOWVOL50": "NIFTY500_LOWVOL50.NS",
-    "NIFTY500 MQVLV50": "NIFTY500_MQVLV50.NS",
-    "NIFTY50 USD": "NIFTY50_USD.NS",
-    "NIFTY500 FLEXICAP": "NIFTY500_FLEXICAP.NS",
-    "NIFTY TMMQ 50": "NIFTY_TMMQ_50.NS",
-    "NIFTY COMMODITIES": "^CNXCMDT",
-    "NIFTY CONSUMPTION": "^CNXCONSUM",
-    "NIFTY CPSE": "NIFTY_CPSE.NS",
     "NIFTY ENERGY": "^CNXENERGY",
     "NIFTY INFRA": "^CNXINFRA",
-    "NIFTY MNC": "^CNXMNC",
+    "NIFTY COMMODITIES": "^CNXCMDT",
+    "NIFTY CPSE": "NIFTY_CPSE.NS",
     "NIFTY PSE": "^CNXPSE",
-    "NIFTY SERV SECTOR": "^CNXSERVICE",
-    "NIFTY100ESGSECLDR": "NIFTY100ESGSECLDR.NS",
-    "NIFTY IND DIGITAL": "NIFTY_IND_DIGITAL.NS",
-    "NIFTY100 ESG": "NIFTY100_ESG.NS",
-    "NIFTY INDIA MFG": "NIFTY_INDIA_MFG.NS",
-    "NIFTY TATA 25 CAP": "NIFTY_TATA_25_CAP.NS",
-    "NIFTY MULTI MFG": "NIFTY_MULTI_MFG.NS",
-    "NIFTY MULTI INFRA": "NIFTY_MULTI_INFRA.NS",
+    "NIFTY CONSUMPTION": "^CNXCONSUM",
     "NIFTY IND DEFENCE": "NIFTY_IND_DEFENCE.NS",
-    "NIFTY IND TOURISM": "NIFTY_IND_TOURISM.NS",
     "NIFTY CAPITAL MKT": "NIFTY_CAPITAL_MKT.NS",
-    "NIFTY EV": "NIFTY_EV.NS",
-    "NIFTY NEW CONSUMP": "NIFTY_NEW_CONSUMP.NS",
-    "NIFTY CORP MAATR": "NIFTY_CORP_MAATR.NS",
-    "NIFTY MOBILITY": "NIFTY_MOBILITY.NS",
-    "NIFTY100 ENH ESG": "NIFTY100_ENH_ESG.NS",
-    "NIFTY COREHOUSING": "NIFTY_COREHOUSING.NS",
-    "NIFTY HOUSING": "NIFTY_HOUSING.NS",
-    "NIFTY IPO": "NIFTY_IPO.NS",
-    "NIFTY MS IND CONS": "NIFTY_MS_IND_CONS.NS",
-    "NIFTY NONCYC CONS": "NIFTY_NONCYC_CONS.NS",
-    "NIFTY RURAL": "NIFTY_RURAL.NS",
-    "NIFTY SHARIAH 25": "NIFTY_SHARIAH_25.NS",
-    "NIFTY TRANS LOGIS": "NIFTY_TRANS_LOGIS.NS",
-    "NIFTY50 SHARIAH": "NIFTY50_SHARIAH.NS",
-    "NIFTY500 SHARIAH": "NIFTY500_SHARIAH.NS",
-    "NIFTY SME EMERGE": "NIFTY_SME_EMERGE.NS",
-    "NIFTY INTERNET": "NIFTY_INTERNET.NS",
-    "NIFTY WAVES": "NIFTY_WAVES.NS",
-    "NIFTY INFRALOG": "NIFTY_INFRALOG.NS",
-    "NIFTY RAILWAYSPSU": "NIFTY_RAILWAYSPSU.NS",
-    "NIFTYCONGLOMERATE": "NIFTYCONGLOMERATE.NS",
+    "NIFTY MNC": "^CNXMNC",
+    "NIFTY INDIA MFG": "NIFTY_INDIA_MFG.NS",
 }
 
-# NSE index catalog (indexSymbol, display name, group) — used for Yahoo fallback
-INDEX_CATALOG: list[tuple[str, str, str]] = [
-    ("NIFTY 100", "Nifty 100", "Broad Market"),
-    ("NIFTY 200", "Nifty 200", "Broad Market"),
-    ("NIFTY 500", "Nifty 500", "Broad Market"),
-    ("NIFTY FPI 150", "Nifty India FPI 150", "Broad Market"),
-    ("NIFTY LARGEMID250", "Nifty Largemidcap 250", "Broad Market"),
-    ("NIFTY MIDSMALL 50 50", "Nifty Midsmallcap400 50:50", "Broad Market"),
-    ("NIFTY MICROCAP250", "Nifty Microcap 250", "Broad Market"),
-    ("NIFTY MIDCAP 100", "Nifty Midcap 100", "Broad Market"),
-    ("NIFTY MIDCAP 150", "Nifty Midcap 150", "Broad Market"),
-    ("NIFTY MIDCAP 50", "Nifty Midcap 50", "Broad Market"),
-    ("NIFTY MID SELECT", "Nifty Midcap Select", "Broad Market"),
-    ("NIFTY MIDSML 400", "Nifty Midsmallcap 400", "Broad Market"),
-    ("NIFTY NEXT 50", "Nifty Next 50", "Broad Market"),
-    ("NIFTY SMLCAP 100", "Nifty Smallcap 100", "Broad Market"),
-    ("NIFTY SMLCAP 250", "Nifty Smallcap 250", "Broad Market"),
-    ("NIFTY SMLCAP 50", "Nifty Smallcap 50", "Broad Market"),
-    ("NIFTY SMALLCAP 500", "Nifty Smallcap 500", "Broad Market"),
-    ("NIFTY TOTAL MKT", "Nifty Total Market", "Broad Market"),
-    ("NIFTY500 LMS EQL", "Nifty500 Largemidsmall Equal-Cap Weighted", "Broad Market"),
-    ("NIFTY500 MULTICAP", "Nifty500 Multicap 50:25:25", "Broad Market"),
-    ("NIFTY AUTO", "Nifty Auto", "Sectoral"),
-    ("NIFTY BANK", "Nifty Bank", "Sectoral"),
-    ("NIFTY CEMENT", "Nifty Cement", "Sectoral"),
-    ("NIFTY CHEMICALS", "Nifty Chemicals", "Sectoral"),
-    ("NIFTY CONSR DURBL", "Nifty Consumer Durables", "Sectoral"),
-    ("NIFTY FMCG", "Nifty FMCG", "Sectoral"),
-    ("NIFTY FIN SERVICE", "Nifty Financial Services", "Sectoral"),
-    ("NIFTY FINSRV25 50", "Nifty Financial Services 25/50", "Sectoral"),
-    ("NIFTY FINSEREXBNK", "Nifty Financial Services Ex-Bank", "Sectoral"),
-    ("NIFTY HEALTHCARE", "Nifty Healthcare Index", "Sectoral"),
-    ("NIFTY IT", "Nifty IT", "Sectoral"),
-    ("NIFTY MEDIA", "Nifty Media", "Sectoral"),
-    ("NIFTY METAL", "Nifty Metal", "Sectoral"),
-    ("NIFTY MS FIN SERV", "Nifty Midsmall Financial Services", "Sectoral"),
-    ("NIFTY MIDSML HLTH", "Nifty Midsmall Healthcare", "Sectoral"),
-    ("NIFTY MS IT TELCM", "Nifty Midsmall IT & Telecom", "Sectoral"),
-    ("NIFTY OIL AND GAS", "Nifty Oil & Gas", "Sectoral"),
-    ("NIFTY PSU BANK", "Nifty PSU Bank", "Sectoral"),
-    ("NIFTY PHARMA", "Nifty Pharma", "Sectoral"),
-    ("NIFTY PVT BANK", "Nifty Private Bank", "Sectoral"),
-    ("NIFTY REITS REALTY", "Nifty REITs & Realty", "Sectoral"),
-    ("NIFTY REALTY", "Nifty Realty", "Sectoral"),
-    ("NIFTY500 HEALTH", "Nifty500 Healthcare", "Sectoral"),
-    ("NIFTY CPSE", "Nifty CPSE", "Thematic"),
-    ("NIFTY CAPITAL MKT", "Nifty Capital Markets", "Thematic"),
-    ("NIFTY COMMODITIES", "Nifty Commodities", "Thematic"),
-    ("NIFTYCONGLOMERATE", "Nifty Conglomerate 50", "Thematic"),
-    ("NIFTY COREHOUSING", "Nifty Core Housing", "Thematic"),
-    ("NIFTY EV", "Nifty EV & New Age Automotive", "Thematic"),
-    ("NIFTY ENERGY", "Nifty Energy", "Thematic"),
-    ("NIFTY HOUSING", "Nifty Housing", "Thematic"),
-    ("NIFTY IPO", "Nifty IPO", "Thematic"),
-    ("NIFTY CONSUMPTION", "Nifty India Consumption", "Thematic"),
-    ("NIFTY TATA 25 CAP", "Nifty India Corporate Group Index - Tata Group 25% Cap", "Thematic"),
-    ("NIFTY IND DEFENCE", "Nifty India Defence", "Thematic"),
-    ("NIFTY IND DIGITAL", "Nifty India Digital", "Thematic"),
-    ("NIFTY INFRALOG", "Nifty India Infrastructure & Logistics", "Thematic"),
-    ("NIFTY INTERNET", "Nifty India Internet", "Thematic"),
-    ("NIFTY INDIA MFG", "Nifty India Manufacturing", "Thematic"),
-    ("NIFTY NEW CONSUMP", "Nifty India New Age Consumption", "Thematic"),
-    ("NIFTY RAILWAYSPSU", "Nifty India Railways PSU", "Thematic"),
-    ("NIFTY CORP MAATR", "Nifty India Select 5 Corporate Groups (MAATR)", "Thematic"),
-    ("NIFTY IND TOURISM", "Nifty India Tourism", "Thematic"),
-    ("NIFTY INFRA", "Nifty Infrastructure", "Thematic"),
-    ("NIFTY MNC", "Nifty MNC", "Thematic"),
-    ("NIFTY MID LIQ 15", "Nifty Midcap Liquid 15", "Thematic"),
-    ("NIFTY MS IND CONS", "Nifty Midsmall India Consumption", "Thematic"),
-    ("NIFTY MOBILITY", "Nifty Mobility", "Thematic"),
-    ("NIFTY NONCYC CONS", "Nifty Non-Cyclical Consumer", "Thematic"),
-    ("NIFTY PSE", "Nifty PSE", "Thematic"),
-    ("NIFTY RURAL", "Nifty Rural", "Thematic"),
-    ("NIFTY SME EMERGE", "Nifty SME Emerge", "Thematic"),
-    ("NIFTY SERV SECTOR", "Nifty Services Sector", "Thematic"),
-    ("NIFTY SHARIAH 25", "Nifty Shariah 25", "Thematic"),
-    ("NIFTY TRANS LOGIS", "Nifty Transportation & Logistics", "Thematic"),
-    ("NIFTY WAVES", "Nifty Waves", "Thematic"),
-    ("NIFTY100 ESG", "Nifty100 ESG", "Thematic"),
-    ("NIFTY100ESGSECLDR", "Nifty100 ESG Sector Leaders", "Thematic"),
-    ("NIFTY100 ENH ESG", "Nifty100 Enhanced ESG", "Thematic"),
-    ("NIFTY100 LIQ 15", "Nifty100 Liquid 15", "Thematic"),
-    ("NIFTY50 SHARIAH", "Nifty50 Shariah", "Thematic"),
-    ("NIFTY MULTI MFG", "Nifty500 Multicap India Manufacturing 50:30:20", "Thematic"),
-    ("NIFTY MULTI INFRA", "Nifty500 Multicap Infrastructure 50:30:20", "Thematic"),
-    ("NIFTY500 SHARIAH", "Nifty500 Shariah", "Thematic"),
-    ("NIFTY ALPHA 50", "Nifty Alpha 50", "Strategy"),
-    ("NIFTY ALPHALOWVOL", "Nifty Alpha Low-Volatility 30", "Strategy"),
-    ("NIFTY AQL 30", "Nifty Alpha Quality Low-Volatility 30", "Strategy"),
-    ("NIFTY AQLV 30", "Nifty Alpha Quality Value Low-Volatility 30", "Strategy"),
-    ("NIFTY DIV OPPS 50", "Nifty Dividend Opportunities 50", "Strategy"),
-    ("NIFTY GROWSECT 15", "Nifty Growth Sectors 15", "Strategy"),
-    ("NIFTY HIGHBETA 50", "Nifty High Beta 50", "Strategy"),
-    ("NIFTY LOW VOL 50", "Nifty Low Volatility 50", "Strategy"),
-    ("NIFTYM150MOMNTM50", "Nifty Midcap150 Momentum 50", "Strategy"),
-    ("NIFTY M150 QLTY50", "Nifty Midcap150 Quality 50", "Strategy"),
-    ("NIFTYMS400 MQ 100", "Nifty Midsmallcap400 Momentum Quality 100", "Strategy"),
-    ("NIFTY QLTY LV 30", "Nifty Quality Low-Volatility 30", "Strategy"),
-    ("NIFTYSML250MQ 100", "Nifty Smallcap250 Momentum Quality 100", "Strategy"),
-    ("NIFTY SML250 Q50", "Nifty Smallcap250 Quality 50", "Strategy"),
-    ("NIFTY TOP 10 EW", "Nifty Top 10 Equal Weight", "Strategy"),
-    ("NIFTY TOP 15 EW", "Nifty Top 15 Equal Weight", "Strategy"),
-    ("NIFTY TOP 20 EW", "Nifty Top 20 Equal Weight", "Strategy"),
-    ("NIFTY TMMQ 50", "Nifty Total Market Momentum Quality 50", "Strategy"),
-    ("NIFTY100 ALPHA 30", "Nifty100 Alpha 30", "Strategy"),
-    ("NIFTY100 EQL WGT", "Nifty100 Equal Weight", "Strategy"),
-    ("NIFTY100 LOWVOL30", "Nifty100 Low Volatility 30", "Strategy"),
-    ("NIFTY100 QUALTY30", "Nifty100 Quality 30", "Strategy"),
-    ("NIFTY200 ALPHA 30", "Nifty200 Alpha 30", "Strategy"),
-    ("NIFTY200MOMENTM30", "Nifty200 Momentum 30", "Strategy"),
-    ("NIFTY200 QUALTY30", "Nifty200 Quality 30", "Strategy"),
-    ("NIFTY200 VALUE 30", "Nifty200 Value 30", "Strategy"),
-    ("NIFTY50 EQL WGT", "Nifty50 Equal Weight", "Strategy"),
-    ("NIFTY50 USD", "Nifty50 USD", "Strategy"),
-    ("NIFTY50 VALUE 20", "Nifty50 Value 20", "Strategy"),
-    ("NIFTY500 EW", "Nifty500 Equal Weight", "Strategy"),
-    ("NIFTY500 FLEXICAP", "Nifty500 Flexicap Quality 30", "Strategy"),
-    ("NIFTY500 LOWVOL50", "Nifty500 Low Volatility 50", "Strategy"),
-    ("NIFTY500MOMENTM50", "Nifty500 Momentum 50", "Strategy"),
-    ("NIFTY MULTI MQ 50", "Nifty500 Multicap Momentum Quality 50", "Strategy"),
-    ("NIFTY500 MQVLV50", "Nifty500 Multifactor MQVLV 50", "Strategy"),
-    ("NIFTY500 QLTY50", "Nifty500 Quality 50", "Strategy"),
-    ("NIFTY500 VALUE 50", "Nifty500 Value 50", "Strategy"),
-]
-GROUP_ORDER = ["Broad Market", "Sectoral", "Thematic", "Strategy", "BSE"]
+GROUP_ORDER = ["Broad Market", "Sectoral", "Thematic"]
 
 ACRONYMS = {
     "IT", "PSU", "FMCG", "MNC", "CPSE", "PSE", "ESG", "EV", "IPO", "SME", "USD", "FPI",
@@ -567,51 +393,56 @@ def spread(a, b) -> float | None:
 
 
 def build_index_universe(as_of: str) -> dict | None:
-    """Benchmark + every available index with daily/weekly returns."""
+    """Nifty 50 benchmark + curated MAJOR_INDICES (+ BSE) with daily/weekly returns."""
     nse = fetch_nse_all_indices()
     rows: list[dict] = []
     skipped: list[dict] = []
+    not_tracked: list[str] = []
     benchmark = None
     data_date = as_of
     week_ref = None
+    wanted = {sym: (name, group) for sym, name, group in MAJOR_INDICES}
 
     if nse:
         data_date = parse_nse_date(nse.get("timestamp")) or as_of
         week_ref = parse_nse_date((nse.get("dates") or {}).get("oneWeekAgo"))
-        seen: set[str] = set()
+        by_sym: dict[str, dict] = {}
         for x in nse["data"]:
             sym = (x.get("indexSymbol") or x.get("index") or "").strip()
-            key = (x.get("key") or "").strip()
-            if not sym or sym in seen:
+            if sym and sym not in by_sym:
+                by_sym[sym] = x
+        for sym, x in by_sym.items():
+            if sym != BENCHMARK_NSE and sym not in wanted:
+                not_tracked.append(sym)
+        for sym in [BENCHMARK_NSE] + list(wanted):
+            x = by_sym.get(sym)
+            if not x:
+                skipped.append({"nseSymbol": sym, "reason": "not in NSE feed"})
                 continue
-            seen.add(sym)
             last = num(x.get("last"))
             daily = num(x.get("percentChange"))
             wk = num(x.get("oneWeekAgoVal"))
             weekly = pct(last, wk) if last and wk else None
+            if last is None or daily is None:
+                skipped.append({"nseSymbol": sym, "reason": "no data from NSE"})
+                continue
             if sym == BENCHMARK_NSE:
                 benchmark = {
                     "name": "Nifty 50",
                     "symbol": "^NSEI",
                     "nseSymbol": sym,
-                    "last": round(last, 2) if last else None,
-                    "dailyPct": round(daily, 2) if daily is not None else None,
+                    "last": round(last, 2),
+                    "dailyPct": round(daily, 2),
                     "weeklyPct": weekly,
                     "source": "official",
                     "dataSource": "nse",
                 }
                 continue
-            if key in EXCLUDE_NSE_KEYS or sym in EXCLUDE_NSE_SYMBOLS:
-                skipped.append({"nseSymbol": sym, "reason": "excluded (not an equity index / benchmark variant)"})
-                continue
-            if last is None or daily is None:
-                skipped.append({"nseSymbol": sym, "reason": "no data from NSE"})
-                continue
-            group = GROUP_OVERRIDES.get(sym) or GROUP_BY_NSE_KEY.get(key, "Broad Market")
+            name, group = wanted[sym]
             rows.append(
                 {
                     "id": sym,
-                    "name": nice_index_name(x.get("index") or sym),
+                    "name": name,
                     "nseSymbol": sym,
                     "yahooSymbol": YAHOO_SYMBOLS.get(sym),
                     "group": group,
@@ -621,7 +452,10 @@ def build_index_universe(as_of: str) -> dict | None:
                     "weeklyPct": weekly,
                 }
             )
-        print(f"NSE allIndices: {len(rows)} indices (+benchmark), {len(skipped)} excluded")
+        print(
+            f"NSE allIndices: {len(rows)} major indices (+Nifty 50); "
+            f"{len(not_tracked)} other NSE indices not tracked"
+        )
     else:
         print("WARN: NSE unavailable — falling back to Yahoo Finance symbols")
 
@@ -644,7 +478,7 @@ def build_index_universe(as_of: str) -> dict | None:
         }
 
     if not nse:
-        for sym, name, group in INDEX_CATALOG:
+        for sym, (name, group) in wanted.items():
             ysym = YAHOO_SYMBOLS.get(sym)
             if not ysym:
                 skipped.append({"nseSymbol": sym, "reason": "no Yahoo symbol (NSE feed unavailable)"})
@@ -677,21 +511,41 @@ def build_index_universe(as_of: str) -> dict | None:
                 "name": b["name"],
                 "nseSymbol": None,
                 "yahooSymbol": b["symbol"],
-                "group": "BSE",
+                "group": b.get("group", "Broad Market"),
                 "dataSource": "yahoo",
                 **r,
             }
         )
 
     for r in rows:
+        r["isBenchmark"] = False
         r["vsNiftyDaily"] = spread(r["dailyPct"], benchmark["dailyPct"])
         r["vsNiftyWeekly"] = spread(r["weeklyPct"], benchmark["weeklyPct"])
+
+    # Nifty 50 as a visible row (spread 0) so the ranked list splits on it
+    rows.append(
+        {
+            "id": BENCHMARK_NSE,
+            "name": "Nifty 50",
+            "nseSymbol": BENCHMARK_NSE,
+            "yahooSymbol": "^NSEI",
+            "group": "Broad Market",
+            "dataSource": benchmark["dataSource"],
+            "last": benchmark["last"],
+            "dailyPct": benchmark["dailyPct"],
+            "weeklyPct": benchmark["weeklyPct"],
+            "isBenchmark": True,
+            "vsNiftyDaily": 0.0 if benchmark["dailyPct"] is not None else None,
+            "vsNiftyWeekly": 0.0 if benchmark["weeklyPct"] is not None else None,
+        }
+    )
 
     rows.sort(key=lambda r: (GROUP_ORDER.index(r["group"]) if r["group"] in GROUP_ORDER else 99, r["name"]))
     return {
         "benchmark": benchmark,
         "indices": rows,
         "skipped": skipped,
+        "notTracked": sorted(not_tracked),
         "dataDate": data_date,
         "weekRefDate": week_ref,
         "primarySource": "nse" if nse else "yahoo",
@@ -703,7 +557,9 @@ def build_indices(watchlist: list[dict], as_of: str) -> dict | None:
     if not uni:
         return None
     benchmark = uni["benchmark"]
-    by_nse = {r["nseSymbol"]: r for r in uni["indices"] if r.get("nseSymbol")}
+    by_nse = {
+        r["nseSymbol"]: r for r in uni["indices"] if r.get("nseSymbol") and not r.get("isBenchmark")
+    }
 
     by_sector: dict[str, list] = {}
     for s in watchlist:
@@ -791,9 +647,10 @@ def build_indices(watchlist: list[dict], as_of: str) -> dict | None:
         "indices": uni["indices"],
         "sectors": sectors_out,
         "skipped": uni["skipped"],
+        "notTracked": uni["notTracked"],
         "disclaimer": (
             "Research / personal tracking only — not investment advice. "
-            f"Index levels from {src_txt}; BSE indices via Yahoo Finance. "
+            f"Index levels from {src_txt}; BSE Sensex via Yahoo Finance. "
             "Watchlist sectors fall back to equal-weight watchlist average when no official index."
         ),
     }

@@ -111,6 +111,7 @@ export interface IndexUniverseRow {
   vsNiftyWeekly: number | null;
   watchlistSectors: string[];
   watchlistTickers: string[];
+  isBenchmark?: boolean;
 }
 
 export interface IndexSectorRow {
@@ -143,5 +144,6 @@ export interface IndicesData {
   indices?: IndexUniverseRow[];
   sectors: IndexSectorRow[];
   skipped?: { nseSymbol?: string; yahooSymbol?: string; reason: string }[];
+  notTracked?: string[];
   disclaimer: string;
 }

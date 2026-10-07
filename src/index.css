@@ -1024,24 +1024,31 @@ tr.dropped-row {
   margin-left: auto;
 }
 
-.ix-divider {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 4px 14px;
-  color: var(--accent);
-  font-size: 0.66rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
+.ix-tr.bench {
   background: var(--accent-soft);
+  border-left-color: var(--accent);
+  border-top: 1px solid rgba(91, 140, 255, 0.45);
+  border-bottom: 1px solid rgba(91, 140, 255, 0.45);
 }
 
-.ix-divider::before,
-.ix-divider::after {
-  content: "";
-  flex: 1;
-  height: 1px;
-  background: rgba(91, 140, 255, 0.35);
+.ix-tr.bench:hover {
+  background: rgba(91, 140, 255, 0.2);
+}
+
+.ix-tr.bench .ix-title,
+.ix-tr.bench .ix-rank,
+.ix-tr.bench .ix-spread {
+  color: #b9cdff;
+}
+
+.ix-tr.level {
+  border-left-color: rgba(91, 140, 255, 0.4);
+}
+
+.ix-chip.bench {
+  color: #b9cdff;
+  border-color: rgba(91, 140, 255, 0.5);
+  background: rgba(91, 140, 255, 0.18);
 }
 
 @media (max-width: 640px) {
