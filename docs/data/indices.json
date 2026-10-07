@@ -1,0 +1,129 @@
+{
+  "asOf": "2026-10-07",
+  "timezone": "Asia/Kolkata",
+  "lastRunUtc": "2026-10-07T18:31:17Z",
+  "benchmark": {
+    "name": "Nifty 50",
+    "symbol": "^NSEI",
+    "last": 22603.05,
+    "dailyPct": -0.76,
+    "weeklyPct": -0.5,
+    "source": "official",
+    "bars": 21
+  },
+  "sectors": [
+    {
+      "sector": "Pharma",
+      "indexName": "Nifty Pharma",
+      "symbol": "^CNXPHARMA",
+      "source": "official",
+      "dailySource": "official",
+      "weeklySource": "official",
+      "last": 26436.55,
+      "dailyPct": -0.43,
+      "weeklyPct": -1.85,
+      "vsNiftyDaily": 0.33,
+      "vsNiftyWeekly": -1.35,
+      "watchlistTickers": [
+        "TORNTPHARM.NS",
+        "GLENMARK.NS",
+        "DIVISLAB.NS",
+        "AUROPHARMA.NS"
+      ],
+      "watchlistCount": 4,
+      "note": null
+    },
+    {
+      "sector": "IT / Cloud / Data center",
+      "indexName": "Nifty IT",
+      "symbol": "^CNXIT",
+      "source": "official",
+      "dailySource": "official",
+      "weeklySource": "official",
+      "last": 27757.8,
+      "dailyPct": -1.34,
+      "weeklyPct": 0.32,
+      "vsNiftyDaily": -0.58,
+      "vsNiftyWeekly": 0.82,
+      "watchlistTickers": [
+        "E2E.NS"
+      ],
+      "watchlistCount": 1,
+      "note": null
+    },
+    {
+      "sector": "Auto Ancillaries",
+      "indexName": "Nifty Auto",
+      "symbol": "^CNXAUTO",
+      "source": "mixed",
+      "dailySource": "official",
+      "weeklySource": "watchlist",
+      "last": 25138.9,
+      "dailyPct": -1.58,
+      "weeklyPct": -5.71,
+      "vsNiftyDaily": -0.82,
+      "vsNiftyWeekly": -5.21,
+      "watchlistTickers": [
+        "BOSCHLTD.NS"
+      ],
+      "watchlistCount": 1,
+      "note": "Weekly: watchlist equal-weight (official history incomplete)"
+    },
+    {
+      "sector": "Capital Goods / Infrastructure",
+      "indexName": "Nifty Infra",
+      "symbol": "^CNXINFRA",
+      "source": "mixed",
+      "dailySource": "official",
+      "weeklySource": "watchlist",
+      "last": 8728.5,
+      "dailyPct": -0.78,
+      "weeklyPct": 0.61,
+      "vsNiftyDaily": -0.02,
+      "vsNiftyWeekly": 1.11,
+      "watchlistTickers": [
+        "TRANSRAILL.NS"
+      ],
+      "watchlistCount": 1,
+      "note": "Weekly: watchlist equal-weight (official history incomplete)"
+    },
+    {
+      "sector": "Capital Goods / Industrial",
+      "indexName": "Nifty Infra",
+      "symbol": "^CNXINFRA",
+      "source": "mixed",
+      "dailySource": "official",
+      "weeklySource": "watchlist",
+      "last": 8728.5,
+      "dailyPct": -0.78,
+      "weeklyPct": 4.05,
+      "vsNiftyDaily": -0.02,
+      "vsNiftyWeekly": 4.55,
+      "watchlistTickers": [
+        "ABB.NS",
+        "CGPOWER.NS"
+      ],
+      "watchlistCount": 2,
+      "note": "Weekly: watchlist equal-weight (official history incomplete); Nifty Infra used as closest official proxy for Capital Goods / Industrial"
+    },
+    {
+      "sector": "Defence / Aerospace",
+      "indexName": null,
+      "symbol": null,
+      "source": "watchlist",
+      "dailySource": "watchlist",
+      "weeklySource": "watchlist",
+      "last": null,
+      "dailyPct": -1.45,
+      "weeklyPct": 1.68,
+      "vsNiftyDaily": -0.69,
+      "vsNiftyWeekly": 2.18,
+      "watchlistTickers": [
+        "HAL.NS"
+      ],
+      "watchlistCount": 1,
+      "note": "Watchlist sector vs Nifty (not official index)"
+    }
+  ],
+  "disclaimer": "Research / personal tracking only — not investment advice. Official NSE sector indices via Yahoo Finance when available; otherwise equal-weight watchlist average."
+}
