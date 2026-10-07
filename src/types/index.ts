@@ -90,13 +90,34 @@ export interface IndexBenchmark {
   dailyPct: number | null;
   weeklyPct: number | null;
   source: "official" | "watchlist";
+  dataSource?: "nse" | "yahoo";
+  nseSymbol?: string;
   bars?: number;
+}
+
+export type IndexGroup = "Broad Market" | "Sectoral" | "Thematic" | "Strategy" | "BSE";
+
+export interface IndexUniverseRow {
+  id: string;
+  name: string;
+  nseSymbol: string | null;
+  yahooSymbol: string | null;
+  group: IndexGroup | string;
+  dataSource: "nse" | "yahoo";
+  last: number | null;
+  dailyPct: number | null;
+  weeklyPct: number | null;
+  vsNiftyDaily: number | null;
+  vsNiftyWeekly: number | null;
+  watchlistSectors: string[];
+  watchlistTickers: string[];
 }
 
 export interface IndexSectorRow {
   sector: string;
   indexName: string | null;
   symbol: string | null;
+  nseSymbol?: string | null;
   source: "official" | "watchlist" | "mixed";
   dailySource: "official" | "watchlist";
   weeklySource: "official" | "watchlist";
@@ -114,7 +135,13 @@ export interface IndicesData {
   asOf: string;
   timezone: string;
   lastRunUtc?: string;
+  primarySource?: "nse" | "yahoo";
+  weekRefDate?: string;
+  weeklyBasis?: string;
   benchmark: IndexBenchmark;
+  groups?: { group: string; count: number }[];
+  indices?: IndexUniverseRow[];
   sectors: IndexSectorRow[];
+  skipped?: { nseSymbol?: string; yahooSymbol?: string; reason: string }[];
   disclaimer: string;
 }

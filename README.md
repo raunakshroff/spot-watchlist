@@ -12,7 +12,7 @@ Modern NSE stock-tracking dashboard for **Raunak Shroff**. Dark technical UI, JS
 
 - **Overview** — status filters, ticker search, buy-zone / RSI alerts, expandable cards with levels + thesis + sparkline + sector badge
 - **Sector** — group active names by NSE sector; filter pills per sector; same expandable cards
-- **vs Nifty** — Daily / Weekly toggle; which sectors beat or lag Nifty 50 (official NSE sector indices when Yahoo has them, else watchlist equal-weight)
+- **vs Nifty** — Daily / Weekly toggle; every NSE equity index (Broad Market, Sectoral, Thematic, Strategy) plus BSE Sensex / 100 / 500 ranked above or below Nifty 50. Search, group filters, Above/Below filter, Ranked or By-group layout, ★ watchlist-linked filter. "My sectors" keeps the watchlist-sector cards.
 - **History** — pick any logged market day and see that day's roster, prices, RSI, and whether anything was dropped
 - **Dropped archive** — drop date, last price, sector, reason
 - **Daily auto-update** — weekday cron at `45 10 * * 1-5` UTC (= **4:15 PM IST**), plus manual `workflow_dispatch`
@@ -32,7 +32,7 @@ Modern NSE stock-tracking dashboard for **Raunak Shroff**. Dark technical UI, JS
 | `public/data/history.json` | Daily snapshots (one row per ticker per day) |
 | `public/data/dropped.json` | Archived / dropped names |
 | `public/data/meta.json` | Title, timezone, last update, how-to blurbs |
-| `public/data/indices.json` | Nifty 50 + sector returns vs Nifty (Daily / Weekly) |
+| `public/data/indices.json` | Nifty 50 benchmark + `indices[]` (all NSE equity indices + BSE) + watchlist `sectors[]`, daily / weekly vs Nifty |
 
 ### Status values
 
@@ -61,7 +61,7 @@ Workflow: `.github/workflows/daily-update.yml`
 
 1. Checks out `main`
 2. Installs Python deps from `scripts/requirements.txt` (`yfinance`, `pandas`)
-3. Runs `scripts/daily_update.py` — refreshes price, daily %, RSI14, volume, vol vs 20d, sparkline; appends/replaces today's history rows; updates `meta.lastMarketUpdate`; refreshes `indices.json` (Nifty 50 vs sector indices)
+3. Runs `scripts/daily_update.py` — refreshes price, daily %, RSI14, volume, vol vs 20d, sparkline; appends/replaces today's history rows; updates `meta.lastMarketUpdate`; refreshes `indices.json` (official NSE allIndices feed: daily % and close vs 1-week-ago close; Yahoo Finance fallback if NSE blocks the runner; BSE via Yahoo)
 4. Commits with message `data: market update YYYY-MM-DD` and pushes (`contents: write`)
 
 Manual run: **Actions → Daily market update → Run workflow**.
