@@ -1,7 +1,7 @@
 {
   "title": "Spot Watchlist",
   "timezone": "Asia/Kolkata",
-  "lastMarketUpdate": "2026-10-06",
+  "lastMarketUpdate": "2026-10-07",
   "howToAdd": "Edit public/data/watchlist.json (add a ticker object with status, levels, thesis) OR open a GitHub issue / tell Chief of Staff. Also append a first history row for that day.",
   "howToDrop": "Move the ticker from watchlist.json into dropped.json with droppedDate, lastPrice, and reason. Append a history row with status Dropped for that day. Commit and push — the next Pages deploy picks it up.",
   "repoUrl": "https://github.com/raunakshroff/spot-watchlist",
