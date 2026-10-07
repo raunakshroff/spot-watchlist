@@ -127,10 +127,14 @@ export default function App() {
           setSearch={setSearch}
           statusFilter={statusFilter}
           setStatusFilter={setStatusFilter}
+          indices={indices}
+          onOpenIndex={() => setTab("index")}
         />
       )}
       {tab === "sector" && <SectorView stocks={watchlist} />}
-      {tab === "index" && <IndexView data={indices} loadError={indicesError} />}
+      {tab === "index" && (
+        <IndexView data={indices} loadError={indicesError} watchlist={watchlist} />
+      )}
       {tab === "history" && <HistoryView history={history} />}
       {tab === "dropped" && <DroppedView dropped={dropped} />}
 

@@ -1,10 +1,12 @@
 import { useMemo, useState } from "react";
-import type { IndicesData, IndexSectorRow, IndexUniverseRow } from "../types";
+import type { IndicesData, IndexSectorRow, IndexUniverseRow, WatchlistStock } from "../types";
+import { SummaryCard } from "./SummaryCard";
 import { shortTicker } from "../utils/format";
 
 interface Props {
   data: IndicesData | null;
   loadError?: string | null;
+  watchlist?: WatchlistStock[];
 }
 
 type Period = "daily" | "weekly";
@@ -172,7 +174,7 @@ function UniverseTable({
   );
 }
 
-export function IndexView({ data, loadError }: Props) {
+export function IndexView({ data, loadError, watchlist = [] }: Props) {
   const [period, setPeriod] = useState<Period>("daily");
   const [scope, setScope] = useState<Scope>("all");
   const [group, setGroup] = useState<string>("All");
@@ -299,38 +301,41 @@ export function IndexView({ data, loadError }: Props) {
 
   return (
     <section>
-      <div className="stats">
-        <div className="stat-card">
-          <div className="label">Nifty 50</div>
-          <div className={`value ${tone(niftyPct)}`}>{fmtPct(niftyPct)}</div>
-          <div className="hint">
-            {period === "daily" ? "today" : `since ${data.weekRefDate ?? "1 wk ago"}`} ·{" "}
-            {data.benchmark.last?.toLocaleString("en-IN")}
+      {hasUniverse && <SummaryCard data={data} watchlist={watchlist} period={period} />}
+      {!isAll && (
+        <div className="stats">
+          <div className="stat-card">
+            <div className="label">Nifty 50</div>
+            <div className={`value ${tone(niftyPct)}`}>{fmtPct(niftyPct)}</div>
+            <div className="hint">
+              {period === "daily" ? "today" : `since ${data.weekRefDate ?? "1 wk ago"}`} ·{" "}
+              {data.benchmark.last?.toLocaleString("en-IN")}
+            </div>
+          </div>
+          <div className="stat-card">
+            <div className="label">Above Nifty</div>
+            <div className="value up">{aboveCount}</div>
+            <div className="hint">{unit} beating benchmark</div>
+          </div>
+          <div className="stat-card">
+            <div className="label">Below Nifty</div>
+            <div className="value down">{belowCount}</div>
+            <div className="hint">
+              {unit} lagging benchmark{isAll && naN > 0 ? ` · ${naN} no data` : ""}
+            </div>
+          </div>
+          <div className="stat-card">
+            <div className="label">As of</div>
+            <div className="value" style={{ fontSize: "1.25rem" }}>
+              {data.asOf}
+            </div>
+            <div className="hint">
+              {hasUniverse ? `${universe.length - (benchRow ? 1 : 0)} indices + Nifty 50` : `${data.sectors.length} sectors`}
+              {sourceTxt ? ` · ${sourceTxt}` : ""}
+            </div>
           </div>
         </div>
-        <div className="stat-card">
-          <div className="label">Above Nifty</div>
-          <div className="value up">{aboveCount}</div>
-          <div className="hint">{unit} beating benchmark</div>
-        </div>
-        <div className="stat-card">
-          <div className="label">Below Nifty</div>
-          <div className="value down">{belowCount}</div>
-          <div className="hint">
-            {unit} lagging benchmark{isAll && naN > 0 ? ` · ${naN} no data` : ""}
-          </div>
-        </div>
-        <div className="stat-card">
-          <div className="label">As of</div>
-          <div className="value" style={{ fontSize: "1.25rem" }}>
-            {data.asOf}
-          </div>
-          <div className="hint">
-            {hasUniverse ? `${universe.length - (benchRow ? 1 : 0)} indices + Nifty 50` : `${data.sectors.length} sectors`}
-            {sourceTxt ? ` · ${sourceTxt}` : ""}
-          </div>
-        </div>
-      </div>
+      )}
 
       <div className="toolbar index-toolbar">
         <div className="ix-controls">

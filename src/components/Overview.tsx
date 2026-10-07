@@ -1,4 +1,5 @@
-import type { WatchlistStock } from "../types";
+import type { IndicesData, WatchlistStock } from "../types";
+import { SummaryCard } from "./SummaryCard";
 import { WatchlistCard } from "./WatchlistCard";
 import { shortTicker } from "../utils/format";
 
@@ -18,6 +19,8 @@ interface Props {
   setSearch: (v: string) => void;
   statusFilter: string;
   setStatusFilter: (v: string) => void;
+  indices?: IndicesData | null;
+  onOpenIndex?: () => void;
 }
 
 export function Overview({
@@ -26,6 +29,8 @@ export function Overview({
   setSearch,
   statusFilter,
   setStatusFilter,
+  indices,
+  onOpenIndex,
 }: Props) {
   const active = stocks.filter((s) => s.status !== "Watch-only").length;
   const holdings = stocks.filter((s) => s.status === "Holding" || (s.sharesHeld ?? 0) > 0);
@@ -45,6 +50,9 @@ export function Overview({
 
   return (
     <section>
+      {indices?.indices?.length ? (
+        <SummaryCard data={indices} watchlist={stocks} period="daily" compact onOpen={onOpenIndex} />
+      ) : null}
       <div className="stats">
         <div className="stat-card">
           <div className="label">Tracked</div>
