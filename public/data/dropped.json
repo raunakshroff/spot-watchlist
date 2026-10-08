@@ -8,5 +8,45 @@
     "reason": "Bounce faded below 200DMA (~294); 3M weak; demoted from active",
     "priorStatus": "Active",
     "notes": "Invalidation was close <254. Last price ~265.80."
+  },
+  {
+    "ticker": "TORNTPHARM.NS",
+    "name": "Torrent Pharma",
+    "sector": "Pharma",
+    "droppedDate": "2026-10-08",
+    "lastPrice": 4617.1,
+    "reason": "Stop hit: daily close 4617.1 < 4680 (closing-basis stop)",
+    "priorStatus": "Active",
+    "notes": "8-Oct close 4617.1 (-2.1%), low 4592.3, vol 0.71x 20d, RSI 33.4. Close-basis stop <4680 broken by ~1.3%; buy-zone 4720-4780 setup invalidated. Levels at drop: Entry 4720-4780; stop close <4680; T1 4900 / T2 5010."
+  },
+  {
+    "ticker": "GLENMARK.NS",
+    "name": "Glenmark",
+    "sector": "Pharma",
+    "droppedDate": "2026-10-08",
+    "lastPrice": 2192.2,
+    "reason": "Stop hit: daily close 2192.2 < 2240 (closing-basis stop)",
+    "priorStatus": "Active",
+    "notes": "8-Oct close 2192.2 (-3.95%), low 2181.2, vol 1.34x 20d (heavier selling), RSI 33.7. Lost 2277 and stop <2240 by ~2.1%; 2280-2305 setup invalidated. Levels at drop: Entry 2280-2305; stop close <2240; T1 2400 / T2 2480."
+  },
+  {
+    "ticker": "ABB.NS",
+    "name": "ABB India",
+    "sector": "Capital Goods / Industrial",
+    "droppedDate": "2026-10-08",
+    "lastPrice": 6770.0,
+    "reason": "Stop hit: daily close 6770 < 6850 (closing-basis stop)",
+    "priorStatus": "Active",
+    "notes": "8-Oct close 6770 (-3.35%), low 6750, vol 0.83x 20d, RSI 38.4. Lost 6900 hold and stop <6850 by ~1.2%; half-size 7000-7080 setup invalidated, add trigger >7080 never met. Levels at drop: Entry 7000-7080 if holds 6900; stop close <6850; T1 7350 / T2 7480."
+  },
+  {
+    "ticker": "BOSCHLTD.NS",
+    "name": "Bosch",
+    "sector": "Auto Ancillaries",
+    "droppedDate": "2026-10-08",
+    "lastPrice": 43155.0,
+    "reason": "Stop/invalidation hit: daily close 43155 < 44000",
+    "priorStatus": "Watch-only",
+    "notes": "8-Oct close 43155 (-2.83%), low 43000, vol 0.90x 20d, RSI 33.5. Broke 44410 support and close-basis invalidation <44000 (~1.9% through); rate-hike headwind for autos. Was Watch-only, never in entry zone. Levels at drop: Entry 44600-45100 if holds 44410; stop close <44000; T1 47000 / T2 49000."
   }
 ]
