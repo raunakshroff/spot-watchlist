@@ -1,7 +1,7 @@
 {
   "asOf": "2026-10-08",
   "timezone": "Asia/Kolkata",
-  "lastRunUtc": "2026-10-08T11:34:46Z",
+  "lastRunUtc": "2026-10-08T19:40:42Z",
   "primarySource": "nse",
   "weekRefDate": "2026-10-01",
   "weeklyBasis": "Close vs close on 2026-10-01 (1 calendar week)",
@@ -251,8 +251,12 @@
       "isBenchmark": false,
       "vsNiftyDaily": -0.38,
       "vsNiftyWeekly": 1.1,
-      "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistSectors": [
+        "FMCG"
+      ],
+      "watchlistTickers": [
+        "NESTLEIND.NS"
+      ]
     },
     {
       "id": "NIFTY FIN SERVICE",
@@ -303,7 +307,9 @@
         "IT / Cloud / Data center"
       ],
       "watchlistTickers": [
-        "E2E.NS"
+        "E2E.NS",
+        "TECHM.NS",
+        "PERSISTENT.NS"
       ]
     },
     {
@@ -404,8 +410,13 @@
       "isBenchmark": false,
       "vsNiftyDaily": 0.73,
       "vsNiftyWeekly": 1.49,
-      "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistSectors": [
+        "Private Bank"
+      ],
+      "watchlistTickers": [
+        "ICICIBANK.NS",
+        "KOTAKBANK.NS"
+      ]
     },
     {
       "id": "NIFTY REALTY",
@@ -609,9 +620,11 @@
       "vsNiftyDaily": 1.56,
       "vsNiftyWeekly": -1.16,
       "watchlistTickers": [
-        "E2E.NS"
+        "E2E.NS",
+        "TECHM.NS",
+        "PERSISTENT.NS"
       ],
-      "watchlistCount": 1,
+      "watchlistCount": 3,
       "note": null
     },
     {
@@ -690,6 +703,45 @@
       ],
       "watchlistCount": 1,
       "note": "Nifty Infrastructure used as closest official proxy for Capital Goods / Industrial"
+    },
+    {
+      "sector": "Private Bank",
+      "indexName": "Nifty Private Bank",
+      "symbol": "NIFTY_PVT_BANK.NS",
+      "nseSymbol": "NIFTY PVT BANK",
+      "source": "official",
+      "dailySource": "official",
+      "weeklySource": "official",
+      "last": 26869.1,
+      "dailyPct": -0.91,
+      "weeklyPct": 0.64,
+      "vsNiftyDaily": 0.73,
+      "vsNiftyWeekly": 1.49,
+      "watchlistTickers": [
+        "ICICIBANK.NS",
+        "KOTAKBANK.NS"
+      ],
+      "watchlistCount": 2,
+      "note": null
+    },
+    {
+      "sector": "FMCG",
+      "indexName": "Nifty FMCG",
+      "symbol": "^CNXFMCG",
+      "nseSymbol": "NIFTY FMCG",
+      "source": "official",
+      "dailySource": "official",
+      "weeklySource": "official",
+      "last": 43898.05,
+      "dailyPct": -2.02,
+      "weeklyPct": 0.25,
+      "vsNiftyDaily": -0.38,
+      "vsNiftyWeekly": 1.1,
+      "watchlistTickers": [
+        "NESTLEIND.NS"
+      ],
+      "watchlistCount": 1,
+      "note": null
     }
   ],
   "skipped": [],

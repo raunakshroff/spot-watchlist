@@ -56,6 +56,7 @@ SECTOR_INDEX_MAP = [
     },
     {"sector": "Defence / Aerospace", "nseSymbol": "NIFTY IND DEFENCE"},
     {"sector": "FMCG", "nseSymbol": "NIFTY FMCG"},
+    {"sector": "Private Bank", "nseSymbol": "NIFTY PVT BANK"},
 ]
 
 # ---------------------------------------------------------------------------
