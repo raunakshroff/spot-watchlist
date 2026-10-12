@@ -81,6 +81,10 @@ export const SECTOR_ORDER = [
   "Auto Ancillaries",
   "IT / Cloud / Data center",
   "Private Bank",
+  "Financial Services",
+  "Capital Markets / Exchanges",
+  "Healthcare / Diagnostics",
+  "Chemicals",
   "FMCG",
 ] as const;
 
