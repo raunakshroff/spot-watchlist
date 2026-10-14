@@ -171,6 +171,7 @@ DATA_FILES = (
     "meta.json",
     "dropped.json",
     "indices.json",
+    "sovrenn.json",
 )
 
 
@@ -733,6 +734,20 @@ def main() -> int:
         )
     else:
         print("WARN: skipped indices.json refresh")
+
+    # Sovrenn Times list (separate from the watchlist): refresh price / buy zone
+    try:
+        sys.path.insert(0, str(Path(__file__).parent))
+        from sovrenn_prices import refresh as sovrenn_refresh
+
+        sov_path = DATA / "sovrenn.json"
+        if sov_path.exists():
+            sov = load("sovrenn.json")
+            sovrenn_refresh(sov)
+            save("sovrenn.json", sov)
+            print(f"Updated sovrenn.json ({len(sov)} companies)")
+    except Exception as e:  # noqa: BLE001
+        print(f"WARN: sovrenn refresh failed: {e}")
 
     sync_docs_data()
 

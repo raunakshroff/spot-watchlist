@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
 import { Activity } from "lucide-react";
-import type { DroppedStock, HistoryEntry, IndicesData, Meta, WatchlistStock } from "./types";
+import type { DroppedStock, HistoryEntry, IndicesData, Meta, SovrennEntry, WatchlistStock } from "./types";
+import { SovrennView } from "./components/SovrennView";
 import { Overview } from "./components/Overview";
 import { HistoryView } from "./components/HistoryView";
 import { DroppedView } from "./components/DroppedView";
 import { SectorView } from "./components/SectorView";
 import { IndexView } from "./components/IndexView";
 
-type Tab = "overview" | "sector" | "index" | "history" | "dropped";
+type Tab = "overview" | "sector" | "index" | "sovrenn" | "history" | "dropped";
 
 async function loadJson<T>(path: string): Promise<T> {
   const base = import.meta.env.BASE_URL;
@@ -24,6 +25,8 @@ export default function App() {
   const [meta, setMeta] = useState<Meta | null>(null);
   const [indices, setIndices] = useState<IndicesData | null>(null);
   const [indicesError, setIndicesError] = useState<string | null>(null);
+  const [sovrenn, setSovrenn] = useState<SovrennEntry[] | null>(null);
+  const [sovrennError, setSovrennError] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [search, setSearch] = useState("");
   const [statusFilter, setStatusFilter] = useState("All");
@@ -46,6 +49,10 @@ export default function App() {
     loadJson<IndicesData>("data/indices.json")
       .then(setIndices)
       .catch((e: Error) => setIndicesError(e.message));
+
+    loadJson<SovrennEntry[]>("data/sovrenn.json")
+      .then(setSovrenn)
+      .catch((e: Error) => setSovrennError(e.message));
   }, []);
 
   if (error) {
@@ -106,6 +113,13 @@ export default function App() {
         </button>
         <button
           type="button"
+          className={`tab ${tab === "sovrenn" ? "active" : ""}`}
+          onClick={() => setTab("sovrenn")}
+        >
+          Sovrenn{sovrenn ? ` (${sovrenn.length})` : ""}
+        </button>
+        <button
+          type="button"
           className={`tab ${tab === "history" ? "active" : ""}`}
           onClick={() => setTab("history")}
         >
@@ -135,6 +149,7 @@ export default function App() {
       {tab === "index" && (
         <IndexView data={indices} loadError={indicesError} watchlist={watchlist} />
       )}
+      {tab === "sovrenn" && <SovrennView data={sovrenn} loadError={sovrennError} />}
       {tab === "history" && <HistoryView history={history} />}
       {tab === "dropped" && <DroppedView dropped={dropped} />}
 

@@ -152,3 +152,41 @@ export interface IndicesData {
   notTracked?: string[];
   disclaimer: string;
 }
+
+export interface SovrennMention {
+  date: string;
+  tag: string | null;
+  filing: string | null;
+  outlook: string | null;
+  sovrennMcap: string | null;
+  sovrennPe: string | null;
+}
+
+export interface SovrennEntry {
+  key: string;
+  name: string;
+  ticker: string | null;
+  sme: boolean;
+  firstHighlighted: string;
+  firstCoveredBySovrenn: string | null;
+  timesMentioned: number;
+  latestDate: string;
+  latestTag: string | null;
+  latestReason: string | null;
+  latestOutlook: string | null;
+  sovrennMcap: string | null;
+  sovrennPe: string | null;
+  mentions: SovrennMention[];
+  price?: number | null;
+  priceDate?: string;
+  priceAtHighlight?: number | null;
+  priceAtHighlightDate?: string | null;
+  pctSinceHighlight?: number | null;
+  mcapCr?: number | null;
+  rsi14?: number | null;
+  dma20?: number | null;
+  dma50?: number | null;
+  dma200?: number | null;
+  buyZone?: "Y" | "N" | "n/a";
+  buyZoneNote?: string;
+}

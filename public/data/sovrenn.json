@@ -1,0 +1,2718 @@
+[
+  {
+    "key": "UTLSOLAR",
+    "name": "Fujiyama Power Systems Limited",
+    "nameRaw": "FUJIYAMA POWER SYSTEMS LIMITED",
+    "codes": {
+      "NSE": "UTLSOLAR"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "UTLSOLAR.NS"
+    ],
+    "ticker": "UTLSOLAR.NS",
+    "firstCoveredBySovrenn": "2026-06-03",
+    "mentions": [
+      {
+        "date": "2026-10-13",
+        "tag": "FUND RAISE",
+        "filing": "(FUND RAISE) Company's Board of Directors have scheduled a meeting on October 15, 2026, to consider a proposal for raising funds through the issuance of equity shares. The fundraise, which may include a Qualified Institutional Placement (QIP) or other public and private offerings, aims to achieve minimum public shareholding compliance.",
+        "outlook": "Company has raised its FY27 revenue growth target to ~70% (from 50%) with an 11-13% PAT margin, backed by a sharply expanded capacity — solar panels 3.57 GW, power electronics 4.18 GW, 1 GW solar cells (80%+ utilised, 1.2 GW more coming) and 545 MWh batteries (2 GWh Ratlam line in Q2FY27). Company's new Ratlam site (peak revenue potential INR 5,000 Cr) starts at 40-50% utilisation, targeting 80% by Q4FY28. Company is backward-integrating into module components (stake raised 19%->50% in two associates, INR 180-200 Cr) and plans INR 500 Cr capex in FY27 funded by debt, IPO cash and accruals (no equity dilution), while meeting on 15 Oct to consider an equity raise for minimum public shareholding compliance.",
+        "sovrennMcap": "INR 12,159 Crore",
+        "sovrennPe": "41.3x"
+      }
+    ],
+    "firstHighlighted": "2026-10-13",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-13",
+    "latestTag": "FUND RAISE",
+    "latestReason": "(FUND RAISE) Company's Board of Directors have scheduled a meeting on October 15, 2026, to consider a proposal for raising funds through the issuance of equity shares. The fundraise, which may include a Qualified Institutional Placement (QIP) or other public and private offerings, aims to achieve minimum public shareholding compliance.",
+    "latestOutlook": "Company has raised its FY27 revenue growth target to ~70% (from 50%) with an 11-13% PAT margin, backed by a sharply expanded capacity — solar panels 3.57 GW, power electronics 4.18 GW, 1 GW solar cells (80%+ utilised, 1.2 GW more coming) and 545 MWh batteries (2 GWh Ratlam line in Q2FY27). Company's new Ratlam site (peak revenue potential INR 5,000 Cr) starts at 40-50% utilisation, targeting 80% by Q4FY28. Company is backward-integrating into module components (stake raised 19%->50% in two associates, INR 180-200 Cr) and plans INR 500 Cr capex in FY27 funded by debt, IPO cash and accruals (no equity dilution), while meeting on 15 Oct to consider an equity raise for minimum public shareholding compliance.",
+    "sovrennMcap": "INR 12,159 Crore",
+    "sovrennPe": "41.3x",
+    "price": 402.7,
+    "priceDate": "2026-10-13",
+    "dma20": 416.25,
+    "dma50": 426.05,
+    "dma200": 302.43,
+    "rsi14": 43.6,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport",
+    "bars": 222,
+    "priceAtHighlight": 402.7,
+    "priceAtHighlightDate": "2026-10-13",
+    "pctSinceHighlight": 0.0,
+    "mcapCr": 12359,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "PRECWIRE",
+    "name": "Precision Wires India Limited",
+    "nameRaw": "PRECISION WIRES INDIA LIMITED",
+    "codes": {
+      "NSE": "PRECWIRE",
+      "BSE": "523539"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "PRECWIRE.NS",
+      "523539.BO"
+    ],
+    "ticker": "PRECWIRE.NS",
+    "firstCoveredBySovrenn": "2026-05-25",
+    "mentions": [
+      {
+        "date": "2026-10-13",
+        "tag": "LAND PURCHASE",
+        "filing": "(LAND PURCHASE) Company purchased about 2 acres of land at Village Zaroli, Umbergaon Taluka, Valsad, Gujarat, for INR 3.6 Cr, including stamp duty and registration charges.",
+        "outlook": "Company is scaling copper-winding-wire capacity from 55,000 MTPA toward 68,500 MT/PA by FY28 and backward-integrating with two Gujarat projects — a Copper Rod plant at Valvada (commercial production started Mar'26) and a INR 240 Cr Copper Refining/Recycling unit at Zaroli (consent received Sep'26). Company operates a conversion model (back-to-back orders shield it from copper-price volatility) with net margins of ~2-3%, and has outlined a INR 300 Cr three-year capex plan funded by a mix of debt and equity (INR 150 Cr CCDs raised Sep'26, INR 62 Cr preferential in Q1FY26).",
+        "sovrennMcap": "INR 8,518 Crore",
+        "sovrennPe": "48.7x"
+      }
+    ],
+    "firstHighlighted": "2026-10-13",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-13",
+    "latestTag": "LAND PURCHASE",
+    "latestReason": "(LAND PURCHASE) Company purchased about 2 acres of land at Village Zaroli, Umbergaon Taluka, Valsad, Gujarat, for INR 3.6 Cr, including stamp duty and registration charges.",
+    "latestOutlook": "Company is scaling copper-winding-wire capacity from 55,000 MTPA toward 68,500 MT/PA by FY28 and backward-integrating with two Gujarat projects — a Copper Rod plant at Valvada (commercial production started Mar'26) and a INR 240 Cr Copper Refining/Recycling unit at Zaroli (consent received Sep'26). Company operates a conversion model (back-to-back orders shield it from copper-price volatility) with net margins of ~2-3%, and has outlined a INR 300 Cr three-year capex plan funded by a mix of debt and equity (INR 150 Cr CCDs raised Sep'26, INR 62 Cr preferential in Q1FY26).",
+    "sovrennMcap": "INR 8,518 Crore",
+    "sovrennPe": "48.7x",
+    "price": 485.15,
+    "priceDate": "2026-10-12",
+    "dma20": 484.99,
+    "dma50": 460.43,
+    "dma200": 366.64,
+    "rsi14": 51.2,
+    "buyZone": "Y",
+    "buyZoneNote": "all rules met",
+    "bars": 495,
+    "priceAtHighlight": 485.15,
+    "priceAtHighlightDate": "2026-10-12",
+    "pctSinceHighlight": 0.0,
+    "mcapCr": 8702,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "PNGSREVA",
+    "name": "Pngs Reva Diamond Jewellery Limited",
+    "nameRaw": "PNGS REVA DIAMOND JEWELLERY LIMITED",
+    "codes": {
+      "NSE": "PNGSREVA"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "PNGSREVA.NS"
+    ],
+    "ticker": "PNGSREVA.NS",
+    "firstCoveredBySovrenn": "2026-03-11",
+    "mentions": [
+      {
+        "date": "2026-10-06",
+        "tag": "Q2FY27 UPDATE",
+        "filing": "(Q2FY27 UPDATE) In Q2FY27, company reported that revenue from operations, excluding gold sales, grew from INR 82 Cr to INR 120 Cr, a 46% YoY growth. Company expanded its network to 38 locations by opening new COCO stores in Pune and Nashik, launched an e-commerce platform, and remains on track to open 15 new COCO stores over the next 24 months.",
+        "outlook": "Company has raised its FY27 revenue growth guidance from 25-30% to about 70% and guides for a long-term revenue CAGR of about 40% through 2030 (Q1FY27 revenue INR 117 Cr, +119% YoY; FY26 revenue INR 439 Cr). Company expects FY27 EBITDA margins of 25-27% (22% in FY26) and is confident of holding an 18-20% PAT margin through 2030. Company has expanded to 38 stores (34 SIS + 4 own) as of Sep'26 and is executing a 15-store IPO-funded expansion (15 stores by the end of next year, then 5-7 annually), aiming to cut its ~90% parent Shop-in-Shop revenue dependence to 70% by 2030, staying focused on natural diamonds and having launched its own e- commerce platform (revadiamonds.com).",
+        "sovrennMcap": "INR 1,715 Crore",
+        "sovrennPe": "20.4x"
+      },
+      {
+        "date": "2026-10-13",
+        "tag": "NEW STORE",
+        "filing": "(NEW STORE) Company opened a new exclusive brand store at Pacific Mall, Mansarovar, Jaipur, Rajasthan, on 11th Oct 2026. Company now operates 34 shop-in-shop (SIS) stores with P N Gadgil & Sons and 5 exclusive brand outlets (EBOs).",
+        "outlook": "Company has raised its FY27 revenue growth guidance from 25-30% to about 70% and guides for a long-term revenue CAGR of about 40% through 2030 (Q1FY27 revenue INR 117 Cr, +119% YoY; FY26 revenue INR 439 Cr). Company expects FY27 EBITDA margins of 25-27% (22% in FY26) and is confident of holding an 18-20% PAT margin through 2030. Company has expanded to 39 stores (34 SIS + 5 own) and is executing a 15-store IPO-funded expansion (15 stores by the end of next year, then 5-7 annually), aiming to cut its ~90% parent Shop-in-Shop revenue dependence to 70% by 2030, staying focused on natural diamonds and having launched its own e-commerce platform (revadiamonds.com).",
+        "sovrennMcap": "INR 2,105 Crore",
+        "sovrennPe": "25x"
+      }
+    ],
+    "firstHighlighted": "2026-10-06",
+    "timesMentioned": 2,
+    "latestDate": "2026-10-13",
+    "latestTag": "NEW STORE",
+    "latestReason": "(NEW STORE) Company opened a new exclusive brand store at Pacific Mall, Mansarovar, Jaipur, Rajasthan, on 11th Oct 2026. Company now operates 34 shop-in-shop (SIS) stores with P N Gadgil & Sons and 5 exclusive brand outlets (EBOs).",
+    "latestOutlook": "Company has raised its FY27 revenue growth guidance from 25-30% to about 70% and guides for a long-term revenue CAGR of about 40% through 2030 (Q1FY27 revenue INR 117 Cr, +119% YoY; FY26 revenue INR 439 Cr). Company expects FY27 EBITDA margins of 25-27% (22% in FY26) and is confident of holding an 18-20% PAT margin through 2030. Company has expanded to 39 stores (34 SIS + 5 own) and is executing a 15-store IPO-funded expansion (15 stores by the end of next year, then 5-7 annually), aiming to cut its ~90% parent Shop-in-Shop revenue dependence to 70% by 2030, staying focused on natural diamonds and having launched its own e-commerce platform (revadiamonds.com).",
+    "sovrennMcap": "INR 2,105 Crore",
+    "sovrennPe": "25x",
+    "price": 679.95,
+    "priceDate": "2026-10-13",
+    "dma20": 553.01,
+    "dma50": 543.62,
+    "dma200": null,
+    "rsi14": 72.6,
+    "buyZone": "n/a",
+    "buyZoneNote": "insufficient history (above200)",
+    "bars": 151,
+    "priceAtHighlight": 547.2,
+    "priceAtHighlightDate": "2026-10-06",
+    "pctSinceHighlight": 24.26,
+    "mcapCr": 2155,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "KERNEX",
+    "name": "Kernex Microsystems (India) Limited",
+    "nameRaw": "KERNEX MICROSYSTEMS (INDIA) LIMITED",
+    "codes": {
+      "NSE": "KERNEX"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "KERNEX.NS"
+    ],
+    "ticker": "KERNEX.NS",
+    "firstCoveredBySovrenn": "2024-12-06",
+    "mentions": [
+      {
+        "date": "2026-10-13",
+        "tag": "RATINGS UPGRADE",
+        "filing": "(RATINGS UPGRADE) CARE Ratings Limited upgraded company's INR 525 crore facilities from 'CARE BBB-; Stable' to 'CARE BBB; Stable', and INR 125 crore facilities from 'CARE BBB-; Stable/CARE A3' to 'CARE BBB; Stable/CARE A3+'. This reflects patented Kavach technology (one of three players), Version 4.0 approvals, robust TCAS execution, revenue growth, and comfortable financials.",
+        "outlook": "Company's future growth is driven by a robust unexecuted order book of INR 3,487 Cr and an ambitious billing target of INR 6,727 Cr through FY29. Growth factors include significant capacity expansions across its Kavach product lines, scaling Loco Kavach to 6,000 units annually, and proactive hiring. Additionally, diversifying into five new technology and management business lines offers an estimated INR 3,430 to 4,610 Cr potential over five years.",
+        "sovrennMcap": "INR 2,906 Crore",
+        "sovrennPe": "15.2x"
+      }
+    ],
+    "firstHighlighted": "2026-10-13",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-13",
+    "latestTag": "RATINGS UPGRADE",
+    "latestReason": "(RATINGS UPGRADE) CARE Ratings Limited upgraded company's INR 525 crore facilities from 'CARE BBB-; Stable' to 'CARE BBB; Stable', and INR 125 crore facilities from 'CARE BBB-; Stable/CARE A3' to 'CARE BBB; Stable/CARE A3+'. This reflects patented Kavach technology (one of three players), Version 4.0 approvals, robust TCAS execution, revenue growth, and comfortable financials.",
+    "latestOutlook": "Company's future growth is driven by a robust unexecuted order book of INR 3,487 Cr and an ambitious billing target of INR 6,727 Cr through FY29. Growth factors include significant capacity expansions across its Kavach product lines, scaling Loco Kavach to 6,000 units annually, and proactive hiring. Additionally, diversifying into five new technology and management business lines offers an estimated INR 3,430 to 4,610 Cr potential over five years.",
+    "sovrennMcap": "INR 2,906 Crore",
+    "sovrennPe": "15.2x",
+    "price": 1743.5,
+    "priceDate": "2026-10-13",
+    "dma20": 1716.83,
+    "dma50": 1870.44,
+    "dma200": 1562.57,
+    "rsi14": 48.8,
+    "buyZone": "Y",
+    "buyZoneNote": "all rules met",
+    "bars": 496,
+    "priceAtHighlight": 1743.5,
+    "priceAtHighlightDate": "2026-10-13",
+    "pctSinceHighlight": 0.0,
+    "mcapCr": 2930,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "KARNIKA",
+    "name": "Karnika Industries Limited",
+    "nameRaw": "KARNIKA INDUSTRIES LIMITED",
+    "codes": {
+      "NSE-SME": "KARNIKA"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "KARNIKA.NS"
+    ],
+    "ticker": "KARNIKA.NS",
+    "firstCoveredBySovrenn": "2026-10-13",
+    "mentions": [
+      {
+        "date": "2026-10-13",
+        "tag": "EXCELLENT RESULTS",
+        "filing": "(EXCELLENT RESULTS) For the quarter ending Sep-26, Sales up 52% YoY from INR 70 Cr in Sep-25 to INR 106 Cr in Sep-26. Over the same period, Operating Profit Margin decreased from 21% to 19%. Similarly, Net Profit up 56% from INR 9 Cr to INR 14 Cr. On a QoQ basis, Sales up 43% and Net Profit up 56%.",
+        "outlook": "Company targets 30–35% revenue CAGR over the next 3–4 years, with the combined entity aiming for INR 425 Cr revenue and INR 62 Cr PBT by FY28. Growth will be driven by Kidcity’s expansion to 150+ EBOs and 1,000+ kiosks, from 55+ existing outlets. Karnika’s asset-light manufacturing model, fabric-segment entry, 100% order-backed production and 90%+ repeat-customer revenue will support scalable growth.",
+        "sovrennMcap": "INR 817 Crore",
+        "sovrennPe": "21x"
+      }
+    ],
+    "firstHighlighted": "2026-10-13",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-13",
+    "latestTag": "EXCELLENT RESULTS",
+    "latestReason": "(EXCELLENT RESULTS) For the quarter ending Sep-26, Sales up 52% YoY from INR 70 Cr in Sep-25 to INR 106 Cr in Sep-26. Over the same period, Operating Profit Margin decreased from 21% to 19%. Similarly, Net Profit up 56% from INR 9 Cr to INR 14 Cr. On a QoQ basis, Sales up 43% and Net Profit up 56%.",
+    "latestOutlook": "Company targets 30–35% revenue CAGR over the next 3–4 years, with the combined entity aiming for INR 425 Cr revenue and INR 62 Cr PBT by FY28. Growth will be driven by Kidcity’s expansion to 150+ EBOs and 1,000+ kiosks, from 55+ existing outlets. Karnika’s asset-light manufacturing model, fabric-segment entry, 100% order-backed production and 90%+ repeat-customer revenue will support scalable growth.",
+    "sovrennMcap": "INR 817 Crore",
+    "sovrennPe": "21x",
+    "price": 135.15,
+    "priceDate": "2026-10-12",
+    "dma20": 121.99,
+    "dma50": 118.79,
+    "dma200": 122.59,
+    "rsi14": 72.9,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport, rsiOk, notExtended",
+    "bars": 494,
+    "priceAtHighlight": 135.15,
+    "priceAtHighlightDate": "2026-10-12",
+    "pctSinceHighlight": 0.0,
+    "mcapCr": 1930,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "543939",
+    "name": "Kaka Industries Limited",
+    "nameRaw": "KAKA INDUSTRIES LIMITED",
+    "codes": {
+      "BSE-SME": "543939"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "543939.BO"
+    ],
+    "ticker": "KAKA.BO",
+    "firstCoveredBySovrenn": "2023-07-20",
+    "mentions": [
+      {
+        "date": "2026-10-13",
+        "tag": "MAINBOARD MIGRATION",
+        "filing": "(MAINBOARD MIGRATION) Company's Board of Directors, at its meeting held on 12th Oct 2026, approved the migration of the company's equity shares from the BSE SME platform to the BSE Main Board. Concurrently, the board also approved the direct listing of its equity shares on the NSE Main Board, subject to shareholder and regulatory approvals.",
+        "outlook": "Company aims for 25-30% organic revenue growth in FY27 (FY26 revenue INR 263 Cr), supported by current capacity (utilisation ~66% in Q3FY26) and a distribution network of 450+ customer partners across 20 states. Company has commissioned a 7.5 MW captive solar plant (expected ~INR 5.4 Cr annual EBITDA benefit), is forward-integrating into uPVC windows, and is approving migration from the BSE SME platform to the BSE and NSE Main Boards. Its Lasundra facility can support up to ~INR 400 Cr revenue at optimal utilisation.",
+        "sovrennMcap": "INR 298 Crore",
+        "sovrennPe": "15.7x"
+      }
+    ],
+    "firstHighlighted": "2026-10-13",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-13",
+    "latestTag": "MAINBOARD MIGRATION",
+    "latestReason": "(MAINBOARD MIGRATION) Company's Board of Directors, at its meeting held on 12th Oct 2026, approved the migration of the company's equity shares from the BSE SME platform to the BSE Main Board. Concurrently, the board also approved the direct listing of its equity shares on the NSE Main Board, subject to shareholder and regulatory approvals.",
+    "latestOutlook": "Company aims for 25-30% organic revenue growth in FY27 (FY26 revenue INR 263 Cr), supported by current capacity (utilisation ~66% in Q3FY26) and a distribution network of 450+ customer partners across 20 states. Company has commissioned a 7.5 MW captive solar plant (expected ~INR 5.4 Cr annual EBITDA benefit), is forward-integrating into uPVC windows, and is approving migration from the BSE SME platform to the BSE and NSE Main Boards. Its Lasundra facility can support up to ~INR 400 Cr revenue at optimal utilisation.",
+    "sovrennMcap": "INR 298 Crore",
+    "sovrennPe": "15.7x",
+    "price": 218.8,
+    "priceDate": "2026-10-12",
+    "dma20": 218.12,
+    "dma50": 221.07,
+    "dma200": 197.39,
+    "rsi14": 49.7,
+    "buyZone": "Y",
+    "buyZoneNote": "all rules met",
+    "bars": 493,
+    "priceAtHighlight": 218.8,
+    "priceAtHighlightDate": "2026-10-12",
+    "pctSinceHighlight": 0.0,
+    "mcapCr": 301,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "VIVIANA",
+    "name": "Viviana Power Tech Limited",
+    "nameRaw": "VIVIANA POWER TECH LIMITED",
+    "codes": {
+      "NSE": "VIVIANA"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "VIVIANA.NS"
+    ],
+    "ticker": "VIVIANA.NS",
+    "firstCoveredBySovrenn": "2023-01-30",
+    "mentions": [
+      {
+        "date": "2026-10-07",
+        "tag": "FUND RAISE",
+        "filing": "(FUND RAISE) Company announced a Board of Directors meeting scheduled for October 10, 2026, to consider and approve raising funds by issuing fully convertible warrants on a preferential basis to investors and promoters. This proposed issuance remains subject to all required statutory and regulatory approvals.",
+        "outlook": "Company guides for FY27 revenue of INR 875-910 Cr (65-70% growth) and INR 2,000-2,200 Cr by FY30, with a PAT margin of 8.5-10% and a INR 200+ Cr PAT target by FY30. Company carries an order book of INR 1,312 Cr (2.5x FY26 sales; EPC INR 800 Cr) plus a large bid pipeline, has inaugurated a greenfield power-transformer plant near Vadodara (Phase-1 capex INR 90 Cr) targeting INR 400-500 Cr revenue by FY30, and holds INR 511 Cr of secured BESS orders. Company has board approval to divest its 75% Aarsh Transformers and 90% Viviana Life Spaces stakes to sharpen focus.",
+        "sovrennMcap": "INR 851 Crore",
+        "sovrennPe": "15.5x"
+      },
+      {
+        "date": "2026-10-12",
+        "tag": "ORDER",
+        "filing": "(ORDER) Company has received an order worth INR 467 Cr (to be executed within 16 to 18 months) from Madhya Gujarat Vij Company Limited (MGVCL) for the conversion of HT O/H 11 kV open lines to MVCC overhead conductors and underground networking under the SI Scheme - Robust-III.",
+        "outlook": "Company guides for FY27 revenue of INR 875-910 Cr (65-70% growth) and INR 2,000-2,200 Cr by FY30, with a PAT margin of 8.5-10% and a INR 200+ Cr PAT target by FY30. Company carries an order book of INR 1,312 Cr (2.5x FY26 sales; EPC INR 800 Cr) plus a large bid pipeline, has inaugurated a greenfield power-transformer plant near Vadodara (Phase-1 capex INR 90 Cr) targeting INR 400-500 Cr revenue by FY30, and holds INR 511 Cr of secured BESS orders. Company has board approval to divest its 75% Aarsh Transformers and 90% Viviana Life Spaces stakes, and will meet on 10 Oct 2026 to consider a warrant fund raise.",
+        "sovrennMcap": "INR 884 Crore",
+        "sovrennPe": "16.1x"
+      }
+    ],
+    "firstHighlighted": "2026-10-07",
+    "timesMentioned": 2,
+    "latestDate": "2026-10-12",
+    "latestTag": "ORDER",
+    "latestReason": "(ORDER) Company has received an order worth INR 467 Cr (to be executed within 16 to 18 months) from Madhya Gujarat Vij Company Limited (MGVCL) for the conversion of HT O/H 11 kV open lines to MVCC overhead conductors and underground networking under the SI Scheme - Robust-III.",
+    "latestOutlook": "Company guides for FY27 revenue of INR 875-910 Cr (65-70% growth) and INR 2,000-2,200 Cr by FY30, with a PAT margin of 8.5-10% and a INR 200+ Cr PAT target by FY30. Company carries an order book of INR 1,312 Cr (2.5x FY26 sales; EPC INR 800 Cr) plus a large bid pipeline, has inaugurated a greenfield power-transformer plant near Vadodara (Phase-1 capex INR 90 Cr) targeting INR 400-500 Cr revenue by FY30, and holds INR 511 Cr of secured BESS orders. Company has board approval to divest its 75% Aarsh Transformers and 90% Viviana Life Spaces stakes, and will meet on 10 Oct 2026 to consider a warrant fund raise.",
+    "sovrennMcap": "INR 884 Crore",
+    "sovrennPe": "16.1x",
+    "price": 847.85,
+    "priceDate": "2026-10-12",
+    "dma20": 754.33,
+    "dma50": 737.21,
+    "dma200": 752.17,
+    "rsi14": 66.4,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport, rsiOk, notExtended",
+    "bars": 494,
+    "priceAtHighlight": 817.85,
+    "priceAtHighlightDate": "2026-10-07",
+    "pctSinceHighlight": 3.67,
+    "mcapCr": 822,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "CLEANMAX",
+    "name": "Clean Max Enviro Energy Solutions Limited",
+    "nameRaw": "CLEAN MAX ENVIRO ENERGY SOLUTIONS LIMITED",
+    "codes": {
+      "NSE": "CLEANMAX"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "CLEANMAX.NS"
+    ],
+    "ticker": "CLEANMAX.NS",
+    "firstCoveredBySovrenn": "2026-10-12",
+    "mentions": [
+      {
+        "date": "2026-10-12",
+        "tag": "ACQUISITION",
+        "filing": "(ACQUISITION) Company through its step-down subsidiaries, entered into an agreement to acquire 100% share capital of Thailand-based Massmunch Company Limited for an enterprise value of THB 1.25 million (INR 36 lakh) in cash. Expected to close by 31st Oct 2026, this acquisition will enable growth and further development of solar renewable energy capacity of the Company in Thailand.",
+        "outlook": "Company targets INR 3,000 Cr EBITDA by FY28, implying 52% CAGR, supported by commissioning 1.5 GW capacity in FY27, taking sales capacity to 4.6 GW. Around 600 MW of new capacity will serve data-centre and AI clients, lifting their energy-sales contribution from 30% to 42%. The INR 7,500–7,700 Cr expansion capex and Apple’s INR 100 Cr JV equity infusion will support growth, without an anticipated fundraise over 2–3 years.",
+        "sovrennMcap": "INR 15,206 Crore",
+        "sovrennPe": "96.8x"
+      }
+    ],
+    "firstHighlighted": "2026-10-12",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-12",
+    "latestTag": "ACQUISITION",
+    "latestReason": "(ACQUISITION) Company through its step-down subsidiaries, entered into an agreement to acquire 100% share capital of Thailand-based Massmunch Company Limited for an enterprise value of THB 1.25 million (INR 36 lakh) in cash. Expected to close by 31st Oct 2026, this acquisition will enable growth and further development of solar renewable energy capacity of the Company in Thailand.",
+    "latestOutlook": "Company targets INR 3,000 Cr EBITDA by FY28, implying 52% CAGR, supported by commissioning 1.5 GW capacity in FY27, taking sales capacity to 4.6 GW. Around 600 MW of new capacity will serve data-centre and AI clients, lifting their energy-sales contribution from 30% to 42%. The INR 7,500–7,700 Cr expansion capex and Apple’s INR 100 Cr JV equity infusion will support growth, without an anticipated fundraise over 2–3 years.",
+    "sovrennMcap": "INR 15,206 Crore",
+    "sovrennPe": "96.8x",
+    "price": 1296.1,
+    "priceDate": "2026-10-12",
+    "dma20": 1349.41,
+    "dma50": 1315.8,
+    "dma200": null,
+    "rsi14": 45.0,
+    "buyZone": "n/a",
+    "buyZoneNote": "insufficient history (above200)",
+    "bars": 151,
+    "priceAtHighlight": 1296.1,
+    "priceAtHighlightDate": "2026-10-12",
+    "pctSinceHighlight": 0.0,
+    "mcapCr": 15163,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "APSISAERO",
+    "name": "Apsis Aerocom Limited",
+    "nameRaw": "APSIS AEROCOM LIMITED",
+    "codes": {
+      "NSE-SME": "APSISAERO"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "APSISAERO.NS"
+    ],
+    "ticker": "APSISAERO-SM.NS",
+    "firstCoveredBySovrenn": "2026-03-19",
+    "mentions": [
+      {
+        "date": "2026-10-12",
+        "tag": "HNI ENTRY",
+        "filing": "(HNI ENTRY) Mukul Mahavir Agrawal, a well-known HNI investor, has taken a 1.2% stake in company, as per the latest September 2026 shareholding pattern.",
+        "outlook": "Company has guided for FY27 revenue of ~INR 48 Cr (57% growth) on a INR 40.5 Cr order book and a >INR 100 Cr pipeline (30% conversion), and aims for INR 500 Cr annual revenue within five years. Company's new Unit 2 in Bangalore (INR 60 Cr capex, 35 advanced machines, 3x capacity to 3,00,000 units p.a.) commenced in Aug'26 and is expected to add ~INR 60 Cr revenue by FY28 at full ramp, while targeting EBITDA margins of 37-40%.",
+        "sovrennMcap": "INR 755 Crore",
+        "sovrennPe": "101x"
+      }
+    ],
+    "firstHighlighted": "2026-10-12",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-12",
+    "latestTag": "HNI ENTRY",
+    "latestReason": "(HNI ENTRY) Mukul Mahavir Agrawal, a well-known HNI investor, has taken a 1.2% stake in company, as per the latest September 2026 shareholding pattern.",
+    "latestOutlook": "Company has guided for FY27 revenue of ~INR 48 Cr (57% growth) on a INR 40.5 Cr order book and a >INR 100 Cr pipeline (30% conversion), and aims for INR 500 Cr annual revenue within five years. Company's new Unit 2 in Bangalore (INR 60 Cr capex, 35 advanced machines, 3x capacity to 3,00,000 units p.a.) commenced in Aug'26 and is expected to add ~INR 60 Cr revenue by FY28 at full ramp, while targeting EBITDA margins of 37-40%.",
+    "sovrennMcap": "INR 755 Crore",
+    "sovrennPe": "101x",
+    "price": 642.75,
+    "priceDate": "2026-10-13",
+    "dma20": null,
+    "dma50": null,
+    "dma200": null,
+    "rsi14": null,
+    "buyZone": "n/a",
+    "buyZoneNote": "Yahoo has no daily history for this listing (latest quote only)",
+    "bars": 1,
+    "priceAtHighlight": null,
+    "priceAtHighlightDate": null,
+    "pctSinceHighlight": null,
+    "mcapCr": null,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "AIRFLOA",
+    "name": "Airfloa Rail Technology Limited",
+    "nameRaw": "AIRFLOA RAIL TECHNOLOGY LIMITED",
+    "codes": {
+      "BSE-SME": "AIRFLOA"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "AIRFLOA.BO"
+    ],
+    "ticker": "AIRFLOA.BO",
+    "firstCoveredBySovrenn": "2025-09-26",
+    "mentions": [
+      {
+        "date": "2026-10-12",
+        "tag": "MOU",
+        "filing": "(MOU) Company has signed a MOU with KTK Group Co. Ltd., a Company incorporated under the laws of China, for identifying, evaluating, bidding for, securing and executing eligible Platform Screen Door (PSD) projects in India. Under this collaboration, Airfloa will lead the domestic manufacturing of selected mechanical and electrical components and manage local project execution, while KTK will provide system design, proprietary technology, and engineering expertise.",
+        "outlook": "Company has guided for FY27 revenue of INR 500 Cr (56% growth) at a 12-13% PAT margin, with its INR 1,000+ Cr FY28 target now 'directional' after commodity-price volatility; it is shifting its mix from 80:20 railways:defence toward 50:50 for higher margins. Company carries an order book of INR 487 Cr (1.5x FY26 sales) against a INR 1,200 Cr bid pipeline (20-25% win rate), is building a new 14-acre facility (INR 30-40 Cr capex, debt-funded) to double capacity, and is entering defence via a 51:49 JV with Big Bang Boom Solutions (drones, EW), transitioning from a coach integrator to a technology solutions provider.",
+        "sovrennMcap": "INR 1,323 Crore",
+        "sovrennPe": "33.9x"
+      }
+    ],
+    "firstHighlighted": "2026-10-12",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-12",
+    "latestTag": "MOU",
+    "latestReason": "(MOU) Company has signed a MOU with KTK Group Co. Ltd., a Company incorporated under the laws of China, for identifying, evaluating, bidding for, securing and executing eligible Platform Screen Door (PSD) projects in India. Under this collaboration, Airfloa will lead the domestic manufacturing of selected mechanical and electrical components and manage local project execution, while KTK will provide system design, proprietary technology, and engineering expertise.",
+    "latestOutlook": "Company has guided for FY27 revenue of INR 500 Cr (56% growth) at a 12-13% PAT margin, with its INR 1,000+ Cr FY28 target now 'directional' after commodity-price volatility; it is shifting its mix from 80:20 railways:defence toward 50:50 for higher margins. Company carries an order book of INR 487 Cr (1.5x FY26 sales) against a INR 1,200 Cr bid pipeline (20-25% win rate), is building a new 14-acre facility (INR 30-40 Cr capex, debt-funded) to double capacity, and is entering defence via a 51:49 JV with Big Bang Boom Solutions (drones, EW), transitioning from a coach integrator to a technology solutions provider.",
+    "sovrennMcap": "INR 1,323 Crore",
+    "sovrennPe": "33.9x",
+    "price": 556.5,
+    "priceDate": "2026-10-12",
+    "dma20": 547.72,
+    "dma50": 464.08,
+    "dma200": 346.71,
+    "rsi14": 57.6,
+    "buyZone": "Y",
+    "buyZoneNote": "all rules met",
+    "bars": 262,
+    "priceAtHighlight": 556.5,
+    "priceAtHighlightDate": "2026-10-12",
+    "pctSinceHighlight": 0.0,
+    "mcapCr": 1325,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "AEROFLEX",
+    "name": "Aeroflex Industries Limited",
+    "nameRaw": "AEROFLEX INDUSTRIES LIMITED",
+    "codes": {
+      "NSE": "AEROFLEX"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "AEROFLEX.NS"
+    ],
+    "ticker": "AEROFLEX.NS",
+    "firstCoveredBySovrenn": "2025-01-17",
+    "mentions": [
+      {
+        "date": "2026-10-12",
+        "tag": "CAPACITY EXPANSION",
+        "filing": "(CAPACITY EXPANSION) Company's Board of Directors is scheduled to meet on 14th Oct 2026, to consider and approve the company's expansion plans, including further capacity enhancements.",
+        "outlook": "Company has raised its FY27 revenue growth target to ~35% (from 16-19%), with the core hose-and-assembly business growing 15-20% and the new liquid-cooling SFN skid business (for data centres) doing the heavy lifting; it guides EBITDA margin to 23% in FY27, aiming for 25%. Company is scaling SS hose capacity to 20 Mn meters (INR 650-675 Cr potential) and skid capacity from 9,000 to 15,000 units p.a. by Q3FY27 (INR 325-330 Cr potential at 75% use). Company has a long- term liquid-cooling supply deal with a USD 50bn+ US corporation and cites India's 9+ GW data-centre pipeline as its runway, with fire-hose assemblies and international skid orders expected in FY27.",
+        "sovrennMcap": "INR 7,762 Crore",
+        "sovrennPe": "116x"
+      }
+    ],
+    "firstHighlighted": "2026-10-12",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-12",
+    "latestTag": "CAPACITY EXPANSION",
+    "latestReason": "(CAPACITY EXPANSION) Company's Board of Directors is scheduled to meet on 14th Oct 2026, to consider and approve the company's expansion plans, including further capacity enhancements.",
+    "latestOutlook": "Company has raised its FY27 revenue growth target to ~35% (from 16-19%), with the core hose-and-assembly business growing 15-20% and the new liquid-cooling SFN skid business (for data centres) doing the heavy lifting; it guides EBITDA margin to 23% in FY27, aiming for 25%. Company is scaling SS hose capacity to 20 Mn meters (INR 650-675 Cr potential) and skid capacity from 9,000 to 15,000 units p.a. by Q3FY27 (INR 325-330 Cr potential at 75% use). Company has a long- term liquid-cooling supply deal with a USD 50bn+ US corporation and cites India's 9+ GW data-centre pipeline as its runway, with fire-hose assemblies and international skid orders expected in FY27.",
+    "sovrennMcap": "INR 7,762 Crore",
+    "sovrennPe": "116x",
+    "price": 557.6,
+    "priceDate": "2026-10-13",
+    "dma20": 527.9,
+    "dma50": 509.71,
+    "dma200": 357.44,
+    "rsi14": 56.5,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport",
+    "bars": 496,
+    "priceAtHighlight": 567.9,
+    "priceAtHighlightDate": "2026-10-12",
+    "pctSinceHighlight": -1.81,
+    "mcapCr": 7379,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "544332",
+    "name": "Fabtech Cleanrooms Limited",
+    "nameRaw": "FABTECH CLEANROOMS LIMITED",
+    "codes": {
+      "BSE-SME": "544332"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "544332.BO"
+    ],
+    "ticker": "FABCLEAN.BO",
+    "firstCoveredBySovrenn": "2025-05-27",
+    "mentions": [
+      {
+        "date": "2026-10-12",
+        "tag": "ORDERBOOK UPDATE",
+        "filing": "(ORDERBOOK UPDATE) Company's consolidated order book stands at INR 468 Cr (2.1x of FY26 revenue = INR 219 Cr) as of 30th Sep 2026, led primarily by Pharma at INR 217 Cr and Renewable Energy at INR 195 Cr, alongside Data Centres, Semiconductors, and other segments. During Sep 2026, company secured fresh orders worth INR 36 Cr, with additional orders under active consideration totaling INR 394 Cr.",
+        "outlook": "Company guides for 20-40% (downgraded from 30-40%) revenue growth in FY27 (FY26 grew 46%) while maintaining an 8-10% net profit margin through FY29. Company's consolidated order book stood at INR 229 Cr (Apr'26) and has since grown to INR 468 Cr (Sep'26), led by pharma and renewable energy, with a large active-consideration pipeline. Company is expanding manufacturing (100,000 sq ft Umbergaon, 60,000 sq ft Murbad, new Hyderabad unit at 2,000 sqm/day) and diversifying beyond pharma into renewable energy, semiconductors and data centres.",
+        "sovrennMcap": "INR 618 Crore",
+        "sovrennPe": "36.3x"
+      }
+    ],
+    "firstHighlighted": "2026-10-12",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-12",
+    "latestTag": "ORDERBOOK UPDATE",
+    "latestReason": "(ORDERBOOK UPDATE) Company's consolidated order book stands at INR 468 Cr (2.1x of FY26 revenue = INR 219 Cr) as of 30th Sep 2026, led primarily by Pharma at INR 217 Cr and Renewable Energy at INR 195 Cr, alongside Data Centres, Semiconductors, and other segments. During Sep 2026, company secured fresh orders worth INR 36 Cr, with additional orders under active consideration totaling INR 394 Cr.",
+    "latestOutlook": "Company guides for 20-40% (downgraded from 30-40%) revenue growth in FY27 (FY26 grew 46%) while maintaining an 8-10% net profit margin through FY29. Company's consolidated order book stood at INR 229 Cr (Apr'26) and has since grown to INR 468 Cr (Sep'26), led by pharma and renewable energy, with a large active-consideration pipeline. Company is expanding manufacturing (100,000 sq ft Umbergaon, 60,000 sq ft Murbad, new Hyderabad unit at 2,000 sqm/day) and diversifying beyond pharma into renewable energy, semiconductors and data centres.",
+    "sovrennMcap": "INR 618 Crore",
+    "sovrennPe": "36.3x",
+    "price": 487.75,
+    "priceDate": "2026-10-12",
+    "dma20": 492.68,
+    "dma50": 443.17,
+    "dma200": 347.25,
+    "rsi14": 53.6,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport",
+    "bars": 432,
+    "priceAtHighlight": 487.75,
+    "priceAtHighlightDate": "2026-10-12",
+    "pctSinceHighlight": 0.0,
+    "mcapCr": 596,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "STYLEBAAZA",
+    "name": "Baazar Style Retail Limited",
+    "nameRaw": "BAAZAR STYLE RETAIL LIMITED",
+    "codes": {
+      "BSE": "STYLEBAAZA"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "STYLEBAAZA.BO"
+    ],
+    "ticker": "STYLEBAAZA.BO",
+    "firstCoveredBySovrenn": "2025-11-28",
+    "mentions": [
+      {
+        "date": "2026-10-09",
+        "tag": "NEW STORE",
+        "filing": "(NEW STORE) Company has opened a new Style Baazar store in Fulbari, Jalpaiguri, West Bengal, on October 9, 2026. This recent launch brings its total operational store network to 284 locations.",
+        "outlook": "Company has not given formal FY27 revenue guidance but is scaling aggressively from 276 stores (Jun'26, 284 now) toward 500+ stores in three years, having raised annual store additions to 60-80 (from 40-50). Company's SSSG recovered to 7% in Q1FY27 and its private-label mix rose to 62% (65% target), supporting margins. Company planned to fund the expansion and repay debt via a INR 331 Cr warrant issue to Cupid Limited, but that partnership has broken down into litigation, making the funding and a planned personal-care foray uncertain.",
+        "sovrennMcap": "INR 2,843 Crore",
+        "sovrennPe": "60.5x"
+      }
+    ],
+    "firstHighlighted": "2026-10-09",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-09",
+    "latestTag": "NEW STORE",
+    "latestReason": "(NEW STORE) Company has opened a new Style Baazar store in Fulbari, Jalpaiguri, West Bengal, on October 9, 2026. This recent launch brings its total operational store network to 284 locations.",
+    "latestOutlook": "Company has not given formal FY27 revenue guidance but is scaling aggressively from 276 stores (Jun'26, 284 now) toward 500+ stores in three years, having raised annual store additions to 60-80 (from 40-50). Company's SSSG recovered to 7% in Q1FY27 and its private-label mix rose to 62% (65% target), supporting margins. Company planned to fund the expansion and repay debt via a INR 331 Cr warrant issue to Cupid Limited, but that partnership has broken down into litigation, making the funding and a planned personal-care foray uncertain.",
+    "sovrennMcap": "INR 2,843 Crore",
+    "sovrennPe": "60.5x",
+    "price": 379.9,
+    "priceDate": "2026-10-12",
+    "dma20": 380.25,
+    "dma50": 375.0,
+    "dma200": 329.22,
+    "rsi14": 50.4,
+    "buyZone": "Y",
+    "buyZoneNote": "all rules met",
+    "bars": 493,
+    "priceAtHighlight": 376.7,
+    "priceAtHighlightDate": "2026-10-09",
+    "pctSinceHighlight": 0.85,
+    "mcapCr": 2903,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "SHREEREF",
+    "name": "Shree Refrigerations Limited",
+    "nameRaw": "SHREE REFRIGERATIONS LIMITED",
+    "codes": {
+      "BSE-SME": "SHREEREF"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "SHREEREF.BO"
+    ],
+    "ticker": "SHREEREF.BO",
+    "firstCoveredBySovrenn": "2026-09-16",
+    "mentions": [
+      {
+        "date": "2026-10-09",
+        "tag": "ORDER",
+        "filing": "(ORDER) Company has received an order worth INR 7.86 Cr (to be executed by October 5, 2027) from the Controller Procurement Material Organisation, Mumbai (Indian Navy) for the supply of two Magnetic Bearing Compressor-based AC Plants.",
+        "outlook": "Company targets INR 1,000 Cr revenue and INR 120 Cr PAT by FY30/31 (both ~40% CAGR) while holding EBITDA margins at 20-24% (21% in FY26). Company carries an unexecuted order book of INR 271 Cr (1.8x FY26 revenue) with a INR 1,000 Cr FY27 bid pipeline, and has expanded manufacturing space 90% to 70,000 sq. ft. (Unit 2, expandable to 1,00,000 sq. ft.) supporting peak revenue of INR 400+ Cr. Company holds 60%+ share in naval HVAC and magnetic-bearing chillers, and is opening new verticals — below-zero chillers (Aquilon Deep Chill) and data-centre cooling (SmartDTI/Smardt tie-up, revenue from FY28, kept outside guidance).",
+        "sovrennMcap": "INR 1,375 Crore",
+        "sovrennPe": "62.5x"
+      }
+    ],
+    "firstHighlighted": "2026-10-09",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-09",
+    "latestTag": "ORDER",
+    "latestReason": "(ORDER) Company has received an order worth INR 7.86 Cr (to be executed by October 5, 2027) from the Controller Procurement Material Organisation, Mumbai (Indian Navy) for the supply of two Magnetic Bearing Compressor-based AC Plants.",
+    "latestOutlook": "Company targets INR 1,000 Cr revenue and INR 120 Cr PAT by FY30/31 (both ~40% CAGR) while holding EBITDA margins at 20-24% (21% in FY26). Company carries an unexecuted order book of INR 271 Cr (1.8x FY26 revenue) with a INR 1,000 Cr FY27 bid pipeline, and has expanded manufacturing space 90% to 70,000 sq. ft. (Unit 2, expandable to 1,00,000 sq. ft.) supporting peak revenue of INR 400+ Cr. Company holds 60%+ share in naval HVAC and magnetic-bearing chillers, and is opening new verticals — below-zero chillers (Aquilon Deep Chill) and data-centre cooling (SmartDTI/Smardt tie-up, revenue from FY28, kept outside guidance).",
+    "sovrennMcap": "INR 1,375 Crore",
+    "sovrennPe": "62.5x",
+    "price": 366.9,
+    "priceDate": "2026-10-12",
+    "dma20": 388.4,
+    "dma50": 376.66,
+    "dma200": 272.64,
+    "rsi14": 39.6,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport, rsiOk",
+    "bars": 294,
+    "priceAtHighlight": 371.4,
+    "priceAtHighlightDate": "2026-10-09",
+    "pctSinceHighlight": -1.21,
+    "mcapCr": 1293,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "PURPLEUTED",
+    "name": "Purple United Sales Limited",
+    "nameRaw": "PURPLE UNITED SALES LIMITED",
+    "codes": {
+      "NSE-SME": "PURPLEUTED"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "PURPLEUTED.NS"
+    ],
+    "ticker": "PURPLEUTED-SM.NS",
+    "firstCoveredBySovrenn": "2025-03-26",
+    "mentions": [
+      {
+        "date": "2026-10-05",
+        "tag": "H1FY27 UPDATE",
+        "filing": "(H1FY27 UPDATE) In its provisional H1FY27 business update, company reported a strong financial performance as half-yearly revenue grew from INR 61 Cr in H1FY26 to INR 124 Cr in H1FY27, reflecting a 103% YoY increase.",
+        "outlook": "Company aims to double revenue year-on-year over the next two years (FY26 revenue INR 171 Cr), with retail expected to contribute over two-thirds of the total. Company is scaling its exclusive-brand-outlet network (123 EBOs as of Aug-26, ~78 more planned over two years), reported 26% same-store sales growth in FY26, and is building its D2C/e-commerce channel toward 12-14% of sales in FY27 across Myntra, Amazon, Flipkart, AJIO and Firstcry.",
+        "sovrennMcap": "INR 454 Crore",
+        "sovrennPe": "30.3x"
+      },
+      {
+        "date": "2026-10-09",
+        "tag": "SHARE AND WARRANT ALLOTMENT",
+        "filing": "(SHARE AND WARRANT ALLOTMENT) Company approved the preferential allotment of 7.8 lakh equity shares at INR 360 per share, raising INR 28 crore from non-promoter investors. Additionally, the board allotted 5.3 lakh fully convertible warrants at INR 360 each aggregating to INR 19 crore to promoters and non-promoters upon receiving 25% upfront, convertible within 18 months.",
+        "outlook": "Company aims to double its revenue (100% YoY) over the next two years (FY26 revenue INR 171 Cr), with retail expected to contribute over two-thirds of revenue. Company grew its EBO network to 123 stores (Aug'26, 126 now) across 22+ states, scaled back its earlier 200+ store target to ~78 additions over two years, and is pushing D2C/e-commerce toward 12-14% of sales (from 2%). Company's channel mix pivoted sharply toward higher-margin retail (21%->40%) and key accounts (5%->20%) in FY26, and it is funding expansion via a mix of debt and equity (latest INR 48 Cr preferential issue), expecting to turn operationally cash-positive in 12-18 months.",
+        "sovrennMcap": "INR 487 Crore",
+        "sovrennPe": "32.5x"
+      }
+    ],
+    "firstHighlighted": "2026-10-05",
+    "timesMentioned": 2,
+    "latestDate": "2026-10-09",
+    "latestTag": "SHARE AND WARRANT ALLOTMENT",
+    "latestReason": "(SHARE AND WARRANT ALLOTMENT) Company approved the preferential allotment of 7.8 lakh equity shares at INR 360 per share, raising INR 28 crore from non-promoter investors. Additionally, the board allotted 5.3 lakh fully convertible warrants at INR 360 each aggregating to INR 19 crore to promoters and non-promoters upon receiving 25% upfront, convertible within 18 months.",
+    "latestOutlook": "Company aims to double its revenue (100% YoY) over the next two years (FY26 revenue INR 171 Cr), with retail expected to contribute over two-thirds of revenue. Company grew its EBO network to 123 stores (Aug'26, 126 now) across 22+ states, scaled back its earlier 200+ store target to ~78 additions over two years, and is pushing D2C/e-commerce toward 12-14% of sales (from 2%). Company's channel mix pivoted sharply toward higher-margin retail (21%->40%) and key accounts (5%->20%) in FY26, and it is funding expansion via a mix of debt and equity (latest INR 48 Cr preferential issue), expecting to turn operationally cash-positive in 12-18 months.",
+    "sovrennMcap": "INR 487 Crore",
+    "sovrennPe": "32.5x",
+    "price": 482.95,
+    "priceDate": "2026-10-13",
+    "dma20": null,
+    "dma50": null,
+    "dma200": null,
+    "rsi14": null,
+    "buyZone": "n/a",
+    "buyZoneNote": "Yahoo has no daily history for this listing (latest quote only)",
+    "bars": 1,
+    "priceAtHighlight": null,
+    "priceAtHighlightDate": null,
+    "pctSinceHighlight": null,
+    "mcapCr": null,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "OBSCP",
+    "name": "Obsc Perfection Limited",
+    "nameRaw": "OBSC PERFECTION LIMITED",
+    "codes": {
+      "NSE-SME": "OBSCP"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "OBSCP.NS"
+    ],
+    "ticker": "OBSCP-SM.NS",
+    "firstCoveredBySovrenn": "2025-06-04",
+    "mentions": [
+      {
+        "date": "2026-10-09",
+        "tag": "ORDER",
+        "filing": "(ORDER) Company has received an order worth INR 9 Cr (to be executed within the next 6 months) from Israel-based IMI Systems Limited (an entity of Elbit Systems) for the manufacturing and supply of fuze components.",
+        "outlook": "Company targets 40–45% revenue growth in FY27 and aims to expand exports at 50%+ CAGR over the next 3–4 years. Growth will be supported by the INR 1,200 Cr order book, increased forging capacity of 12,000 TPA, and machining capacity of 451 units. The Sanand facility targets Q4FY27 operations with INR 49 Cr annual offtake, while aerospace certification and new stamping capabilities can diversify revenues and improve margins.",
+        "sovrennMcap": "INR 2,145 Crore",
+        "sovrennPe": "69.2x"
+      }
+    ],
+    "firstHighlighted": "2026-10-09",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-09",
+    "latestTag": "ORDER",
+    "latestReason": "(ORDER) Company has received an order worth INR 9 Cr (to be executed within the next 6 months) from Israel-based IMI Systems Limited (an entity of Elbit Systems) for the manufacturing and supply of fuze components.",
+    "latestOutlook": "Company targets 40–45% revenue growth in FY27 and aims to expand exports at 50%+ CAGR over the next 3–4 years. Growth will be supported by the INR 1,200 Cr order book, increased forging capacity of 12,000 TPA, and machining capacity of 451 units. The Sanand facility targets Q4FY27 operations with INR 49 Cr annual offtake, while aerospace certification and new stamping capabilities can diversify revenues and improve margins.",
+    "sovrennMcap": "INR 2,145 Crore",
+    "sovrennPe": "69.2x",
+    "price": 829.4,
+    "priceDate": "2026-10-13",
+    "dma20": null,
+    "dma50": null,
+    "dma200": null,
+    "rsi14": null,
+    "buyZone": "n/a",
+    "buyZoneNote": "Yahoo has no daily history for this listing (latest quote only)",
+    "bars": 1,
+    "priceAtHighlight": null,
+    "priceAtHighlightDate": null,
+    "pctSinceHighlight": null,
+    "mcapCr": null,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "BRAHMINFRA",
+    "name": "Brahmaputra Infrastructure Limited",
+    "nameRaw": "BRAHMAPUTRA INFRASTRUCTURE LIMITED",
+    "codes": {
+      "NSE": "BRAHMINFRA",
+      "BSE": "535693"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "BRAHMINFRA.NS",
+      "535693.BO"
+    ],
+    "ticker": "BRAHMINFRA.NS",
+    "firstCoveredBySovrenn": "2026-10-09",
+    "mentions": [
+      {
+        "date": "2026-10-09",
+        "tag": "ORDER",
+        "filing": "(ORDER) Company through its joint venture with Ganesh Kartikey Pvt. Ltd., has received an order worth INR 90 Cr (to be executed within 24 months) from the Government of Punjab's PWD for the construction of a 1,606-metre high-level major bridge over the River Ravi at Makoura Pattan and 4,144- metre approach roads in the Gurdaspur and Pathankot districts.",
+        "outlook": "Company targets 50% revenue growth over the next 2–3 years, potentially extending to five years, while maintaining EBITDA margins above 22%. Growth will be supported by the INR 1,600+ Cr order book, with INR 960 Cr scheduled for FY27 execution. Management aims to increase the order book to INR 2,500 Cr by FY28, supported by an immediate INR 3,000 Cr bidding pipeline and annual opportunities worth INR 7,000–8,000 Cr.",
+        "sovrennMcap": "INR 416 Crore",
+        "sovrennPe": "6.8x"
+      }
+    ],
+    "firstHighlighted": "2026-10-09",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-09",
+    "latestTag": "ORDER",
+    "latestReason": "(ORDER) Company through its joint venture with Ganesh Kartikey Pvt. Ltd., has received an order worth INR 90 Cr (to be executed within 24 months) from the Government of Punjab's PWD for the construction of a 1,606-metre high-level major bridge over the River Ravi at Makoura Pattan and 4,144- metre approach roads in the Gurdaspur and Pathankot districts.",
+    "latestOutlook": "Company targets 50% revenue growth over the next 2–3 years, potentially extending to five years, while maintaining EBITDA margins above 22%. Growth will be supported by the INR 1,600+ Cr order book, with INR 960 Cr scheduled for FY27 execution. Management aims to increase the order book to INR 2,500 Cr by FY28, supported by an immediate INR 3,000 Cr bidding pipeline and annual opportunities worth INR 7,000–8,000 Cr.",
+    "sovrennMcap": "INR 416 Crore",
+    "sovrennPe": "6.8x",
+    "price": 148.79,
+    "priceDate": "2026-10-12",
+    "dma20": 150.87,
+    "dma50": null,
+    "dma200": null,
+    "rsi14": 39.1,
+    "buyZone": "n/a",
+    "buyZoneNote": "insufficient history (above200)",
+    "bars": 38,
+    "priceAtHighlight": 142.72,
+    "priceAtHighlightDate": "2026-10-09",
+    "pctSinceHighlight": 4.25,
+    "mcapCr": null,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "AVALON",
+    "name": "Avalon Technologies Limited",
+    "nameRaw": "AVALON TECHNOLOGIES LIMITED",
+    "codes": {
+      "NSE": "AVALON"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "AVALON.NS"
+    ],
+    "ticker": "AVALON.NS",
+    "firstCoveredBySovrenn": "2026-05-14",
+    "mentions": [
+      {
+        "date": "2026-10-09",
+        "tag": "LAND LEASE AGREEMENT",
+        "filing": "(LAND LEASE AGREEMENT) Company executed a lease agreement with the State Industries Promotion Corporation of Tamil Nadu Limited (SIPCOT). The lease covers 25.08 acres of land at the SIPCOT Industrial Park in Oragadam, Tamil Nadu, for establishing a new industrial unit for a period of 99 years.",
+        "outlook": "Company targets 26–30% FY27 revenue growth and aims to double revenue from INR 1,603 Cr in FY26 to INR 3,200 Cr by FY29. Growth is supported by an INR 3,465 Cr combined order book and long-term contracts. The completed Chennai plant, US business breakeven in late FY27, and scaling of aerospace, data-centre, energy-storage, locomotive, Kavach and semiconductor businesses will drive expansion, supported by a capex-light model.",
+        "sovrennMcap": "INR 15,383 Crore",
+        "sovrennPe": "115x"
+      }
+    ],
+    "firstHighlighted": "2026-10-09",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-09",
+    "latestTag": "LAND LEASE AGREEMENT",
+    "latestReason": "(LAND LEASE AGREEMENT) Company executed a lease agreement with the State Industries Promotion Corporation of Tamil Nadu Limited (SIPCOT). The lease covers 25.08 acres of land at the SIPCOT Industrial Park in Oragadam, Tamil Nadu, for establishing a new industrial unit for a period of 99 years.",
+    "latestOutlook": "Company targets 26–30% FY27 revenue growth and aims to double revenue from INR 1,603 Cr in FY26 to INR 3,200 Cr by FY29. Growth is supported by an INR 3,465 Cr combined order book and long-term contracts. The completed Chennai plant, US business breakeven in late FY27, and scaling of aerospace, data-centre, energy-storage, locomotive, Kavach and semiconductor businesses will drive expansion, supported by a capex-light model.",
+    "sovrennMcap": "INR 15,383 Crore",
+    "sovrennPe": "115x",
+    "price": 2280.8,
+    "priceDate": "2026-10-13",
+    "dma20": 2336.29,
+    "dma50": 2203.5,
+    "dma200": 1471.38,
+    "rsi14": 49.3,
+    "buyZone": "Y",
+    "buyZoneNote": "all rules met",
+    "bars": 496,
+    "priceAtHighlight": 2300.5,
+    "priceAtHighlightDate": "2026-10-09",
+    "pctSinceHighlight": -0.86,
+    "mcapCr": 15255,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "VOLTAMP",
+    "name": "Voltamp Transformers Limited",
+    "nameRaw": "VOLTAMP TRANSFORMERS LIMITED",
+    "codes": {
+      "NSE": "VOLTAMP"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "VOLTAMP.NS"
+    ],
+    "ticker": "VOLTAMP.NS",
+    "firstCoveredBySovrenn": "2023-10-27",
+    "mentions": [
+      {
+        "date": "2026-10-08",
+        "tag": "COMMENCEMENT OF COMMERCIAL PRODUCTION",
+        "filing": "(COMMENCEMENT OF COMMERCIAL PRODUCTION) Company commenced commercial production at its new Unit-III manufacturing facility on October 07, 2026. Located near Jarod, Vadodara, Gujarat, the state-of-the-art plant is specifically dedicated to the manufacturing of Power Transformers.",
+        "outlook": "Company’s growth will be supported by its INR 1,590 Cr order book, providing execution visibility. Capacity expansion from 14,000 MVA to 20,000 MVA by Oct’26 and 22,300 MVA by Q4FY28, backed by INR 305 Cr capex, will enable higher volumes. The expansion will also increase maximum transformer capacity from 160 MVA to 315 MVA, allowing the company to undertake larger transformer projects and address growing demand.",
+        "sovrennMcap": "INR 10,544 Crore",
+        "sovrennPe": "33.3x"
+      }
+    ],
+    "firstHighlighted": "2026-10-08",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-08",
+    "latestTag": "COMMENCEMENT OF COMMERCIAL PRODUCTION",
+    "latestReason": "(COMMENCEMENT OF COMMERCIAL PRODUCTION) Company commenced commercial production at its new Unit-III manufacturing facility on October 07, 2026. Located near Jarod, Vadodara, Gujarat, the state-of-the-art plant is specifically dedicated to the manufacturing of Power Transformers.",
+    "latestOutlook": "Company’s growth will be supported by its INR 1,590 Cr order book, providing execution visibility. Capacity expansion from 14,000 MVA to 20,000 MVA by Oct’26 and 22,300 MVA by Q4FY28, backed by INR 305 Cr capex, will enable higher volumes. The expansion will also increase maximum transformer capacity from 160 MVA to 315 MVA, allowing the company to undertake larger transformer projects and address growing demand.",
+    "sovrennMcap": "INR 10,544 Crore",
+    "sovrennPe": "33.3x",
+    "price": 10507.0,
+    "priceDate": "2026-10-12",
+    "dma20": 10623.35,
+    "dma50": 10578.38,
+    "dma200": 9363.69,
+    "rsi14": 47.9,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport",
+    "bars": 495,
+    "priceAtHighlight": 10399.0,
+    "priceAtHighlightDate": "2026-10-08",
+    "pctSinceHighlight": 1.04,
+    "mcapCr": 10506,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "VINYAS",
+    "name": "Vinyas Innovative Technologies Limited",
+    "nameRaw": "VINYAS INNOVATIVE TECHNOLOGIES LIMITED",
+    "codes": {
+      "NSE-SME": "VINYAS"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "VINYAS.NS"
+    ],
+    "ticker": "VINYAS.NS",
+    "firstCoveredBySovrenn": "2024-06-24",
+    "mentions": [
+      {
+        "date": "2026-10-08",
+        "tag": "ORDER",
+        "filing": "(ORDER) Company has received an order worth INR 40 Cr (to be executed within 8-9 months) from a domestic customer for the supply and replacement of helicopter helmets, including shells, assembly, integration of existing electronic components, and testing.",
+        "outlook": "Company reiterates 30-35% YoY revenue growth for FY27 (and beyond), backed by an order book of INR 1,309 Cr (2.5x FY26 sales, 85-90% defence) and a INR 10,000+ Cr opportunity pipeline. Company is investing INR 30 Cr to double SMT capacity by Apr'27 (peak revenue capacity INR 2,000-2,100 Cr) and is moving up the value chain into system integration, adding 25,000 sq. ft. of Class 3 facility. Company raised INR 150 Cr via warrants (Jun'25), set up a US subsidiary and a 26% Israel defence JV, and expects FY27 EBITDA margins of 11-12%.",
+        "sovrennMcap": "INR 1,858 Crore",
+        "sovrennPe": "60x"
+      }
+    ],
+    "firstHighlighted": "2026-10-08",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-08",
+    "latestTag": "ORDER",
+    "latestReason": "(ORDER) Company has received an order worth INR 40 Cr (to be executed within 8-9 months) from a domestic customer for the supply and replacement of helicopter helmets, including shells, assembly, integration of existing electronic components, and testing.",
+    "latestOutlook": "Company reiterates 30-35% YoY revenue growth for FY27 (and beyond), backed by an order book of INR 1,309 Cr (2.5x FY26 sales, 85-90% defence) and a INR 10,000+ Cr opportunity pipeline. Company is investing INR 30 Cr to double SMT capacity by Apr'27 (peak revenue capacity INR 2,000-2,100 Cr) and is moving up the value chain into system integration, adding 25,000 sq. ft. of Class 3 facility. Company raised INR 150 Cr via warrants (Jun'25), set up a US subsidiary and a 26% Israel defence JV, and expects FY27 EBITDA margins of 11-12%.",
+    "sovrennMcap": "INR 1,858 Crore",
+    "sovrennPe": "60x",
+    "price": 1569.8,
+    "priceDate": "2026-10-12",
+    "dma20": 1480.9,
+    "dma50": 1463.89,
+    "dma200": 1214.27,
+    "rsi14": 59.1,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport",
+    "bars": 494,
+    "priceAtHighlight": 1444.7,
+    "priceAtHighlightDate": "2026-10-08",
+    "pctSinceHighlight": 8.66,
+    "mcapCr": 1441,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "UNIVASTU",
+    "name": "Univastu India Limited",
+    "nameRaw": "UNIVASTU INDIA LIMITED",
+    "codes": {
+      "NSE-SME": "UNIVASTU"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "UNIVASTU.NS"
+    ],
+    "ticker": "UNIVASTU.NS",
+    "firstCoveredBySovrenn": "2026-10-08",
+    "mentions": [
+      {
+        "date": "2026-10-08",
+        "tag": "ACQUISITION",
+        "filing": "(ACQUISITION) Company incorporated a wholly-owned subsidiary, Univastu UK Limited, in the United Kingdom on September 30, 2026, with an initial investment of 10 GBP for 1,000 equity shares. Operating in the telecommunications and wireless networking sector, the new entity was established to drive business expansion and facilitate the acquisition of assets from Cambium Networks Ltd, which is currently in administration.",
+        "outlook": "Company targets INR 600 Cr revenue in FY27 and INR 900 Cr in FY28, implying 92% CAGR, with EBITDA margin at 17–18% and PAT margin at 10–11%. Growth will be supported by the INR 2,000 Cr order book and INR 1,000 Cr FY27 order inflow target, led by metro EPC projects. Data-center integration, tunnel ventilation, bio-mining, waste management and other acquired businesses will further diversify future growth.",
+        "sovrennMcap": "INR 465 Crore",
+        "sovrennPe": "15x"
+      }
+    ],
+    "firstHighlighted": "2026-10-08",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-08",
+    "latestTag": "ACQUISITION",
+    "latestReason": "(ACQUISITION) Company incorporated a wholly-owned subsidiary, Univastu UK Limited, in the United Kingdom on September 30, 2026, with an initial investment of 10 GBP for 1,000 equity shares. Operating in the telecommunications and wireless networking sector, the new entity was established to drive business expansion and facilitate the acquisition of assets from Cambium Networks Ltd, which is currently in administration.",
+    "latestOutlook": "Company targets INR 600 Cr revenue in FY27 and INR 900 Cr in FY28, implying 92% CAGR, with EBITDA margin at 17–18% and PAT margin at 10–11%. Growth will be supported by the INR 2,000 Cr order book and INR 1,000 Cr FY27 order inflow target, led by metro EPC projects. Data-center integration, tunnel ventilation, bio-mining, waste management and other acquired businesses will further diversify future growth.",
+    "sovrennMcap": "INR 465 Crore",
+    "sovrennPe": "15x",
+    "price": 140.35,
+    "priceDate": "2026-10-12",
+    "dma20": 138.97,
+    "dma50": 149.59,
+    "dma200": 94.0,
+    "rsi14": 49.5,
+    "buyZone": "Y",
+    "buyZoneNote": "all rules met",
+    "bars": 495,
+    "priceAtHighlight": 129.79,
+    "priceAtHighlightDate": "2026-10-08",
+    "pctSinceHighlight": 8.14,
+    "mcapCr": 509,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "SKYGOLD",
+    "name": "Sky Gold & Diamonds Limited",
+    "nameRaw": "SKY GOLD & DIAMONDS LIMITED",
+    "codes": {
+      "NSE": "SKYGOLD"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "SKYGOLD.NS"
+    ],
+    "ticker": "SKYGOLD.NS",
+    "firstCoveredBySovrenn": "2025-02-04",
+    "mentions": [
+      {
+        "date": "2026-10-08",
+        "tag": "ACQUISITION",
+        "filing": "(ACQUISITION) Company completed the acquisition of 100% of the equity share capital of Purvi Gems & Jewellery (India) Private Limited on October 7, 2026. Following the completion of the transaction, Purvi Gems & Jewellery has become a wholly-owned subsidiary of the company.",
+        "outlook": "Company has upgraded its FY27 revenue guidance to ~INR 8,100 Cr (29% growth over FY26's INR 6,300 Cr) and targets INR 18,000-19,000 Cr by FY30 with a 5.25%+ PAT margin (Vision 2030 / Sky Gold 3.0). Company is shifting to an asset-light, leased-capacity model (dropping a INR 105 Cr greenfield plan), scaling its Advance Gold mix from 11.5% toward 30% of volumes by FY30, and expects operating cash flow to turn positive (INR 180-225 Cr in FY27) with net debt cut 50-55% from INR 549 Cr. Company is expanding into exports (target 20%), diamonds and the Middle East/UK, and has completed the Purvi Gems acquisition.",
+        "sovrennMcap": "INR 13,647 Crore",
+        "sovrennPe": "39.8x"
+      }
+    ],
+    "firstHighlighted": "2026-10-08",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-08",
+    "latestTag": "ACQUISITION",
+    "latestReason": "(ACQUISITION) Company completed the acquisition of 100% of the equity share capital of Purvi Gems & Jewellery (India) Private Limited on October 7, 2026. Following the completion of the transaction, Purvi Gems & Jewellery has become a wholly-owned subsidiary of the company.",
+    "latestOutlook": "Company has upgraded its FY27 revenue guidance to ~INR 8,100 Cr (29% growth over FY26's INR 6,300 Cr) and targets INR 18,000-19,000 Cr by FY30 with a 5.25%+ PAT margin (Vision 2030 / Sky Gold 3.0). Company is shifting to an asset-light, leased-capacity model (dropping a INR 105 Cr greenfield plan), scaling its Advance Gold mix from 11.5% toward 30% of volumes by FY30, and expects operating cash flow to turn positive (INR 180-225 Cr in FY27) with net debt cut 50-55% from INR 549 Cr. Company is expanding into exports (target 20%), diamonds and the Middle East/UK, and has completed the Purvi Gems acquisition.",
+    "sovrennMcap": "INR 13,647 Crore",
+    "sovrennPe": "39.8x",
+    "price": 978.25,
+    "priceDate": "2026-10-13",
+    "dma20": 833.92,
+    "dma50": 802.38,
+    "dma200": 524.71,
+    "rsi14": 80.9,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport, rsiOk, notExtended",
+    "bars": 496,
+    "priceAtHighlight": 884.5,
+    "priceAtHighlightDate": "2026-10-08",
+    "pctSinceHighlight": 10.6,
+    "mcapCr": 15151,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "KANORICHEM",
+    "name": "Kanoria Chemicals & Industries Limited",
+    "nameRaw": "KANORIA CHEMICALS & INDUSTRIES LIMITED",
+    "codes": {
+      "NSE": "KANORICHEM",
+      "BSE": "506525"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "KANORICHEM.NS",
+      "506525.BO"
+    ],
+    "ticker": "KANORICHEM.NS",
+    "firstCoveredBySovrenn": "2026-10-08",
+    "mentions": [
+      {
+        "date": "2026-10-08",
+        "tag": "NEW FACILITY",
+        "filing": "(NEW FACILITY) Company launched a new 12 Metric Tons per Day (TPD) Triacetin manufacturing facility at its existing site in GIDC, Ankleshwar, Gujarat, on October 7, 2026. The facility expands the company's specialty chemicals portfolio to cater to both domestic and international demand across pharmaceuticals, food and beverage, agrochemicals, and industrial applications.",
+        "outlook": "Company’s growth will be supported by INR 50 Cr promoter infusion for upcoming capex, following 30% FY26 revenue growth to INR 981 Cr. Completed pentaerythritol and phenolic resin expansions, additional resin capacity under construction, and new Triacetin and Penta derivatives plants will expand specialty capacity. Ethiopian textile utilization improved from 56% to 66%, with revenue up 40% to INR 106 Cr, while R&D will support portfolio expansion.",
+        "sovrennMcap": "INR 783 Crore",
+        "sovrennPe": "5.1x"
+      }
+    ],
+    "firstHighlighted": "2026-10-08",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-08",
+    "latestTag": "NEW FACILITY",
+    "latestReason": "(NEW FACILITY) Company launched a new 12 Metric Tons per Day (TPD) Triacetin manufacturing facility at its existing site in GIDC, Ankleshwar, Gujarat, on October 7, 2026. The facility expands the company's specialty chemicals portfolio to cater to both domestic and international demand across pharmaceuticals, food and beverage, agrochemicals, and industrial applications.",
+    "latestOutlook": "Company’s growth will be supported by INR 50 Cr promoter infusion for upcoming capex, following 30% FY26 revenue growth to INR 981 Cr. Completed pentaerythritol and phenolic resin expansions, additional resin capacity under construction, and new Triacetin and Penta derivatives plants will expand specialty capacity. Ethiopian textile utilization improved from 56% to 66%, with revenue up 40% to INR 106 Cr, while R&D will support portfolio expansion.",
+    "sovrennMcap": "INR 783 Crore",
+    "sovrennPe": "5.1x",
+    "price": 165.5,
+    "priceDate": "2026-10-12",
+    "dma20": 184.17,
+    "dma50": 166.54,
+    "dma200": 109.04,
+    "rsi14": 40.0,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport",
+    "bars": 495,
+    "priceAtHighlight": 177.5,
+    "priceAtHighlightDate": "2026-10-08",
+    "pctSinceHighlight": -6.76,
+    "mcapCr": 754,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "539730",
+    "name": "Fredun Pharmaceuticals Limited",
+    "nameRaw": "FREDUN PHARMACEUTICALS LIMITED",
+    "codes": {
+      "BSE": "539730"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "539730.BO"
+    ],
+    "ticker": "FREDUN.NS",
+    "firstCoveredBySovrenn": "2024-02-20",
+    "mentions": [
+      {
+        "date": "2026-10-08",
+        "tag": "BUSINESS EXPANSION",
+        "filing": "(BUSINESS EXPANSION) Company is expanding to become a 100% branded healthcare platform by 2029, aiming to double revenue and profits in three to four years. Key growth drivers include building a pet-care ecosystem by acquiring a 26% stake in Goodman Vetcare, purchasing the pet-wellness brand Furlicks, and launching the WAGR platform. Additionally, company is scaling its domestic generics to over 500 SKUs through Fredun Gx, establishing its 53-country export footprint, and operationalizing a 40,000 sq. ft. manufacturing block in Palghar in October 2026.",
+        "outlook": "Company targets 26% revenue growth in FY27, followed by 30–35% annual growth for the next three years, with a PAT target of INR 90 Cr by FY29. Growth will be supported by the INR 320–330 Cr order book and higher tube-filling capacity of 4.8 tons/day. New-age businesses are expected to grow 40–50%+ annually, driving a gradual revenue mix shift toward 70% new-age businesses from 30% legacy.",
+        "sovrennMcap": "INR 2,626 Crore",
+        "sovrennPe": "59.7x"
+      }
+    ],
+    "firstHighlighted": "2026-10-08",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-08",
+    "latestTag": "BUSINESS EXPANSION",
+    "latestReason": "(BUSINESS EXPANSION) Company is expanding to become a 100% branded healthcare platform by 2029, aiming to double revenue and profits in three to four years. Key growth drivers include building a pet-care ecosystem by acquiring a 26% stake in Goodman Vetcare, purchasing the pet-wellness brand Furlicks, and launching the WAGR platform. Additionally, company is scaling its domestic generics to over 500 SKUs through Fredun Gx, establishing its 53-country export footprint, and operationalizing a 40,000 sq. ft. manufacturing block in Palghar in October 2026.",
+    "latestOutlook": "Company targets 26% revenue growth in FY27, followed by 30–35% annual growth for the next three years, with a PAT target of INR 90 Cr by FY29. Growth will be supported by the INR 320–330 Cr order book and higher tube-filling capacity of 4.8 tons/day. New-age businesses are expected to grow 40–50%+ annually, driving a gradual revenue mix shift toward 70% new-age businesses from 30% legacy.",
+    "sovrennMcap": "INR 2,626 Crore",
+    "sovrennPe": "59.7x",
+    "price": 1476.5,
+    "priceDate": "2026-10-13",
+    "dma20": 1391.02,
+    "dma50": null,
+    "dma200": null,
+    "rsi14": 54.8,
+    "buyZone": "n/a",
+    "buyZoneNote": "insufficient history (above200)",
+    "bars": 39,
+    "priceAtHighlight": 1531.7,
+    "priceAtHighlightDate": "2026-10-08",
+    "pctSinceHighlight": -3.6,
+    "mcapCr": 2522,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "SWASTIKA",
+    "name": "Swastika Infra Limited",
+    "nameRaw": "SWASTIKA INFRA LIMITED",
+    "codes": {
+      "NSE-SME": "SWASTIKA"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "SWASTIKA.NS"
+    ],
+    "ticker": "SWASTIKAIN.BO",
+    "firstCoveredBySovrenn": "2026-10-07",
+    "mentions": [
+      {
+        "date": "2026-10-07",
+        "tag": "ORDER",
+        "filing": "(ORDER) Company received a LOA valued at INR 616 Cr, inclusive of taxes, from Maharashtra State Electricity Distribution Company Limited (MSEDCL). The contract includes distribution infrastructure development and system strengthening works which includes survey, design, engineering, supply, installation, testing and commissioning of distribution infrastructure and associated civil and electrical works across Maharashtra's Bhandup Zone, scheduled for execution within 24 months.",
+        "outlook": "Company’s growth will be driven by the INR 916 Cr order book, providing multi- year execution visibility across 18 projects. INR 90 Cr allocated from the IPO will support working capital, procurement and faster project execution. Expansion across six states can broaden tender opportunities, while turnkey EPC capabilities in underground cabling, substations, grid modernization, renewable evacuation and solar pumping can diversify revenues. Municipal LED projects further expand its infrastructure future opportunities.",
+        "sovrennMcap": "INR 717 Crore",
+        "sovrennPe": "17.5x"
+      }
+    ],
+    "firstHighlighted": "2026-10-07",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-07",
+    "latestTag": "ORDER",
+    "latestReason": "(ORDER) Company received a LOA valued at INR 616 Cr, inclusive of taxes, from Maharashtra State Electricity Distribution Company Limited (MSEDCL). The contract includes distribution infrastructure development and system strengthening works which includes survey, design, engineering, supply, installation, testing and commissioning of distribution infrastructure and associated civil and electrical works across Maharashtra's Bhandup Zone, scheduled for execution within 24 months.",
+    "latestOutlook": "Company’s growth will be driven by the INR 916 Cr order book, providing multi- year execution visibility across 18 projects. INR 90 Cr allocated from the IPO will support working capital, procurement and faster project execution. Expansion across six states can broaden tender opportunities, while turnkey EPC capabilities in underground cabling, substations, grid modernization, renewable evacuation and solar pumping can diversify revenues. Municipal LED projects further expand its infrastructure future opportunities.",
+    "sovrennMcap": "INR 717 Crore",
+    "sovrennPe": "17.5x",
+    "price": 209.35,
+    "priceDate": "2026-10-12",
+    "dma20": null,
+    "dma50": null,
+    "dma200": null,
+    "rsi14": null,
+    "buyZone": "n/a",
+    "buyZoneNote": "Yahoo has no daily history for this listing (latest quote only)",
+    "bars": 7,
+    "priceAtHighlight": 210.1,
+    "priceAtHighlightDate": "2026-10-07",
+    "pctSinceHighlight": -0.36,
+    "mcapCr": 692,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "PRIZOR",
+    "name": "Prizor Viztech Limited",
+    "nameRaw": "PRIZOR VIZTECH LIMITED",
+    "codes": {
+      "NSE-SME": "PRIZOR"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "PRIZOR.NS"
+    ],
+    "ticker": "PRIZOR.NS",
+    "firstCoveredBySovrenn": "2025-04-16",
+    "mentions": [
+      {
+        "date": "2026-10-07",
+        "tag": "BUSINESS UPDATE",
+        "filing": "(BUSINESS UPDATE) In its H1FY27 business update, company reported engaging over 450 channel partners across four dealer programs and launched the \"Prizor One\" digital platform. Company expanded its geographic footprint by opening new branch offices in Kolkata and Noida. Furthermore, it secured BIS-ER certification for 12 camera models and is advancing certification for three new product categories: Video Door Phones, Pocket Cameras, and Car Dash Cameras. Additionally, it earned an ET NOW manufacturing excellence award and was featured in Forbes India.",
+        "outlook": "Company targets 30-35% sustained revenue growth, eyeing a long-term potential of INR 1,000 crore. Currently at 15-20% of its 50-lakh annual camera capacity, it aims for 60-70% utilization by FY29. Expansion is driven by a 9,000-dealer network, an exclusive SoC partnership with IndieSemic, and an April 2026 ban on non-compliant Chinese imports reducing unorganized competition.",
+        "sovrennMcap": "INR 1,492 Crore",
+        "sovrennPe": "71x"
+      }
+    ],
+    "firstHighlighted": "2026-10-07",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-07",
+    "latestTag": "BUSINESS UPDATE",
+    "latestReason": "(BUSINESS UPDATE) In its H1FY27 business update, company reported engaging over 450 channel partners across four dealer programs and launched the \"Prizor One\" digital platform. Company expanded its geographic footprint by opening new branch offices in Kolkata and Noida. Furthermore, it secured BIS-ER certification for 12 camera models and is advancing certification for three new product categories: Video Door Phones, Pocket Cameras, and Car Dash Cameras. Additionally, it earned an ET NOW manufacturing excellence award and was featured in Forbes India.",
+    "latestOutlook": "Company targets 30-35% sustained revenue growth, eyeing a long-term potential of INR 1,000 crore. Currently at 15-20% of its 50-lakh annual camera capacity, it aims for 60-70% utilization by FY29. Expansion is driven by a 9,000-dealer network, an exclusive SoC partnership with IndieSemic, and an April 2026 ban on non-compliant Chinese imports reducing unorganized competition.",
+    "sovrennMcap": "INR 1,492 Crore",
+    "sovrennPe": "71x",
+    "price": 1295.25,
+    "priceDate": "2026-10-12",
+    "dma20": 1198.44,
+    "dma50": 1081.75,
+    "dma200": 671.18,
+    "rsi14": 61.9,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport, rsiOk, notExtended",
+    "bars": 494,
+    "priceAtHighlight": 1382.15,
+    "priceAtHighlightDate": "2026-10-07",
+    "pctSinceHighlight": -6.29,
+    "mcapCr": 195,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "PATELCHEM",
+    "name": "Patel Chem Specialities Limited",
+    "nameRaw": "PATEL CHEM SPECIALITIES LIMITED",
+    "codes": {
+      "BSE-SME": "544460",
+      "BSE_SYMBOL": "PATELCHEM"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "544460.BO",
+      "PATELCHEM.BO"
+    ],
+    "ticker": "PATELCHEM.BO",
+    "firstCoveredBySovrenn": "2026-10-07",
+    "mentions": [
+      {
+        "date": "2026-10-07",
+        "tag": "CAPACITY EXPANSION",
+        "filing": "(CAPACITY EXPANSION) Company has completed the expansion of its Talod plant, scaling its annual production capacity from 720 MT to 4,500 MT per annum. The expansion involved a capital expenditure of INR 20 Cr, funded through bank loans and internal accruals. Trial batches have commenced, and commercial production is expected to begin shortly to address growing demand with shorter delivery timelines.",
+        "outlook": "Company’s growth will be supported by the INR 43.15 Cr greenfield facility, adding 6,012 MTPA capacity for CCS, SSG and Calcium CMC. The Talod expansion to 4,500 MT will increase microcrystalline cellulose volumes. Expansion across 20+ countries, USFDA compliance and US-DMF filings can strengthen exports. Specialty grades for biologics, injectables and controlled-release formulations, supported by R&D, can improve product diversification and realizations.",
+        "sovrennMcap": "INR 366 Crore",
+        "sovrennPe": "28.1x"
+      }
+    ],
+    "firstHighlighted": "2026-10-07",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-07",
+    "latestTag": "CAPACITY EXPANSION",
+    "latestReason": "(CAPACITY EXPANSION) Company has completed the expansion of its Talod plant, scaling its annual production capacity from 720 MT to 4,500 MT per annum. The expansion involved a capital expenditure of INR 20 Cr, funded through bank loans and internal accruals. Trial batches have commenced, and commercial production is expected to begin shortly to address growing demand with shorter delivery timelines.",
+    "latestOutlook": "Company’s growth will be supported by the INR 43.15 Cr greenfield facility, adding 6,012 MTPA capacity for CCS, SSG and Calcium CMC. The Talod expansion to 4,500 MT will increase microcrystalline cellulose volumes. Expansion across 20+ countries, USFDA compliance and US-DMF filings can strengthen exports. Specialty grades for biologics, injectables and controlled-release formulations, supported by R&D, can improve product diversification and realizations.",
+    "sovrennMcap": "INR 366 Crore",
+    "sovrennPe": "28.1x",
+    "price": 138.25,
+    "priceDate": "2026-10-12",
+    "dma20": 117.43,
+    "dma50": 106.25,
+    "dma200": 87.83,
+    "rsi14": 66.6,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport, rsiOk, notExtended",
+    "bars": 294,
+    "priceAtHighlight": 143.55,
+    "priceAtHighlightDate": "2026-10-07",
+    "pctSinceHighlight": -3.69,
+    "mcapCr": 375,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "KRMAYURVEDA",
+    "name": "Krm Ayurveda Limited",
+    "nameRaw": "KRM AYURVEDA LIMITED",
+    "codes": {
+      "NSE-SME": "KRMAYURVEDA"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "KRMAYURVEDA.NS"
+    ],
+    "ticker": "KRMAYURVED-SM.NS",
+    "firstCoveredBySovrenn": "2026-05-06",
+    "mentions": [
+      {
+        "date": "2026-10-07",
+        "tag": "NEW CENTER",
+        "filing": "(NEW CENTER) Company established a new day care center under its Karma Ayurveda unit in Ghaziabad, Uttar Pradesh, spanning 3,000 sq. ft. Commencing operations on September 23, 2026, the facility has been secured on a 9-year lease.",
+        "outlook": "Company aims for minimum 50% revenue growth in FY27 and the next few years with further margin improvement. Company is scaling bed capacity from 326 (Q1FY27) toward 500 beds and 30+ super-specialty clinics by end-FY27, and 1,500-2,000 beds with 100 clinics within three years, while expanding its OTC/D2C Ayurvedic product range (300+ SKUs) with an own e-commerce launch in Q2FY27. Company has added a 60-100 bed Gurugram hospital and plans a 500-seat telemedicine centre as IPO objectives; its revenue mix has shifted toward the higher-margin Services vertical (74% in Q1FY27).",
+        "sovrennMcap": "INR 611 Crore",
+        "sovrennPe": "24.3x"
+      }
+    ],
+    "firstHighlighted": "2026-10-07",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-07",
+    "latestTag": "NEW CENTER",
+    "latestReason": "(NEW CENTER) Company established a new day care center under its Karma Ayurveda unit in Ghaziabad, Uttar Pradesh, spanning 3,000 sq. ft. Commencing operations on September 23, 2026, the facility has been secured on a 9-year lease.",
+    "latestOutlook": "Company aims for minimum 50% revenue growth in FY27 and the next few years with further margin improvement. Company is scaling bed capacity from 326 (Q1FY27) toward 500 beds and 30+ super-specialty clinics by end-FY27, and 1,500-2,000 beds with 100 clinics within three years, while expanding its OTC/D2C Ayurvedic product range (300+ SKUs) with an own e-commerce launch in Q2FY27. Company has added a 60-100 bed Gurugram hospital and plans a 500-seat telemedicine centre as IPO objectives; its revenue mix has shifted toward the higher-margin Services vertical (74% in Q1FY27).",
+    "sovrennMcap": "INR 611 Crore",
+    "sovrennPe": "24.3x",
+    "price": 270.2,
+    "priceDate": "2026-10-13",
+    "dma20": null,
+    "dma50": null,
+    "dma200": null,
+    "rsi14": null,
+    "buyZone": "n/a",
+    "buyZoneNote": "Yahoo has no daily history for this listing (latest quote only)",
+    "bars": 1,
+    "priceAtHighlight": null,
+    "priceAtHighlightDate": null,
+    "pctSinceHighlight": null,
+    "mcapCr": null,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "KANOHAR",
+    "name": "Kanohar Electricals Limited",
+    "nameRaw": "KANOHAR ELECTRICALS LIMITED",
+    "codes": {
+      "BSE": "KANOHAR"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "KANOHAR.BO"
+    ],
+    "ticker": "KANOHAR.NS",
+    "firstCoveredBySovrenn": "2026-09-17",
+    "mentions": [
+      {
+        "date": "2026-10-07",
+        "tag": "EXCELLENT Q1FY27 RESULTS",
+        "filing": "(EXCELLENT Q1FY27 RESULTS) For the quarter ending Jun-26, Sales up 104% YoY from INR 67 Cr in Jun-25 to INR 137 Cr in Jun-26. Over the same period, Operating Profit Margin increased from 23% to 28%. Similarly, Net Profit up 145% from INR 11 Cr to INR 27 Cr. On a QoQ basis, Sales down 54% and Net Profit down 57%.",
+        "outlook": "Company's growth is supported by its INR 1,818 Cr order book (2.8x FY26 revenue) and INR 155 Cr IPO-funded working capital. Company expects 10-15% revenue growth over the medium term with EBITDA margins of 22-25%, and plans to expand transformer capacity 94% to 37,200 MVA by FY28 (from 19,200 MVA, ~46% utilised in FY26) with INR 64 Cr capex. Company is entering 765 kV transformers, process automation and turnkey EPC, which can broaden its market and support higher-value project execution.",
+        "sovrennMcap": "INR 8,682 Crore",
+        "sovrennPe": "59.6x"
+      }
+    ],
+    "firstHighlighted": "2026-10-07",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-07",
+    "latestTag": "EXCELLENT Q1FY27 RESULTS",
+    "latestReason": "(EXCELLENT Q1FY27 RESULTS) For the quarter ending Jun-26, Sales up 104% YoY from INR 67 Cr in Jun-25 to INR 137 Cr in Jun-26. Over the same period, Operating Profit Margin increased from 23% to 28%. Similarly, Net Profit up 145% from INR 11 Cr to INR 27 Cr. On a QoQ basis, Sales down 54% and Net Profit down 57%.",
+    "latestOutlook": "Company's growth is supported by its INR 1,818 Cr order book (2.8x FY26 revenue) and INR 155 Cr IPO-funded working capital. Company expects 10-15% revenue growth over the medium term with EBITDA margins of 22-25%, and plans to expand transformer capacity 94% to 37,200 MVA by FY28 (from 19,200 MVA, ~46% utilised in FY26) with INR 64 Cr capex. Company is entering 765 kV transformers, process automation and turnkey EPC, which can broaden its market and support higher-value project execution.",
+    "sovrennMcap": "INR 8,682 Crore",
+    "sovrennPe": "59.6x",
+    "price": 1092.75,
+    "priceDate": "2026-10-13",
+    "dma20": null,
+    "dma50": null,
+    "dma200": null,
+    "rsi14": 76.2,
+    "buyZone": "n/a",
+    "buyZoneNote": "Yahoo has no daily history for this listing (latest quote only)",
+    "bars": 19,
+    "priceAtHighlight": 1091.05,
+    "priceAtHighlightDate": "2026-10-07",
+    "pctSinceHighlight": 0.16,
+    "mcapCr": 8653,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "STEAMHOUSE",
+    "name": "Steamhouse India Limited",
+    "nameRaw": "STEAMHOUSE INDIA LIMITED",
+    "codes": {
+      "NSE": "STEAMHOUSE"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "STEAMHOUSE.NS"
+    ],
+    "ticker": "STEAMHOUSE.NS",
+    "firstCoveredBySovrenn": "2026-10-06",
+    "mentions": [
+      {
+        "date": "2026-10-06",
+        "tag": "GOOD Q1FY27 RESULTS",
+        "filing": "(GOOD Q1FY27 RESULTS) For the quarter ending Jun-26, Sales up 14% YoY from INR 113 Cr in Jun-25 to INR 129 Cr in Jun-26. Over the same period, Operating Profit Margin increased from 17% to 24%. Similarly, Net Profit up 80% from INR 10 Cr to INR 18 Cr. On a QoQ basis, Sales down 7% and Net Profit up 29%.",
+        "outlook": "Company’s growth will be driven by steam capacity expansion from 345 TPH to 705 TPH, supported by INR 114.1 Cr IPO capex and geographic expansion into Himachal Pradesh, Tarapur and Haldia. Green steam capacity is targeted to rise to 105 TPH by FY27, alongside waste-to- steam projects. Industrial gas cross-selling can expand customer wallet share, while INR 180 Cr debt repayment will reduce finance costs and support profitability.",
+        "sovrennMcap": "INR 3,274 Crore",
+        "sovrennPe": "70x"
+      }
+    ],
+    "firstHighlighted": "2026-10-06",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-06",
+    "latestTag": "GOOD Q1FY27 RESULTS",
+    "latestReason": "(GOOD Q1FY27 RESULTS) For the quarter ending Jun-26, Sales up 14% YoY from INR 113 Cr in Jun-25 to INR 129 Cr in Jun-26. Over the same period, Operating Profit Margin increased from 17% to 24%. Similarly, Net Profit up 80% from INR 10 Cr to INR 18 Cr. On a QoQ basis, Sales down 7% and Net Profit up 29%.",
+    "latestOutlook": "Company’s growth will be driven by steam capacity expansion from 345 TPH to 705 TPH, supported by INR 114.1 Cr IPO capex and geographic expansion into Himachal Pradesh, Tarapur and Haldia. Green steam capacity is targeted to rise to 105 TPH by FY27, alongside waste-to- steam projects. Industrial gas cross-selling can expand customer wallet share, while INR 180 Cr debt repayment will reduce finance costs and support profitability.",
+    "sovrennMcap": "INR 3,274 Crore",
+    "sovrennPe": "70x",
+    "price": 123.82,
+    "priceDate": "2026-10-12",
+    "dma20": null,
+    "dma50": null,
+    "dma200": null,
+    "rsi14": 45.1,
+    "buyZone": "n/a",
+    "buyZoneNote": "Yahoo has no daily history for this listing (latest quote only)",
+    "bars": 17,
+    "priceAtHighlight": 118.42,
+    "priceAtHighlightDate": "2026-10-06",
+    "pctSinceHighlight": 4.56,
+    "mcapCr": null,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "SKYWAYS",
+    "name": "Skyways Air Services Limited",
+    "nameRaw": "SKYWAYS AIR SERVICES LIMITED",
+    "codes": {
+      "NSE": "SKYWAYS"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "SKYWAYS.NS"
+    ],
+    "ticker": "SKYWAYS.NS",
+    "firstCoveredBySovrenn": "2026-10-06",
+    "mentions": [
+      {
+        "date": "2026-10-06",
+        "tag": "PROMOTER BUYING",
+        "filing": "(PROMOTER BUYING) Tarun Sharma and Yashpal Sharma, Promoters and Directors, acquired 35,000 equity shares on 01st Oct 2026 for a total value of INR 40 lakh at an average price of INR 114 per share.",
+        "outlook": "Company’s growth will be driven by expansion into five Asian markets, supported by INR 30 Cr investment and INR 20 Cr subsidiary funding in Saudi Arabia, UAE and Vietnam. The ASAP multimodal platform can accelerate Tier 2/3 customer acquisition, while ocean, express and pharma cold-chain services diversify revenue. Specialized cargo and 25+ carrier partnerships support scaling. INR 140 Cr debt repayment and asset-light operations can improve profitability.",
+        "sovrennMcap": "INR 1,607 Crore",
+        "sovrennPe": "25.1x"
+      }
+    ],
+    "firstHighlighted": "2026-10-06",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-06",
+    "latestTag": "PROMOTER BUYING",
+    "latestReason": "(PROMOTER BUYING) Tarun Sharma and Yashpal Sharma, Promoters and Directors, acquired 35,000 equity shares on 01st Oct 2026 for a total value of INR 40 lakh at an average price of INR 114 per share.",
+    "latestOutlook": "Company’s growth will be driven by expansion into five Asian markets, supported by INR 30 Cr investment and INR 20 Cr subsidiary funding in Saudi Arabia, UAE and Vietnam. The ASAP multimodal platform can accelerate Tier 2/3 customer acquisition, while ocean, express and pharma cold-chain services diversify revenue. Specialized cargo and 25+ carrier partnerships support scaling. INR 140 Cr debt repayment and asset-light operations can improve profitability.",
+    "sovrennMcap": "INR 1,607 Crore",
+    "sovrennPe": "25.1x",
+    "price": 108.75,
+    "priceDate": "2026-10-13",
+    "dma20": 117.33,
+    "dma50": null,
+    "dma200": null,
+    "rsi14": 47.4,
+    "buyZone": "n/a",
+    "buyZoneNote": "insufficient history (above200)",
+    "bars": 29,
+    "priceAtHighlight": 113.51,
+    "priceAtHighlightDate": "2026-10-06",
+    "pctSinceHighlight": -4.19,
+    "mcapCr": 1581,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "MPIMANIPAL",
+    "name": "Manipal Payment And Identity Solutions Limited",
+    "nameRaw": "MANIPAL PAYMENT AND IDENTITY SOLUTIONS LIMITED",
+    "codes": {
+      "NSE": "MPIMANIPAL"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "MPIMANIPAL.NS"
+    ],
+    "ticker": "MPIMANIPAL.NS",
+    "firstCoveredBySovrenn": "2026-10-06",
+    "mentions": [
+      {
+        "date": "2026-10-06",
+        "tag": "EXCELLENT Q1FY27 RESULTS",
+        "filing": "(EXCELLENT Q1FY27 RESULTS) For the quarter ending Jun-26, Sales up 48% YoY from INR 284 Cr in Jun-25 to INR 419 Cr in Jun-26. Over the same period, Operating Profit Margin remained flat from 30% to 30%. Similarly, Net Profit up 129% from INR 34 Cr to INR 78 Cr. On a QoQ basis, Sales up 24% and Net Profit up 37%.",
+        "outlook": "Company’s growth will be supported by INR 238.4 Cr IPO-funded capex to expand card manufacturing and personalization capacities. Premium metal cards, wearables and automated banking kiosks will diversify payment solutions, while RFID, FASTag and secure excise labels expand IoT opportunities. High-security identity documents and MPi TracLogix can add specialized revenues. International expansion remains another growth avenue, with exports rising to INR 95.7 Cr in FY26.",
+        "sovrennMcap": "INR 8,698 Crore",
+        "sovrennPe": "34.4x"
+      }
+    ],
+    "firstHighlighted": "2026-10-06",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-06",
+    "latestTag": "EXCELLENT Q1FY27 RESULTS",
+    "latestReason": "(EXCELLENT Q1FY27 RESULTS) For the quarter ending Jun-26, Sales up 48% YoY from INR 284 Cr in Jun-25 to INR 419 Cr in Jun-26. Over the same period, Operating Profit Margin remained flat from 30% to 30%. Similarly, Net Profit up 129% from INR 34 Cr to INR 78 Cr. On a QoQ basis, Sales up 24% and Net Profit up 37%.",
+    "latestOutlook": "Company’s growth will be supported by INR 238.4 Cr IPO-funded capex to expand card manufacturing and personalization capacities. Premium metal cards, wearables and automated banking kiosks will diversify payment solutions, while RFID, FASTag and secure excise labels expand IoT opportunities. High-security identity documents and MPi TracLogix can add specialized revenues. International expansion remains another growth avenue, with exports rising to INR 95.7 Cr in FY26.",
+    "sovrennMcap": "INR 8,698 Crore",
+    "sovrennPe": "34.4x",
+    "price": 358.8,
+    "priceDate": "2026-10-13",
+    "dma20": null,
+    "dma50": null,
+    "dma200": null,
+    "rsi14": 42.2,
+    "buyZone": "n/a",
+    "buyZoneNote": "Yahoo has no daily history for this listing (latest quote only)",
+    "bars": 18,
+    "priceAtHighlight": 366.05,
+    "priceAtHighlightDate": "2026-10-06",
+    "pctSinceHighlight": -1.98,
+    "mcapCr": null,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "INDOSMC",
+    "name": "Indo Smc Limited",
+    "nameRaw": "INDO SMC LIMITED",
+    "codes": {
+      "NSE-SME": "INDOSMC",
+      "BSE": "544681"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "INDOSMC.NS",
+      "544681.BO"
+    ],
+    "ticker": "INDOSMC.BO",
+    "firstCoveredBySovrenn": "2026-06-03",
+    "mentions": [
+      {
+        "date": "2026-10-06",
+        "tag": "ORDER",
+        "filing": "(ORDER) Company secured a purchase order worth INR 32 Cr, excluding taxes, from a Gujarat- based power distribution entity. The contract entails the supply of Fuse Section Pillars, Mini Section Pillars, and erecting 4 Pole Switch Fuse Units with FRP Fencing, scheduled for execution within 4 to 5 weeks.",
+        "outlook": "Company is guiding for 40% revenue growth in FY27 (FY26 revenue INR 310 Cr) and targets crossing INR 1,000 Cr revenue within three years (47% CAGR), with a long-term aim of a 10% PAT margin. Company's order book stands at INR 150-200 Cr as of Sep'26, with a second Nashik plant set to be operational from 1 October 2026 and a new 2,000-ton SMC press machine on order. Company is launching Vacuum Circuit Breakers from October, fast-tracking Ring Main Units, and may raise around INR 50 Cr via a preferential issue or QIB by January to fund working capital and growth.",
+        "sovrennMcap": "INR 1,168 Crore",
+        "sovrennPe": "36.5x"
+      }
+    ],
+    "firstHighlighted": "2026-10-06",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-06",
+    "latestTag": "ORDER",
+    "latestReason": "(ORDER) Company secured a purchase order worth INR 32 Cr, excluding taxes, from a Gujarat- based power distribution entity. The contract entails the supply of Fuse Section Pillars, Mini Section Pillars, and erecting 4 Pole Switch Fuse Units with FRP Fencing, scheduled for execution within 4 to 5 weeks.",
+    "latestOutlook": "Company is guiding for 40% revenue growth in FY27 (FY26 revenue INR 310 Cr) and targets crossing INR 1,000 Cr revenue within three years (47% CAGR), with a long-term aim of a 10% PAT margin. Company's order book stands at INR 150-200 Cr as of Sep'26, with a second Nashik plant set to be operational from 1 October 2026 and a new 2,000-ton SMC press machine on order. Company is launching Vacuum Circuit Breakers from October, fast-tracking Ring Main Units, and may raise around INR 50 Cr via a preferential issue or QIB by January to fund working capital and growth.",
+    "sovrennMcap": "INR 1,168 Crore",
+    "sovrennPe": "36.5x",
+    "price": 483.5,
+    "priceDate": "2026-10-12",
+    "dma20": 499.98,
+    "dma50": 491.9,
+    "dma200": null,
+    "rsi14": 45.7,
+    "buyZone": "n/a",
+    "buyZoneNote": "insufficient history (above200)",
+    "bars": 178,
+    "priceAtHighlight": 499.0,
+    "priceAtHighlightDate": "2026-10-06",
+    "pctSinceHighlight": -3.11,
+    "mcapCr": 1091,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "ACCORDTS",
+    "name": "Accord Transformer & Switchgear Limited",
+    "nameRaw": "ACCORD TRANSFORMER & SWITCHGEAR LIMITED",
+    "codes": {
+      "NSE-SME": "ACCORDTS",
+      "BSE": "544710"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "ACCORDTS.NS",
+      "544710.BO"
+    ],
+    "ticker": "ACCORDTS.BO",
+    "firstCoveredBySovrenn": "2026-10-06",
+    "mentions": [
+      {
+        "date": "2026-10-06",
+        "tag": "H1FY27 UPDATE",
+        "filing": "(H1FY27 UPDATE) In H1FY27, company reported revenue grew from INR 28 Cr in H1FY26 to INR 53 Cr, a 90% YoY growth. Company secured INR 77 Cr in new orders during the half-year, bringing its total order book to INR 173 Cr as of September 30, 2026. Additionally, it acquired 20,300 sq. metres of land in Rajasthan for INR 9 Cr (with additional expenses of INR 2 Cr) for manufacturing expansion.",
+        "outlook": "Company targets INR 120–180 Cr revenue in FY27, followed by 30–50% annual growth from FY28, with EBITDA margins of 13–15%. Growth will be supported by the INR 173 Cr order book, including INR 34 Cr deferred revenue, and the new 2.5 lakh sq. ft. facility for 220kV, 315MVA transformers. The INR 1,600 Cr EV fast-charging project and inverter-duty transformer capability can expand future opportunities in EV and renewable energy",
+        "sovrennMcap": "INR 171 Crore",
+        "sovrennPe": "38x"
+      }
+    ],
+    "firstHighlighted": "2026-10-06",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-06",
+    "latestTag": "H1FY27 UPDATE",
+    "latestReason": "(H1FY27 UPDATE) In H1FY27, company reported revenue grew from INR 28 Cr in H1FY26 to INR 53 Cr, a 90% YoY growth. Company secured INR 77 Cr in new orders during the half-year, bringing its total order book to INR 173 Cr as of September 30, 2026. Additionally, it acquired 20,300 sq. metres of land in Rajasthan for INR 9 Cr (with additional expenses of INR 2 Cr) for manufacturing expansion.",
+    "latestOutlook": "Company targets INR 120–180 Cr revenue in FY27, followed by 30–50% annual growth from FY28, with EBITDA margins of 13–15%. Growth will be supported by the INR 173 Cr order book, including INR 34 Cr deferred revenue, and the new 2.5 lakh sq. ft. facility for 220kV, 315MVA transformers. The INR 1,600 Cr EV fast-charging project and inverter-duty transformer capability can expand future opportunities in EV and renewable energy",
+    "sovrennMcap": "INR 171 Crore",
+    "sovrennPe": "38x",
+    "price": 95.88,
+    "priceDate": "2026-10-12",
+    "dma20": 77.99,
+    "dma50": 69.42,
+    "dma200": null,
+    "rsi14": 71.7,
+    "buyZone": "n/a",
+    "buyZoneNote": "insufficient history (above200)",
+    "bars": 151,
+    "priceAtHighlight": 85.25,
+    "priceAtHighlightDate": "2026-10-06",
+    "pctSinceHighlight": 12.47,
+    "mcapCr": 221,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "SSEGL",
+    "name": "Sathlokhar Synergys E&C Global Limited",
+    "nameRaw": "SATHLOKHAR SYNERGYS E&C GLOBAL LIMITED",
+    "codes": {
+      "NSE-SME": "SSEGL"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "SSEGL.NS"
+    ],
+    "ticker": null,
+    "firstCoveredBySovrenn": "2024-08-20",
+    "mentions": [
+      {
+        "date": "2026-10-05",
+        "tag": "ORDER",
+        "filing": "(ORDER) Company secured three orders aggregating to INR 117 Cr, including GST. The contracts include executing civil works for a proposed building for Grand Atlantia Panapakkam Sez Developers Private Limited for INR 101 Cr (completion by August 2027), and executing civil, PEB, and MEP works for Soken India Private Limited for INR 9 Cr (completion by June 2027). Additionally, the company will execute electrical works for Kemin Industries South Asia Private Limited for INR 7 Cr (completion by February 2027).",
+        "outlook": "Company has guided 70% revenue growth at a 10% PAT margin in FY27 (FY26 revenue INR 820 Cr), with a long-term aim of INR 2,400 Cr by FY27-28. Company holds an order book of INR 810+ Cr against a INR 22,106 Cr bid pipeline, and is commissioning a new 18,000 TPA PEB manufacturing facility (commercial Nov-Dec'26), scaling toward 5-6 PEB plants over five years.",
+        "sovrennMcap": "INR 1,001 Crore",
+        "sovrennPe": "9.7x"
+      }
+    ],
+    "firstHighlighted": "2026-10-05",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-05",
+    "latestTag": "ORDER",
+    "latestReason": "(ORDER) Company secured three orders aggregating to INR 117 Cr, including GST. The contracts include executing civil works for a proposed building for Grand Atlantia Panapakkam Sez Developers Private Limited for INR 101 Cr (completion by August 2027), and executing civil, PEB, and MEP works for Soken India Private Limited for INR 9 Cr (completion by June 2027). Additionally, the company will execute electrical works for Kemin Industries South Asia Private Limited for INR 7 Cr (completion by February 2027).",
+    "latestOutlook": "Company has guided 70% revenue growth at a 10% PAT margin in FY27 (FY26 revenue INR 820 Cr), with a long-term aim of INR 2,400 Cr by FY27-28. Company holds an order book of INR 810+ Cr against a INR 22,106 Cr bid pipeline, and is commissioning a new 18,000 TPA PEB manufacturing facility (commercial Nov-Dec'26), scaling toward 5-6 PEB plants over five years.",
+    "sovrennMcap": "INR 1,001 Crore",
+    "sovrennPe": "9.7x",
+    "price": null,
+    "buyZone": "n/a",
+    "buyZoneNote": "no price data"
+  },
+  {
+    "key": "ONEMI",
+    "name": "Onemi Technology Solutions Limited",
+    "nameRaw": "ONEMI TECHNOLOGY SOLUTIONS LIMITED",
+    "codes": {
+      "NSE": "ONEMI"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "ONEMI.NS"
+    ],
+    "ticker": "KISSHT.NS",
+    "firstCoveredBySovrenn": "2026-10-05",
+    "mentions": [
+      {
+        "date": "2026-10-05",
+        "tag": "Q2FY27 UPDATE",
+        "filing": "(Q2FY27 UPDATE) Company reported Q2FY27 update where Assets under Management grew from INR 5,533 Cr to INR 9,317 Cr, a 68% increase. Quarterly disbursements rose from INR 2,963 Cr to INR 4,612 Cr, a 56% increase. The registered user base expanded from 60 million to 79 million, a 33% increase, and cumulative customers served grew from 10.4 million to 12.8 million, a 22% increase.",
+        "outlook": "Company’s growth will be driven by 61% YoY AUM growth and continued expansion beyond the initial 40%+ FY27 guidance. The LAP portfolio is targeted to scale through 80 new branches, reaching Q3FY27 breakeven and 20%+ ROE. Mutual fund distribution and new loan products can diversify fee and lending income. AI-based underwriting, INR 850 Cr IPO proceeds, lower borrowing costs and operating leverage will support profitability and 20%+ ROE.",
+        "sovrennMcap": "INR 6,660 Crore",
+        "sovrennPe": "23.7x"
+      }
+    ],
+    "firstHighlighted": "2026-10-05",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-05",
+    "latestTag": "Q2FY27 UPDATE",
+    "latestReason": "(Q2FY27 UPDATE) Company reported Q2FY27 update where Assets under Management grew from INR 5,533 Cr to INR 9,317 Cr, a 68% increase. Quarterly disbursements rose from INR 2,963 Cr to INR 4,612 Cr, a 56% increase. The registered user base expanded from 60 million to 79 million, a 33% increase, and cumulative customers served grew from 10.4 million to 12.8 million, a 22% increase.",
+    "latestOutlook": "Company’s growth will be driven by 61% YoY AUM growth and continued expansion beyond the initial 40%+ FY27 guidance. The LAP portfolio is targeted to scale through 80 new branches, reaching Q3FY27 breakeven and 20%+ ROE. Mutual fund distribution and new loan products can diversify fee and lending income. AI-based underwriting, INR 850 Cr IPO proceeds, lower borrowing costs and operating leverage will support profitability and 20%+ ROE.",
+    "sovrennMcap": "INR 6,660 Crore",
+    "sovrennPe": "23.7x",
+    "price": 373.65,
+    "priceDate": "2026-10-12",
+    "dma20": 359.08,
+    "dma50": 328.1,
+    "dma200": null,
+    "rsi14": 62.4,
+    "buyZone": "n/a",
+    "buyZoneNote": "insufficient history (above200)",
+    "bars": 108,
+    "priceAtHighlight": 379.2,
+    "priceAtHighlightDate": "2026-10-05",
+    "pctSinceHighlight": -1.46,
+    "mcapCr": 6697,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "MARINE",
+    "name": "Marine Electricals (India) Limited",
+    "nameRaw": "MARINE ELECTRICALS (INDIA) LIMITED",
+    "codes": {
+      "NSE": "MARINE"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "MARINE.NS"
+    ],
+    "ticker": "MARINE.NS",
+    "firstCoveredBySovrenn": "2023-02-14",
+    "mentions": [
+      {
+        "date": "2026-10-05",
+        "tag": "ORDER",
+        "filing": "(ORDER) Company secured four orders aggregating to INR 393 Cr, excluding taxes. The contracts include supplying a Power Distribution System to Web Werks (India) Private Limited over 18 to 24 months, and executing MEP GC Contract Works for CtrlS Datacenters Limited over 6 to 8 months. Additionally, the company will perform electrical works for a 7500 DWT MPV for Garden Reach Shipbuilders & Engineers Limited over 24 to 28 months, and supply a VTMS for the Ramayapatnam Port Project to Navayuga Engineering Company Limited over 4 to 7 months.",
+        "outlook": "Company enters FY27 with a record executable order backlog of INR 2,073 Cr (2.4x FY26 revenue), giving 8-24 months of revenue visibility, with data centres and industrial infrastructure forming 65% of the pipeline. Company is scaling data-centre power distribution through its new Goa (targeting ~800 Power Train Units a year by Mar-27) and Vadodara plants, expanding naval motor-making, and building EV-charging and green-marine portfolios for long-term growth.",
+        "sovrennMcap": "INR 6,561 Crore",
+        "sovrennPe": "101x"
+      }
+    ],
+    "firstHighlighted": "2026-10-05",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-05",
+    "latestTag": "ORDER",
+    "latestReason": "(ORDER) Company secured four orders aggregating to INR 393 Cr, excluding taxes. The contracts include supplying a Power Distribution System to Web Werks (India) Private Limited over 18 to 24 months, and executing MEP GC Contract Works for CtrlS Datacenters Limited over 6 to 8 months. Additionally, the company will perform electrical works for a 7500 DWT MPV for Garden Reach Shipbuilders & Engineers Limited over 24 to 28 months, and supply a VTMS for the Ramayapatnam Port Project to Navayuga Engineering Company Limited over 4 to 7 months.",
+    "latestOutlook": "Company enters FY27 with a record executable order backlog of INR 2,073 Cr (2.4x FY26 revenue), giving 8-24 months of revenue visibility, with data centres and industrial infrastructure forming 65% of the pipeline. Company is scaling data-centre power distribution through its new Goa (targeting ~800 Power Train Units a year by Mar-27) and Vadodara plants, expanding naval motor-making, and building EV-charging and green-marine portfolios for long-term growth.",
+    "sovrennMcap": "INR 6,561 Crore",
+    "sovrennPe": "101x",
+    "price": 474.55,
+    "priceDate": "2026-10-13",
+    "dma20": 428.75,
+    "dma50": 398.23,
+    "dma200": 262.8,
+    "rsi14": 65.1,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport, rsiOk, notExtended",
+    "bars": 496,
+    "priceAtHighlight": 469.15,
+    "priceAtHighlightDate": "2026-10-05",
+    "pctSinceHighlight": 1.15,
+    "mcapCr": 6641,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "HIIL",
+    "name": "Hindusthan Insulators & Industries Limited",
+    "nameRaw": "HINDUSTHAN INSULATORS & INDUSTRIES LIMITED",
+    "codes": {
+      "NSE": "HIIL",
+      "BSE": "539984"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "HIIL.NS",
+      "539984.BO"
+    ],
+    "ticker": "HIIL.BO",
+    "firstCoveredBySovrenn": "2026-10-05",
+    "mentions": [
+      {
+        "date": "2026-10-05",
+        "tag": "EXCELLENT RESULTS",
+        "filing": "(EXCELLENT RESULTS) For the quarter ending Sep-26, Sales up 146% YoY from INR 70 Cr in Sep-25 to INR 172 Cr in Sep-26. Over the same period, Operating Profit Margin increased from 10% to 44%. Similarly, Net Profit up from INR -43 Cr to INR 55 Cr. On a QoQ basis, Sales up 48% and Net Profit up 49%.",
+        "outlook": "Company’s growth will be driven by kiln capacity expansion from 20,640 MT to 42,420 MT by Dec’26, enabling higher volumes. The 19,022.90 MT order book provides execution visibility, while India’s transmission and renewable build-out supports demand. Export expansion across 75+ destinations, new high-voltage insulators and application-specific products can diversify revenues. Redevelopment of the Faridabad property into Grade-A warehousing can improve rental yields and recurring logistics cash generation.",
+        "sovrennMcap": "INR 1,140 Crore",
+        "sovrennPe": "8.9x"
+      }
+    ],
+    "firstHighlighted": "2026-10-05",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-05",
+    "latestTag": "EXCELLENT RESULTS",
+    "latestReason": "(EXCELLENT RESULTS) For the quarter ending Sep-26, Sales up 146% YoY from INR 70 Cr in Sep-25 to INR 172 Cr in Sep-26. Over the same period, Operating Profit Margin increased from 10% to 44%. Similarly, Net Profit up from INR -43 Cr to INR 55 Cr. On a QoQ basis, Sales up 48% and Net Profit up 49%.",
+    "latestOutlook": "Company’s growth will be driven by kiln capacity expansion from 20,640 MT to 42,420 MT by Dec’26, enabling higher volumes. The 19,022.90 MT order book provides execution visibility, while India’s transmission and renewable build-out supports demand. Export expansion across 75+ destinations, new high-voltage insulators and application-specific products can diversify revenues. Redevelopment of the Faridabad property into Grade-A warehousing can improve rental yields and recurring logistics cash generation.",
+    "sovrennMcap": "INR 1,140 Crore",
+    "sovrennPe": "8.9x",
+    "price": 581.2,
+    "priceDate": "2026-10-12",
+    "dma20": 503.43,
+    "dma50": 474.65,
+    "dma200": 323.49,
+    "rsi14": 100.0,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport, rsiOk, notExtended",
+    "bars": 495,
+    "priceAtHighlight": 526.55,
+    "priceAtHighlightDate": "2026-10-05",
+    "pctSinceHighlight": 10.38,
+    "mcapCr": 1283,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "544060",
+    "name": "Rbz Jewellers Limited",
+    "nameRaw": "RBZ JEWELLERS LIMITED",
+    "codes": {
+      "BSE": "544060"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "544060.BO"
+    ],
+    "ticker": "RBZJEWEL.NS",
+    "firstCoveredBySovrenn": "2025-02-19",
+    "mentions": [
+      {
+        "date": "2026-10-05",
+        "tag": "DIRECTOR BUYING",
+        "filing": "(DIRECTOR BUYING) Director Rajiv Nitin Mehta acquired 4,800 equity shares on 30th Sep 2026, for a total value of INR 10 lakh, at an average price of INR 208 per share.",
+        "outlook": "Company keeps its FY27 revenue guidance at INR 800-900 Cr (25-40% growth) and PAT at INR 55-60 Cr, led by a retail-led pivot (FY26 was 64% retail) toward a 50:50 and then 75:25 retail-wholesale mix. Company is expanding to 7 Gujarat showrooms over two years (Surat opened Sep- 26, with Rajkot, Gandhinagar and Maninagar to follow), running its 2+ ton facility at ~50% utilisation with headroom for growth.",
+        "sovrennMcap": "INR 748 Crore",
+        "sovrennPe": "13.1x"
+      }
+    ],
+    "firstHighlighted": "2026-10-05",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-05",
+    "latestTag": "DIRECTOR BUYING",
+    "latestReason": "(DIRECTOR BUYING) Director Rajiv Nitin Mehta acquired 4,800 equity shares on 30th Sep 2026, for a total value of INR 10 lakh, at an average price of INR 208 per share.",
+    "latestOutlook": "Company keeps its FY27 revenue guidance at INR 800-900 Cr (25-40% growth) and PAT at INR 55-60 Cr, led by a retail-led pivot (FY26 was 64% retail) toward a 50:50 and then 75:25 retail-wholesale mix. Company is expanding to 7 Gujarat showrooms over two years (Surat opened Sep- 26, with Rajkot, Gandhinagar and Maninagar to follow), running its 2+ ton facility at ~50% utilisation with headroom for growth.",
+    "sovrennMcap": "INR 748 Crore",
+    "sovrennPe": "13.1x",
+    "price": 188.46,
+    "priceDate": "2026-10-12",
+    "dma20": 183.64,
+    "dma50": 166.28,
+    "dma200": 143.06,
+    "rsi14": 54.4,
+    "buyZone": "Y",
+    "buyZoneNote": "all rules met",
+    "bars": 494,
+    "priceAtHighlight": 187.03,
+    "priceAtHighlightDate": "2026-10-05",
+    "pctSinceHighlight": 0.76,
+    "mcapCr": 756,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "STLTECH",
+    "name": "Sterlite Technologies Limited",
+    "nameRaw": "STERLITE TECHNOLOGIES LIMITED",
+    "codes": {
+      "NSE": "STLTECH"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "STLTECH.NS"
+    ],
+    "ticker": "STLTECH.NS",
+    "firstCoveredBySovrenn": "2026-10-01",
+    "mentions": [
+      {
+        "date": "2026-10-01",
+        "tag": "ORDER",
+        "filing": "(ORDER) A wholly owned subsidiary of company secured a Long-Term Supply Agreement from an international hyperscale partner to supply optical connectivity products. Executable through December 2030, the contract holds an estimated potential value of ~USD 1.2 billion. The agreement features annual product allocations, periodic purchase orders, and a reciprocal risk-sharing framework establishing mutual, capped financial liabilities for demand or supply shortfalls.",
+        "outlook": "Company targets INR 20,000 Cr revenue by FY29, implying a 62% CAGR from FY26, with EBITDA margin targeted above 27%. Growth will be supported by the INR 18,618 Cr order book, including a USD 1.1 Bn+ multi-year hyperscaler award through FY29. Planned INR 3,000 Cr capex will expand preform, optical fibre and cable capacities by ~50%, while the INR 1,500 Cr QIP strengthens funding capacity.",
+        "sovrennMcap": "INR 48,064 Crore",
+        "sovrennPe": "197.8x"
+      }
+    ],
+    "firstHighlighted": "2026-10-01",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-01",
+    "latestTag": "ORDER",
+    "latestReason": "(ORDER) A wholly owned subsidiary of company secured a Long-Term Supply Agreement from an international hyperscale partner to supply optical connectivity products. Executable through December 2030, the contract holds an estimated potential value of ~USD 1.2 billion. The agreement features annual product allocations, periodic purchase orders, and a reciprocal risk-sharing framework establishing mutual, capped financial liabilities for demand or supply shortfalls.",
+    "latestOutlook": "Company targets INR 20,000 Cr revenue by FY29, implying a 62% CAGR from FY26, with EBITDA margin targeted above 27%. Growth will be supported by the INR 18,618 Cr order book, including a USD 1.1 Bn+ multi-year hyperscaler award through FY29. Planned INR 3,000 Cr capex will expand preform, optical fibre and cable capacities by ~50%, while the INR 1,500 Cr QIP strengthens funding capacity.",
+    "sovrennMcap": "INR 48,064 Crore",
+    "sovrennPe": "197.8x",
+    "price": 963.45,
+    "priceDate": "2026-10-13",
+    "dma20": 904.72,
+    "dma50": 775.73,
+    "dma200": 430.59,
+    "rsi14": 63.2,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport, rsiOk",
+    "bars": 496,
+    "priceAtHighlight": 955.35,
+    "priceAtHighlightDate": "2026-10-01",
+    "pctSinceHighlight": 0.85,
+    "mcapCr": 49527,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "SATKARTAR",
+    "name": "Sat Kartar Life Limited",
+    "nameRaw": "SAT KARTAR LIFE LIMITED",
+    "codes": {
+      "NSE-SME": "SATKARTAR"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "SATKARTAR.NS"
+    ],
+    "ticker": "SATKARTAR-SM.NS",
+    "firstCoveredBySovrenn": "2025-05-20",
+    "mentions": [
+      {
+        "date": "2026-10-01",
+        "tag": "FUND RAISE",
+        "filing": "(FUND RAISE) Company's board approved issuance of up to 5.5 lakh convertible warrants at INR 172 per warrant to the promoter and promoter group, aggregating to INR 9.5 Cr. The issue price is 18% above the floor price of INR 145. Company will seek shareholder approval at its EGM on 23rd Oct 2026.",
+        "outlook": "Company has set an FY27 revenue target of INR 300 Cr (49% growth, excluding hospital revenue) and aspires to INR 500+ Cr by FY28, guiding PAT margins of 12-15% (FY27E) rising to 18-20% (FY28E). Company is scaling its Ayurveda hospital network from 30 beds to 300 by FY27-end and 1,000 by FY28, building in-house capsule manufacturing and the VedaBay nutraceutical brand, and expanding internationally via Sat Kartar USA.",
+        "sovrennMcap": "INR 284 Crore",
+        "sovrennPe": "16.7x"
+      }
+    ],
+    "firstHighlighted": "2026-10-01",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-01",
+    "latestTag": "FUND RAISE",
+    "latestReason": "(FUND RAISE) Company's board approved issuance of up to 5.5 lakh convertible warrants at INR 172 per warrant to the promoter and promoter group, aggregating to INR 9.5 Cr. The issue price is 18% above the floor price of INR 145. Company will seek shareholder approval at its EGM on 23rd Oct 2026.",
+    "latestOutlook": "Company has set an FY27 revenue target of INR 300 Cr (49% growth, excluding hospital revenue) and aspires to INR 500+ Cr by FY28, guiding PAT margins of 12-15% (FY27E) rising to 18-20% (FY28E). Company is scaling its Ayurveda hospital network from 30 beds to 300 by FY27-end and 1,000 by FY28, building in-house capsule manufacturing and the VedaBay nutraceutical brand, and expanding internationally via Sat Kartar USA.",
+    "sovrennMcap": "INR 284 Crore",
+    "sovrennPe": "16.7x",
+    "price": 136.4,
+    "priceDate": "2026-10-13",
+    "dma20": null,
+    "dma50": null,
+    "dma200": null,
+    "rsi14": null,
+    "buyZone": "n/a",
+    "buyZoneNote": "Yahoo has no daily history for this listing (latest quote only)",
+    "bars": 1,
+    "priceAtHighlight": null,
+    "priceAtHighlightDate": null,
+    "pctSinceHighlight": null,
+    "mcapCr": null,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "SACHEEROME",
+    "name": "Sacheerome Limited",
+    "nameRaw": "SACHEEROME LIMITED",
+    "codes": {
+      "NSE-SME": "SACHEEROME"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "SACHEEROME.NS"
+    ],
+    "ticker": "SACHEEROME-SM.NS",
+    "firstCoveredBySovrenn": "2026-06-03",
+    "mentions": [
+      {
+        "date": "2026-10-01",
+        "tag": "TRIAL PRODUCTION",
+        "filing": "(TRIAL PRODUCTION) Company commenced trial production at its new manufacturing facility located at Sector-32, YEIDA, Uttar Pradesh, on September 30, 2026. In continuation of its earlier disclosure dated August 29, 2026, the company confirmed that the installation and commissioning of the plant have been successfully completed to begin trial operations.",
+        "outlook": "Company has guided FY27 revenue of INR 200 Cr (31% growth), INR 250 Cr in FY28 and INR 300 Cr in FY29. Company's new YEIDA greenfield plant raises total capacity 3.6x (7.6 lakh to 27.6 lakh kg) and is critical since the Delhi plant already ran at 124% utilisation, with FY27 including an incremental INR 40-50 Cr from YEIDA and ~25% operating margins targeted alongside a GCC export push.",
+        "sovrennMcap": "INR 1,128 Crore",
+        "sovrennPe": "40.3x"
+      }
+    ],
+    "firstHighlighted": "2026-10-01",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-01",
+    "latestTag": "TRIAL PRODUCTION",
+    "latestReason": "(TRIAL PRODUCTION) Company commenced trial production at its new manufacturing facility located at Sector-32, YEIDA, Uttar Pradesh, on September 30, 2026. In continuation of its earlier disclosure dated August 29, 2026, the company confirmed that the installation and commissioning of the plant have been successfully completed to begin trial operations.",
+    "latestOutlook": "Company has guided FY27 revenue of INR 200 Cr (31% growth), INR 250 Cr in FY28 and INR 300 Cr in FY29. Company's new YEIDA greenfield plant raises total capacity 3.6x (7.6 lakh to 27.6 lakh kg) and is critical since the Delhi plant already ran at 124% utilisation, with FY27 including an incremental INR 40-50 Cr from YEIDA and ~25% operating margins targeted alongside a GCC export push.",
+    "sovrennMcap": "INR 1,128 Crore",
+    "sovrennPe": "40.3x",
+    "price": 485.05,
+    "priceDate": "2026-10-13",
+    "dma20": null,
+    "dma50": null,
+    "dma200": null,
+    "rsi14": null,
+    "buyZone": "n/a",
+    "buyZoneNote": "Yahoo has no daily history for this listing (latest quote only)",
+    "bars": 1,
+    "priceAtHighlight": null,
+    "priceAtHighlightDate": null,
+    "pctSinceHighlight": null,
+    "mcapCr": null,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "ARHAM",
+    "name": "Arham Technologies Limited",
+    "nameRaw": "ARHAM TECHNOLOGIES LIMITED",
+    "codes": {
+      "NSE-SME": "ARHAM"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "ARHAM.NS"
+    ],
+    "ticker": "ARHAM-SM.NS",
+    "firstCoveredBySovrenn": "2023-06-21",
+    "mentions": [
+      {
+        "date": "2026-10-01",
+        "tag": "H1FY27 UPDATE",
+        "filing": "(H1FY27 UPDATE) Company expects its H1FY27 revenue to grow from INR 46 crore in H1FY26 to more than INR 80 crore, representing an 80% YoY growth. Company also expanded into the Interactive Flat Panel Display segment with AI-enabled features and appointed 12 new distributors. Furthermore, Arham's new plastic injection molding facility remains on track, while a major branding campaign featuring Vicky Kaushal will launch in H2 FY27.",
+        "outlook": "Company targets revenue of over INR 200 Cr in FY27 (68% growth), scaling to INR 300 Cr by FY28 and a longer-term aspiration of INR 1,000 Cr over 6-7 years. Company is investing INR 40 Cr in a backward-integration facility (production from Jan'27), has entered Interactive Flat Panel Displays under its STARSHINE brand, is lifting utilisation from 50% toward 75%+ by FY28, and is expanding its dealer-distributor network.",
+        "sovrennMcap": "INR 457 Crore",
+        "sovrennPe": "38.1x"
+      }
+    ],
+    "firstHighlighted": "2026-10-01",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-01",
+    "latestTag": "H1FY27 UPDATE",
+    "latestReason": "(H1FY27 UPDATE) Company expects its H1FY27 revenue to grow from INR 46 crore in H1FY26 to more than INR 80 crore, representing an 80% YoY growth. Company also expanded into the Interactive Flat Panel Display segment with AI-enabled features and appointed 12 new distributors. Furthermore, Arham's new plastic injection molding facility remains on track, while a major branding campaign featuring Vicky Kaushal will launch in H2 FY27.",
+    "latestOutlook": "Company targets revenue of over INR 200 Cr in FY27 (68% growth), scaling to INR 300 Cr by FY28 and a longer-term aspiration of INR 1,000 Cr over 6-7 years. Company is investing INR 40 Cr in a backward-integration facility (production from Jan'27), has entered Interactive Flat Panel Displays under its STARSHINE brand, is lifting utilisation from 50% toward 75%+ by FY28, and is expanding its dealer-distributor network.",
+    "sovrennMcap": "INR 457 Crore",
+    "sovrennPe": "38.1x",
+    "price": 198.55,
+    "priceDate": "2026-10-13",
+    "dma20": null,
+    "dma50": null,
+    "dma200": null,
+    "rsi14": null,
+    "buyZone": "n/a",
+    "buyZoneNote": "Yahoo has no daily history for this listing (latest quote only)",
+    "bars": 1,
+    "priceAtHighlight": null,
+    "priceAtHighlightDate": null,
+    "pctSinceHighlight": null,
+    "mcapCr": null,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "ACMESOLAR",
+    "name": "Acme Solar Holdings Limited",
+    "nameRaw": "ACME SOLAR HOLDINGS LIMITED",
+    "codes": {
+      "NSE": "ACMESOLAR"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "ACMESOLAR.NS"
+    ],
+    "ticker": "ACMESOLAR.NS",
+    "firstCoveredBySovrenn": "2026-08-31",
+    "mentions": [
+      {
+        "date": "2026-10-01",
+        "tag": "PROJECT COMMISSIONING",
+        "filing": "(PROJECT COMMISSIONING) Company commissioned two Battery Energy Storage System (BESS) project components in Rajasthan on 30th Sep 2026, both scheduled for commercial operations on 02nd Oct 2026. ACME Sigma Urja (Wholly owned subsidiary) commissioned 53.73 MW/222.969 MWh out of a 250 MW/1069 MWh total discharge capacity in Chittorgarh. Concurrently, ACME Greentech Seventh (Wholly owned subsidiary) commissioned 53.63 MW/214.52 MWh out of a 300 MW/1200 MWh total discharge capacity in Bikaner, raising its total active capacity to 159.58 MW/638.32 MWh.",
+        "outlook": "Company aims to reach 10 GW of operational renewable capacity and 15-20 GWh of battery storage by 2030, planning to commission 1.5 GW in FY27 and 1.1 GW in FY28 while holding EBITDA margins at 88-90%. Company has an 8.1 GW renewable portfolio (5.1 GW under construction) and a 17 GWh storage pipeline, has secured 7.5-9.6 GW of grid connectivity, and plans INR 12,000- 13,000 Cr of FY27 capex.",
+        "sovrennMcap": "INR 30,491 Crore",
+        "sovrennPe": "50.6x"
+      }
+    ],
+    "firstHighlighted": "2026-10-01",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-01",
+    "latestTag": "PROJECT COMMISSIONING",
+    "latestReason": "(PROJECT COMMISSIONING) Company commissioned two Battery Energy Storage System (BESS) project components in Rajasthan on 30th Sep 2026, both scheduled for commercial operations on 02nd Oct 2026. ACME Sigma Urja (Wholly owned subsidiary) commissioned 53.73 MW/222.969 MWh out of a 250 MW/1069 MWh total discharge capacity in Chittorgarh. Concurrently, ACME Greentech Seventh (Wholly owned subsidiary) commissioned 53.63 MW/214.52 MWh out of a 300 MW/1200 MWh total discharge capacity in Bikaner, raising its total active capacity to 159.58 MW/638.32 MWh.",
+    "latestOutlook": "Company aims to reach 10 GW of operational renewable capacity and 15-20 GWh of battery storage by 2030, planning to commission 1.5 GW in FY27 and 1.1 GW in FY28 while holding EBITDA margins at 88-90%. Company has an 8.1 GW renewable portfolio (5.1 GW under construction) and a 17 GWh storage pipeline, has secured 7.5-9.6 GW of grid connectivity, and plans INR 12,000- 13,000 Cr of FY27 capex.",
+    "sovrennMcap": "INR 30,491 Crore",
+    "sovrennPe": "50.6x",
+    "price": 413.95,
+    "priceDate": "2026-10-13",
+    "dma20": 433.71,
+    "dma50": 407.2,
+    "dma200": 315.11,
+    "rsi14": 45.3,
+    "buyZone": "Y",
+    "buyZoneNote": "all rules met",
+    "bars": 474,
+    "priceAtHighlight": 432.55,
+    "priceAtHighlightDate": "2026-10-01",
+    "pctSinceHighlight": -4.3,
+    "mcapCr": 29237,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "544310",
+    "name": "Yash Highvoltage Limited",
+    "nameRaw": "YASH HIGHVOLTAGE LIMITED",
+    "codes": {
+      "NSE-SME": "544310"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [],
+    "ticker": "YASHHV.BO",
+    "firstCoveredBySovrenn": "2025-05-21",
+    "mentions": [
+      {
+        "date": "2026-10-01",
+        "tag": "COMMENCEMENT OF COMMERCIAL PRODUCTION",
+        "filing": "(COMMENCEMENT OF COMMERCIAL PRODUCTION) Company commenced commercial production at its new manufacturing facility in Vadodara, Gujarat, on September 30, 2026, marking the milestone by raising its first commercial invoice. The plant, located in the Suncity Industrial Park, is dedicated to manufacturing Resin Impregnated Paper (RIP) and Resin Impregnated Synthetic (RIS) transformer condenser graded bushings, along with related parts and accessories.",
+        "outlook": "Company has upgraded its revenue CAGR guidance to 40-42% over the next 4-5 years and targets FY27 revenue of INR 360-400 Cr (50%+ growth) at 24-25% EBITDA margins, on an order book of INR 400 Cr. Company is commissioning a INR 153 Cr greenfield 550 kV facility in Vadodara (lifting capacity from 9,000 to 15,000 units), localising RIP cores, and expanding via the Sukrut JV and US/European export tie-ups.",
+        "sovrennMcap": "INR 3,337 Crore",
+        "sovrennPe": "88.3x"
+      }
+    ],
+    "firstHighlighted": "2026-10-01",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-01",
+    "latestTag": "COMMENCEMENT OF COMMERCIAL PRODUCTION",
+    "latestReason": "(COMMENCEMENT OF COMMERCIAL PRODUCTION) Company commenced commercial production at its new manufacturing facility in Vadodara, Gujarat, on September 30, 2026, marking the milestone by raising its first commercial invoice. The plant, located in the Suncity Industrial Park, is dedicated to manufacturing Resin Impregnated Paper (RIP) and Resin Impregnated Synthetic (RIS) transformer condenser graded bushings, along with related parts and accessories.",
+    "latestOutlook": "Company has upgraded its revenue CAGR guidance to 40-42% over the next 4-5 years and targets FY27 revenue of INR 360-400 Cr (50%+ growth) at 24-25% EBITDA margins, on an order book of INR 400 Cr. Company is commissioning a INR 153 Cr greenfield 550 kV facility in Vadodara (lifting capacity from 9,000 to 15,000 units), localising RIP cores, and expanding via the Sukrut JV and US/European export tie-ups.",
+    "sovrennMcap": "INR 3,337 Crore",
+    "sovrennPe": "88.3x",
+    "price": 1243.6,
+    "priceDate": "2026-10-12",
+    "dma20": 1099.22,
+    "dma50": 1005.94,
+    "dma200": 707.74,
+    "rsi14": 68.9,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport, rsiOk, notExtended",
+    "bars": 447,
+    "priceAtHighlight": 1105.75,
+    "priceAtHighlightDate": "2026-10-01",
+    "pctSinceHighlight": 12.47,
+    "mcapCr": 3456,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "INE0CQA01020",
+    "name": "Prime Cables Industries Limited",
+    "nameRaw": "PRIME CABLES INDUSTRIES LIMITED",
+    "codes": {},
+    "isin": "INE0CQA01020",
+    "sme": true,
+    "candidates": [],
+    "ticker": null,
+    "firstCoveredBySovrenn": "2025-11-20",
+    "mentions": [
+      {
+        "date": "2026-09-30",
+        "tag": "ORDER",
+        "filing": "(ORDER) Company received a purchase order valued at INR 16 crore (inclusive of GST) from a reputed Indian listed company. The domestic contract entails the supply of 11 KV MV cables, with execution scheduled within a four-month time-frame.",
+        "outlook": "Company is guiding a 45% revenue CAGR over the next two years on a INR 210 Cr order book, having posted record Q1FY27 revenue of INR 93 Cr (up 169% YoY). Company is commissioning a new Unit 3 for higher-margin medium-voltage cables up to 33 kV (INR 40 Cr capex) as a second growth engine, and has entered solar cables via a fresh BIS licence.",
+        "sovrennMcap": "INR 360 Crore",
+        "sovrennPe": "30x"
+      }
+    ],
+    "firstHighlighted": "2026-09-30",
+    "timesMentioned": 1,
+    "latestDate": "2026-09-30",
+    "latestTag": "ORDER",
+    "latestReason": "(ORDER) Company received a purchase order valued at INR 16 crore (inclusive of GST) from a reputed Indian listed company. The domestic contract entails the supply of 11 KV MV cables, with execution scheduled within a four-month time-frame.",
+    "latestOutlook": "Company is guiding a 45% revenue CAGR over the next two years on a INR 210 Cr order book, having posted record Q1FY27 revenue of INR 93 Cr (up 169% YoY). Company is commissioning a new Unit 3 for higher-margin medium-voltage cables up to 33 kV (INR 40 Cr capex) as a second growth engine, and has entered solar cables via a fresh BIS licence.",
+    "sovrennMcap": "INR 360 Crore",
+    "sovrennPe": "30x",
+    "price": null,
+    "buyZone": "n/a",
+    "buyZoneNote": "no price data"
+  },
+  {
+    "key": "544501",
+    "name": "Sugs Lloyd Limited",
+    "nameRaw": "SUGS LLOYD LIMITED",
+    "codes": {
+      "BSE-SME": "544501"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "544501.BO"
+    ],
+    "ticker": "SUGSLLOYD.BO",
+    "firstCoveredBySovrenn": "2025-09-17",
+    "mentions": [
+      {
+        "date": "2026-09-30",
+        "tag": "ORDER",
+        "filing": "(ORDER) Company received an order of INR 9 Cr (incl. GST) from Sachkhand Sri Harmander Sahib, Sri Darbar Sahib, Amritsar (managed by SGPC). The order is for design, supply, installation, testing and commissioning of a 2 MW (AC) ground-mounted solar power project, including a 10-year comprehensive maintenance, to be executed by 31st Dec 2026.",
+        "outlook": "Company has guided FY27 revenue of INR 600 Cr (2x FY26) and INR 1,000 Cr by FY28, on an order book of INR 807 Cr (2.7x FY26 sales, 24-month visibility) plus a INR 1,350+ Cr qualified bid pipeline. Company is shifting its mix toward higher-margin RDSS-led T&D, leads Fault Passage Indicators with a 50%+ share, and is adding Transmission and BESS as new growth engines.",
+        "sovrennMcap": "INR 659 Crore",
+        "sovrennPe": "21.2x"
+      }
+    ],
+    "firstHighlighted": "2026-09-30",
+    "timesMentioned": 1,
+    "latestDate": "2026-09-30",
+    "latestTag": "ORDER",
+    "latestReason": "(ORDER) Company received an order of INR 9 Cr (incl. GST) from Sachkhand Sri Harmander Sahib, Sri Darbar Sahib, Amritsar (managed by SGPC). The order is for design, supply, installation, testing and commissioning of a 2 MW (AC) ground-mounted solar power project, including a 10-year comprehensive maintenance, to be executed by 31st Dec 2026.",
+    "latestOutlook": "Company has guided FY27 revenue of INR 600 Cr (2x FY26) and INR 1,000 Cr by FY28, on an order book of INR 807 Cr (2.7x FY26 sales, 24-month visibility) plus a INR 1,350+ Cr qualified bid pipeline. Company is shifting its mix toward higher-margin RDSS-led T&D, leads Fault Passage Indicators with a 50%+ share, and is adding Transmission and BESS as new growth engines.",
+    "sovrennMcap": "INR 659 Crore",
+    "sovrennPe": "21.2x",
+    "price": 258.0,
+    "priceDate": "2026-10-12",
+    "dma20": 271.22,
+    "dma50": 224.03,
+    "dma200": 142.42,
+    "rsi14": 51.6,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport",
+    "bars": 271,
+    "priceAtHighlight": 280.7,
+    "priceAtHighlightDate": "2026-09-30",
+    "pctSinceHighlight": -8.09,
+    "mcapCr": 588,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "544161",
+    "name": "D.P. Abhushan Limited",
+    "nameRaw": "D.P. ABHUSHAN LIMITED",
+    "codes": {
+      "BSE": "544161"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "544161.BO"
+    ],
+    "ticker": "DPABHUSHAN.NS",
+    "firstCoveredBySovrenn": "2025-04-16",
+    "mentions": [
+      {
+        "date": "2026-09-30",
+        "tag": "FUND RAISE",
+        "filing": "(FUND RAISE) Company scheduled a Board of Directors meeting for October 5, 2026, to consider a prospective fund-raising initiative. The company aims to raise capital through the issuance of equity shares and/or warrants via a preferential issue, private placement, or other permissible modes, pending requisite statutory and shareholder approvals.",
+        "outlook": "Company is guiding for INR 4,800 Cr revenue in FY27 (18% growth) and INR 5,500 Cr in FY28, targeting 10% volume growth after a price-led FY26. Company posted 52% same- store sales growth in Q1FY27 on wedding and old-gold-exchange demand, is expanding to 51 stores by FY30 (6-8 a year) with entries into Gujarat and the FOCO model, and is lifting its studded-jewellery mix toward 12-15%.",
+        "sovrennMcap": "INR 3,959 Crore",
+        "sovrennPe": "16.5x"
+      }
+    ],
+    "firstHighlighted": "2026-09-30",
+    "timesMentioned": 1,
+    "latestDate": "2026-09-30",
+    "latestTag": "FUND RAISE",
+    "latestReason": "(FUND RAISE) Company scheduled a Board of Directors meeting for October 5, 2026, to consider a prospective fund-raising initiative. The company aims to raise capital through the issuance of equity shares and/or warrants via a preferential issue, private placement, or other permissible modes, pending requisite statutory and shareholder approvals.",
+    "latestOutlook": "Company is guiding for INR 4,800 Cr revenue in FY27 (18% growth) and INR 5,500 Cr in FY28, targeting 10% volume growth after a price-led FY26. Company posted 52% same- store sales growth in Q1FY27 on wedding and old-gold-exchange demand, is expanding to 51 stores by FY30 (6-8 a year) with entries into Gujarat and the FOCO model, and is lifting its studded-jewellery mix toward 12-15%.",
+    "sovrennMcap": "INR 3,959 Crore",
+    "sovrennPe": "16.5x",
+    "price": 2370.1,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport, rsiOk, notExtended",
+    "priceDate": "2026-10-12",
+    "dma20": 1711.65,
+    "dma50": 1548.45,
+    "dma200": 1244.81,
+    "rsi14": 86.3,
+    "bars": 495,
+    "priceAtHighlight": 1788.8,
+    "priceAtHighlightDate": "2026-09-30",
+    "pctSinceHighlight": 32.5,
+    "mcapCr": 5305,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "543616",
+    "name": "Trident Lifeline Limited",
+    "nameRaw": "TRIDENT LIFELINE LIMITED",
+    "codes": {
+      "BSE-SME": "543616"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "543616.BO"
+    ],
+    "ticker": "TLL.BO",
+    "firstCoveredBySovrenn": "2023-01-23",
+    "mentions": [
+      {
+        "date": "2026-09-30",
+        "tag": "FUND RAISE",
+        "filing": "(FUND RAISE) Company's Board of Directors is scheduled to meet on October 5, 2026, to evaluate a proposal to raise capital through the issuance of equity shares, warrants, or convertible securities via permissible modes. The proposed fund raise aims to augment the company's long-term financial resources and accelerate business growth.",
+        "outlook": "Company aims to triple consolidated revenue (44% CAGR) over three years from a FY26 base of INR 129 Cr, largely by lifting utilization from 40-45% to 80% across three plants with no core capex. Company is commissioning its INR 40 Cr TLL Parenterals injectable plant (peak potential INR 200 Cr), holds 1,091 registrations across 46 countries adding 300-400 a year, and is building a new cephalosporin complex.",
+        "sovrennMcap": "INR 466 Crore",
+        "sovrennPe": "21.2x"
+      }
+    ],
+    "firstHighlighted": "2026-09-30",
+    "timesMentioned": 1,
+    "latestDate": "2026-09-30",
+    "latestTag": "FUND RAISE",
+    "latestReason": "(FUND RAISE) Company's Board of Directors is scheduled to meet on October 5, 2026, to evaluate a proposal to raise capital through the issuance of equity shares, warrants, or convertible securities via permissible modes. The proposed fund raise aims to augment the company's long-term financial resources and accelerate business growth.",
+    "latestOutlook": "Company aims to triple consolidated revenue (44% CAGR) over three years from a FY26 base of INR 129 Cr, largely by lifting utilization from 40-45% to 80% across three plants with no core capex. Company is commissioning its INR 40 Cr TLL Parenterals injectable plant (peak potential INR 200 Cr), holds 1,091 registrations across 46 countries adding 300-400 a year, and is building a new cephalosporin complex.",
+    "sovrennMcap": "INR 466 Crore",
+    "sovrennPe": "21.2x",
+    "price": 381.5,
+    "priceDate": "2026-10-12",
+    "dma20": 366.47,
+    "dma50": 310.06,
+    "dma200": 276.59,
+    "rsi14": 59.3,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport",
+    "bars": 493,
+    "priceAtHighlight": 366.05,
+    "priceAtHighlightDate": "2026-09-30",
+    "pctSinceHighlight": 4.22,
+    "mcapCr": 451,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "538715",
+    "name": "Dhabriya Polywood Limited",
+    "nameRaw": "DHABRIYA POLYWOOD LIMITED",
+    "codes": {
+      "BSE": "538715"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "538715.BO"
+    ],
+    "ticker": "DHABRIYA.BO",
+    "firstCoveredBySovrenn": "2024-01-24",
+    "mentions": [
+      {
+        "date": "2026-09-30",
+        "tag": "ORDER",
+        "filing": "(ORDER) Company received a work order valued at INR 17 crore (including GST) from domestic entity M3M Group. The contract entails Aluminum Doors and Windows Facade Works, with execution scheduled for completion over an 18-month period in various tranches.",
+        "outlook": "Company is targeting a firm INR 330-350 Cr revenue in FY27 (25-30% growth) and a 30% long-term CAGR at 20%+ EBITDA margins, backed by a INR 200 Cr order book. Company is scaling new verticals — aluminium windows & façade, WPC doors and panels, and fluted panels (guided at INR 100-200 Cr over two years) — on INR 30-40 Cr of FY27 capex, supported by a CRISIL upgrade to BBB+.",
+        "sovrennMcap": "INR 519 Crore",
+        "sovrennPe": "16.2x"
+      }
+    ],
+    "firstHighlighted": "2026-09-30",
+    "timesMentioned": 1,
+    "latestDate": "2026-09-30",
+    "latestTag": "ORDER",
+    "latestReason": "(ORDER) Company received a work order valued at INR 17 crore (including GST) from domestic entity M3M Group. The contract entails Aluminum Doors and Windows Facade Works, with execution scheduled for completion over an 18-month period in various tranches.",
+    "latestOutlook": "Company is targeting a firm INR 330-350 Cr revenue in FY27 (25-30% growth) and a 30% long-term CAGR at 20%+ EBITDA margins, backed by a INR 200 Cr order book. Company is scaling new verticals — aluminium windows & façade, WPC doors and panels, and fluted panels (guided at INR 100-200 Cr over two years) — on INR 30-40 Cr of FY27 capex, supported by a CRISIL upgrade to BBB+.",
+    "sovrennMcap": "INR 519 Crore",
+    "sovrennPe": "16.2x",
+    "price": 453.0,
+    "priceDate": "2026-10-12",
+    "dma20": 481.37,
+    "dma50": 498.22,
+    "dma200": 393.94,
+    "rsi14": 38.8,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport, rsiOk",
+    "bars": 493,
+    "priceAtHighlight": 470.75,
+    "priceAtHighlightDate": "2026-09-30",
+    "pctSinceHighlight": -3.77,
+    "mcapCr": 509,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "526775",
+    "name": "Valiant Communications Limited",
+    "nameRaw": "VALIANT COMMUNICATIONS LIMITED",
+    "codes": {
+      "BSE": "526775"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "526775.BO"
+    ],
+    "ticker": "VALIANT.BO",
+    "firstCoveredBySovrenn": "2023-11-11",
+    "mentions": [
+      {
+        "date": "2026-09-30",
+        "tag": "ORDER",
+        "filing": "(ORDER) Company received a LOA valued at INR 40 crore (inclusive of taxes) from a private system integrator. The contract entails the supply, services, and annual maintenance (AMC) of communication and grid-protection solutions for the Indian power utility sector, with execution scheduled by December 31, 2028.",
+        "outlook": "Company enters FY27 with a confirmed gross order book of INR 69 Cr, INR 90 Cr of advance-stage opportunities and INR 110+ Cr of forthcoming business, alongside completed Indian Armed Forces evaluations of its network-isolation kill switch and NavIC time server. Company is targeting AI/data-centre, cybersecurity and NAS/SAN storage demand, supplying State Electricity Boards across nine states, and expanding exports across Europe, Asia and the Americas.",
+        "sovrennMcap": "INR 1,961 Crore",
+        "sovrennPe": "72.6x"
+      }
+    ],
+    "firstHighlighted": "2026-09-30",
+    "timesMentioned": 1,
+    "latestDate": "2026-09-30",
+    "latestTag": "ORDER",
+    "latestReason": "(ORDER) Company received a LOA valued at INR 40 crore (inclusive of taxes) from a private system integrator. The contract entails the supply, services, and annual maintenance (AMC) of communication and grid-protection solutions for the Indian power utility sector, with execution scheduled by December 31, 2028.",
+    "latestOutlook": "Company enters FY27 with a confirmed gross order book of INR 69 Cr, INR 90 Cr of advance-stage opportunities and INR 110+ Cr of forthcoming business, alongside completed Indian Armed Forces evaluations of its network-isolation kill switch and NavIC time server. Company is targeting AI/data-centre, cybersecurity and NAS/SAN storage demand, supplying State Electricity Boards across nine states, and expanding exports across Europe, Asia and the Americas.",
+    "sovrennMcap": "INR 1,961 Crore",
+    "sovrennPe": "72.6x",
+    "price": 1702.15,
+    "priceDate": "2026-10-12",
+    "dma20": 1531.09,
+    "dma50": 1313.91,
+    "dma200": 1081.41,
+    "rsi14": 66.9,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport, rsiOk, notExtended",
+    "bars": 494,
+    "priceAtHighlight": 1734.0,
+    "priceAtHighlightDate": "2026-09-30",
+    "pctSinceHighlight": -1.84,
+    "mcapCr": 2032,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "SHERA",
+    "name": "Shera Energy Ltd",
+    "nameRaw": "SHERA ENERGY LTD",
+    "codes": {
+      "NSE-SME": "SHERA"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "SHERA.NS"
+    ],
+    "ticker": "SHERA.NS",
+    "firstCoveredBySovrenn": "2024-09-25",
+    "mentions": [
+      {
+        "date": "2026-09-29",
+        "tag": "H1FY27 UPDATE",
+        "filing": "(H1FY27 UPDATE) Company achieved its strongest-ever half-yearly financial performance, with consolidated turnover growing from INR 783 crore in H1FY26 to over INR 1,000 crore in H1FY27, reflecting YoY growth of over 28%. Driven by sustained market demand, enhanced capacity utilization, and a strategic focus across key verticals, this milestone validates the company's operational strength and positions it for continued high-margin growth in the second half.",
+        "outlook": "Company guides for 40-60% revenue growth in FY27 and aims to roughly double its topline within two years (FY26 revenue INR 1,640 Cr), backed by a first-ever monthly order book of INR 170 Cr. Company is building backward integration (Zambia copper cathode) and forward integration (CTC conductors, solar ribbons) for margin uplift, targets a 25-30% CAGR under Vision FY30, and is migrating to the NSE main board.",
+        "sovrennMcap": "INR 469 Crore",
+        "sovrennPe": "11x"
+      }
+    ],
+    "firstHighlighted": "2026-09-29",
+    "timesMentioned": 1,
+    "latestDate": "2026-09-29",
+    "latestTag": "H1FY27 UPDATE",
+    "latestReason": "(H1FY27 UPDATE) Company achieved its strongest-ever half-yearly financial performance, with consolidated turnover growing from INR 783 crore in H1FY26 to over INR 1,000 crore in H1FY27, reflecting YoY growth of over 28%. Driven by sustained market demand, enhanced capacity utilization, and a strategic focus across key verticals, this milestone validates the company's operational strength and positions it for continued high-margin growth in the second half.",
+    "latestOutlook": "Company guides for 40-60% revenue growth in FY27 and aims to roughly double its topline within two years (FY26 revenue INR 1,640 Cr), backed by a first-ever monthly order book of INR 170 Cr. Company is building backward integration (Zambia copper cathode) and forward integration (CTC conductors, solar ribbons) for margin uplift, targets a 25-30% CAGR under Vision FY30, and is migrating to the NSE main board.",
+    "sovrennMcap": "INR 469 Crore",
+    "sovrennPe": "11x",
+    "price": 198.4,
+    "priceDate": "2026-10-12",
+    "dma20": 188.69,
+    "dma50": 180.21,
+    "dma200": 149.53,
+    "rsi14": 60.1,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport, rsiOk",
+    "bars": 494,
+    "priceAtHighlight": 195.3,
+    "priceAtHighlightDate": "2026-09-29",
+    "pctSinceHighlight": 1.59,
+    "mcapCr": 471,
+    "lastUpdated": "2026-10-14 07:42 IST"
+  },
+  {
+    "key": "544695",
+    "name": "V-Marc India Limited",
+    "nameRaw": "V-MARC INDIA LIMITED",
+    "codes": {
+      "BSE-SME": "544695"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "544695.BO"
+    ],
+    "ticker": "VMARCIND-SM.NS",
+    "firstCoveredBySovrenn": "2023-08-03",
+    "mentions": [
+      {
+        "date": "2026-09-29",
+        "tag": "INSIDER BUYING",
+        "filing": "(INSIDER BUYING) Promoter Immediate Relative Vaibhav Garg acquired 3,000 equity shares on 25th Sep 2026, for a total value of INR 10 lakh, at an average price of INR 332 per share.",
+        "outlook": "Company targets 40%+ revenue growth with 11-12% EBITDA margins in FY27, backed by installed capacity of 2,12,600 circuit km. Company plans INR 500 Cr capex through FY30 to scale capacity ~5x to over 10 Lakh circuit km, has widened its network to 1,200+ dealers across 25 states and UTs, and is pushing exports into Europe, the US and MENA.",
+        "sovrennMcap": "INR 4,488 Crore",
+        "sovrennPe": "40.2x"
+      }
+    ],
+    "firstHighlighted": "2026-09-29",
+    "timesMentioned": 1,
+    "latestDate": "2026-09-29",
+    "latestTag": "INSIDER BUYING",
+    "latestReason": "(INSIDER BUYING) Promoter Immediate Relative Vaibhav Garg acquired 3,000 equity shares on 25th Sep 2026, for a total value of INR 10 lakh, at an average price of INR 332 per share.",
+    "latestOutlook": "Company targets 40%+ revenue growth with 11-12% EBITDA margins in FY27, backed by installed capacity of 2,12,600 circuit km. Company plans INR 500 Cr capex through FY30 to scale capacity ~5x to over 10 Lakh circuit km, has widened its network to 1,200+ dealers across 25 states and UTs, and is pushing exports into Europe, the US and MENA.",
+    "sovrennMcap": "INR 4,488 Crore",
+    "sovrennPe": "40.2x",
+    "price": 316.5,
+    "priceDate": "2026-10-13",
+    "dma20": null,
+    "dma50": null,
+    "dma200": null,
+    "rsi14": null,
+    "buyZone": "n/a",
+    "buyZoneNote": "Yahoo has no daily history for this listing (latest quote only)",
+    "bars": 1,
+    "priceAtHighlight": null,
+    "priceAtHighlightDate": null,
+    "pctSinceHighlight": null,
+    "mcapCr": null,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "544544",
+    "name": "Telge Projects Limited",
+    "nameRaw": "TELGE PROJECTS LIMITED",
+    "codes": {
+      "BSE-SME": "544544"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "544544.BO"
+    ],
+    "ticker": "TELGE.BO",
+    "firstCoveredBySovrenn": "2026-09-29",
+    "mentions": [
+      {
+        "date": "2026-09-29",
+        "tag": "FUND RAISE",
+        "filing": "(FUND RAISE) Company approved a preferential issuance of 5.7 lakh convertible warrants to three promoter group members, aggregating to INR 13 Cr. Priced at INR 229 per warrant, the subscription requires a 25% upfront cash payment of INR 57.25, with the remaining 75% payable upon conversion into equity shares within an 18-month timeframe. This capital raise remains subject to shareholder approval at an Extraordinary General Meeting scheduled for October 23, 2026.",
+        "outlook": "Company targets 60–70% medium-term revenue CAGR from FY27 onwards, with EBITDA margins targeted at 35% and PAT margins at 20–23%. Growth will be supported by the INR 25 Cr order book, providing near-term execution visibility, while the additional INR 6 Cr RFQ pipeline can add orders. FY26 revenue of INR 40.2 Cr exceeded guidance, providing a base for the company’s targeted growth trajectory and margin expansion.",
+        "sovrennMcap": "INR 259 Crore",
+        "sovrennPe": "32.2x"
+      }
+    ],
+    "firstHighlighted": "2026-09-29",
+    "timesMentioned": 1,
+    "latestDate": "2026-09-29",
+    "latestTag": "FUND RAISE",
+    "latestReason": "(FUND RAISE) Company approved a preferential issuance of 5.7 lakh convertible warrants to three promoter group members, aggregating to INR 13 Cr. Priced at INR 229 per warrant, the subscription requires a 25% upfront cash payment of INR 57.25, with the remaining 75% payable upon conversion into equity shares within an 18-month timeframe. This capital raise remains subject to shareholder approval at an Extraordinary General Meeting scheduled for October 23, 2026.",
+    "latestOutlook": "Company targets 60–70% medium-term revenue CAGR from FY27 onwards, with EBITDA margins targeted at 35% and PAT margins at 20–23%. Growth will be supported by the INR 25 Cr order book, providing near-term execution visibility, while the additional INR 6 Cr RFQ pipeline can add orders. FY26 revenue of INR 40.2 Cr exceeded guidance, providing a base for the company’s targeted growth trajectory and margin expansion.",
+    "sovrennMcap": "INR 259 Crore",
+    "sovrennPe": "32.2x",
+    "price": 233.0,
+    "priceDate": "2026-10-12",
+    "dma20": 247.97,
+    "dma50": 208.53,
+    "dma200": 136.48,
+    "rsi14": 48.1,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport",
+    "bars": 253,
+    "priceAtHighlight": 269.95,
+    "priceAtHighlightDate": "2026-09-29",
+    "pctSinceHighlight": -13.69,
+    "mcapCr": 220,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "544248",
+    "name": "Mach Travel Solutions Limited",
+    "nameRaw": "MACH TRAVEL SOLUTIONS LIMITED",
+    "codes": {
+      "BSE-SME": "544248"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "544248.BO"
+    ],
+    "ticker": "MACHLTD.BO",
+    "firstCoveredBySovrenn": "2024-09-12",
+    "mentions": [
+      {
+        "date": "2026-09-29",
+        "tag": "PROMOTER BUYING",
+        "filing": "(PROMOTER BUYING) Promoter and Director Amit Bhatia acquired a combined 2,400 equity shares on 28th Sep 2026, for a total value of INR 4 lakh, at an average price of INR 165 per share.",
+        "outlook": "Company targets INR 500 Cr revenue in FY27, supported by the INR 92 Cr Punjab Government contract, with INR 71 Cr remaining for execution by Nov’26. Growth will also come from 100+ corporate accounts, the planned MacTravel.com OTA/app targeting 1.25 lakh annual travellers, and IRCTC empanelment with an INR 1 Cr initial order. Management aspires to achieve a 10% EBITDA margin, while expanding across MICE, B2G, Corporate Travel and B2C.",
+        "sovrennMcap": "INR 416 Crore",
+        "sovrennPe": "19.4x"
+      }
+    ],
+    "firstHighlighted": "2026-09-29",
+    "timesMentioned": 1,
+    "latestDate": "2026-09-29",
+    "latestTag": "PROMOTER BUYING",
+    "latestReason": "(PROMOTER BUYING) Promoter and Director Amit Bhatia acquired a combined 2,400 equity shares on 28th Sep 2026, for a total value of INR 4 lakh, at an average price of INR 165 per share.",
+    "latestOutlook": "Company targets INR 500 Cr revenue in FY27, supported by the INR 92 Cr Punjab Government contract, with INR 71 Cr remaining for execution by Nov’26. Growth will also come from 100+ corporate accounts, the planned MacTravel.com OTA/app targeting 1.25 lakh annual travellers, and IRCTC empanelment with an INR 1 Cr initial order. Management aspires to achieve a 10% EBITDA margin, while expanding across MICE, B2G, Corporate Travel and B2C.",
+    "sovrennMcap": "INR 416 Crore",
+    "sovrennPe": "19.4x",
+    "price": 215.0,
+    "priceDate": "2026-10-12",
+    "dma20": 186.1,
+    "dma50": 173.47,
+    "dma200": 139.18,
+    "rsi14": 68.9,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport, rsiOk, notExtended",
+    "bars": 493,
+    "priceAtHighlight": 193.0,
+    "priceAtHighlightDate": "2026-09-29",
+    "pctSinceHighlight": 11.4,
+    "mcapCr": 446,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "543230",
+    "name": "Advait Energy Transitions Limited",
+    "nameRaw": "ADVAIT ENERGY TRANSITIONS LIMITED",
+    "codes": {
+      "BSE": "543230"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "543230.BO"
+    ],
+    "ticker": "ADVAIT.NS",
+    "firstCoveredBySovrenn": "2023-02-22",
+    "mentions": [
+      {
+        "date": "2026-09-29",
+        "tag": "AGREEMENT",
+        "filing": "(AGREEMENT) Advait Battery Ecosystems Private Limited, a subsidiary of company, entered into a Master Supply Agreement with global energy storage manufacturer Hithium on September 18, 2026. Under the agreement, Hithium will supply 314 Ah lithium iron phosphate (LFP) prismatic battery cells to support a cell offtake of up to 1 GWh over the next year. This strategic supply arrangement will anchor Advait's upcoming 2.5 GWh cell-to-container Battery Energy Storage System (BESS) assembly facility in Gujarat, targeting utility-scale and commercial applications.",
+        "outlook": "Company aims for 40%+ revenue growth in FY27 on an all-time-high order book of INR 1,330 Cr (1.9x FY26 sales). Company is scaling its New & Renewable Energy platform — electrolysers toward 300 MW then 1 GW, a 2.5 GWh BESS factory and fuel cells — with its integrated Unit 3 at Gangad live by Q4FY27, on INR 300-350 Cr of FY27 capex.",
+        "sovrennMcap": "INR 2,065 Crore",
+        "sovrennPe": "33.8x"
+      }
+    ],
+    "firstHighlighted": "2026-09-29",
+    "timesMentioned": 1,
+    "latestDate": "2026-09-29",
+    "latestTag": "AGREEMENT",
+    "latestReason": "(AGREEMENT) Advait Battery Ecosystems Private Limited, a subsidiary of company, entered into a Master Supply Agreement with global energy storage manufacturer Hithium on September 18, 2026. Under the agreement, Hithium will supply 314 Ah lithium iron phosphate (LFP) prismatic battery cells to support a cell offtake of up to 1 GWh over the next year. This strategic supply arrangement will anchor Advait's upcoming 2.5 GWh cell-to-container Battery Energy Storage System (BESS) assembly facility in Gujarat, targeting utility-scale and commercial applications.",
+    "latestOutlook": "Company aims for 40%+ revenue growth in FY27 on an all-time-high order book of INR 1,330 Cr (1.9x FY26 sales). Company is scaling its New & Renewable Energy platform — electrolysers toward 300 MW then 1 GW, a 2.5 GWh BESS factory and fuel cells — with its integrated Unit 3 at Gangad live by Q4FY27, on INR 300-350 Cr of FY27 capex.",
+    "sovrennMcap": "INR 2,065 Crore",
+    "sovrennPe": "33.8x",
+    "price": 1932.9,
+    "priceDate": "2026-10-12",
+    "dma20": 1939.88,
+    "dma50": 2071.09,
+    "dma200": null,
+    "rsi14": 45.9,
+    "buyZone": "n/a",
+    "buyZoneNote": "insufficient history (above200)",
+    "bars": 179,
+    "priceAtHighlight": 1903.6,
+    "priceAtHighlightDate": "2026-09-29",
+    "pctSinceHighlight": 1.54,
+    "mcapCr": 2095,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "540205",
+    "name": "Aditya Vision Limited",
+    "nameRaw": "ADITYA VISION LIMITED",
+    "codes": {
+      "BSE": "540205"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "540205.BO"
+    ],
+    "ticker": "AVL.BO",
+    "firstCoveredBySovrenn": "2023-01-25",
+    "mentions": [
+      {
+        "date": "2026-09-29",
+        "tag": "NEW SHOWROOMS",
+        "filing": "(NEW SHOWROOMS) Company has expanded its retail network by opening two new showrooms in Chhattisgarh on September 28, 2026. The 213th showroom is located at Shankar Nagar Chowk in Raipur, while the 214th showroom is situated at Agrasen Square in Bilaspur.",
+        "outlook": "Company targets a 20-25% revenue CAGR over the next 3-5 years (FY26 revenue INR 2,672 Cr), adding 30+ stores a year while expanding beyond Bihar, Jharkhand and UP into Chhattisgarh, Madhya Pradesh and West Bengal. Company holds a 50%+ Bihar market share, has had zero store closures since inception, saw same-store sales growth rebound to 18% in Q1FY27, and guides for an 8-10% EBITDA margin.",
+        "sovrennMcap": "INR 7,580 Crore",
+        "sovrennPe": "54.5x"
+      }
+    ],
+    "firstHighlighted": "2026-09-29",
+    "timesMentioned": 1,
+    "latestDate": "2026-09-29",
+    "latestTag": "NEW SHOWROOMS",
+    "latestReason": "(NEW SHOWROOMS) Company has expanded its retail network by opening two new showrooms in Chhattisgarh on September 28, 2026. The 213th showroom is located at Shankar Nagar Chowk in Raipur, while the 214th showroom is situated at Agrasen Square in Bilaspur.",
+    "latestOutlook": "Company targets a 20-25% revenue CAGR over the next 3-5 years (FY26 revenue INR 2,672 Cr), adding 30+ stores a year while expanding beyond Bihar, Jharkhand and UP into Chhattisgarh, Madhya Pradesh and West Bengal. Company holds a 50%+ Bihar market share, has had zero store closures since inception, saw same-store sales growth rebound to 18% in Q1FY27, and guides for an 8-10% EBITDA margin.",
+    "sovrennMcap": "INR 7,580 Crore",
+    "sovrennPe": "54.5x",
+    "price": 586.5,
+    "priceDate": "2026-10-12",
+    "dma20": 608.68,
+    "dma50": 609.17,
+    "dma200": 549.41,
+    "rsi14": 44.2,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport",
+    "bars": 493,
+    "priceAtHighlight": 585.8,
+    "priceAtHighlightDate": "2026-09-29",
+    "pctSinceHighlight": 0.12,
+    "mcapCr": 7491,
+    "lastUpdated": "2026-10-14 07:42 IST",
+    "tickerResolvedBy": "yahoo search"
+  }
+]
