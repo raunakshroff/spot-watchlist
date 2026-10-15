@@ -48,5 +48,25 @@
     "reason": "Stop/invalidation hit: daily close 43155 < 44000",
     "priorStatus": "Watch-only",
     "notes": "8-Oct close 43155 (-2.83%), low 43000, vol 0.90x 20d, RSI 33.5. Broke 44410 support and close-basis invalidation <44000 (~1.9% through); rate-hike headwind for autos. Was Watch-only, never in entry zone. Levels at drop: Entry 44600-45100 if holds 44410; stop close <44000; T1 47000 / T2 49000."
+  },
+  {
+    "ticker": "CGPOWER.NS",
+    "name": "CG Power",
+    "sector": "Capital Goods / Industrial",
+    "droppedDate": "2026-10-15",
+    "lastPrice": 818.0,
+    "reason": "Stop hit: daily close 818.0 < 835 (closing-basis stop)",
+    "priorStatus": "Watch-only",
+    "notes": "15-Oct close 818.0 (-5.21%), high 846.05, low 815.35, vol 2.16x 20d, RSI 36.7. Close-basis stop <835 broken by ~2.0%; setup invalidated. Levels at drop: Re-arm: pullback 880-890 or BO >931; stop close <835; T1 920 / T2 931."
+  },
+  {
+    "ticker": "NESTLEIND.NS",
+    "name": "Nestlé India",
+    "sector": "FMCG",
+    "droppedDate": "2026-10-15",
+    "lastPrice": 1275.8,
+    "reason": "Stop hit: daily close 1275.8 < 1280 (closing-basis stop)",
+    "priorStatus": "Dip-buy",
+    "notes": "15-Oct close 1275.8 (-7.76%), high 1385.9, low 1260.5, vol 4.17x 20d, RSI 36.9. Close-basis stop <1280 broken by ~0.3%; setup invalidated. Levels at drop: Trigger: test 1293-1310 that closes >1310 (Entry 1293-1310); stop close <1280; T1 1362 (200DMA) / T2 1401 (20d high)."
   }
 ]
