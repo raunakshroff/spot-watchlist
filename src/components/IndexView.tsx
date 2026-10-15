@@ -362,7 +362,7 @@ export function IndexView({ data, loadError, watchlist = [] }: Props) {
                 className={`pill ${effScope === "all" ? "active" : ""}`}
                 onClick={() => setScope("all")}
               >
-                Major indices ({universe.length - (benchRow ? 1 : 0)})
+                All indices ({universe.length - (benchRow ? 1 : 0)})
               </button>
               <button
                 type="button"

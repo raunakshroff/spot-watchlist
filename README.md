@@ -12,7 +12,7 @@ Modern NSE stock-tracking dashboard for **Raunak Shroff**. Dark technical UI, JS
 
 - **Overview** — status filters, ticker search, buy-zone / RSI alerts, expandable cards with levels + thesis + sparkline + sector badge
 - **Sector** — group active names by NSE sector; filter pills per sector; same expandable cards
-- **vs Nifty** — Daily / Weekly toggle; curated major indices (broad market incl. Sensex, 15 sectoral, 10 key thematic) ranked by return with Nifty 50 as a highlighted row — above it outperformed, below it underperformed. Search, group filters, Above/Below filter, Ranked or By-group layout, ★ watchlist-linked filter; "My sectors" keeps the watchlist-sector cards. Edit the list in `MAJOR_INDICES` / `BSE_INDICES` in `scripts/daily_update.py`.
+- **vs Nifty** — Daily / Weekly toggle; every available NSE index (broad, sectoral, thematic, strategy) plus BSE Sensex / BSE 100 / BSE 500, ranked by return with Nifty 50 as a highlighted row — above it outperformed, below it underperformed. Search, group filters, Above/Below filter, Ranked or By-group layout, ★ watchlist-linked filter; "My sectors" keeps the watchlist-sector cards. Config in `scripts/daily_update.py` (exclusions + BSE_INDICES).
 - **History** — pick any logged market day and see that day's roster, prices, RSI, and whether anything was dropped
 - **Dropped archive** — drop date, last price, sector, reason
 - **Daily auto-update** — weekday cron at `45 10 * * 1-5` UTC (= **4:15 PM IST**), plus manual `workflow_dispatch`
@@ -32,7 +32,7 @@ Modern NSE stock-tracking dashboard for **Raunak Shroff**. Dark technical UI, JS
 | `public/data/history.json` | Daily snapshots (one row per ticker per day) |
 | `public/data/dropped.json` | Archived / dropped names |
 | `public/data/meta.json` | Title, timezone, last update, how-to blurbs |
-| `public/data/indices.json` | Nifty 50 benchmark + `indices[]` (curated major NSE indices + Sensex + a Nifty 50 benchmark row) + watchlist `sectors[]`, daily / weekly vs Nifty |
+| `public/data/indices.json` | Nifty 50 benchmark + `indices[]` (all equity NSE indices + BSE Sensex/100/500 + a Nifty 50 benchmark row) + watchlist `sectors[]`, daily / weekly vs Nifty |
 
 ### Status values
 
