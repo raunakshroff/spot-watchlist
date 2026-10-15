@@ -134,7 +134,7 @@ export interface IndexUniverseRow {
   watchlistSectors: string[];
   watchlistTickers: string[];
   isBenchmark?: boolean;
-  custom?: { macro?: string; kind?: string; method?: string; memberCount?: number };
+  custom?: { macro?: string; kind?: string; method?: string; memberCount?: number; thin?: boolean; liquidityFallback?: boolean };
 }
 
 

@@ -43,19 +43,19 @@
     },
     {
       "group": "Custom: Chemicals",
-      "count": 10
+      "count": 16
     },
     {
       "group": "Custom: Commodities",
-      "count": 3
+      "count": 4
     },
     {
       "group": "Custom: Consumer Discretionary",
-      "count": 6
+      "count": 13
     },
     {
       "group": "Custom: Fast Moving Consumer Goods",
-      "count": 1
+      "count": 5
     },
     {
       "group": "Custom: Financial Services",
@@ -67,15 +67,15 @@
     },
     {
       "group": "Custom: Industrials",
-      "count": 8
+      "count": 10
     },
     {
       "group": "Custom: Services",
-      "count": 1
+      "count": 3
     },
     {
       "group": "Custom: Utilities",
-      "count": 1
+      "count": 2
     }
   ],
   "indices": [
@@ -3376,17 +3376,17 @@
       "yahooSymbol": null,
       "group": "Custom: Chemicals",
       "dataSource": "custom",
-      "last": 1840.4,
-      "dailyPct": 1.08,
-      "weeklyPct": 2.88,
+      "last": 1819.42,
+      "dailyPct": 1.01,
+      "weeklyPct": 2.63,
       "m1Pct": 5.74,
       "m3Pct": 8.76,
       "m6Pct": 25.04,
       "y1Pct": 13.12,
       "y5Pct": null,
       "isBenchmark": false,
-      "vsNiftyDaily": -0.58,
-      "vsNiftyWeekly": -0.56,
+      "vsNiftyDaily": -0.65,
+      "vsNiftyWeekly": -0.81,
       "vsNiftyM1": 6.26,
       "vsNiftyM3": 13.23,
       "vsNiftyM6": 30.0,
@@ -3398,7 +3398,9 @@
         "macro": "Chemicals",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 49
+        "memberCount": 50,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -3430,7 +3432,9 @@
         "macro": "Chemicals",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 17
+        "memberCount": 17,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -3462,7 +3466,9 @@
         "macro": "Chemicals",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 19
+        "memberCount": 19,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -3494,7 +3500,9 @@
         "macro": "Chemicals",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 11
+        "memberCount": 11,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -3526,7 +3534,9 @@
         "macro": "Chemicals",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 6
+        "memberCount": 6,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -3558,7 +3568,179 @@
         "macro": "Chemicals",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 9
+        "memberCount": 9,
+        "thin": false,
+        "liquidityFallback": false
+      }
+    },
+    {
+      "id": "CUSTOM-CHEM-TRADING",
+      "name": "Chemicals · Trading - Chemicals",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Chemicals",
+      "dataSource": "custom",
+      "last": 112.68,
+      "dailyPct": 1.47,
+      "weeklyPct": 1.6,
+      "m1Pct": -5.67,
+      "m3Pct": -12.71,
+      "m6Pct": -18.16,
+      "y1Pct": -36.38,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": -0.19,
+      "vsNiftyWeekly": -1.84,
+      "vsNiftyM1": -5.15,
+      "vsNiftyM3": -8.24,
+      "vsNiftyM6": -13.2,
+      "vsNiftyY1": -27.19,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Chemicals",
+        "kind": "basic-industry",
+        "method": "equal-weight · fallback most-traded with history (none cleared ₹1cr ADV)",
+        "memberCount": 4,
+        "thin": false,
+        "liquidityFallback": true
+      }
+    },
+    {
+      "id": "CUSTOM-CHEM-EXPLOSIVES",
+      "name": "Chemicals · Explosives",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Chemicals",
+      "dataSource": "custom",
+      "last": 7075.72,
+      "dailyPct": 1.37,
+      "weeklyPct": 1.43,
+      "m1Pct": -0.55,
+      "m3Pct": 3.65,
+      "m6Pct": 33.79,
+      "y1Pct": 20.23,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": -0.29,
+      "vsNiftyWeekly": -2.01,
+      "vsNiftyM1": -0.03,
+      "vsNiftyM3": 8.12,
+      "vsNiftyM6": 38.75,
+      "vsNiftyY1": 29.42,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Chemicals",
+        "kind": "basic-industry",
+        "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+        "memberCount": 3,
+        "thin": false,
+        "liquidityFallback": false
+      }
+    },
+    {
+      "id": "CUSTOM-CHEM-GASES",
+      "name": "Chemicals · Industrial Gases",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Chemicals",
+      "dataSource": "custom",
+      "last": 2187.85,
+      "dailyPct": -0.69,
+      "weeklyPct": -1.97,
+      "m1Pct": -1.83,
+      "m3Pct": 0.26,
+      "m6Pct": 20.95,
+      "y1Pct": -23.79,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": -2.35,
+      "vsNiftyWeekly": -5.41,
+      "vsNiftyM1": -1.31,
+      "vsNiftyM3": 4.73,
+      "vsNiftyM6": 25.91,
+      "vsNiftyY1": -14.6,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Chemicals",
+        "kind": "basic-industry",
+        "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+        "memberCount": 3,
+        "thin": false,
+        "liquidityFallback": false
+      }
+    },
+    {
+      "id": "CUSTOM-CHEM-CARBONBLACK",
+      "name": "Chemicals · Carbon Black",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Chemicals",
+      "dataSource": "custom",
+      "last": 488.45,
+      "dailyPct": 0.42,
+      "weeklyPct": -0.69,
+      "m1Pct": 1.92,
+      "m3Pct": -5.29,
+      "m6Pct": 23.84,
+      "y1Pct": 13.47,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": -1.24,
+      "vsNiftyWeekly": -4.13,
+      "vsNiftyM1": 2.44,
+      "vsNiftyM3": -0.82,
+      "vsNiftyM6": 28.8,
+      "vsNiftyY1": 22.66,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Chemicals",
+        "kind": "basic-industry",
+        "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+        "memberCount": 2,
+        "thin": true,
+        "liquidityFallback": false
+      }
+    },
+    {
+      "id": "CUSTOM-CHEM-INKS",
+      "name": "Chemicals · Printing Inks",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Chemicals",
+      "dataSource": "custom",
+      "last": 3.33,
+      "dailyPct": 4.39,
+      "weeklyPct": -9.51,
+      "m1Pct": -8.77,
+      "m3Pct": 27.1,
+      "m6Pct": 21.98,
+      "y1Pct": 14.43,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": 2.73,
+      "vsNiftyWeekly": -12.95,
+      "vsNiftyM1": -8.25,
+      "vsNiftyM3": 31.57,
+      "vsNiftyM6": 26.94,
+      "vsNiftyY1": 23.62,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Chemicals",
+        "kind": "basic-industry",
+        "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+        "memberCount": 1,
+        "thin": true,
+        "liquidityFallback": false
       }
     },
     {
@@ -3590,7 +3772,9 @@
         "macro": "Chemicals",
         "kind": "micro-niche",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 3
+        "memberCount": 3,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -3622,7 +3806,9 @@
         "macro": "Chemicals",
         "kind": "micro-niche",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 5
+        "memberCount": 5,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -3654,7 +3840,9 @@
         "macro": "Chemicals",
         "kind": "micro-niche",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 5
+        "memberCount": 5,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -3686,7 +3874,77 @@
         "macro": "Chemicals",
         "kind": "micro-niche",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 5
+        "memberCount": 5,
+        "thin": false,
+        "liquidityFallback": false
+      }
+    },
+    {
+      "id": "CUSTOM-CHEM-OLEO",
+      "name": "Chemicals · Oleochemicals (micro)",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Chemicals",
+      "dataSource": "custom",
+      "last": 815.95,
+      "dailyPct": -0.16,
+      "weeklyPct": -0.86,
+      "m1Pct": -5.88,
+      "m3Pct": -6.55,
+      "m6Pct": 7.28,
+      "y1Pct": -4.09,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": -1.82,
+      "vsNiftyWeekly": -4.3,
+      "vsNiftyM1": -5.36,
+      "vsNiftyM3": -2.08,
+      "vsNiftyM6": 12.24,
+      "vsNiftyY1": 5.1,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Chemicals",
+        "kind": "micro-niche",
+        "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+        "memberCount": 2,
+        "thin": true,
+        "liquidityFallback": false
+      }
+    },
+    {
+      "id": "CUSTOM-GAP-OTHER-CONSTRUCTION-MATERIALS",
+      "name": "Commodities · Other Construction Materials",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Commodities",
+      "dataSource": "custom",
+      "last": 500.63,
+      "dailyPct": -0.27,
+      "weeklyPct": 0.9,
+      "m1Pct": 2.25,
+      "m3Pct": 5.27,
+      "m6Pct": 6.01,
+      "y1Pct": -17.79,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": -1.93,
+      "vsNiftyWeekly": -2.54,
+      "vsNiftyM1": 2.77,
+      "vsNiftyM3": 9.74,
+      "vsNiftyM6": 10.97,
+      "vsNiftyY1": -8.6,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Commodities",
+        "kind": "basic-industry",
+        "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+        "memberCount": 4,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -3718,7 +3976,9 @@
         "macro": "Commodities",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 8
+        "memberCount": 8,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -3750,7 +4010,9 @@
         "macro": "Commodities",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 5
+        "memberCount": 5,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -3782,7 +4044,77 @@
         "macro": "Commodities",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 8
+        "memberCount": 8,
+        "thin": false,
+        "liquidityFallback": false
+      }
+    },
+    {
+      "id": "CUSTOM-GAP-PLASTIC-PRODUCTS-CONSUMER",
+      "name": "Consumer Discretionary · Plastic Products - Consumer",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Consumer Discretionary",
+      "dataSource": "custom",
+      "last": 1628.97,
+      "dailyPct": 0.66,
+      "weeklyPct": 0.43,
+      "m1Pct": -7.99,
+      "m3Pct": 5.69,
+      "m6Pct": 18.66,
+      "y1Pct": -6.81,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": -1.0,
+      "vsNiftyWeekly": -3.01,
+      "vsNiftyM1": -7.47,
+      "vsNiftyM3": 10.16,
+      "vsNiftyM6": 23.62,
+      "vsNiftyY1": 2.38,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Consumer Discretionary",
+        "kind": "basic-industry",
+        "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+        "memberCount": 4,
+        "thin": false,
+        "liquidityFallback": false
+      }
+    },
+    {
+      "id": "CUSTOM-GAP-LEATHER-AND-LEATHER-PRODUCTS",
+      "name": "Consumer Discretionary · Leather And Leather Products",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Consumer Discretionary",
+      "dataSource": "custom",
+      "last": 670.67,
+      "dailyPct": 1.77,
+      "weeklyPct": 1.61,
+      "m1Pct": 9.79,
+      "m3Pct": 21.85,
+      "m6Pct": 39.72,
+      "y1Pct": 52.81,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": 0.11,
+      "vsNiftyWeekly": -1.83,
+      "vsNiftyM1": 10.31,
+      "vsNiftyM3": 26.32,
+      "vsNiftyM6": 44.68,
+      "vsNiftyY1": 62.0,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Consumer Discretionary",
+        "kind": "basic-industry",
+        "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+        "memberCount": 3,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -3814,7 +4146,9 @@
         "macro": "Consumer Discretionary",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 35
+        "memberCount": 35,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -3846,7 +4180,145 @@
         "macro": "Consumer Discretionary",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 16
+        "memberCount": 16,
+        "thin": false,
+        "liquidityFallback": false
+      }
+    },
+    {
+      "id": "CUSTOM-GAP-AMUSEMENT-PARKS-OTHER-RECREATION",
+      "name": "Utilities · Amusement Parks/ Other Recreation",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Utilities",
+      "dataSource": "custom",
+      "last": 211.43,
+      "dailyPct": 0.13,
+      "weeklyPct": 1.14,
+      "m1Pct": 14.4,
+      "m3Pct": 10.96,
+      "m6Pct": 7.26,
+      "y1Pct": -6.25,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": -1.53,
+      "vsNiftyWeekly": -2.3,
+      "vsNiftyM1": 14.92,
+      "vsNiftyM3": 15.43,
+      "vsNiftyM6": 12.22,
+      "vsNiftyY1": 2.94,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Utilities",
+        "kind": "basic-industry",
+        "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+        "memberCount": 3,
+        "thin": false,
+        "liquidityFallback": false
+      }
+    },
+    {
+      "id": "CUSTOM-GAP-EDUCATION",
+      "name": "Consumer Discretionary · Education",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Consumer Discretionary",
+      "dataSource": "custom",
+      "last": 152.18,
+      "dailyPct": 0.5,
+      "weeklyPct": 1.65,
+      "m1Pct": -1.95,
+      "m3Pct": 4.07,
+      "m6Pct": 10.6,
+      "y1Pct": 33.81,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": -1.16,
+      "vsNiftyWeekly": -1.79,
+      "vsNiftyM1": -1.43,
+      "vsNiftyM3": 8.54,
+      "vsNiftyM6": 15.56,
+      "vsNiftyY1": 43.0,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Consumer Discretionary",
+        "kind": "basic-industry",
+        "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+        "memberCount": 4,
+        "thin": false,
+        "liquidityFallback": false
+      }
+    },
+    {
+      "id": "CUSTOM-GAP-E-LEARNING",
+      "name": "Consumer Discretionary · E-Learning",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Consumer Discretionary",
+      "dataSource": "custom",
+      "last": 197.5,
+      "dailyPct": 2.33,
+      "weeklyPct": 7.89,
+      "m1Pct": -28.78,
+      "m3Pct": -31.66,
+      "m6Pct": -15.73,
+      "y1Pct": -61.62,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": 0.67,
+      "vsNiftyWeekly": 4.45,
+      "vsNiftyM1": -28.26,
+      "vsNiftyM3": -27.19,
+      "vsNiftyM6": -10.77,
+      "vsNiftyY1": -52.43,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Consumer Discretionary",
+        "kind": "basic-industry",
+        "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+        "memberCount": 3,
+        "thin": false,
+        "liquidityFallback": false
+      }
+    },
+    {
+      "id": "CUSTOM-GAP-OTHER-CONSUMER-SERVICES",
+      "name": "Consumer Discretionary · Other Consumer Services",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Consumer Discretionary",
+      "dataSource": "custom",
+      "last": 406.25,
+      "dailyPct": 0.21,
+      "weeklyPct": -1.25,
+      "m1Pct": -2.08,
+      "m3Pct": -7.72,
+      "m6Pct": 27.11,
+      "y1Pct": 23.48,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": -1.45,
+      "vsNiftyWeekly": -4.69,
+      "vsNiftyM1": -1.56,
+      "vsNiftyM3": -3.25,
+      "vsNiftyM6": 32.07,
+      "vsNiftyY1": 32.67,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Consumer Discretionary",
+        "kind": "basic-industry",
+        "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+        "memberCount": 1,
+        "thin": true,
+        "liquidityFallback": false
       }
     },
     {
@@ -3878,7 +4350,9 @@
         "macro": "Consumer Discretionary",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 6
+        "memberCount": 6,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -3910,7 +4384,145 @@
         "macro": "Fast Moving Consumer Goods",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 17
+        "memberCount": 17,
+        "thin": false,
+        "liquidityFallback": false
+      }
+    },
+    {
+      "id": "CUSTOM-GAP-OTHER-FOOD-PRODUCTS",
+      "name": "Fast Moving Consumer Goods · Other Food Products",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Fast Moving Consumer Goods",
+      "dataSource": "custom",
+      "last": 1077.35,
+      "dailyPct": -0.7,
+      "weeklyPct": 0.48,
+      "m1Pct": -2.43,
+      "m3Pct": 2.46,
+      "m6Pct": 3.87,
+      "y1Pct": -1.72,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": -2.36,
+      "vsNiftyWeekly": -2.96,
+      "vsNiftyM1": -1.91,
+      "vsNiftyM3": 6.93,
+      "vsNiftyM6": 8.83,
+      "vsNiftyY1": 7.47,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Fast Moving Consumer Goods",
+        "kind": "basic-industry",
+        "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+        "memberCount": 3,
+        "thin": false,
+        "liquidityFallback": false
+      }
+    },
+    {
+      "id": "CUSTOM-GAP-SEAFOOD",
+      "name": "Fast Moving Consumer Goods · Seafood",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Fast Moving Consumer Goods",
+      "dataSource": "custom",
+      "last": 250.88,
+      "dailyPct": 1.52,
+      "weeklyPct": 1.8,
+      "m1Pct": -3.26,
+      "m3Pct": -14.89,
+      "m6Pct": -19.32,
+      "y1Pct": 56.05,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": -0.14,
+      "vsNiftyWeekly": -1.64,
+      "vsNiftyM1": -2.74,
+      "vsNiftyM3": -10.42,
+      "vsNiftyM6": -14.36,
+      "vsNiftyY1": 65.24,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Fast Moving Consumer Goods",
+        "kind": "basic-industry",
+        "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+        "memberCount": 2,
+        "thin": true,
+        "liquidityFallback": false
+      }
+    },
+    {
+      "id": "CUSTOM-GAP-MEAT-PRODUCTS-INCLUDING-POULTRY",
+      "name": "Fast Moving Consumer Goods · Meat Products including Poultry",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Fast Moving Consumer Goods",
+      "dataSource": "custom",
+      "last": 647.83,
+      "dailyPct": 5.04,
+      "weeklyPct": 6.55,
+      "m1Pct": 1.0,
+      "m3Pct": -0.26,
+      "m6Pct": 15.49,
+      "y1Pct": 11.18,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": 3.38,
+      "vsNiftyWeekly": 3.11,
+      "vsNiftyM1": 1.52,
+      "vsNiftyM3": 4.21,
+      "vsNiftyM6": 20.45,
+      "vsNiftyY1": 20.37,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Fast Moving Consumer Goods",
+        "kind": "basic-industry",
+        "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+        "memberCount": 3,
+        "thin": false,
+        "liquidityFallback": false
+      }
+    },
+    {
+      "id": "CUSTOM-GAP-STATIONARY",
+      "name": "Fast Moving Consumer Goods · Stationary",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Fast Moving Consumer Goods",
+      "dataSource": "custom",
+      "last": 815.42,
+      "dailyPct": 0.96,
+      "weeklyPct": 1.99,
+      "m1Pct": -1.06,
+      "m3Pct": -11.46,
+      "m6Pct": -19.4,
+      "y1Pct": -19.51,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": -0.7,
+      "vsNiftyWeekly": -1.45,
+      "vsNiftyM1": -0.54,
+      "vsNiftyM3": -6.99,
+      "vsNiftyM6": -14.44,
+      "vsNiftyY1": -10.32,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Fast Moving Consumer Goods",
+        "kind": "basic-industry",
+        "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+        "memberCount": 3,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -3942,7 +4554,9 @@
         "macro": "Financial Services",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 12
+        "memberCount": 12,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -3974,7 +4588,9 @@
         "macro": "Financial Services",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 5
+        "memberCount": 5,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -4006,7 +4622,9 @@
         "macro": "Financial Services",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 7
+        "memberCount": 7,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -4038,7 +4656,9 @@
         "macro": "Industrials",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 5
+        "memberCount": 5,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -4070,7 +4690,9 @@
         "macro": "Industrials",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 17
+        "memberCount": 17,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -4102,7 +4724,9 @@
         "macro": "Industrials",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 11
+        "memberCount": 11,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -4134,7 +4758,9 @@
         "macro": "Industrials",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 11
+        "memberCount": 11,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -4144,18 +4770,18 @@
       "yahooSymbol": null,
       "group": "Custom: Industrials",
       "dataSource": "custom",
-      "last": 1702.72,
-      "dailyPct": 0.39,
-      "weeklyPct": -0.17,
-      "m1Pct": -0.55,
+      "last": 1588.57,
+      "dailyPct": 0.38,
+      "weeklyPct": 0.03,
+      "m1Pct": -0.41,
       "m3Pct": 11.48,
       "m6Pct": 42.93,
       "y1Pct": 51.04,
       "y5Pct": null,
       "isBenchmark": false,
-      "vsNiftyDaily": -1.27,
-      "vsNiftyWeekly": -3.61,
-      "vsNiftyM1": -0.03,
+      "vsNiftyDaily": -1.28,
+      "vsNiftyWeekly": -3.41,
+      "vsNiftyM1": 0.11,
       "vsNiftyM3": 15.95,
       "vsNiftyM6": 47.89,
       "vsNiftyY1": 60.23,
@@ -4166,7 +4792,9 @@
         "macro": "Industrials",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 13
+        "memberCount": 14,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -4198,7 +4826,9 @@
         "macro": "Industrials",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 13
+        "memberCount": 13,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -4230,7 +4860,43 @@
         "macro": "Industrials",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 5
+        "memberCount": 5,
+        "thin": false,
+        "liquidityFallback": false
+      }
+    },
+    {
+      "id": "CUSTOM-GAP-RUBBER",
+      "name": "Industrials · Rubber",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Industrials",
+      "dataSource": "custom",
+      "last": 1149.35,
+      "dailyPct": 2.48,
+      "weeklyPct": 6.91,
+      "m1Pct": 4.16,
+      "m3Pct": 3.66,
+      "m6Pct": 40.61,
+      "y1Pct": 33.68,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": 0.82,
+      "vsNiftyWeekly": 3.47,
+      "vsNiftyM1": 4.68,
+      "vsNiftyM3": 8.13,
+      "vsNiftyM6": 45.57,
+      "vsNiftyY1": 42.87,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Industrials",
+        "kind": "basic-industry",
+        "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+        "memberCount": 3,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -4262,7 +4928,77 @@
         "macro": "Services",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 6
+        "memberCount": 6,
+        "thin": false,
+        "liquidityFallback": false
+      }
+    },
+    {
+      "id": "CUSTOM-GAP-CONSULTING-SERVICES",
+      "name": "Services · Consulting Services",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Services",
+      "dataSource": "custom",
+      "last": 93.52,
+      "dailyPct": 1.65,
+      "weeklyPct": -0.15,
+      "m1Pct": 15.6,
+      "m3Pct": 19.83,
+      "m6Pct": 13.31,
+      "y1Pct": 29.82,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": -0.01,
+      "vsNiftyWeekly": -3.59,
+      "vsNiftyM1": 16.12,
+      "vsNiftyM3": 24.3,
+      "vsNiftyM6": 18.27,
+      "vsNiftyY1": 39.01,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Services",
+        "kind": "basic-industry",
+        "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+        "memberCount": 2,
+        "thin": true,
+        "liquidityFallback": false
+      }
+    },
+    {
+      "id": "CUSTOM-GAP-BUSINESS-PROCESS-OUTSOURCING-BPO-KNOW",
+      "name": "Services · Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Services",
+      "dataSource": "custom",
+      "last": 808.05,
+      "dailyPct": 0.38,
+      "weeklyPct": 7.22,
+      "m1Pct": 15.82,
+      "m3Pct": 18.98,
+      "m6Pct": 22.82,
+      "y1Pct": 19.99,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": -1.28,
+      "vsNiftyWeekly": 3.78,
+      "vsNiftyM1": 16.34,
+      "vsNiftyM3": 23.45,
+      "vsNiftyM6": 27.78,
+      "vsNiftyY1": 29.18,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Services",
+        "kind": "basic-industry",
+        "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+        "memberCount": 4,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -4294,7 +5030,9 @@
         "macro": "Utilities",
         "kind": "basic-industry",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 19
+        "memberCount": 19,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -4326,7 +5064,9 @@
         "macro": "Healthcare",
         "kind": "micro-niche",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 6
+        "memberCount": 6,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -4358,7 +5098,9 @@
         "macro": "Healthcare",
         "kind": "micro-niche",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 6
+        "memberCount": 6,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -4390,7 +5132,9 @@
         "macro": "Healthcare",
         "kind": "micro-niche",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 7
+        "memberCount": 7,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -4422,7 +5166,9 @@
         "macro": "Healthcare",
         "kind": "micro-niche",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 5
+        "memberCount": 5,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -4454,7 +5200,43 @@
         "macro": "Consumer Discretionary",
         "kind": "micro-niche",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 3
+        "memberCount": 3,
+        "thin": false,
+        "liquidityFallback": false
+      }
+    },
+    {
+      "id": "CUSTOM-MICRO-EVPV",
+      "name": "Automobile · EV passenger vehicles (micro)",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Consumer Discretionary",
+      "dataSource": "custom",
+      "last": 2379.65,
+      "dailyPct": -1.22,
+      "weeklyPct": 2.09,
+      "m1Pct": -7.96,
+      "m3Pct": -6.21,
+      "m6Pct": -2.64,
+      "y1Pct": -18.63,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": -2.88,
+      "vsNiftyWeekly": -1.35,
+      "vsNiftyM1": -7.44,
+      "vsNiftyM3": -1.74,
+      "vsNiftyM6": 2.32,
+      "vsNiftyY1": -9.44,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Consumer Discretionary",
+        "kind": "micro-niche",
+        "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+        "memberCount": 2,
+        "thin": true,
+        "liquidityFallback": false
       }
     },
     {
@@ -4486,7 +5268,9 @@
         "macro": "Consumer Discretionary",
         "kind": "micro-niche",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 5
+        "memberCount": 5,
+        "thin": false,
+        "liquidityFallback": false
       }
     },
     {
@@ -4518,7 +5302,77 @@
         "macro": "Consumer Discretionary",
         "kind": "micro-niche",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 4
+        "memberCount": 4,
+        "thin": false,
+        "liquidityFallback": false
+      }
+    },
+    {
+      "id": "CUSTOM-MICRO-SANITARY",
+      "name": "Consumer Durables · Sanitary ware (micro)",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Consumer Discretionary",
+      "dataSource": "custom",
+      "last": 2614.43,
+      "dailyPct": 1.17,
+      "weeklyPct": 3.07,
+      "m1Pct": -4.24,
+      "m3Pct": -22.62,
+      "m6Pct": -10.28,
+      "y1Pct": -33.28,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": -0.49,
+      "vsNiftyWeekly": -0.37,
+      "vsNiftyM1": -3.72,
+      "vsNiftyM3": -18.15,
+      "vsNiftyM6": -5.32,
+      "vsNiftyY1": -24.09,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Consumer Discretionary",
+        "kind": "micro-niche",
+        "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+        "memberCount": 2,
+        "thin": true,
+        "liquidityFallback": false
+      }
+    },
+    {
+      "id": "CUSTOM-MICRO-CNC",
+      "name": "Capital Goods · CNC / machine tools (micro)",
+      "nseSymbol": null,
+      "yahooSymbol": null,
+      "group": "Custom: Industrials",
+      "dataSource": "custom",
+      "last": 2633.25,
+      "dailyPct": 2.22,
+      "weeklyPct": 3.85,
+      "m1Pct": 6.54,
+      "m3Pct": 50.11,
+      "m6Pct": 72.55,
+      "y1Pct": 115.51,
+      "y5Pct": null,
+      "isBenchmark": false,
+      "vsNiftyDaily": 0.56,
+      "vsNiftyWeekly": 0.41,
+      "vsNiftyM1": 7.06,
+      "vsNiftyM3": 54.58,
+      "vsNiftyM6": 77.51,
+      "vsNiftyY1": 124.7,
+      "vsNiftyY5": null,
+      "watchlistSectors": [],
+      "watchlistTickers": [],
+      "custom": {
+        "macro": "Industrials",
+        "kind": "micro-niche",
+        "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+        "memberCount": 2,
+        "thin": true,
+        "liquidityFallback": false
       }
     },
     {
@@ -4550,7 +5404,9 @@
         "macro": "Industrials",
         "kind": "micro-niche",
         "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
-        "memberCount": 4
+        "memberCount": 4,
+        "thin": false,
+        "liquidityFallback": false
       }
     }
   ],

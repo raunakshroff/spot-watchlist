@@ -79,7 +79,7 @@ def fetch_histories(symbols: list[str], years: int = 5) -> dict[str, pd.DataFram
                     sub = df[t][["Close", "Volume"]].dropna(subset=["Close"])
                 else:
                     sub = df[["Close", "Volume"]].dropna(subset=["Close"])
-                if len(sub) >= 25:
+                if len(sub) >= 15:
                     sub = sub.copy()
                     sub.index = pd.to_datetime(sub.index).tz_localize(None)
                     out[sym] = sub
@@ -99,25 +99,39 @@ def adv_inr(hist: pd.DataFrame, window: int = 20) -> float | None:
     return float(traded)
 
 
-def filter_members(candidates: list[dict], hist: dict[str, pd.DataFrame], min_members: int):
-    kept, excluded = [], []
+def filter_members(candidates: list[dict], hist: dict[str, pd.DataFrame], min_members: int = 1):
+    """Prefer liquid names; if none clear the ₹1cr bar, fall back to most-traded
+    names that still have usable price history so the basket is never empty when
+    history exists. `min_members` is ignored for skipping (always keep ≥1 if possible).
+    """
+    liquid, thin_hist, no_hist = [], [], []
     for c in candidates:
         sym = c["symbol"]
         h = hist.get(sym)
-        if h is None or len(h) < 30:
-            excluded.append({**c, "reason": "history"})
+        if h is None or len(h) < 15:
+            no_hist.append({**c, "reason": "history"})
             continue
         adv = adv_inr(h)
-        if adv is None or adv < ADV_FLOOR:
-            excluded.append({**c, "reason": "liquidity", "adv": None if adv is None else round(adv)})
-            continue
-        kept.append({**c, "adv": round(adv)})
-    status = "ok"
-    skip = None
-    if len(kept) < min_members:
-        status = "skipped"
-        skip = f"only {len(kept)} liquid names (min {min_members})"
-    return kept, excluded, status, skip
+        row = {**c, "adv": None if adv is None else round(adv)}
+        if adv is not None and adv >= ADV_FLOOR:
+            liquid.append(row)
+        else:
+            thin_hist.append({**row, "reason": "liquidity"})
+
+    if liquid:
+        kept = sorted(liquid, key=lambda x: x.get("adv") or 0, reverse=True)
+        excluded = thin_hist + no_hist
+        return kept, excluded, "ok", None, False
+
+    # Fallback: most-traded among names with history (even if ADV < floor)
+    if thin_hist:
+        kept = sorted(thin_hist, key=lambda x: x.get("adv") or 0, reverse=True)
+        # drop reason on kept
+        kept = [{k: v for k, v in x.items() if k != "reason"} for x in kept]
+        excluded = no_hist
+        return kept, excluded, "ok", None, True  # fallbackUsed
+
+    return [], no_hist, "skipped", "no names with price history", False
 
 
 def member_return(hist: pd.DataFrame, calendar_days: int, as_of: pd.Timestamp) -> float | None:
@@ -150,7 +164,7 @@ def ew_series(members: list[str], hist: dict[str, pd.DataFrame], start: pd.Times
     rets = px.pct_change()
     valid = rets.notna().sum(axis=1)
     ew = rets.mean(axis=1, skipna=True)
-    ew = ew.where(valid >= min(3, len(members)))
+    ew = ew.where(valid >= min(1, len(members)))
     level = (1 + ew.fillna(0)).cumprod() * 100
     # null out until first valid
     first = ew.first_valid_index()
@@ -185,7 +199,6 @@ def build_and_merge(*, years: int = 5) -> dict:
         {
             c["symbol"]
             for b in defs["baskets"]
-            if not b.get("skipReason")
             for c in b.get("candidates") or []
         }
     )
@@ -209,19 +222,22 @@ def build_and_merge(*, years: int = 5) -> dict:
 
     for b in defs["baskets"]:
         iid = b["id"]
-        if b.get("skipReason"):
-            report["skipped"].append({"id": iid, "reason": b["skipReason"], "candidates": len(b.get("candidates") or [])})
-            continue
-        kept, excluded, status, skip = filter_members(b["candidates"], hist, b.get("minMembers") or 5)
+        # Clear any prior prefilter skip — thin baskets are allowed
+        b["skipReason"] = None
+        b["minMembers"] = 1
+        kept, excluded, status, skip, fallback = filter_members(
+            b["candidates"], hist, b.get("minMembers") or 1
+        )
         report["excluded"][iid] = excluded
-        if status != "ok":
-            report["skipped"].append({"id": iid, "reason": skip, "kept": len(kept), "excluded": len(excluded)})
-            # still record empty constituents block
+        if status != "ok" or not kept:
+            report["skipped"].append(
+                {"id": iid, "reason": skip or "empty", "kept": len(kept), "excluded": len(excluded)}
+            )
             const_blocks.append(
                 {
                     "id": iid,
                     "status": "n/a",
-                    "reason": skip,
+                    "reason": skip or "no names with price history",
                     "count": 0,
                     "members": [],
                     "csv": None,
@@ -280,8 +296,14 @@ def build_and_merge(*, years: int = 5) -> dict:
             "custom": {
                 "macro": b["macro"],
                 "kind": b.get("kind"),
-                "method": "equal-weight · liquid ≥₹1cr ADV · screener universe",
+                "method": (
+                    "equal-weight · fallback most-traded with history (none cleared ₹1cr ADV)"
+                    if fallback
+                    else "equal-weight · liquid ≥₹1cr ADV · screener universe"
+                ),
                 "memberCount": len(kept),
+                "thin": len(kept) < 3,
+                "liquidityFallback": bool(fallback),
             },
         }
         custom_rows.append(row)
@@ -322,7 +344,7 @@ def build_and_merge(*, years: int = 5) -> dict:
         dates, vals = ew_series([m["symbol"] for m in kept], hist, start, as_of)
         series_daily[iid] = {"dates": dates, "values": vals}
 
-        report["built"].append({"id": iid, "members": len(kept), "excluded": len(excluded)})
+        report["built"].append({"id": iid, "members": len(kept), "excluded": len(excluded), "thin": len(kept) < 3, "liquidityFallback": bool(fallback)})
         print(f"OK {iid}: {len(kept)} members, daily={daily}, y1={horizons['y1']}")
 
     # Merge into indices.json — replace prior custom rows for these macros

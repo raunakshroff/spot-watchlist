@@ -250,6 +250,25 @@ function UniverseTable({
                     {r.dataSource === "yahoo" && r.nseSymbol && !bench && (
                       <span className="ix-chip warn">Yahoo</span>
                     )}
+                    {r.dataSource === "custom" && (
+                      <span
+                        className="ix-chip warn"
+                        title={
+                          r.custom?.method
+                          ?? "Equal-weight liquid screen — not an official NSE/BSE index"
+                        }
+                      >
+                        Custom EW
+                      </span>
+                    )}
+                    {r.dataSource === "custom" && r.custom?.thin && (
+                      <span
+                        className="ix-chip warn"
+                        title="Thin basket: fewer than 3 liquid/history names after filters"
+                      >
+                        thin: {r.custom.memberCount ?? 0} stocks
+                      </span>
+                    )}
                   </span>
                 </span>
                 <span className="ix-num ix-last">{fmtLevel(r.last)}</span>
