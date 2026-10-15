@@ -227,3 +227,34 @@ export interface SovrennEntry {
   buyZone?: "Y" | "N" | "n/a";
   buyZoneNote?: string;
 }
+
+
+export interface IndexConstituentMember {
+  symbol: string;
+  name: string | null;
+  industry: string | null;
+  weight: number | null;
+  dailyPct: number | null;
+  onWatchlist: boolean;
+}
+
+export interface IndexConstituentsBlock {
+  id: string;
+  status: "ok" | "n/a" | string;
+  reason?: string | null;
+  count: number;
+  members: IndexConstituentMember[];
+  csv?: string | null;
+  membershipAsOf?: string | null;
+}
+
+export interface IndexConstituentsData {
+  asOf: string;
+  timezone: string;
+  lastRunUtc?: string;
+  source?: string;
+  weightNote?: string;
+  counts?: { withConstituents: number; withoutConstituents: number; total: number };
+  missing?: { id: string; reason: string }[];
+  indices: IndexConstituentsBlock[];
+}

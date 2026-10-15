@@ -349,6 +349,7 @@ DATA_FILES = (
     "indices.json",
     "sovrenn.json",
     "index_history.json",
+    "index_constituents.json",
 )
 
 
@@ -909,6 +910,16 @@ def main() -> int:
         )
     else:
         print("WARN: skipped indices.json refresh")
+
+
+    # Index constituents: membership weekly (Mon), day-changes daily
+    try:
+        sys.path.insert(0, str(Path(__file__).parent))
+        from index_constituents import refresh as constituents_refresh
+
+        constituents_refresh(force_membership=False)
+    except Exception as e:  # noqa: BLE001
+        print(f"WARN: constituents refresh failed: {e}")
 
     # Sovrenn Times list (separate from the watchlist): refresh price / buy zone
     try:

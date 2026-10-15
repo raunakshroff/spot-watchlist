@@ -1,5 +1,7 @@
 import { useMemo, useState } from "react";
 import type {
+  IndexConstituentsBlock,
+  IndexConstituentsData,
   IndexHistoryData,
   IndexHorizon,
   IndicesData,
@@ -15,6 +17,7 @@ import { shortTicker } from "../utils/format";
 interface Props {
   data: IndicesData | null;
   history?: IndexHistoryData | null;
+  constituents?: IndexConstituentsData | null;
   loadError?: string | null;
   watchlist?: WatchlistStock[];
 }
@@ -118,6 +121,61 @@ interface Ranked {
   vs: number | null;
 }
 
+function ConstituentsPanel({ block }: { block: IndexConstituentsBlock | undefined }) {
+  if (!block) {
+    return <div className="ix-const empty compact">Constituents not loaded yet.</div>;
+  }
+  if (block.status !== "ok" || !block.members.length) {
+    return (
+      <div className="ix-const empty compact">
+        Constituents n/a{block.reason ? ` — ${block.reason}` : ""}.
+      </div>
+    );
+  }
+  const sorted = [...block.members].sort((a, b) => {
+    if (a.onWatchlist !== b.onWatchlist) return a.onWatchlist ? -1 : 1;
+    const ap = a.dailyPct ?? -999;
+    const bp = b.dailyPct ?? -999;
+    return bp - ap;
+  });
+  return (
+    <div className="ix-const">
+      <div className="ix-const-head">
+        <span>{block.count} stocks</span>
+        <span className="ix-const-meta">
+          weight n/a · day change via Yahoo ·{" "}
+          {block.membershipAsOf ? `membership ${block.membershipAsOf}` : "official list"}
+        </span>
+      </div>
+      <div className="ix-const-table" role="table">
+        <div className="ix-const-tr ix-const-th" role="row">
+          <span>Symbol</span>
+          <span>Company</span>
+          <span>Industry</span>
+          <span className="ix-num">Weight</span>
+          <span className="ix-num">Day %</span>
+        </div>
+        {sorted.map((m) => (
+          <div key={m.symbol} className={`ix-const-tr ${m.onWatchlist ? "wl" : ""}`} role="row">
+            <span className="ix-const-sym">
+              {m.symbol}
+              {m.onWatchlist && <span className="ix-chip wl" title="On your watchlist">★</span>}
+            </span>
+            <span className="ix-const-name" title={m.name ?? undefined}>
+              {m.name ?? "—"}
+            </span>
+            <span className="ix-const-ind" title={m.industry ?? undefined}>
+              {m.industry ?? "—"}
+            </span>
+            <span className="ix-num">{m.weight == null ? "n/a" : `${m.weight.toFixed(2)}%`}</span>
+            <span className={`ix-num ${tone(m.dailyPct)}`}>{fmtPct(m.dailyPct)}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 function UniverseTable({
   items,
   showGroup,
@@ -125,6 +183,9 @@ function UniverseTable({
   startRank = 1,
   selectedIds,
   onToggle,
+  constituentsById,
+  openId,
+  onToggleConstituents,
 }: {
   items: Ranked[];
   showGroup: boolean;
@@ -132,6 +193,9 @@ function UniverseTable({
   startRank?: number;
   selectedIds: Set<string>;
   onToggle: (id: string) => void;
+  constituentsById: Map<string, IndexConstituentsBlock>;
+  openId: string | null;
+  onToggleConstituents: (id: string) => void;
 }) {
   return (
     <div className="ix-table" role="table">
@@ -141,58 +205,82 @@ function UniverseTable({
         <span className="ix-num ix-last">Last</span>
         <span className="ix-num">Return</span>
         <span className="ix-num">vs Nifty</span>
+        <span className="ix-stocks-col">Stocks</span>
       </div>
       {items.map((x, i) => {
         const r = x.row;
         const bench = !!r.isBenchmark;
         const width = x.vs == null ? 0 : Math.max(3, (Math.abs(x.vs) / maxAbs) * 100);
         const selected = selectedIds.has(r.id);
+        const block = constituentsById.get(r.id);
+        const count = block?.status === "ok" ? block.count : null;
+        const open = openId === r.id;
         return (
           <div key={r.id} className="ix-row-wrap">
-            <button
-              type="button"
-              className={`ix-tr ix-selectable ${
+            <div
+              className={`ix-tr ${
                 bench ? "bench" : x.vs == null ? "na" : x.vs > 0 ? "above" : x.vs < 0 ? "below" : "level"
               } ${selected ? "selected" : ""}`}
               role="row"
-              onClick={() => !bench && onToggle(r.id)}
-              title={bench ? "Nifty 50 benchmark" : selected ? "Remove from chart" : "Add to overlay chart"}
             >
-              <span className="ix-rank">{x.ret == null ? "–" : startRank + i}</span>
-              <span className="ix-name">
-                <span className="ix-title">
-                  {!bench && <span className={`ix-check ${selected ? "on" : ""}`}>{selected ? "✓" : "+"}</span>}
-                  {r.name}
+              <button
+                type="button"
+                className="ix-tr-main ix-selectable"
+                onClick={() => !bench && onToggle(r.id)}
+                title={bench ? "Nifty 50 benchmark" : selected ? "Remove from chart" : "Add to overlay chart"}
+              >
+                <span className="ix-rank">{x.ret == null ? "–" : startRank + i}</span>
+                <span className="ix-name">
+                  <span className="ix-title">
+                    {!bench && <span className={`ix-check ${selected ? "on" : ""}`}>{selected ? "✓" : "+"}</span>}
+                    {r.name}
+                  </span>
+                  <span className="ix-meta">
+                    {bench && <span className="ix-chip bench">Benchmark</span>}
+                    {showGroup && <span className="ix-chip">{r.group}</span>}
+                    {r.watchlistSectors.length > 0 && (
+                      <span
+                        className="ix-chip wl"
+                        title={r.watchlistTickers.map(shortTicker).join(", ")}
+                      >
+                        ★ {r.watchlistTickers.map(shortTicker).join(" · ")}
+                      </span>
+                    )}
+                    <span className="ix-sym">{r.yahooSymbol ?? r.nseSymbol}</span>
+                    {r.dataSource === "yahoo" && r.nseSymbol && !bench && (
+                      <span className="ix-chip warn">Yahoo</span>
+                    )}
+                  </span>
                 </span>
-                <span className="ix-meta">
-                  {bench && <span className="ix-chip bench">Benchmark</span>}
-                  {showGroup && <span className="ix-chip">{r.group}</span>}
-                  {r.watchlistSectors.length > 0 && (
+                <span className="ix-num ix-last">{fmtLevel(r.last)}</span>
+                <span className={`ix-num ${tone(x.ret)}`}>{fmtPct(x.ret)}</span>
+                <span className={`ix-num ix-spread ${tone(x.vs)}`}>
+                  {bench ? "±0.00%" : fmtPct(x.vs)}
+                  <span className="ix-bar-wrap" aria-hidden>
                     <span
-                      className="ix-chip wl"
-                      title={r.watchlistTickers.map(shortTicker).join(", ")}
-                    >
-                      ★ {r.watchlistTickers.map(shortTicker).join(" · ")}
-                    </span>
-                  )}
-                  <span className="ix-sym">{r.yahooSymbol ?? r.nseSymbol}</span>
-                  {r.dataSource === "yahoo" && r.nseSymbol && !bench && (
-                    <span className="ix-chip warn">Yahoo</span>
-                  )}
+                      className={`ix-bar ${(x.vs ?? 0) >= 0 ? "up" : "down"}`}
+                      style={{ width: `${width}%` }}
+                    />
+                  </span>
                 </span>
-              </span>
-              <span className="ix-num ix-last">{fmtLevel(r.last)}</span>
-              <span className={`ix-num ${tone(x.ret)}`}>{fmtPct(x.ret)}</span>
-              <span className={`ix-num ix-spread ${tone(x.vs)}`}>
-                {bench ? "±0.00%" : fmtPct(x.vs)}
-                <span className="ix-bar-wrap" aria-hidden>
-                  <span
-                    className={`ix-bar ${(x.vs ?? 0) >= 0 ? "up" : "down"}`}
-                    style={{ width: `${width}%` }}
-                  />
+              </button>
+              <button
+                type="button"
+                className={`ix-stocks-btn ${open ? "open" : ""}`}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onToggleConstituents(r.id);
+                }}
+                title={count != null ? `Show ${count} constituents` : "Constituents n/a"}
+                aria-expanded={open}
+              >
+                {count != null ? count : "n/a"}
+                <span className="ix-chevron" aria-hidden>
+                  {open ? "▾" : "▸"}
                 </span>
-              </span>
-            </button>
+              </button>
+            </div>
+            {open && <ConstituentsPanel block={block} />}
           </div>
         );
       })}
@@ -253,7 +341,7 @@ function Leaderboard({
   );
 }
 
-export function IndexView({ data, history = null, loadError, watchlist = [] }: Props) {
+export function IndexView({ data, history = null, constituents = null, loadError, watchlist = [] }: Props) {
   const [period, setPeriod] = useState<Period>("daily");
   const [scope, setScope] = useState<Scope>("all");
   const [group, setGroup] = useState<string>("All");
@@ -262,6 +350,14 @@ export function IndexView({ data, history = null, loadError, watchlist = [] }: P
   const [search, setSearch] = useState("");
   const [watchlistOnly, setWatchlistOnly] = useState(false);
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
+  const [openConstituentsId, setOpenConstituentsId] = useState<string | null>(null);
+
+  const constituentsById = useMemo(() => {
+    const m = new Map<string, IndexConstituentsBlock>();
+    for (const b of constituents?.indices ?? []) m.set(b.id, b);
+    return m;
+  }, [constituents]);
+
 
   const niftyPct = useMemo(() => {
     if (!data) return null;
@@ -586,7 +682,7 @@ export function IndexView({ data, history = null, loadError, watchlist = [] }: P
                   { m1: "1 month", m3: "3 months", m6: "6 months", y1: "1 year", y5: "5 years" }[period]
                 } lookback); n/a when history is missing.`}{" "}
           {isAll
-            ? "Click a row (or a leaderboard name) to overlay it vs Nifty on the chart. Ranked by return — Nifty 50 splits outperformers from underperformers."
+            ? "Click a row (or a leaderboard name) to overlay it vs Nifty on the chart. Use the Stocks badge to expand constituents. Ranked by return — Nifty 50 splits outperformers from underperformers."
             : "Watchlist sectors use their official NSE index; otherwise equal-weight average of watchlist names."}
         </p>
       </div>
@@ -601,6 +697,11 @@ export function IndexView({ data, history = null, loadError, watchlist = [] }: P
             maxAbs={maxAbs}
             selectedIds={selectedSet}
             onToggle={toggleSelect}
+            constituentsById={constituentsById}
+            openId={openConstituentsId}
+            onToggleConstituents={(id) =>
+              setOpenConstituentsId((cur) => (cur === id ? null : id))
+            }
           />
         ) : (
           <div className="ix-groups">
@@ -625,6 +726,11 @@ export function IndexView({ data, history = null, loadError, watchlist = [] }: P
                       maxAbs={maxAbs}
                       selectedIds={selectedSet}
                       onToggle={toggleSelect}
+                      constituentsById={constituentsById}
+                      openId={openConstituentsId}
+                      onToggleConstituents={(id) =>
+                        setOpenConstituentsId((cur) => (cur === id ? null : id))
+                      }
                     />
                   </div>
                 );
