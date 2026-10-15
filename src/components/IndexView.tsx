@@ -27,7 +27,7 @@ type Scope = "all" | "watchlist";
 type Side = "all" | "above" | "below";
 type Layout = "ranked" | "grouped";
 
-const GROUP_ORDER = ["Broad Market", "Sectoral", "Thematic", "Strategy", "BSE"];
+const GROUP_ORDER = ["Broad Market", "Sectoral", "Thematic", "Strategy", "BSE", "Custom: Chemicals"];
 const PERIODS: Period[] = ["daily", "weekly", "m1", "m3", "m6", "y1", "y5"];
 const LEADERBOARD_N = 10;
 
@@ -351,6 +351,8 @@ export function IndexView({ data, history = null, constituents = null, loadError
   const [watchlistOnly, setWatchlistOnly] = useState(false);
   const [selectedIds, setSelectedIds] = useState<string[]>([]);
   const [openConstituentsId, setOpenConstituentsId] = useState<string | null>(null);
+  const [sourceFilter, setSourceFilter] = useState<"all" | "official" | "custom">("all");
+
 
   const constituentsById = useMemo(() => {
     const m = new Map<string, IndexConstituentsBlock>();
@@ -394,9 +396,13 @@ export function IndexView({ data, history = null, constituents = null, loadError
     for (const r of universe) counts.set(r.group, (counts.get(r.group) ?? 0) + 1);
     return [...counts.entries()]
       .sort((a, b) => {
+        const ca = a[0].startsWith("Custom:");
+        const cb = b[0].startsWith("Custom:");
+        if (ca !== cb) return ca ? 1 : -1;
         const ia = GROUP_ORDER.indexOf(a[0]);
         const ib = GROUP_ORDER.indexOf(b[0]);
-        return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+        if (!ca && !cb) return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+        return a[0].localeCompare(b[0]);
       })
       .map(([g, n]) => ({ group: g, count: n }));
   }, [universe]);
@@ -411,6 +417,12 @@ export function IndexView({ data, history = null, constituents = null, loadError
     const q = search.trim().toLowerCase();
     return universe
       .filter((r) => !r.isBenchmark)
+      .filter((r) => {
+        const isCustom = String(r.group).startsWith("Custom:");
+        if (sourceFilter === "official") return !isCustom;
+        if (sourceFilter === "custom") return isCustom;
+        return true;
+      })
       .filter((r) => group === "All" || r.group === group)
       .filter((r) => !watchlistOnly || r.watchlistSectors.length > 0)
       .filter(
@@ -424,7 +436,7 @@ export function IndexView({ data, history = null, constituents = null, loadError
       )
       .map((r) => ({ row: r, ...pickHorizon(r, period) }))
       .sort(byReturn);
-  }, [universe, group, watchlistOnly, search, period]);
+  }, [universe, group, watchlistOnly, search, period, sourceFilter]);
 
   const scored = useMemo(() => ranked.filter((x) => x.vs != null), [ranked]);
   const leaders = useMemo(
@@ -641,6 +653,23 @@ export function IndexView({ data, history = null, constituents = null, loadError
                   By group
                 </button>
               </div>
+            </div>
+            <div className="period-toggle" role="group" aria-label="Official or custom">
+              {([
+                ["all", "All indexes"],
+                ["official", "Official"],
+                ["custom", "Custom"],
+              ] as const).map(([k, label]) => (
+                <button
+                  key={k}
+                  type="button"
+                  className={`pill ${sourceFilter === k ? "active" : ""}`}
+                  onClick={() => setSourceFilter(k)}
+                  title={k === "custom" ? "Equal-weight liquid screens — not official NSE/BSE indices" : undefined}
+                >
+                  {label}
+                </button>
+              ))}
             </div>
             <div className="filter-pills">
               <button

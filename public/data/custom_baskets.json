@@ -1,0 +1,1787 @@
+{
+  "version": 1,
+  "method": {
+    "weighting": "equal-weight",
+    "rebalance": "quarterly (returns use equal-weight of current liquid members; chart chains daily EW returns)",
+    "liquidity": "exclude names with 20-session average traded value under ₹1 crore",
+    "benchmark": "Nifty 50",
+    "priceSource": "Yahoo Finance .NS",
+    "universeSource": "screener.in basic-industry pages + curated micro seeds from sector-tree.md"
+  },
+  "baskets": [
+    {
+      "id": "CUSTOM-CHEM-SPECIALTY",
+      "name": "Chemicals · Specialty Chemicals",
+      "macro": "Chemicals",
+      "kind": "basic-industry",
+      "screenerName": "Specialty Chemicals",
+      "candidates": [
+        {
+          "symbol": "PIDILITIND",
+          "name": "Pidilite Inds."
+        },
+        {
+          "symbol": "FLUOROCHEM",
+          "name": "Gujarat Fluoroch"
+        },
+        {
+          "symbol": "NAVINFLUOR",
+          "name": "Navin Fluo.Intl."
+        },
+        {
+          "symbol": "DEEPAKNTR",
+          "name": "Deepak Nitrite"
+        },
+        {
+          "symbol": "AETHER",
+          "name": "Aether Industri."
+        },
+        {
+          "symbol": "AARTIIND",
+          "name": "Aarti Industries"
+        },
+        {
+          "symbol": "ATUL",
+          "name": "Atul"
+        },
+        {
+          "symbol": "FINEORG",
+          "name": "Fine Organic"
+        },
+        {
+          "symbol": "BASF",
+          "name": "BASF India"
+        },
+        {
+          "symbol": "ANURAS",
+          "name": "Anupam Rasayan"
+        },
+        {
+          "symbol": "PRIVISCL",
+          "name": "Privi Speci."
+        },
+        {
+          "symbol": "VINATIORGA",
+          "name": "Vinati Organics"
+        },
+        {
+          "symbol": "ELANTAS",
+          "name": "Elantas Beck"
+        },
+        {
+          "symbol": "JUBLINGREA",
+          "name": "Jubilant Ingrev."
+        },
+        {
+          "symbol": "ALKYLAMINE",
+          "name": "Alkyl Amines"
+        },
+        {
+          "symbol": "GALAXYSURF",
+          "name": "Galaxy Surfact."
+        },
+        {
+          "symbol": "CLEAN",
+          "name": "Clean Science"
+        },
+        {
+          "symbol": "NEOGEN",
+          "name": "Neogen Chemicals"
+        },
+        {
+          "symbol": "FCL",
+          "name": "Fineotex Chem"
+        },
+        {
+          "symbol": "BALAMINES",
+          "name": "Balaji Amines"
+        },
+        {
+          "symbol": "ACI",
+          "name": "Archean Chemical"
+        },
+        {
+          "symbol": "LXCHEM",
+          "name": "Laxmi Organic"
+        },
+        {
+          "symbol": "FOSECOIND",
+          "name": "Foseco India"
+        },
+        {
+          "symbol": "TATVA",
+          "name": "Tatva Chintan"
+        },
+        {
+          "symbol": "YASHO",
+          "name": "Yasho Industries"
+        },
+        {
+          "symbol": "PRASOLCHEM",
+          "name": "Prasol Chemicals"
+        },
+        {
+          "symbol": "VISHNU",
+          "name": "Vishnu Chemicals"
+        },
+        {
+          "symbol": "EPIGRAL",
+          "name": "Epigral"
+        },
+        {
+          "symbol": "STYRENIX",
+          "name": "Styrenix Perfor."
+        },
+        {
+          "symbol": "CHEMPLASTS",
+          "name": "Chemplast Sanmar"
+        },
+        {
+          "symbol": "JUBLCPL",
+          "name": "Jubilant Agri"
+        },
+        {
+          "symbol": "NOCIL",
+          "name": "NOCIL"
+        },
+        {
+          "symbol": "DDEVPLSTIK",
+          "name": "DDev Plastiks"
+        },
+        {
+          "symbol": "ROSSARI",
+          "name": "Rossari Biotech"
+        },
+        {
+          "symbol": "PAUSHAKLTD",
+          "name": "Paushak"
+        },
+        {
+          "symbol": "OAL",
+          "name": "Oriental Aromat."
+        },
+        {
+          "symbol": "INDOKEM",
+          "name": "Indokem"
+        },
+        {
+          "symbol": "SHK",
+          "name": "S H Kelkar & Co."
+        },
+        {
+          "symbol": "CAMLINFINE",
+          "name": "Camlin Fine"
+        },
+        {
+          "symbol": "VIDHIING",
+          "name": "Vidhi Specialty"
+        },
+        {
+          "symbol": "NITTAGELA",
+          "name": "Nitta Gelatin"
+        },
+        {
+          "symbol": "VALIANTORG",
+          "name": "Valiant Organics"
+        },
+        {
+          "symbol": "AMAL",
+          "name": "Amal"
+        },
+        {
+          "symbol": "EXCELINDUS",
+          "name": "Excel Industries"
+        },
+        {
+          "symbol": "PLATIND",
+          "name": "Platinum Industr"
+        },
+        {
+          "symbol": "SACHEEROME",
+          "name": "Sacheerome"
+        },
+        {
+          "symbol": "INDOAMIN",
+          "name": "Indo Amines"
+        },
+        {
+          "symbol": "JYOTIRES",
+          "name": "Jyoti Resins"
+        },
+        {
+          "symbol": "FAIRCHEMOR",
+          "name": "Fairchem Organic"
+        },
+        {
+          "symbol": "SUNSHIEL",
+          "name": "Sunshield Chem."
+        },
+        {
+          "symbol": "CHEMCON",
+          "name": "Chemcon Special."
+        },
+        {
+          "symbol": "KRONOX",
+          "name": "Kronox Lab"
+        },
+        {
+          "symbol": "DMCC",
+          "name": "DMCC Speciality"
+        },
+        {
+          "symbol": "GEMAROMA",
+          "name": "Gem Aromatics"
+        },
+        {
+          "symbol": "CHEMBONDCH",
+          "name": "Chembond Chemic."
+        },
+        {
+          "symbol": "JAYAGROGN",
+          "name": "Jayant Agro Org."
+        },
+        {
+          "symbol": "BLACKROSE",
+          "name": "Black Rose Indus"
+        },
+        {
+          "symbol": "PLASTIBLEN",
+          "name": "Plastiblends (I)"
+        },
+        {
+          "symbol": "AARTISURF",
+          "name": "Aarti Surfactant"
+        },
+        {
+          "symbol": "AGASTYAEN",
+          "name": "Agastya Energy"
+        },
+        {
+          "symbol": "HPAL",
+          "name": "HP Adhesives"
+        },
+        {
+          "symbol": "DYNPRO",
+          "name": "Dynemic Products"
+        },
+        {
+          "symbol": "SILKFLEX",
+          "name": "Silkflex Polymer"
+        },
+        {
+          "symbol": "CHEMBOND",
+          "name": "Chembond Materi."
+        },
+        {
+          "symbol": "ARVEE",
+          "name": "Arvee Laborat."
+        },
+        {
+          "symbol": "DIAMINESQ",
+          "name": "Diamines & Chem."
+        },
+        {
+          "symbol": "DSFCL",
+          "name": "DCM Shriram Fine Chemicals"
+        },
+        {
+          "symbol": "IVP",
+          "name": "IVP"
+        },
+        {
+          "symbol": "DAICHI",
+          "name": "Dai-ichi Karkari"
+        },
+        {
+          "symbol": "IPHL",
+          "name": "Indian Phosphate"
+        },
+        {
+          "symbol": "SPEB",
+          "name": "SPEB Adhesives"
+        },
+        {
+          "symbol": "NEOCHEM",
+          "name": "Neochem Bio"
+        },
+        {
+          "symbol": "VIKASECO",
+          "name": "Vikas Ecotech"
+        },
+        {
+          "symbol": "AMBANIORGO",
+          "name": "Ambani Orgochem"
+        },
+        {
+          "symbol": "HINDCON",
+          "name": "Hindcon Chemical"
+        },
+        {
+          "symbol": "ISHANCH",
+          "name": "Ishan Dyes"
+        },
+        {
+          "symbol": "VITAL",
+          "name": "Vital Chemtech"
+        },
+        {
+          "symbol": "CHEMCRUX",
+          "name": "Chemcrux Enterp."
+        },
+        {
+          "symbol": "DEEP",
+          "name": "Deep Polymers"
+        },
+        {
+          "symbol": "ALKALI",
+          "name": "Alkali Metals"
+        },
+        {
+          "symbol": "RNPL",
+          "name": "Renol Polychem"
+        },
+        {
+          "symbol": "IEML",
+          "name": "Indian Emuls"
+        },
+        {
+          "symbol": "BIOPOL",
+          "name": "Biopol Chemicals"
+        },
+        {
+          "symbol": "SNEHAA",
+          "name": "Snehaa Organics"
+        },
+        {
+          "symbol": "SEYAIND",
+          "name": "Seya Industries"
+        },
+        {
+          "symbol": "VSCL",
+          "name": "Vadivarhe Speci."
+        },
+        {
+          "symbol": "SAROJA",
+          "name": "Saroja Pharma In"
+        },
+        {
+          "symbol": "RITEZONE",
+          "name": "Rite Zone"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-CHEM-COMMODITY",
+      "name": "Chemicals · Commodity Chemicals",
+      "macro": "Chemicals",
+      "kind": "basic-industry",
+      "screenerName": "Commodity Chemicals",
+      "candidates": [
+        {
+          "symbol": "SRF",
+          "name": "SRF"
+        },
+        {
+          "symbol": "DEEPAKFERT",
+          "name": "Deepak Fertilis."
+        },
+        {
+          "symbol": "TATACHEM",
+          "name": "Tata Chemicals"
+        },
+        {
+          "symbol": "GNFC",
+          "name": "G N F C"
+        },
+        {
+          "symbol": "GUJALKALI",
+          "name": "Gujarat Alkalies"
+        },
+        {
+          "symbol": "GRAUWEIL",
+          "name": "Grauer & Weil"
+        },
+        {
+          "symbol": "GHCL",
+          "name": "GHCL"
+        },
+        {
+          "symbol": "JGCHEM",
+          "name": "J.G.Chemicals"
+        },
+        {
+          "symbol": "IGPL",
+          "name": "I G Petrochems"
+        },
+        {
+          "symbol": "TIRUMALCHM",
+          "name": "Thirumalai Chem."
+        },
+        {
+          "symbol": "INDOBORAX",
+          "name": "Indo Borax & Ch."
+        },
+        {
+          "symbol": "TGVSL",
+          "name": "TGV Sraac"
+        },
+        {
+          "symbol": "ANDHRSUGAR",
+          "name": "Andhra Sugars"
+        },
+        {
+          "symbol": "OCCLLTD",
+          "name": "OCCL"
+        },
+        {
+          "symbol": "AMNPLST",
+          "name": "Amines & Plast."
+        },
+        {
+          "symbol": "SRHHYPOLTD",
+          "name": "Sr.Rayala.Hypo"
+        },
+        {
+          "symbol": "TRANSPEK",
+          "name": "Transpek Inds."
+        },
+        {
+          "symbol": "SADHNANIQ",
+          "name": "Sadhana Nitro"
+        },
+        {
+          "symbol": "TUTIALKA",
+          "name": "Tuticorin Alkali"
+        },
+        {
+          "symbol": "PRIMO",
+          "name": "Primo Chemicals"
+        },
+        {
+          "symbol": "ALUFLUOR",
+          "name": "Alufluoride"
+        },
+        {
+          "symbol": "CHEMFAB",
+          "name": "Chemfab Alka."
+        },
+        {
+          "symbol": "LORDSCHLO",
+          "name": "Lords Chloro"
+        },
+        {
+          "symbol": "POEL",
+          "name": "POCL Enterprises"
+        },
+        {
+          "symbol": "MANORG",
+          "name": "Mangalam Organic"
+        },
+        {
+          "symbol": "SHANTIINOR",
+          "name": "Shanti Inorgan."
+        },
+        {
+          "symbol": "ARCL",
+          "name": "ARCL Organics"
+        },
+        {
+          "symbol": "KANCHI",
+          "name": "Kanchi Karpooram"
+        },
+        {
+          "symbol": "JOCIL",
+          "name": "Jocil"
+        },
+        {
+          "symbol": "TECILCHEM",
+          "name": "TECIL Chemical"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-CHEM-AGROCHEM",
+      "name": "Chemicals · Pesticides & Agrochemicals",
+      "macro": "Chemicals",
+      "kind": "basic-industry",
+      "screenerName": "Pesticides & Agrochemicals",
+      "candidates": [
+        {
+          "symbol": "UPL",
+          "name": "UPL"
+        },
+        {
+          "symbol": "PIIND",
+          "name": "P I Industries"
+        },
+        {
+          "symbol": "SUMICHEM",
+          "name": "Sumitomo Chemi."
+        },
+        {
+          "symbol": "BAYERCROP",
+          "name": "Bayer Crop Sci."
+        },
+        {
+          "symbol": "SHARDACROP",
+          "name": "Sharda Cropchem"
+        },
+        {
+          "symbol": "RALLIS",
+          "name": "Rallis India"
+        },
+        {
+          "symbol": "DHANUKA",
+          "name": "Dhanuka Agritech"
+        },
+        {
+          "symbol": "NACLIND",
+          "name": "NACL Industries"
+        },
+        {
+          "symbol": "BHAGCHEM",
+          "name": "Bhagiradha Chem."
+        },
+        {
+          "symbol": "GSPCROP",
+          "name": "GSP Crop Science"
+        },
+        {
+          "symbol": "INSECTICID",
+          "name": "Insecticid.India"
+        },
+        {
+          "symbol": "BHARATRAS",
+          "name": "Bharat Rasayan"
+        },
+        {
+          "symbol": "ASTEC",
+          "name": "Astec Lifescienc"
+        },
+        {
+          "symbol": "IPL",
+          "name": "India Pesticides"
+        },
+        {
+          "symbol": "MOL",
+          "name": "Meghmani Organi."
+        },
+        {
+          "symbol": "PUNJABCHEM",
+          "name": "Punjab Chemicals"
+        },
+        {
+          "symbol": "ADVANCE",
+          "name": "Advance Agrolife"
+        },
+        {
+          "symbol": "DHARMAJ",
+          "name": "Dharmaj Crop"
+        },
+        {
+          "symbol": "HERANBA",
+          "name": "Heranba Inds"
+        },
+        {
+          "symbol": "BESTAGRO",
+          "name": "Best Agrolife"
+        },
+        {
+          "symbol": "SHIVALIK",
+          "name": "Shivalik Rasayan"
+        },
+        {
+          "symbol": "IGCL",
+          "name": "Indogulf Cropsci"
+        },
+        {
+          "symbol": "SIKKO",
+          "name": "Sikko Industries"
+        },
+        {
+          "symbol": "CLSL",
+          "name": "Crop Life Scienc"
+        },
+        {
+          "symbol": "DHANSA",
+          "name": "Dhansa Labs"
+        },
+        {
+          "symbol": "ARISTO",
+          "name": "Aristo Bio-Tech"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-CHEM-FERTILIZERS",
+      "name": "Chemicals · Fertilizers",
+      "macro": "Chemicals",
+      "kind": "basic-industry",
+      "screenerName": "Fertilizers",
+      "candidates": [
+        {
+          "symbol": "COROMANDEL",
+          "name": "Coromandel Inter"
+        },
+        {
+          "symbol": "FACT",
+          "name": "F A C T"
+        },
+        {
+          "symbol": "CHAMBLFERT",
+          "name": "Chambal Fert."
+        },
+        {
+          "symbol": "PARADEEP",
+          "name": "Paradeep Phosph."
+        },
+        {
+          "symbol": "MBAPL",
+          "name": "M B Agro Prod."
+        },
+        {
+          "symbol": "KRISHANA",
+          "name": "Krishana Phosch."
+        },
+        {
+          "symbol": "GSFC",
+          "name": "G S F C"
+        },
+        {
+          "symbol": "RCF",
+          "name": "R C F"
+        },
+        {
+          "symbol": "NFL",
+          "name": "Natl.Fertilizer"
+        },
+        {
+          "symbol": "SPIC",
+          "name": "S P I C"
+        },
+        {
+          "symbol": "MADRASFERT",
+          "name": "Madras Fertilize"
+        },
+        {
+          "symbol": "ZUARI",
+          "name": "Zuari Agro Chem."
+        },
+        {
+          "symbol": "ARIES",
+          "name": "Aries Agro"
+        },
+        {
+          "symbol": "KHAICHEM",
+          "name": "Khaitan Chemical"
+        },
+        {
+          "symbol": "RAMAPHO",
+          "name": "Rama Phosphates"
+        },
+        {
+          "symbol": "BALAJIPHOS",
+          "name": "Balaji Phos."
+        },
+        {
+          "symbol": "ANYA",
+          "name": "Anya Polytech &"
+        },
+        {
+          "symbol": "NOVAAGRI",
+          "name": "Nova Agritech"
+        },
+        {
+          "symbol": "NAGAFERT",
+          "name": "Nagarjuna Fert."
+        },
+        {
+          "symbol": "AGROPHOS",
+          "name": "Agro Phos India"
+        },
+        {
+          "symbol": "SHIVAAGRO",
+          "name": "Shiva Global"
+        },
+        {
+          "symbol": "BOHRAIND",
+          "name": "Bohra Industries"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-CHEM-DYES",
+      "name": "Chemicals · Dyes And Pigments",
+      "macro": "Chemicals",
+      "kind": "basic-industry",
+      "screenerName": "Dyes And Pigments",
+      "candidates": [
+        {
+          "symbol": "SUDARSCHEM",
+          "name": "Sudarshan Chem."
+        },
+        {
+          "symbol": "KIRIINDUS",
+          "name": "Kiri Industries"
+        },
+        {
+          "symbol": "BODALCHEM",
+          "name": "Bodal Chemicals"
+        },
+        {
+          "symbol": "SHREEPUSHK",
+          "name": "Sh.Pushkar Chem."
+        },
+        {
+          "symbol": "BHAGERIA",
+          "name": "Bhageria Indust."
+        },
+        {
+          "symbol": "ULTRAMAR",
+          "name": "Ultramarine Pig."
+        },
+        {
+          "symbol": "SUDARCOLOR",
+          "name": "Sudarshan Colorants"
+        },
+        {
+          "symbol": "ASAHISONG",
+          "name": "Asahi Songwon"
+        },
+        {
+          "symbol": "AKSHARCHEM",
+          "name": "AksharChem (I)"
+        },
+        {
+          "symbol": "PODDARMENT",
+          "name": "Poddar Pigments"
+        },
+        {
+          "symbol": "MAHICKRA",
+          "name": "Mahickra Chem."
+        },
+        {
+          "symbol": "UCL",
+          "name": "Ushanti Colour"
+        },
+        {
+          "symbol": "DUCOL",
+          "name": "Ducol Organics"
+        },
+        {
+          "symbol": "HPIL",
+          "name": "Hindprakash Indu"
+        },
+        {
+          "symbol": "PARAGON",
+          "name": "Paragon Fine"
+        },
+        {
+          "symbol": "UNILEX",
+          "name": "Unilex Colour &C"
+        },
+        {
+          "symbol": "PROLIFE",
+          "name": "Prolife Indust."
+        },
+        {
+          "symbol": "ARUNAYA",
+          "name": "Arunaya Organics"
+        },
+        {
+          "symbol": "YCCL",
+          "name": "Yasons Chemex"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-CHEM-PETRO",
+      "name": "Chemicals · Petrochemicals",
+      "macro": "Chemicals",
+      "kind": "basic-industry",
+      "screenerName": "Petrochemicals",
+      "candidates": [
+        {
+          "symbol": "SPLPETRO",
+          "name": "Supreme Petroch."
+        },
+        {
+          "symbol": "SWANCORP",
+          "name": "Swan Corp"
+        },
+        {
+          "symbol": "RAIN",
+          "name": "Rain Industries"
+        },
+        {
+          "symbol": "BEPL",
+          "name": "Bhansali Engg."
+        },
+        {
+          "symbol": "MANALIPETC",
+          "name": "Manali Petrochem"
+        },
+        {
+          "symbol": "DCW",
+          "name": "DCW"
+        },
+        {
+          "symbol": "TNPETRO",
+          "name": "T N Petro Prod."
+        },
+        {
+          "symbol": "PASUPTAC",
+          "name": "Pasupati Acrylon"
+        },
+        {
+          "symbol": "KOTHARIPET",
+          "name": "Kothari Petroche"
+        },
+        {
+          "symbol": "AGARIND",
+          "name": "Agarwal Indl."
+        },
+        {
+          "symbol": "NEPTUNE",
+          "name": "Neptune Pet."
+        },
+        {
+          "symbol": "RAJPUTANA",
+          "name": "Rajputana Bio."
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-CHEM-TRADING",
+      "name": "Chemicals · Trading - Chemicals",
+      "macro": "Chemicals",
+      "kind": "basic-industry",
+      "screenerName": "Trading - Chemicals",
+      "candidates": [
+        {
+          "symbol": "UNIENTER",
+          "name": "Uniphos Enter."
+        },
+        {
+          "symbol": "VINYLINDIA",
+          "name": "Vinyl Chemicals"
+        },
+        {
+          "symbol": "DHARIWAL",
+          "name": "Dhariwalcorp"
+        },
+        {
+          "symbol": "SRD",
+          "name": "Shankar Lal Ram."
+        },
+        {
+          "symbol": "MYSORPETRO",
+          "name": "Mysore Petro"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-CHEM-EXPLOSIVES",
+      "name": "Chemicals · Explosives",
+      "macro": "Chemicals",
+      "kind": "basic-industry",
+      "screenerName": "Explosives",
+      "candidates": [
+        {
+          "symbol": "SOLARINDS",
+          "name": "Solar Industries"
+        },
+        {
+          "symbol": "PREMEXPLN",
+          "name": "Prem. Explosives"
+        },
+        {
+          "symbol": "GOCLCORP",
+          "name": "GOCL Corpn."
+        }
+      ],
+      "skipReason": "too-small-prefilter",
+      "minMembers": 3
+    },
+    {
+      "id": "CUSTOM-CHEM-GASES",
+      "name": "Chemicals · Industrial Gases",
+      "macro": "Chemicals",
+      "kind": "basic-industry",
+      "screenerName": "Industrial Gases",
+      "candidates": [
+        {
+          "symbol": "LINDEINDIA",
+          "name": "Linde India"
+        },
+        {
+          "symbol": "ELLEN",
+          "name": "Ellen.Indl.Gas"
+        },
+        {
+          "symbol": "STEAMHOUSE",
+          "name": "Steamhouse India"
+        },
+        {
+          "symbol": "STALLION",
+          "name": "Stallion India"
+        }
+      ],
+      "skipReason": "too-small-prefilter",
+      "minMembers": 3
+    },
+    {
+      "id": "CUSTOM-CHEM-CARBONBLACK",
+      "name": "Chemicals · Carbon Black",
+      "macro": "Chemicals",
+      "kind": "basic-industry",
+      "screenerName": "Carbon Black",
+      "candidates": [
+        {
+          "symbol": "HSCL",
+          "name": "Himadri Special"
+        },
+        {
+          "symbol": "PCBL",
+          "name": "PCBL Chemical"
+        }
+      ],
+      "skipReason": "too-small-prefilter",
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-CHEM-INKS",
+      "name": "Chemicals · Printing Inks",
+      "macro": "Chemicals",
+      "kind": "basic-industry",
+      "screenerName": "Printing Inks",
+      "candidates": [
+        {
+          "symbol": "DICIND",
+          "name": "DIC India"
+        },
+        {
+          "symbol": "KSHITIJPOL",
+          "name": "Kshitij Polyline"
+        }
+      ],
+      "skipReason": "too-small-prefilter",
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-CHEM-FLUORO",
+      "name": "Chemicals · Fluorochemicals (micro)",
+      "macro": "Chemicals",
+      "kind": "micro-niche",
+      "screenerName": null,
+      "niche": "fluorochem",
+      "candidates": [
+        {
+          "symbol": "SRF",
+          "name": "SRF"
+        },
+        {
+          "symbol": "NAVINFLUOR",
+          "name": "Navin Fluo.Intl."
+        },
+        {
+          "symbol": "GUJFLUORO",
+          "name": "GUJFLUORO"
+        },
+        {
+          "symbol": "FLUOROCHEM",
+          "name": "Gujarat Fluoroch"
+        },
+        {
+          "symbol": "ANUPAM",
+          "name": "ANUPAM"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 3
+    },
+    {
+      "id": "CUSTOM-CHEM-AMINES",
+      "name": "Chemicals · Amines & specialty intermediates (micro)",
+      "macro": "Chemicals",
+      "kind": "micro-niche",
+      "screenerName": null,
+      "niche": "amines",
+      "candidates": [
+        {
+          "symbol": "ALKYLAMINE",
+          "name": "Alkyl Amines"
+        },
+        {
+          "symbol": "BALAMINES",
+          "name": "Balaji Amines"
+        },
+        {
+          "symbol": "CLEAN",
+          "name": "Clean Science"
+        },
+        {
+          "symbol": "NOCIL",
+          "name": "NOCIL"
+        },
+        {
+          "symbol": "FINEORG",
+          "name": "Fine Organic"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 3
+    },
+    {
+      "id": "CUSTOM-CHEM-CDMO",
+      "name": "Chemicals · Pharma/agro CDMO chemicals (micro)",
+      "macro": "Chemicals",
+      "kind": "micro-niche",
+      "screenerName": null,
+      "niche": "cdmo",
+      "candidates": [
+        {
+          "symbol": "CLEAN",
+          "name": "Clean Science"
+        },
+        {
+          "symbol": "VINATIORGA",
+          "name": "Vinati Organics"
+        },
+        {
+          "symbol": "ANURAS",
+          "name": "Anupam Rasayan"
+        },
+        {
+          "symbol": "AETHER",
+          "name": "Aether Industri."
+        },
+        {
+          "symbol": "FINEORG",
+          "name": "Fine Organic"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 3
+    },
+    {
+      "id": "CUSTOM-CHEM-CHLORALKALI",
+      "name": "Chemicals · Chlor-alkali / commodity inorganics (micro)",
+      "macro": "Chemicals",
+      "kind": "micro-niche",
+      "screenerName": null,
+      "niche": "chlor-alkali",
+      "candidates": [
+        {
+          "symbol": "GUJALKALI",
+          "name": "Gujarat Alkalies"
+        },
+        {
+          "symbol": "GNFC",
+          "name": "G N F C"
+        },
+        {
+          "symbol": "TATACHEM",
+          "name": "Tata Chemicals"
+        },
+        {
+          "symbol": "DCW",
+          "name": "DCW"
+        },
+        {
+          "symbol": "ANDHRSUGAR",
+          "name": "Andhra Sugars"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 3
+    },
+    {
+      "id": "CUSTOM-CHEM-OLEO",
+      "name": "Chemicals · Oleochemicals (micro)",
+      "macro": "Chemicals",
+      "kind": "micro-niche",
+      "screenerName": null,
+      "niche": "oleochem",
+      "candidates": [
+        {
+          "symbol": "GODREJIND",
+          "name": "GODREJIND"
+        },
+        {
+          "symbol": "GODREJAGRO",
+          "name": "GODREJAGRO"
+        },
+        {
+          "symbol": "ADIORGANIC",
+          "name": "ADIORGANIC"
+        }
+      ],
+      "skipReason": "too-small-prefilter",
+      "minMembers": 3
+    }
+  ],
+  "lastBuild": {
+    "asOf": "2026-10-15",
+    "builtUtc": "2026-10-15T19:58:20Z",
+    "report": {
+      "built": [
+        {
+          "id": "CUSTOM-CHEM-SPECIALTY",
+          "members": 49,
+          "excluded": 39
+        },
+        {
+          "id": "CUSTOM-CHEM-COMMODITY",
+          "members": 17,
+          "excluded": 13
+        },
+        {
+          "id": "CUSTOM-CHEM-AGROCHEM",
+          "members": 19,
+          "excluded": 7
+        },
+        {
+          "id": "CUSTOM-CHEM-FERTILIZERS",
+          "members": 11,
+          "excluded": 11
+        },
+        {
+          "id": "CUSTOM-CHEM-DYES",
+          "members": 6,
+          "excluded": 13
+        },
+        {
+          "id": "CUSTOM-CHEM-PETRO",
+          "members": 9,
+          "excluded": 3
+        },
+        {
+          "id": "CUSTOM-CHEM-FLUORO",
+          "members": 3,
+          "excluded": 2
+        },
+        {
+          "id": "CUSTOM-CHEM-AMINES",
+          "members": 5,
+          "excluded": 0
+        },
+        {
+          "id": "CUSTOM-CHEM-CDMO",
+          "members": 5,
+          "excluded": 0
+        },
+        {
+          "id": "CUSTOM-CHEM-CHLORALKALI",
+          "members": 5,
+          "excluded": 0
+        }
+      ],
+      "skipped": [
+        {
+          "id": "CUSTOM-CHEM-TRADING",
+          "reason": "only 0 liquid names (min 5)",
+          "kept": 0,
+          "excluded": 5
+        },
+        {
+          "id": "CUSTOM-CHEM-EXPLOSIVES",
+          "reason": "too-small-prefilter",
+          "candidates": 3
+        },
+        {
+          "id": "CUSTOM-CHEM-GASES",
+          "reason": "too-small-prefilter",
+          "candidates": 4
+        },
+        {
+          "id": "CUSTOM-CHEM-CARBONBLACK",
+          "reason": "too-small-prefilter",
+          "candidates": 2
+        },
+        {
+          "id": "CUSTOM-CHEM-INKS",
+          "reason": "too-small-prefilter",
+          "candidates": 2
+        },
+        {
+          "id": "CUSTOM-CHEM-OLEO",
+          "reason": "too-small-prefilter",
+          "candidates": 3
+        }
+      ],
+      "excluded": {
+        "CUSTOM-CHEM-SPECIALTY": [
+          {
+            "symbol": "PRASOLCHEM",
+            "name": "Prasol Chemicals",
+            "reason": "history"
+          },
+          {
+            "symbol": "VIDHIING",
+            "name": "Vidhi Specialty",
+            "reason": "liquidity",
+            "adv": 8978010
+          },
+          {
+            "symbol": "NITTAGELA",
+            "name": "Nitta Gelatin",
+            "reason": "liquidity",
+            "adv": 5239918
+          },
+          {
+            "symbol": "SACHEEROME",
+            "name": "Sacheerome",
+            "reason": "history"
+          },
+          {
+            "symbol": "JYOTIRES",
+            "name": "Jyoti Resins",
+            "reason": "liquidity",
+            "adv": 5999283
+          },
+          {
+            "symbol": "SUNSHIEL",
+            "name": "Sunshield Chem.",
+            "reason": "liquidity",
+            "adv": 3430139
+          },
+          {
+            "symbol": "CHEMBONDCH",
+            "name": "Chembond Chemic.",
+            "reason": "liquidity",
+            "adv": 2916348
+          },
+          {
+            "symbol": "JAYAGROGN",
+            "name": "Jayant Agro Org.",
+            "reason": "liquidity",
+            "adv": 3804809
+          },
+          {
+            "symbol": "BLACKROSE",
+            "name": "Black Rose Indus",
+            "reason": "liquidity",
+            "adv": 3615690
+          },
+          {
+            "symbol": "AARTISURF",
+            "name": "Aarti Surfactant",
+            "reason": "liquidity",
+            "adv": 4515167
+          },
+          {
+            "symbol": "AGASTYAEN",
+            "name": "Agastya Energy",
+            "reason": "history"
+          },
+          {
+            "symbol": "HPAL",
+            "name": "HP Adhesives",
+            "reason": "liquidity",
+            "adv": 1443414
+          },
+          {
+            "symbol": "DYNPRO",
+            "name": "Dynemic Products",
+            "reason": "liquidity",
+            "adv": 1861111
+          },
+          {
+            "symbol": "SILKFLEX",
+            "name": "Silkflex Polymer",
+            "reason": "liquidity",
+            "adv": 5723700
+          },
+          {
+            "symbol": "CHEMBOND",
+            "name": "Chembond Materi.",
+            "reason": "liquidity",
+            "adv": 2299518
+          },
+          {
+            "symbol": "ARVEE",
+            "name": "Arvee Laborat.",
+            "reason": "liquidity",
+            "adv": 5991343
+          },
+          {
+            "symbol": "DIAMINESQ",
+            "name": "Diamines & Chem.",
+            "reason": "liquidity",
+            "adv": 1178288
+          },
+          {
+            "symbol": "DSFCL",
+            "name": "DCM Shriram Fine Chemicals",
+            "reason": "liquidity",
+            "adv": 2131621
+          },
+          {
+            "symbol": "IVP",
+            "name": "IVP",
+            "reason": "liquidity",
+            "adv": 6022713
+          },
+          {
+            "symbol": "DAICHI",
+            "name": "Dai-ichi Karkari",
+            "reason": "liquidity",
+            "adv": 292077
+          },
+          {
+            "symbol": "IPHL",
+            "name": "Indian Phosphate",
+            "reason": "history"
+          },
+          {
+            "symbol": "SPEB",
+            "name": "SPEB Adhesives",
+            "reason": "history"
+          },
+          {
+            "symbol": "NEOCHEM",
+            "name": "Neochem Bio",
+            "reason": "history"
+          },
+          {
+            "symbol": "VIKASECO",
+            "name": "Vikas Ecotech",
+            "reason": "liquidity",
+            "adv": 1544985
+          },
+          {
+            "symbol": "AMBANIORGO",
+            "name": "Ambani Orgochem",
+            "reason": "history"
+          },
+          {
+            "symbol": "HINDCON",
+            "name": "Hindcon Chemical",
+            "reason": "liquidity",
+            "adv": 2698807
+          },
+          {
+            "symbol": "ISHANCH",
+            "name": "Ishan Dyes",
+            "reason": "liquidity",
+            "adv": 1223485
+          },
+          {
+            "symbol": "VITAL",
+            "name": "Vital Chemtech",
+            "reason": "liquidity",
+            "adv": 245786
+          },
+          {
+            "symbol": "CHEMCRUX",
+            "name": "Chemcrux Enterp.",
+            "reason": "liquidity",
+            "adv": 627108
+          },
+          {
+            "symbol": "DEEP",
+            "name": "Deep Polymers",
+            "reason": "liquidity",
+            "adv": 536328
+          },
+          {
+            "symbol": "ALKALI",
+            "name": "Alkali Metals",
+            "reason": "liquidity",
+            "adv": 6881114
+          },
+          {
+            "symbol": "RNPL",
+            "name": "Renol Polychem",
+            "reason": "history"
+          },
+          {
+            "symbol": "IEML",
+            "name": "Indian Emuls",
+            "reason": "liquidity",
+            "adv": 5518098
+          },
+          {
+            "symbol": "BIOPOL",
+            "name": "Biopol Chemicals",
+            "reason": "history"
+          },
+          {
+            "symbol": "SNEHAA",
+            "name": "Snehaa Organics",
+            "reason": "history"
+          },
+          {
+            "symbol": "SEYAIND",
+            "name": "Seya Industries",
+            "reason": "liquidity",
+            "adv": 107273
+          },
+          {
+            "symbol": "VSCL",
+            "name": "Vadivarhe Speci.",
+            "reason": "liquidity",
+            "adv": 27457
+          },
+          {
+            "symbol": "SAROJA",
+            "name": "Saroja Pharma In",
+            "reason": "liquidity",
+            "adv": 16228
+          },
+          {
+            "symbol": "RITEZONE",
+            "name": "Rite Zone",
+            "reason": "liquidity",
+            "adv": 57356
+          }
+        ],
+        "CUSTOM-CHEM-COMMODITY": [
+          {
+            "symbol": "AMNPLST",
+            "name": "Amines & Plast.",
+            "reason": "liquidity",
+            "adv": 6290515
+          },
+          {
+            "symbol": "TRANSPEK",
+            "name": "Transpek Inds.",
+            "reason": "liquidity",
+            "adv": 1519578
+          },
+          {
+            "symbol": "SADHNANIQ",
+            "name": "Sadhana Nitro",
+            "reason": "liquidity",
+            "adv": 5275063
+          },
+          {
+            "symbol": "TUTIALKA",
+            "name": "Tuticorin Alkali",
+            "reason": "liquidity",
+            "adv": 274491
+          },
+          {
+            "symbol": "CHEMFAB",
+            "name": "Chemfab Alka.",
+            "reason": "liquidity",
+            "adv": 1330538
+          },
+          {
+            "symbol": "LORDSCHLO",
+            "name": "Lords Chloro",
+            "reason": "liquidity",
+            "adv": 4490939
+          },
+          {
+            "symbol": "POEL",
+            "name": "POCL Enterprises",
+            "reason": "liquidity",
+            "adv": 4285692
+          },
+          {
+            "symbol": "MANORG",
+            "name": "Mangalam Organic",
+            "reason": "liquidity",
+            "adv": 3091596
+          },
+          {
+            "symbol": "SHANTIINOR",
+            "name": "Shanti Inorgan.",
+            "reason": "history"
+          },
+          {
+            "symbol": "ARCL",
+            "name": "ARCL Organics",
+            "reason": "liquidity",
+            "adv": 878573
+          },
+          {
+            "symbol": "KANCHI",
+            "name": "Kanchi Karpooram",
+            "reason": "liquidity",
+            "adv": 568363
+          },
+          {
+            "symbol": "JOCIL",
+            "name": "Jocil",
+            "reason": "liquidity",
+            "adv": 374769
+          },
+          {
+            "symbol": "TECILCHEM",
+            "name": "TECIL Chemical",
+            "reason": "liquidity",
+            "adv": 156975
+          }
+        ],
+        "CUSTOM-CHEM-AGROCHEM": [
+          {
+            "symbol": "INSECTICID",
+            "name": "Insecticid.India",
+            "reason": "liquidity",
+            "adv": 6870436
+          },
+          {
+            "symbol": "PUNJABCHEM",
+            "name": "Punjab Chemicals",
+            "reason": "liquidity",
+            "adv": 5805435
+          },
+          {
+            "symbol": "BESTAGRO",
+            "name": "Best Agrolife",
+            "reason": "liquidity",
+            "adv": 8947737
+          },
+          {
+            "symbol": "SIKKO",
+            "name": "Sikko Industries",
+            "reason": "liquidity",
+            "adv": 4250414
+          },
+          {
+            "symbol": "CLSL",
+            "name": "Crop Life Scienc",
+            "reason": "liquidity",
+            "adv": 265120
+          },
+          {
+            "symbol": "DHANSA",
+            "name": "Dhansa Labs",
+            "reason": "history"
+          },
+          {
+            "symbol": "ARISTO",
+            "name": "Aristo Bio-Tech",
+            "reason": "liquidity",
+            "adv": 49294
+          }
+        ],
+        "CUSTOM-CHEM-FERTILIZERS": [
+          {
+            "symbol": "MADRASFERT",
+            "name": "Madras Fertilize",
+            "reason": "liquidity",
+            "adv": 1792173
+          },
+          {
+            "symbol": "ARIES",
+            "name": "Aries Agro",
+            "reason": "liquidity",
+            "adv": 6583917
+          },
+          {
+            "symbol": "KHAICHEM",
+            "name": "Khaitan Chemical",
+            "reason": "liquidity",
+            "adv": 6699645
+          },
+          {
+            "symbol": "RAMAPHO",
+            "name": "Rama Phosphates",
+            "reason": "liquidity",
+            "adv": 3008811
+          },
+          {
+            "symbol": "BALAJIPHOS",
+            "name": "Balaji Phos.",
+            "reason": "history"
+          },
+          {
+            "symbol": "ANYA",
+            "name": "Anya Polytech &",
+            "reason": "history"
+          },
+          {
+            "symbol": "NOVAAGRI",
+            "name": "Nova Agritech",
+            "reason": "liquidity",
+            "adv": 860594
+          },
+          {
+            "symbol": "NAGAFERT",
+            "name": "Nagarjuna Fert.",
+            "reason": "liquidity",
+            "adv": 123631
+          },
+          {
+            "symbol": "AGROPHOS",
+            "name": "Agro Phos India",
+            "reason": "liquidity",
+            "adv": 372730
+          },
+          {
+            "symbol": "SHIVAAGRO",
+            "name": "Shiva Global",
+            "reason": "liquidity",
+            "adv": 96212
+          },
+          {
+            "symbol": "BOHRAIND",
+            "name": "Bohra Industries",
+            "reason": "liquidity",
+            "adv": 232880
+          }
+        ],
+        "CUSTOM-CHEM-DYES": [
+          {
+            "symbol": "SUDARCOLOR",
+            "name": "Sudarshan Colorants",
+            "reason": "liquidity",
+            "adv": 1761832
+          },
+          {
+            "symbol": "ASAHISONG",
+            "name": "Asahi Songwon",
+            "reason": "liquidity",
+            "adv": 4069524
+          },
+          {
+            "symbol": "AKSHARCHEM",
+            "name": "AksharChem (I)",
+            "reason": "liquidity",
+            "adv": 4090223
+          },
+          {
+            "symbol": "PODDARMENT",
+            "name": "Poddar Pigments",
+            "reason": "liquidity",
+            "adv": 1258353
+          },
+          {
+            "symbol": "MAHICKRA",
+            "name": "Mahickra Chem.",
+            "reason": "liquidity",
+            "adv": 488636
+          },
+          {
+            "symbol": "UCL",
+            "name": "Ushanti Colour",
+            "reason": "liquidity",
+            "adv": 3725945
+          },
+          {
+            "symbol": "DUCOL",
+            "name": "Ducol Organics",
+            "reason": "liquidity",
+            "adv": 847762
+          },
+          {
+            "symbol": "HPIL",
+            "name": "Hindprakash Indu",
+            "reason": "liquidity",
+            "adv": 228355
+          },
+          {
+            "symbol": "PARAGON",
+            "name": "Paragon Fine",
+            "reason": "liquidity",
+            "adv": 578682
+          },
+          {
+            "symbol": "UNILEX",
+            "name": "Unilex Colour &C",
+            "reason": "history"
+          },
+          {
+            "symbol": "PROLIFE",
+            "name": "Prolife Indust.",
+            "reason": "liquidity",
+            "adv": 41570
+          },
+          {
+            "symbol": "ARUNAYA",
+            "name": "Arunaya Organics",
+            "reason": "history"
+          },
+          {
+            "symbol": "YCCL",
+            "name": "Yasons Chemex",
+            "reason": "liquidity",
+            "adv": 23445
+          }
+        ],
+        "CUSTOM-CHEM-PETRO": [
+          {
+            "symbol": "KOTHARIPET",
+            "name": "Kothari Petroche",
+            "reason": "liquidity",
+            "adv": 6260659
+          },
+          {
+            "symbol": "NEPTUNE",
+            "name": "Neptune Pet.",
+            "reason": "history"
+          },
+          {
+            "symbol": "RAJPUTANA",
+            "name": "Rajputana Bio.",
+            "reason": "history"
+          }
+        ],
+        "CUSTOM-CHEM-TRADING": [
+          {
+            "symbol": "UNIENTER",
+            "name": "Uniphos Enter.",
+            "reason": "liquidity",
+            "adv": 319191
+          },
+          {
+            "symbol": "VINYLINDIA",
+            "name": "Vinyl Chemicals",
+            "reason": "liquidity",
+            "adv": 1510219
+          },
+          {
+            "symbol": "DHARIWAL",
+            "name": "Dhariwalcorp",
+            "reason": "history"
+          },
+          {
+            "symbol": "SRD",
+            "name": "Shankar Lal Ram.",
+            "reason": "liquidity",
+            "adv": 1101433
+          },
+          {
+            "symbol": "MYSORPETRO",
+            "name": "Mysore Petro",
+            "reason": "liquidity",
+            "adv": 356571
+          }
+        ],
+        "CUSTOM-CHEM-FLUORO": [
+          {
+            "symbol": "GUJFLUORO",
+            "name": "GUJFLUORO",
+            "reason": "history"
+          },
+          {
+            "symbol": "ANUPAM",
+            "name": "ANUPAM",
+            "reason": "history"
+          }
+        ],
+        "CUSTOM-CHEM-AMINES": [],
+        "CUSTOM-CHEM-CDMO": [],
+        "CUSTOM-CHEM-CHLORALKALI": []
+      }
+    }
+  }
+}

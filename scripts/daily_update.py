@@ -350,6 +350,7 @@ DATA_FILES = (
     "sovrenn.json",
     "index_history.json",
     "index_constituents.json",
+    "custom_baskets.json",
 )
 
 
@@ -920,6 +921,14 @@ def main() -> int:
         constituents_refresh(force_membership=False)
     except Exception as e:  # noqa: BLE001
         print(f"WARN: constituents refresh failed: {e}")
+
+    # Custom baskets (equal-weight screens) — after official indices/horizons
+    try:
+        from custom_baskets import build_and_merge as custom_build
+
+        custom_build()
+    except Exception as e:  # noqa: BLE001
+        print(f"WARN: custom baskets failed: {e}")
 
     # Sovrenn Times list (separate from the watchlist): refresh price / buy zone
     try:

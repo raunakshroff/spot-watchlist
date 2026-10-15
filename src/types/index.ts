@@ -115,7 +115,7 @@ export interface IndexUniverseRow {
   nseSymbol: string | null;
   yahooSymbol: string | null;
   group: IndexGroup | string;
-  dataSource: "nse" | "yahoo";
+  dataSource: "nse" | "yahoo" | "custom";
   last: number | null;
   dailyPct: number | null;
   weeklyPct: number | null;
@@ -134,7 +134,9 @@ export interface IndexUniverseRow {
   watchlistSectors: string[];
   watchlistTickers: string[];
   isBenchmark?: boolean;
+  custom?: { macro?: string; kind?: string; method?: string; memberCount?: number };
 }
+
 
 export interface IndexSectorRow {
   sector: string;
