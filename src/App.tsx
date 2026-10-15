@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Activity } from "lucide-react";
-import type { DroppedStock, HistoryEntry, IndicesData, Meta, SovrennEntry, WatchlistStock } from "./types";
+import type { DroppedStock, HistoryEntry, IndexHistoryData, IndicesData, Meta, SovrennEntry, WatchlistStock } from "./types";
 import { SovrennView } from "./components/SovrennView";
 import { Overview } from "./components/Overview";
 import { HistoryView } from "./components/HistoryView";
@@ -24,6 +24,7 @@ export default function App() {
   const [dropped, setDropped] = useState<DroppedStock[]>([]);
   const [meta, setMeta] = useState<Meta | null>(null);
   const [indices, setIndices] = useState<IndicesData | null>(null);
+  const [indexHistory, setIndexHistory] = useState<IndexHistoryData | null>(null);
   const [indicesError, setIndicesError] = useState<string | null>(null);
   const [sovrenn, setSovrenn] = useState<SovrennEntry[] | null>(null);
   const [sovrennError, setSovrennError] = useState<string | null>(null);
@@ -49,6 +50,10 @@ export default function App() {
     loadJson<IndicesData>("data/indices.json")
       .then(setIndices)
       .catch((e: Error) => setIndicesError(e.message));
+
+    loadJson<IndexHistoryData>("data/index_history.json")
+      .then(setIndexHistory)
+      .catch(() => setIndexHistory(null));
 
     loadJson<SovrennEntry[]>("data/sovrenn.json")
       .then(setSovrenn)
@@ -147,7 +152,7 @@ export default function App() {
       )}
       {tab === "sector" && <SectorView stocks={watchlist} />}
       {tab === "index" && (
-        <IndexView data={indices} loadError={indicesError} watchlist={watchlist} />
+        <IndexView data={indices} history={indexHistory} loadError={indicesError} watchlist={watchlist} />
       )}
       {tab === "sovrenn" && <SovrennView data={sovrenn} loadError={sovrennError} />}
       {tab === "history" && <HistoryView history={history} />}

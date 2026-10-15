@@ -13,7 +13,12 @@
     "dailyPct": 1.66,
     "weeklyPct": 3.44,
     "source": "official",
-    "dataSource": "nse"
+    "dataSource": "nse",
+    "m1Pct": -0.52,
+    "m3Pct": -4.47,
+    "m6Pct": -4.96,
+    "y1Pct": -9.19,
+    "y5Pct": 25.4
   },
   "groups": [
     {
@@ -52,7 +57,17 @@
       "vsNiftyDaily": -0.4,
       "vsNiftyWeekly": -0.35,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -0.86,
+      "vsNiftyM1": -0.34,
+      "m3Pct": -4.47,
+      "vsNiftyM3": 0.0,
+      "m6Pct": -4.22,
+      "vsNiftyM6": 0.74,
+      "y1Pct": -7.69,
+      "vsNiftyY1": 1.5,
+      "y5Pct": 28.89,
+      "vsNiftyY5": 3.49
     },
     {
       "id": "NIFTY 200",
@@ -68,7 +83,17 @@
       "vsNiftyDaily": -0.73,
       "vsNiftyWeekly": -0.51,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.24,
+      "vsNiftyM1": -0.72,
+      "m3Pct": -4.69,
+      "vsNiftyM3": -0.22,
+      "m6Pct": -3.4,
+      "vsNiftyM6": 1.56,
+      "y1Pct": -6.2,
+      "vsNiftyY1": 2.99,
+      "y5Pct": 36.14,
+      "vsNiftyY5": 10.74
     },
     {
       "id": "NIFTY 50",
@@ -84,7 +109,17 @@
       "vsNiftyDaily": 0.0,
       "vsNiftyWeekly": 0.0,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -0.52,
+      "vsNiftyM1": 0.0,
+      "m3Pct": -4.47,
+      "vsNiftyM3": 0.0,
+      "m6Pct": -4.96,
+      "vsNiftyM6": 0.0,
+      "y1Pct": -9.19,
+      "vsNiftyY1": 0.0,
+      "y5Pct": 25.4,
+      "vsNiftyY5": 0.0
     },
     {
       "id": "NIFTY 500",
@@ -100,7 +135,17 @@
       "vsNiftyDaily": -1.01,
       "vsNiftyWeekly": -0.83,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.32,
+      "vsNiftyM1": -0.8,
+      "m3Pct": -4.53,
+      "vsNiftyM3": -0.06,
+      "m6Pct": -2.1,
+      "vsNiftyM6": 2.86,
+      "y1Pct": -5.12,
+      "vsNiftyY1": 4.07,
+      "y5Pct": 40.66,
+      "vsNiftyY5": 15.26
     },
     {
       "id": "NIFTY FPI 150",
@@ -116,7 +161,17 @@
       "vsNiftyDaily": -0.68,
       "vsNiftyWeekly": -0.31,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.3,
+      "vsNiftyM1": -0.78,
+      "m3Pct": -4.74,
+      "vsNiftyM3": -0.27,
+      "m6Pct": -3.38,
+      "vsNiftyM6": 1.58,
+      "y1Pct": -5.5,
+      "vsNiftyY1": 3.69,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY LARGEMID250",
@@ -132,7 +187,17 @@
       "vsNiftyDaily": -1.18,
       "vsNiftyWeekly": -0.85,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.78,
+      "vsNiftyM1": -1.26,
+      "m3Pct": -5.06,
+      "vsNiftyM3": -0.59,
+      "m6Pct": -2.13,
+      "vsNiftyM6": 2.83,
+      "y1Pct": -3.95,
+      "vsNiftyY1": 5.24,
+      "y5Pct": 53.04,
+      "vsNiftyY5": 27.64
     },
     {
       "id": "NIFTY MICROCAP250",
@@ -148,7 +213,17 @@
       "vsNiftyDaily": -3.31,
       "vsNiftyWeekly": -3.1,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -0.87,
+      "vsNiftyM1": -0.35,
+      "m3Pct": 0.91,
+      "vsNiftyM3": 5.38,
+      "m6Pct": 14.88,
+      "vsNiftyM6": 19.84,
+      "y1Pct": 9.36,
+      "vsNiftyY1": 18.55,
+      "y5Pct": 137.93,
+      "vsNiftyY5": 112.53
     },
     {
       "id": "NIFTY MIDCAP 100",
@@ -164,7 +239,17 @@
       "vsNiftyDaily": -2.02,
       "vsNiftyWeekly": -1.17,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -2.76,
+      "vsNiftyM1": -2.24,
+      "m3Pct": -5.57,
+      "vsNiftyM3": -1.1,
+      "m6Pct": 0.09,
+      "vsNiftyM6": 5.05,
+      "y1Pct": 0.39,
+      "vsNiftyY1": 9.58,
+      "y5Pct": 82.13,
+      "vsNiftyY5": 56.73
     },
     {
       "id": "NIFTY MIDCAP 150",
@@ -180,7 +265,17 @@
       "vsNiftyDaily": -1.95,
       "vsNiftyWeekly": -1.35,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -2.69,
+      "vsNiftyM1": -2.17,
+      "m3Pct": -5.65,
+      "vsNiftyM3": -1.18,
+      "m6Pct": -0.11,
+      "vsNiftyM6": 4.85,
+      "y1Pct": -0.18,
+      "vsNiftyY1": 9.01,
+      "y5Pct": 79.86,
+      "vsNiftyY5": 54.46
     },
     {
       "id": "NIFTY MIDCAP 50",
@@ -196,7 +291,17 @@
       "vsNiftyDaily": -1.9,
       "vsNiftyWeekly": -0.87,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -3.42,
+      "vsNiftyM1": -2.9,
+      "m3Pct": -5.72,
+      "vsNiftyM3": -1.25,
+      "m6Pct": 0.9,
+      "vsNiftyM6": 5.86,
+      "y1Pct": 1.67,
+      "vsNiftyY1": 10.86,
+      "y5Pct": 89.75,
+      "vsNiftyY5": 64.35
     },
     {
       "id": "NIFTY MID SELECT",
@@ -212,7 +317,17 @@
       "vsNiftyDaily": -2.03,
       "vsNiftyWeekly": -0.93,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -3.81,
+      "vsNiftyM1": -3.29,
+      "m3Pct": -7.24,
+      "vsNiftyM3": -2.77,
+      "m6Pct": 0.28,
+      "vsNiftyM6": 5.24,
+      "y1Pct": 4.26,
+      "vsNiftyY1": 13.45,
+      "y5Pct": 73.0,
+      "vsNiftyY5": 47.6
     },
     {
       "id": "NIFTY MIDSML 400",
@@ -228,7 +343,17 @@
       "vsNiftyDaily": -2.26,
       "vsNiftyWeekly": -1.81,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -2.28,
+      "vsNiftyM1": -1.76,
+      "m3Pct": -4.63,
+      "vsNiftyM3": -0.16,
+      "m6Pct": 2.84,
+      "vsNiftyM6": 7.8,
+      "y1Pct": 0.97,
+      "vsNiftyY1": 10.16,
+      "y5Pct": 79.17,
+      "vsNiftyY5": 53.77
     },
     {
       "id": "NIFTY MIDSMALL 50 50",
@@ -244,7 +369,17 @@
       "vsNiftyDaily": -2.39,
       "vsNiftyWeekly": -2.01,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -2.08,
+      "vsNiftyM1": -1.56,
+      "m3Pct": -4.16,
+      "vsNiftyM3": 0.31,
+      "m6Pct": 4.3,
+      "vsNiftyM6": 9.26,
+      "y1Pct": null,
+      "vsNiftyY1": null,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY NEXT 50",
@@ -260,7 +395,17 @@
       "vsNiftyDaily": -2.13,
       "vsNiftyWeekly": -1.88,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -2.29,
+      "vsNiftyM1": -1.77,
+      "m3Pct": -4.49,
+      "vsNiftyM3": -0.02,
+      "m6Pct": -0.91,
+      "vsNiftyM6": 4.05,
+      "y1Pct": -0.64,
+      "vsNiftyY1": 8.55,
+      "y5Pct": 53.98,
+      "vsNiftyY5": 28.58
     },
     {
       "id": "NIFTY SMLCAP 100",
@@ -276,7 +421,17 @@
       "vsNiftyDaily": -2.97,
       "vsNiftyWeekly": -3.01,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.5,
+      "vsNiftyM1": -0.98,
+      "m3Pct": -1.06,
+      "vsNiftyM3": 3.41,
+      "m6Pct": 10.53,
+      "vsNiftyM6": 15.49,
+      "y1Pct": 5.77,
+      "vsNiftyY1": 14.96,
+      "y5Pct": 64.99,
+      "vsNiftyY5": 39.59
     },
     {
       "id": "NIFTY SMLCAP 250",
@@ -292,7 +447,17 @@
       "vsNiftyDaily": -2.81,
       "vsNiftyWeekly": -2.65,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.49,
+      "vsNiftyM1": -0.97,
+      "m3Pct": -2.66,
+      "vsNiftyM3": 1.81,
+      "m6Pct": 8.81,
+      "vsNiftyM6": 13.77,
+      "y1Pct": 3.37,
+      "vsNiftyY1": 12.56,
+      "y5Pct": 77.49,
+      "vsNiftyY5": 52.09
     },
     {
       "id": "NIFTY SMLCAP 50",
@@ -308,7 +473,17 @@
       "vsNiftyDaily": -2.77,
       "vsNiftyWeekly": -2.54,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.46,
+      "vsNiftyM1": -0.94,
+      "m3Pct": -0.27,
+      "vsNiftyM3": 4.2,
+      "m6Pct": 13.75,
+      "vsNiftyM6": 18.71,
+      "y1Pct": 10.06,
+      "vsNiftyY1": 19.25,
+      "y5Pct": 67.33,
+      "vsNiftyY5": 41.93
     },
     {
       "id": "NIFTY SMALLCAP 500",
@@ -324,7 +499,17 @@
       "vsNiftyDaily": -2.94,
       "vsNiftyWeekly": -2.75,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.3,
+      "vsNiftyM1": -0.78,
+      "m3Pct": -1.58,
+      "vsNiftyM3": 2.89,
+      "m6Pct": 10.46,
+      "vsNiftyM6": 15.42,
+      "y1Pct": null,
+      "vsNiftyY1": null,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY TOTAL MKT",
@@ -340,7 +525,17 @@
       "vsNiftyDaily": -1.11,
       "vsNiftyWeekly": -0.93,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.29,
+      "vsNiftyM1": -0.77,
+      "m3Pct": -4.28,
+      "vsNiftyM3": 0.19,
+      "m6Pct": -1.42,
+      "vsNiftyM6": 3.54,
+      "y1Pct": -4.52,
+      "vsNiftyY1": 4.67,
+      "y5Pct": 43.11,
+      "vsNiftyY5": 17.71
     },
     {
       "id": "NIFTY500 LMS EQL",
@@ -356,7 +551,17 @@
       "vsNiftyDaily": -1.73,
       "vsNiftyWeekly": -1.45,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.67,
+      "vsNiftyM1": -1.15,
+      "m3Pct": -4.25,
+      "vsNiftyM3": 0.22,
+      "m6Pct": 1.48,
+      "vsNiftyM6": 6.44,
+      "y1Pct": -1.42,
+      "vsNiftyY1": 7.77,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY500 MULTICAP",
@@ -372,7 +577,17 @@
       "vsNiftyDaily": -1.4,
       "vsNiftyWeekly": -1.18,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.47,
+      "vsNiftyM1": -0.95,
+      "m3Pct": -4.3,
+      "vsNiftyM3": 0.17,
+      "m6Pct": 0.07,
+      "vsNiftyM6": 5.03,
+      "y1Pct": -2.98,
+      "vsNiftyY1": 6.21,
+      "y5Pct": 53.09,
+      "vsNiftyY5": 27.69
     },
     {
       "id": "NIFTY AUTO",
@@ -388,7 +603,17 @@
       "vsNiftyDaily": 0.01,
       "vsNiftyWeekly": 0.9,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -4.41,
+      "vsNiftyM1": -3.89,
+      "m3Pct": -4.45,
+      "vsNiftyM3": 0.02,
+      "m6Pct": -3.06,
+      "vsNiftyM6": 1.9,
+      "y1Pct": -4.24,
+      "vsNiftyY1": 4.95,
+      "y5Pct": 116.74,
+      "vsNiftyY5": 91.34
     },
     {
       "id": "NIFTY BANK",
@@ -404,7 +629,17 @@
       "vsNiftyDaily": -0.77,
       "vsNiftyWeekly": -1.06,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": 0.03,
+      "vsNiftyM1": 0.55,
+      "m3Pct": -3.08,
+      "vsNiftyM3": 1.39,
+      "m6Pct": -0.49,
+      "vsNiftyM6": 4.47,
+      "y1Pct": -1.74,
+      "vsNiftyY1": 7.45,
+      "y5Pct": 41.86,
+      "vsNiftyY5": 16.46
     },
     {
       "id": "NIFTY CEMENT",
@@ -420,7 +655,17 @@
       "vsNiftyDaily": -1.45,
       "vsNiftyWeekly": -1.97,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -3.09,
+      "vsNiftyM1": -2.57,
+      "m3Pct": -12.65,
+      "vsNiftyM3": -8.18,
+      "m6Pct": -11.88,
+      "vsNiftyM6": -6.92,
+      "y1Pct": null,
+      "vsNiftyY1": null,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY CHEMICALS",
@@ -440,7 +685,17 @@
       ],
       "watchlistTickers": [
         "NAVINFLUOR.NS"
-      ]
+      ],
+      "m1Pct": -1.17,
+      "vsNiftyM1": -0.65,
+      "m3Pct": -6.23,
+      "vsNiftyM3": -1.76,
+      "m6Pct": 2.92,
+      "vsNiftyM6": 7.88,
+      "y1Pct": -2.43,
+      "vsNiftyY1": 6.76,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY CONSR DURBL",
@@ -456,7 +711,17 @@
       "vsNiftyDaily": -1.93,
       "vsNiftyWeekly": -1.04,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -3.93,
+      "vsNiftyM1": -3.41,
+      "m3Pct": -7.71,
+      "vsNiftyM3": -3.24,
+      "m6Pct": -2.95,
+      "vsNiftyM6": 2.01,
+      "y1Pct": -4.45,
+      "vsNiftyY1": 4.74,
+      "y5Pct": 20.42,
+      "vsNiftyY5": -4.98
     },
     {
       "id": "NIFTY FMCG",
@@ -472,7 +737,17 @@
       "vsNiftyDaily": -2.72,
       "vsNiftyWeekly": -1.4,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -0.09,
+      "vsNiftyM1": 0.43,
+      "m3Pct": -7.47,
+      "vsNiftyM3": -3.0,
+      "m6Pct": -7.41,
+      "vsNiftyM6": -2.45,
+      "y1Pct": -18.19,
+      "vsNiftyY1": -9.0,
+      "y5Pct": 8.25,
+      "vsNiftyY5": -17.15
     },
     {
       "id": "NIFTY FIN SERVICE",
@@ -492,7 +767,17 @@
       ],
       "watchlistTickers": [
         "PRUDENT.NS"
-      ]
+      ],
+      "m1Pct": 1.15,
+      "vsNiftyM1": 1.67,
+      "m3Pct": -4.49,
+      "vsNiftyM3": -0.02,
+      "m6Pct": -3.72,
+      "vsNiftyM6": 1.24,
+      "y1Pct": -6.31,
+      "vsNiftyY1": 2.88,
+      "y5Pct": 33.86,
+      "vsNiftyY5": 8.46
     },
     {
       "id": "NIFTY FINSRV25 50",
@@ -508,7 +793,17 @@
       "vsNiftyDaily": -0.06,
       "vsNiftyWeekly": -0.56,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": 0.45,
+      "vsNiftyM1": 0.97,
+      "m3Pct": -5.87,
+      "vsNiftyM3": -1.4,
+      "m6Pct": -5.59,
+      "vsNiftyM6": -0.63,
+      "y1Pct": -7.3,
+      "vsNiftyY1": 1.89,
+      "y5Pct": 44.1,
+      "vsNiftyY5": 18.7
     },
     {
       "id": "NIFTY FINSEREXBNK",
@@ -524,7 +819,17 @@
       "vsNiftyDaily": -0.91,
       "vsNiftyWeekly": -0.92,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -2.89,
+      "vsNiftyM1": -2.37,
+      "m3Pct": -5.97,
+      "vsNiftyM3": -1.5,
+      "m6Pct": -4.13,
+      "vsNiftyM6": 0.83,
+      "y1Pct": -4.07,
+      "vsNiftyY1": 5.12,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY HEALTHCARE",
@@ -544,7 +849,17 @@
       ],
       "watchlistTickers": [
         "VIJAYA.NS"
-      ]
+      ],
+      "m1Pct": -3.53,
+      "vsNiftyM1": -3.01,
+      "m3Pct": -4.66,
+      "vsNiftyM3": -0.19,
+      "m6Pct": 8.93,
+      "vsNiftyM6": 13.89,
+      "y1Pct": 6.97,
+      "vsNiftyY1": 16.16,
+      "y5Pct": 73.03,
+      "vsNiftyY5": 47.63
     },
     {
       "id": "NIFTY IT",
@@ -566,7 +881,17 @@
         "E2E.NS",
         "TECHM.NS",
         "PERSISTENT.NS"
-      ]
+      ],
+      "m1Pct": 3.94,
+      "vsNiftyM1": 4.46,
+      "m3Pct": 6.95,
+      "vsNiftyM3": 11.42,
+      "m6Pct": -3.45,
+      "vsNiftyM6": 1.51,
+      "y1Pct": -13.23,
+      "vsNiftyY1": -4.04,
+      "y5Pct": -14.06,
+      "vsNiftyY5": -39.46
     },
     {
       "id": "NIFTY MEDIA",
@@ -582,7 +907,17 @@
       "vsNiftyDaily": -3.13,
       "vsNiftyWeekly": 1.95,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": 7.53,
+      "vsNiftyM1": 8.05,
+      "m3Pct": 6.3,
+      "vsNiftyM3": 10.77,
+      "m6Pct": 15.69,
+      "vsNiftyM6": 20.65,
+      "y1Pct": 5.06,
+      "vsNiftyY1": 14.25,
+      "y5Pct": -31.21,
+      "vsNiftyY5": -56.61
     },
     {
       "id": "NIFTY METAL",
@@ -598,7 +933,17 @@
       "vsNiftyDaily": -1.56,
       "vsNiftyWeekly": -2.19,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -5.14,
+      "vsNiftyM1": -4.62,
+      "m3Pct": -3.82,
+      "vsNiftyM3": 0.65,
+      "m6Pct": -5.66,
+      "vsNiftyM6": -0.7,
+      "y1Pct": 17.62,
+      "vsNiftyY1": 26.81,
+      "y5Pct": 99.67,
+      "vsNiftyY5": 74.27
     },
     {
       "id": "NIFTY MS FIN SERV",
@@ -614,7 +959,17 @@
       "vsNiftyDaily": -1.84,
       "vsNiftyWeekly": -0.96,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -3.94,
+      "vsNiftyM1": -3.42,
+      "m3Pct": -4.82,
+      "vsNiftyM3": -0.35,
+      "m6Pct": 1.16,
+      "vsNiftyM6": 6.12,
+      "y1Pct": 9.93,
+      "vsNiftyY1": 19.12,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY MIDSML HLTH",
@@ -630,7 +985,17 @@
       "vsNiftyDaily": -1.82,
       "vsNiftyWeekly": -3.64,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -3.74,
+      "vsNiftyM1": -3.22,
+      "m3Pct": -3.68,
+      "vsNiftyM3": 0.79,
+      "m6Pct": 12.81,
+      "vsNiftyM6": 17.77,
+      "y1Pct": 12.15,
+      "vsNiftyY1": 21.34,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY MS IT TELCM",
@@ -646,7 +1011,17 @@
       "vsNiftyDaily": -1.58,
       "vsNiftyWeekly": 1.94,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": 2.94,
+      "vsNiftyM1": 3.46,
+      "m3Pct": 5.18,
+      "vsNiftyM3": 9.65,
+      "m6Pct": 15.9,
+      "vsNiftyM6": 20.86,
+      "y1Pct": 3.29,
+      "vsNiftyY1": 12.48,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY OIL AND GAS",
@@ -662,7 +1037,17 @@
       "vsNiftyDaily": -0.25,
       "vsNiftyWeekly": -1.03,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.78,
+      "vsNiftyM1": -1.26,
+      "m3Pct": -5.22,
+      "vsNiftyM3": -0.75,
+      "m6Pct": -5.78,
+      "vsNiftyM6": -0.82,
+      "y1Pct": -7.23,
+      "vsNiftyY1": 1.96,
+      "y5Pct": 30.03,
+      "vsNiftyY5": 4.63
     },
     {
       "id": "NIFTY PSU BANK",
@@ -678,7 +1063,17 @@
       "vsNiftyDaily": -3.21,
       "vsNiftyWeekly": -2.87,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.44,
+      "vsNiftyM1": -0.92,
+      "m3Pct": -3.67,
+      "vsNiftyM3": 0.8,
+      "m6Pct": -8.6,
+      "vsNiftyM6": -3.64,
+      "y1Pct": 4.12,
+      "vsNiftyY1": 13.31,
+      "y5Pct": 196.01,
+      "vsNiftyY5": 170.61
     },
     {
       "id": "NIFTY PHARMA",
@@ -699,7 +1094,17 @@
       "watchlistTickers": [
         "DIVISLAB.NS",
         "AUROPHARMA.NS"
-      ]
+      ],
+      "m1Pct": -1.42,
+      "vsNiftyM1": -0.9,
+      "m3Pct": -0.73,
+      "vsNiftyM3": 3.74,
+      "m6Pct": 14.92,
+      "vsNiftyM6": 19.88,
+      "y1Pct": 17.05,
+      "vsNiftyY1": 26.24,
+      "y5Pct": 75.29,
+      "vsNiftyY5": 49.89
     },
     {
       "id": "NIFTY PVT BANK",
@@ -720,7 +1125,17 @@
       "watchlistTickers": [
         "ICICIBANK.NS",
         "KOTAKBANK.NS"
-      ]
+      ],
+      "m1Pct": 2.25,
+      "vsNiftyM1": 2.77,
+      "m3Pct": -0.85,
+      "vsNiftyM3": 3.62,
+      "m6Pct": 2.98,
+      "vsNiftyM6": 7.94,
+      "y1Pct": -0.17,
+      "vsNiftyY1": 9.02,
+      "y5Pct": 35.31,
+      "vsNiftyY5": 9.91
     },
     {
       "id": "NIFTY REITS REALTY",
@@ -736,7 +1151,17 @@
       "vsNiftyDaily": -1.4,
       "vsNiftyWeekly": -1.72,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -0.4,
+      "vsNiftyM1": 0.12,
+      "m3Pct": -4.91,
+      "vsNiftyM3": -0.44,
+      "m6Pct": 3.07,
+      "vsNiftyM6": 8.03,
+      "y1Pct": null,
+      "vsNiftyY1": null,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY REALTY",
@@ -752,7 +1177,17 @@
       "vsNiftyDaily": -0.94,
       "vsNiftyWeekly": 0.59,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": 1.77,
+      "vsNiftyM1": 2.29,
+      "m3Pct": -8.55,
+      "vsNiftyM3": -4.08,
+      "m6Pct": 6.3,
+      "vsNiftyM6": 11.26,
+      "y1Pct": -9.47,
+      "vsNiftyY1": -0.28,
+      "y5Pct": 53.68,
+      "vsNiftyY5": 28.28
     },
     {
       "id": "NIFTY500 HEALTH",
@@ -768,7 +1203,17 @@
       "vsNiftyDaily": -1.48,
       "vsNiftyWeekly": -3.52,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -4.2,
+      "vsNiftyM1": -3.68,
+      "m3Pct": -4.3,
+      "vsNiftyM3": 0.17,
+      "m6Pct": 11.01,
+      "vsNiftyM6": 15.97,
+      "y1Pct": 7.58,
+      "vsNiftyY1": 16.77,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY CPSE",
@@ -784,7 +1229,17 @@
       "vsNiftyDaily": -1.79,
       "vsNiftyWeekly": -1.18,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -3.47,
+      "vsNiftyM1": -2.95,
+      "m3Pct": -7.65,
+      "vsNiftyM3": -3.18,
+      "m6Pct": -16.13,
+      "vsNiftyM6": -11.17,
+      "y1Pct": -6.89,
+      "vsNiftyY1": 2.3,
+      "y5Pct": 144.93,
+      "vsNiftyY5": 119.53
     },
     {
       "id": "NIFTY CAPITAL MKT",
@@ -804,7 +1259,17 @@
       ],
       "watchlistTickers": [
         "MCX.NS"
-      ]
+      ],
+      "m1Pct": 0.82,
+      "vsNiftyM1": 1.34,
+      "m3Pct": -1.77,
+      "vsNiftyM3": 2.7,
+      "m6Pct": 2.7,
+      "vsNiftyM6": 7.66,
+      "y1Pct": 14.08,
+      "vsNiftyY1": 23.27,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY COMMODITIES",
@@ -820,7 +1285,17 @@
       "vsNiftyDaily": -1.01,
       "vsNiftyWeekly": -0.98,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -3.59,
+      "vsNiftyM1": -3.07,
+      "m3Pct": -7.62,
+      "vsNiftyM3": -3.15,
+      "m6Pct": -9.03,
+      "vsNiftyM6": -4.07,
+      "y1Pct": -0.8,
+      "vsNiftyY1": 8.39,
+      "y5Pct": 49.56,
+      "vsNiftyY5": 24.16
     },
     {
       "id": "NIFTYCONGLOMERATE",
@@ -836,7 +1311,17 @@
       "vsNiftyDaily": -1.03,
       "vsNiftyWeekly": -0.46,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -4.07,
+      "vsNiftyM1": -3.55,
+      "m3Pct": -5.24,
+      "vsNiftyM3": -0.77,
+      "m6Pct": -3.55,
+      "vsNiftyM6": 1.41,
+      "y1Pct": -3.86,
+      "vsNiftyY1": 5.33,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY COREHOUSING",
@@ -852,7 +1337,17 @@
       "vsNiftyDaily": -1.57,
       "vsNiftyWeekly": -0.89,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.01,
+      "vsNiftyM1": -0.49,
+      "m3Pct": -9.42,
+      "vsNiftyM3": -4.95,
+      "m6Pct": -2.28,
+      "vsNiftyM6": 2.68,
+      "y1Pct": -10.72,
+      "vsNiftyY1": -1.53,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY EV",
@@ -868,7 +1363,17 @@
       "vsNiftyDaily": -1.29,
       "vsNiftyWeekly": -0.49,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -3.98,
+      "vsNiftyM1": -3.46,
+      "m3Pct": -4.27,
+      "vsNiftyM3": 0.2,
+      "m6Pct": 1.47,
+      "vsNiftyM6": 6.43,
+      "y1Pct": -3.06,
+      "vsNiftyY1": 6.13,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY ENERGY",
@@ -884,7 +1389,17 @@
       "vsNiftyDaily": -2.45,
       "vsNiftyWeekly": -1.86,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -2.51,
+      "vsNiftyM1": -1.99,
+      "m3Pct": -7.96,
+      "vsNiftyM3": -3.49,
+      "m6Pct": -5.16,
+      "vsNiftyM6": -0.2,
+      "y1Pct": 2.53,
+      "vsNiftyY1": 11.72,
+      "y5Pct": 46.22,
+      "vsNiftyY5": 20.82
     },
     {
       "id": "NIFTY HOUSING",
@@ -900,7 +1415,17 @@
       "vsNiftyDaily": -0.98,
       "vsNiftyWeekly": -0.73,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.35,
+      "vsNiftyM1": -0.83,
+      "m3Pct": -6.92,
+      "vsNiftyM3": -2.45,
+      "m6Pct": -5.82,
+      "vsNiftyM6": -0.86,
+      "y1Pct": -5.21,
+      "vsNiftyY1": 3.98,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY IPO",
@@ -916,7 +1441,17 @@
       "vsNiftyDaily": -3.32,
       "vsNiftyWeekly": -5.61,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.15,
+      "vsNiftyM1": -0.63,
+      "m3Pct": 2.6,
+      "vsNiftyM3": 7.07,
+      "m6Pct": 14.81,
+      "vsNiftyM6": 19.77,
+      "y1Pct": 8.56,
+      "vsNiftyY1": 17.75,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY CONSUMPTION",
@@ -932,7 +1467,17 @@
       "vsNiftyDaily": -0.79,
       "vsNiftyWeekly": -0.98,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -2.46,
+      "vsNiftyM1": -1.94,
+      "m3Pct": -5.62,
+      "vsNiftyM3": -1.15,
+      "m6Pct": -2.46,
+      "vsNiftyM6": 2.5,
+      "y1Pct": -10.88,
+      "vsNiftyY1": -1.69,
+      "y5Pct": 45.65,
+      "vsNiftyY5": 20.25
     },
     {
       "id": "NIFTY TATA 25 CAP",
@@ -948,7 +1493,17 @@
       "vsNiftyDaily": -0.72,
       "vsNiftyWeekly": 1.78,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.06,
+      "vsNiftyM1": -0.54,
+      "m3Pct": -2.0,
+      "vsNiftyM3": 2.47,
+      "m6Pct": -7.48,
+      "vsNiftyM6": -2.52,
+      "y1Pct": -5.7,
+      "vsNiftyY1": 3.49,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY IND DEFENCE",
@@ -968,7 +1523,17 @@
       ],
       "watchlistTickers": [
         "HAL.NS"
-      ]
+      ],
+      "m1Pct": 0.57,
+      "vsNiftyM1": 1.09,
+      "m3Pct": -0.97,
+      "vsNiftyM3": 3.5,
+      "m6Pct": 5.87,
+      "vsNiftyM6": 10.83,
+      "y1Pct": 13.94,
+      "vsNiftyY1": 23.13,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY IND DIGITAL",
@@ -984,7 +1549,17 @@
       "vsNiftyDaily": -0.53,
       "vsNiftyWeekly": 2.53,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -0.56,
+      "vsNiftyM1": -0.04,
+      "m3Pct": 3.55,
+      "vsNiftyM3": 8.02,
+      "m6Pct": 5.52,
+      "vsNiftyM6": 10.48,
+      "y1Pct": -7.93,
+      "vsNiftyY1": 1.26,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY INFRALOG",
@@ -1000,7 +1575,17 @@
       "vsNiftyDaily": -2.18,
       "vsNiftyWeekly": -1.79,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.88,
+      "vsNiftyM1": -1.36,
+      "m3Pct": -7.78,
+      "vsNiftyM3": -3.31,
+      "m6Pct": -3.17,
+      "vsNiftyM6": 1.79,
+      "y1Pct": -2.16,
+      "vsNiftyY1": 7.03,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY INTERNET",
@@ -1016,7 +1601,17 @@
       "vsNiftyDaily": -1.08,
       "vsNiftyWeekly": -1.0,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -4.66,
+      "vsNiftyM1": -4.14,
+      "m3Pct": 1.98,
+      "vsNiftyM3": 6.45,
+      "m6Pct": 12.87,
+      "vsNiftyM6": 17.83,
+      "y1Pct": -7.48,
+      "vsNiftyY1": 1.71,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY INDIA MFG",
@@ -1032,7 +1627,17 @@
       "vsNiftyDaily": -1.41,
       "vsNiftyWeekly": -1.58,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -2.97,
+      "vsNiftyM1": -2.45,
+      "m3Pct": -5.22,
+      "vsNiftyM3": -0.75,
+      "m6Pct": -2.05,
+      "vsNiftyM6": 2.91,
+      "y1Pct": 0.91,
+      "vsNiftyY1": 10.1,
+      "y5Pct": 79.09,
+      "vsNiftyY5": 53.69
     },
     {
       "id": "NIFTY NEW CONSUMP",
@@ -1048,7 +1653,17 @@
       "vsNiftyDaily": -0.65,
       "vsNiftyWeekly": -0.65,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -2.72,
+      "vsNiftyM1": -2.2,
+      "m3Pct": -4.17,
+      "vsNiftyM3": 0.3,
+      "m6Pct": 2.36,
+      "vsNiftyM6": 7.32,
+      "y1Pct": -7.98,
+      "vsNiftyY1": 1.21,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY RAILWAYSPSU",
@@ -1064,7 +1679,17 @@
       "vsNiftyDaily": -2.16,
       "vsNiftyWeekly": 0.77,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.71,
+      "vsNiftyM1": -1.19,
+      "m3Pct": -9.28,
+      "vsNiftyM3": -4.81,
+      "m6Pct": -18.68,
+      "vsNiftyM6": -13.72,
+      "y1Pct": -25.84,
+      "vsNiftyY1": -16.65,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY CORP MAATR",
@@ -1080,7 +1705,17 @@
       "vsNiftyDaily": -0.31,
       "vsNiftyWeekly": 0.5,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -2.69,
+      "vsNiftyM1": -2.17,
+      "m3Pct": -6.38,
+      "vsNiftyM3": -1.91,
+      "m6Pct": -3.08,
+      "vsNiftyM6": 1.88,
+      "y1Pct": -2.71,
+      "vsNiftyY1": 6.48,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY IND TOURISM",
@@ -1096,7 +1731,17 @@
       "vsNiftyDaily": -0.98,
       "vsNiftyWeekly": -1.62,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -0.33,
+      "vsNiftyM1": 0.19,
+      "m3Pct": -6.13,
+      "vsNiftyM3": -1.66,
+      "m6Pct": 1.25,
+      "vsNiftyM6": 6.21,
+      "y1Pct": -15.15,
+      "vsNiftyY1": -5.96,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY INFRA",
@@ -1116,7 +1761,17 @@
       ],
       "watchlistTickers": [
         "TRANSRAILL.NS"
-      ]
+      ],
+      "m1Pct": -2.52,
+      "vsNiftyM1": -2.0,
+      "m3Pct": -6.92,
+      "vsNiftyM3": -2.45,
+      "m6Pct": -5.93,
+      "vsNiftyM6": -0.97,
+      "y1Pct": -5.87,
+      "vsNiftyY1": 3.32,
+      "y5Pct": 64.82,
+      "vsNiftyY5": 39.42
     },
     {
       "id": "NIFTY MNC",
@@ -1132,7 +1787,17 @@
       "vsNiftyDaily": -3.1,
       "vsNiftyWeekly": -3.36,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -4.98,
+      "vsNiftyM1": -4.46,
+      "m3Pct": -9.41,
+      "vsNiftyM3": -4.94,
+      "m6Pct": -3.9,
+      "vsNiftyM6": 1.06,
+      "y1Pct": -1.33,
+      "vsNiftyY1": 7.86,
+      "y5Pct": 49.27,
+      "vsNiftyY5": 23.87
     },
     {
       "id": "NIFTY MID LIQ 15",
@@ -1148,7 +1813,17 @@
       "vsNiftyDaily": -2.72,
       "vsNiftyWeekly": -1.3,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -3.73,
+      "vsNiftyM1": -3.21,
+      "m3Pct": -3.74,
+      "vsNiftyM3": 0.73,
+      "m6Pct": 1.92,
+      "vsNiftyM6": 6.88,
+      "y1Pct": 3.78,
+      "vsNiftyY1": 12.97,
+      "y5Pct": 111.03,
+      "vsNiftyY5": 85.63
     },
     {
       "id": "NIFTY MS IND CONS",
@@ -1164,7 +1839,17 @@
       "vsNiftyDaily": -1.47,
       "vsNiftyWeekly": -1.18,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.88,
+      "vsNiftyM1": -1.36,
+      "m3Pct": -7.4,
+      "vsNiftyM3": -2.93,
+      "m6Pct": 0.19,
+      "vsNiftyM6": 5.15,
+      "y1Pct": -11.36,
+      "vsNiftyY1": -2.17,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY MOBILITY",
@@ -1180,7 +1865,17 @@
       "vsNiftyDaily": -0.18,
       "vsNiftyWeekly": -0.3,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -2.75,
+      "vsNiftyM1": -2.23,
+      "m3Pct": -3.22,
+      "vsNiftyM3": 1.25,
+      "m6Pct": 0.43,
+      "vsNiftyM6": 5.39,
+      "y1Pct": -4.87,
+      "vsNiftyY1": 4.32,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY NONCYC CONS",
@@ -1196,7 +1891,17 @@
       "vsNiftyDaily": -1.41,
       "vsNiftyWeekly": -1.84,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.05,
+      "vsNiftyM1": -0.53,
+      "m3Pct": -5.34,
+      "vsNiftyM3": -0.87,
+      "m6Pct": -1.24,
+      "vsNiftyM6": 3.72,
+      "y1Pct": -11.86,
+      "vsNiftyY1": -2.67,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY PSE",
@@ -1212,7 +1917,17 @@
       "vsNiftyDaily": -1.91,
       "vsNiftyWeekly": -0.7,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -2.22,
+      "vsNiftyM1": -1.7,
+      "m3Pct": -6.6,
+      "vsNiftyM3": -2.13,
+      "m6Pct": -11.46,
+      "vsNiftyM6": -6.5,
+      "y1Pct": -6.5,
+      "vsNiftyY1": 2.69,
+      "y5Pct": 111.06,
+      "vsNiftyY5": 85.66
     },
     {
       "id": "NIFTY RURAL",
@@ -1228,7 +1943,17 @@
       "vsNiftyDaily": -1.0,
       "vsNiftyWeekly": -0.76,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -2.48,
+      "vsNiftyM1": -1.96,
+      "m3Pct": -7.32,
+      "vsNiftyM3": -2.85,
+      "m6Pct": -6.66,
+      "vsNiftyM6": -1.7,
+      "y1Pct": -9.47,
+      "vsNiftyY1": -0.28,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY SME EMERGE",
@@ -1244,7 +1969,17 @@
       "vsNiftyDaily": -1.84,
       "vsNiftyWeekly": -2.58,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": 1.89,
+      "vsNiftyM1": 2.41,
+      "m3Pct": 6.64,
+      "vsNiftyM3": 11.11,
+      "m6Pct": 12.18,
+      "vsNiftyM6": 17.14,
+      "y1Pct": -0.76,
+      "vsNiftyY1": 8.43,
+      "y5Pct": 338.01,
+      "vsNiftyY5": 312.61
     },
     {
       "id": "NIFTY SERV SECTOR",
@@ -1260,7 +1995,17 @@
       "vsNiftyDaily": 0.17,
       "vsNiftyWeekly": 1.35,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": 0.9,
+      "vsNiftyM1": 1.42,
+      "m3Pct": -3.54,
+      "vsNiftyM3": 0.93,
+      "m6Pct": -3.53,
+      "vsNiftyM6": 1.43,
+      "y1Pct": -9.4,
+      "vsNiftyY1": -0.21,
+      "y5Pct": 18.15,
+      "vsNiftyY5": -7.25
     },
     {
       "id": "NIFTY SHARIAH 25",
@@ -1276,7 +2021,17 @@
       "vsNiftyDaily": -1.39,
       "vsNiftyWeekly": 0.75,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -0.11,
+      "vsNiftyM1": 0.41,
+      "m3Pct": -3.48,
+      "vsNiftyM3": 0.99,
+      "m6Pct": -2.86,
+      "vsNiftyM6": 2.1,
+      "y1Pct": -8.11,
+      "vsNiftyY1": 1.08,
+      "y5Pct": 14.52,
+      "vsNiftyY5": -10.88
     },
     {
       "id": "NIFTY TRANS LOGIS",
@@ -1292,7 +2047,17 @@
       "vsNiftyDaily": -0.28,
       "vsNiftyWeekly": -0.41,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -3.03,
+      "vsNiftyM1": -2.51,
+      "m3Pct": -3.54,
+      "vsNiftyM3": 0.93,
+      "m6Pct": 0.13,
+      "vsNiftyM6": 5.09,
+      "y1Pct": -7.18,
+      "vsNiftyY1": 2.01,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY WAVES",
@@ -1308,7 +2073,17 @@
       "vsNiftyDaily": -3.17,
       "vsNiftyWeekly": 1.23,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": 2.55,
+      "vsNiftyM1": 3.07,
+      "m3Pct": -4.22,
+      "vsNiftyM3": 0.25,
+      "m6Pct": -1.01,
+      "vsNiftyM6": 3.95,
+      "y1Pct": -7.44,
+      "vsNiftyY1": 1.75,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY100 ESG",
@@ -1324,7 +2099,17 @@
       "vsNiftyDaily": -0.54,
       "vsNiftyWeekly": 0.19,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -0.98,
+      "vsNiftyM1": -0.46,
+      "m3Pct": -4.26,
+      "vsNiftyM3": 0.21,
+      "m6Pct": -3.59,
+      "vsNiftyM6": 1.37,
+      "y1Pct": -5.66,
+      "vsNiftyY1": 3.53,
+      "y5Pct": 27.18,
+      "vsNiftyY5": 1.78
     },
     {
       "id": "NIFTY100ESGSECLDR",
@@ -1340,7 +2125,17 @@
       "vsNiftyDaily": -0.08,
       "vsNiftyWeekly": -0.04,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -0.9,
+      "vsNiftyM1": -0.38,
+      "m3Pct": -5.51,
+      "vsNiftyM3": -1.04,
+      "m6Pct": -5.29,
+      "vsNiftyM6": -0.33,
+      "y1Pct": -9.4,
+      "vsNiftyY1": -0.21,
+      "y5Pct": 23.77,
+      "vsNiftyY5": -1.63
     },
     {
       "id": "NIFTY100 ENH ESG",
@@ -1356,7 +2151,17 @@
       "vsNiftyDaily": -0.53,
       "vsNiftyWeekly": 0.2,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -0.97,
+      "vsNiftyM1": -0.45,
+      "m3Pct": -4.26,
+      "vsNiftyM3": 0.21,
+      "m6Pct": -3.61,
+      "vsNiftyM6": 1.35,
+      "y1Pct": -5.76,
+      "vsNiftyY1": 3.43,
+      "y5Pct": 27.15,
+      "vsNiftyY5": 1.75
     },
     {
       "id": "NIFTY100 LIQ 15",
@@ -1372,7 +2177,17 @@
       "vsNiftyDaily": 0.12,
       "vsNiftyWeekly": 0.58,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": 2.07,
+      "vsNiftyM1": 2.59,
+      "m3Pct": -0.94,
+      "vsNiftyM3": 3.53,
+      "m6Pct": 1.94,
+      "vsNiftyM6": 6.9,
+      "y1Pct": 0.07,
+      "vsNiftyY1": 9.26,
+      "y5Pct": 55.3,
+      "vsNiftyY5": 29.9
     },
     {
       "id": "NIFTY50 SHARIAH",
@@ -1388,7 +2203,17 @@
       "vsNiftyDaily": -0.68,
       "vsNiftyWeekly": 1.78,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -0.39,
+      "vsNiftyM1": 0.13,
+      "m3Pct": -3.62,
+      "vsNiftyM3": 0.85,
+      "m6Pct": -7.61,
+      "vsNiftyM6": -2.65,
+      "y1Pct": -11.63,
+      "vsNiftyY1": -2.44,
+      "y5Pct": -6.34,
+      "vsNiftyY5": -31.74
     },
     {
       "id": "NIFTY MULTI MFG",
@@ -1404,7 +2229,17 @@
       "vsNiftyDaily": -1.15,
       "vsNiftyWeekly": -1.35,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -2.43,
+      "vsNiftyM1": -1.91,
+      "m3Pct": -4.07,
+      "vsNiftyM3": 0.4,
+      "m6Pct": 0.55,
+      "vsNiftyM6": 5.51,
+      "y1Pct": 1.12,
+      "vsNiftyY1": 10.31,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY MULTI INFRA",
@@ -1420,7 +2255,17 @@
       "vsNiftyDaily": -1.36,
       "vsNiftyWeekly": -1.72,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -2.68,
+      "vsNiftyM1": -2.16,
+      "m3Pct": -7.12,
+      "vsNiftyM3": -2.65,
+      "m6Pct": -3.0,
+      "vsNiftyM6": 1.96,
+      "y1Pct": -4.15,
+      "vsNiftyY1": 5.04,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY500 SHARIAH",
@@ -1436,7 +2281,17 @@
       "vsNiftyDaily": -1.76,
       "vsNiftyWeekly": -0.65,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.07,
+      "vsNiftyM1": -0.55,
+      "m3Pct": -4.18,
+      "vsNiftyM3": 0.29,
+      "m6Pct": -2.27,
+      "vsNiftyM6": 2.69,
+      "y1Pct": -5.82,
+      "vsNiftyY1": 3.37,
+      "y5Pct": 21.02,
+      "vsNiftyY5": -4.38
     },
     {
       "id": "NIFTY ALPHA 50",
@@ -1452,7 +2307,17 @@
       "vsNiftyDaily": -3.77,
       "vsNiftyWeekly": -4.99,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.35,
+      "vsNiftyM1": -0.83,
+      "m3Pct": -0.44,
+      "vsNiftyM3": 4.03,
+      "m6Pct": 6.45,
+      "vsNiftyM6": 11.41,
+      "y1Pct": 4.99,
+      "vsNiftyY1": 14.18,
+      "y5Pct": 58.49,
+      "vsNiftyY5": 33.09
     },
     {
       "id": "NIFTY ALPHALOWVOL",
@@ -1468,7 +2333,17 @@
       "vsNiftyDaily": -1.12,
       "vsNiftyWeekly": -1.51,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -3.35,
+      "vsNiftyM1": -2.83,
+      "m3Pct": -6.9,
+      "vsNiftyM3": -2.43,
+      "m6Pct": -2.99,
+      "vsNiftyM6": 1.97,
+      "y1Pct": -7.16,
+      "vsNiftyY1": 2.03,
+      "y5Pct": 36.83,
+      "vsNiftyY5": 11.43
     },
     {
       "id": "NIFTY AQL 30",
@@ -1484,7 +2359,17 @@
       "vsNiftyDaily": -1.62,
       "vsNiftyWeekly": -1.2,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.96,
+      "vsNiftyM1": -1.44,
+      "m3Pct": -6.02,
+      "vsNiftyM3": -1.55,
+      "m6Pct": -1.37,
+      "vsNiftyM6": 3.59,
+      "y1Pct": -5.44,
+      "vsNiftyY1": 3.75,
+      "y5Pct": 40.38,
+      "vsNiftyY5": 14.98
     },
     {
       "id": "NIFTY AQLV 30",
@@ -1500,7 +2385,17 @@
       "vsNiftyDaily": -1.42,
       "vsNiftyWeekly": -0.93,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -2.53,
+      "vsNiftyM1": -2.01,
+      "m3Pct": -6.01,
+      "vsNiftyM3": -1.54,
+      "m6Pct": -4.72,
+      "vsNiftyM6": 0.24,
+      "y1Pct": -9.82,
+      "vsNiftyY1": -0.63,
+      "y5Pct": 63.36,
+      "vsNiftyY5": 37.96
     },
     {
       "id": "NIFTY DIV OPPS 50",
@@ -1516,7 +2411,17 @@
       "vsNiftyDaily": -0.99,
       "vsNiftyWeekly": 1.29,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -0.79,
+      "vsNiftyM1": -0.27,
+      "m3Pct": -3.55,
+      "vsNiftyM3": 0.92,
+      "m6Pct": -9.31,
+      "vsNiftyM6": -4.35,
+      "y1Pct": -7.58,
+      "vsNiftyY1": 1.61,
+      "y5Pct": 43.49,
+      "vsNiftyY5": 18.09
     },
     {
       "id": "NIFTY GROWSECT 15",
@@ -1532,7 +2437,17 @@
       "vsNiftyDaily": -0.4,
       "vsNiftyWeekly": 2.12,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.6,
+      "vsNiftyM1": -1.08,
+      "m3Pct": -1.93,
+      "vsNiftyM3": 2.54,
+      "m6Pct": -2.64,
+      "vsNiftyM6": 2.32,
+      "y1Pct": -9.57,
+      "vsNiftyY1": -0.38,
+      "y5Pct": 31.31,
+      "vsNiftyY5": 5.91
     },
     {
       "id": "NIFTY HIGHBETA 50",
@@ -1548,7 +2463,17 @@
       "vsNiftyDaily": -1.65,
       "vsNiftyWeekly": -0.76,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.86,
+      "vsNiftyM1": -1.34,
+      "m3Pct": -6.2,
+      "vsNiftyM3": -1.73,
+      "m6Pct": 4.52,
+      "vsNiftyM6": 9.48,
+      "y1Pct": 7.29,
+      "vsNiftyY1": 16.48,
+      "y5Pct": 80.75,
+      "vsNiftyY5": 55.35
     },
     {
       "id": "NIFTY LOW VOL 50",
@@ -1564,7 +2489,17 @@
       "vsNiftyDaily": -0.94,
       "vsNiftyWeekly": -0.56,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.19,
+      "vsNiftyM1": -0.67,
+      "m3Pct": -5.19,
+      "vsNiftyM3": -0.72,
+      "m6Pct": -3.99,
+      "vsNiftyM6": 0.97,
+      "y1Pct": -8.0,
+      "vsNiftyY1": 1.19,
+      "y5Pct": 37.16,
+      "vsNiftyY5": 11.76
     },
     {
       "id": "NIFTYM150MOMNTM50",
@@ -1580,7 +2515,17 @@
       "vsNiftyDaily": -2.54,
       "vsNiftyWeekly": -2.67,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -2.39,
+      "vsNiftyM1": -1.87,
+      "m3Pct": -3.84,
+      "vsNiftyM3": 0.63,
+      "m6Pct": -1.29,
+      "vsNiftyM6": 3.67,
+      "y1Pct": -2.3,
+      "vsNiftyY1": 6.89,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY M150 QLTY50",
@@ -1596,7 +2541,17 @@
       "vsNiftyDaily": -2.02,
       "vsNiftyWeekly": -0.84,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -0.98,
+      "vsNiftyM1": -0.46,
+      "m3Pct": -4.61,
+      "vsNiftyM3": -0.14,
+      "m6Pct": -0.1,
+      "vsNiftyM6": 4.86,
+      "y1Pct": -5.71,
+      "vsNiftyY1": 3.48,
+      "y5Pct": 23.56,
+      "vsNiftyY5": -1.84
     },
     {
       "id": "NIFTYMS400 MQ 100",
@@ -1612,7 +2567,17 @@
       "vsNiftyDaily": -2.21,
       "vsNiftyWeekly": -1.92,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -0.94,
+      "vsNiftyM1": -0.42,
+      "m3Pct": -1.86,
+      "vsNiftyM3": 2.61,
+      "m6Pct": 2.02,
+      "vsNiftyM6": 6.98,
+      "y1Pct": 2.37,
+      "vsNiftyY1": 11.56,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY QLTY LV 30",
@@ -1628,7 +2593,17 @@
       "vsNiftyDaily": -1.26,
       "vsNiftyWeekly": -0.18,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -0.48,
+      "vsNiftyM1": 0.04,
+      "m3Pct": -3.85,
+      "vsNiftyM3": 0.62,
+      "m6Pct": -1.34,
+      "vsNiftyM6": 3.62,
+      "y1Pct": -8.42,
+      "vsNiftyY1": 0.77,
+      "y5Pct": 20.26,
+      "vsNiftyY5": -5.14
     },
     {
       "id": "NIFTYSML250MQ 100",
@@ -1644,7 +2619,17 @@
       "vsNiftyDaily": -2.76,
       "vsNiftyWeekly": -2.72,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -0.56,
+      "vsNiftyM1": -0.04,
+      "m3Pct": -0.05,
+      "vsNiftyM3": 4.42,
+      "m6Pct": 10.05,
+      "vsNiftyM6": 15.01,
+      "y1Pct": 4.52,
+      "vsNiftyY1": 13.71,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY SML250 Q50",
@@ -1660,7 +2645,17 @@
       "vsNiftyDaily": -1.77,
       "vsNiftyWeekly": -1.2,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -0.83,
+      "vsNiftyM1": -0.31,
+      "m3Pct": -3.36,
+      "vsNiftyM3": 1.11,
+      "m6Pct": -0.51,
+      "vsNiftyM6": 4.45,
+      "y1Pct": -6.91,
+      "vsNiftyY1": 2.28,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY TOP 10 EW",
@@ -1676,7 +2671,17 @@
       "vsNiftyDaily": 0.37,
       "vsNiftyWeekly": 0.32,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": 0.69,
+      "vsNiftyM1": 1.21,
+      "m3Pct": -2.14,
+      "vsNiftyM3": 2.33,
+      "m6Pct": -5.78,
+      "vsNiftyM6": -0.82,
+      "y1Pct": -12.08,
+      "vsNiftyY1": -2.89,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY TOP 15 EW",
@@ -1692,7 +2697,17 @@
       "vsNiftyDaily": 0.21,
       "vsNiftyWeekly": 0.62,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": 0.23,
+      "vsNiftyM1": 0.75,
+      "m3Pct": -3.72,
+      "vsNiftyM3": 0.75,
+      "m6Pct": -5.53,
+      "vsNiftyM6": -0.57,
+      "y1Pct": -11.87,
+      "vsNiftyY1": -2.68,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY TOP 20 EW",
@@ -1708,7 +2723,17 @@
       "vsNiftyDaily": 0.07,
       "vsNiftyWeekly": 0.65,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -0.01,
+      "vsNiftyM1": 0.51,
+      "m3Pct": -2.3,
+      "vsNiftyM3": 2.17,
+      "m6Pct": -3.63,
+      "vsNiftyM6": 1.33,
+      "y1Pct": -9.15,
+      "vsNiftyY1": 0.04,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY TMMQ 50",
@@ -1724,7 +2749,17 @@
       "vsNiftyDaily": -2.76,
       "vsNiftyWeekly": -3.19,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.87,
+      "vsNiftyM1": -1.35,
+      "m3Pct": -3.27,
+      "vsNiftyM3": 1.2,
+      "m6Pct": -1.22,
+      "vsNiftyM6": 3.74,
+      "y1Pct": -2.06,
+      "vsNiftyY1": 7.13,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY100 ALPHA 30",
@@ -1740,7 +2775,17 @@
       "vsNiftyDaily": -2.09,
       "vsNiftyWeekly": -2.03,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -2.56,
+      "vsNiftyM1": -2.04,
+      "m3Pct": -6.41,
+      "vsNiftyM3": -1.94,
+      "m6Pct": -5.98,
+      "vsNiftyM6": -1.02,
+      "y1Pct": -10.14,
+      "vsNiftyY1": -0.95,
+      "y5Pct": 29.81,
+      "vsNiftyY5": 4.41
     },
     {
       "id": "NIFTY100 EQL WGT",
@@ -1756,7 +2801,17 @@
       "vsNiftyDaily": -1.48,
       "vsNiftyWeekly": -0.99,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.91,
+      "vsNiftyM1": -1.39,
+      "m3Pct": -4.88,
+      "vsNiftyM3": -0.41,
+      "m6Pct": -2.17,
+      "vsNiftyM6": 2.79,
+      "y1Pct": -2.51,
+      "vsNiftyY1": 6.68,
+      "y5Pct": 50.01,
+      "vsNiftyY5": 24.61
     },
     {
       "id": "NIFTY100 LOWVOL30",
@@ -1772,7 +2827,17 @@
       "vsNiftyDaily": -0.95,
       "vsNiftyWeekly": -0.76,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -2.03,
+      "vsNiftyM1": -1.51,
+      "m3Pct": -5.84,
+      "vsNiftyM3": -1.37,
+      "m6Pct": -4.23,
+      "vsNiftyM6": 0.73,
+      "y1Pct": -7.89,
+      "vsNiftyY1": 1.3,
+      "y5Pct": 35.96,
+      "vsNiftyY5": 10.56
     },
     {
       "id": "NIFTY100 QUALTY30",
@@ -1788,7 +2853,17 @@
       "vsNiftyDaily": -1.41,
       "vsNiftyWeekly": 1.13,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -0.24,
+      "vsNiftyM1": 0.28,
+      "m3Pct": -1.6,
+      "vsNiftyM3": 2.87,
+      "m6Pct": -1.79,
+      "vsNiftyM6": 3.17,
+      "y1Pct": -4.55,
+      "vsNiftyY1": 4.64,
+      "y5Pct": 30.86,
+      "vsNiftyY5": 5.46
     },
     {
       "id": "NIFTY200 ALPHA 30",
@@ -1804,7 +2879,17 @@
       "vsNiftyDaily": -2.59,
       "vsNiftyWeekly": -2.06,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.99,
+      "vsNiftyM1": -1.47,
+      "m3Pct": -3.77,
+      "vsNiftyM3": 0.7,
+      "m6Pct": -0.02,
+      "vsNiftyM6": 4.94,
+      "y1Pct": -1.2,
+      "vsNiftyY1": 7.99,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY200MOMENTM30",
@@ -1820,7 +2905,17 @@
       "vsNiftyDaily": -2.69,
       "vsNiftyWeekly": -2.65,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -2.22,
+      "vsNiftyM1": -1.7,
+      "m3Pct": -4.89,
+      "vsNiftyM3": -0.42,
+      "m6Pct": -4.79,
+      "vsNiftyM6": 0.17,
+      "y1Pct": -7.95,
+      "vsNiftyY1": 1.24,
+      "y5Pct": 33.39,
+      "vsNiftyY5": 7.99
     },
     {
       "id": "NIFTY200 QUALTY30",
@@ -1836,7 +2931,17 @@
       "vsNiftyDaily": -1.86,
       "vsNiftyWeekly": 1.22,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -0.45,
+      "vsNiftyM1": 0.07,
+      "m3Pct": -3.1,
+      "vsNiftyM3": 1.37,
+      "m6Pct": -3.27,
+      "vsNiftyM6": 1.69,
+      "y1Pct": -7.05,
+      "vsNiftyY1": 2.14,
+      "y5Pct": 24.56,
+      "vsNiftyY5": -0.84
     },
     {
       "id": "NIFTY200 VALUE 30",
@@ -1852,7 +2957,17 @@
       "vsNiftyDaily": -1.48,
       "vsNiftyWeekly": -1.36,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -3.04,
+      "vsNiftyM1": -2.52,
+      "m3Pct": -6.74,
+      "vsNiftyM3": -2.27,
+      "m6Pct": -10.31,
+      "vsNiftyM6": -5.35,
+      "y1Pct": 2.85,
+      "vsNiftyY1": 12.04,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY50 EQL WGT",
@@ -1868,7 +2983,17 @@
       "vsNiftyDaily": -0.69,
       "vsNiftyWeekly": -0.26,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.6,
+      "vsNiftyM1": -1.08,
+      "m3Pct": -4.78,
+      "vsNiftyM3": -0.31,
+      "m6Pct": -3.72,
+      "vsNiftyM6": 1.24,
+      "y1Pct": -4.33,
+      "vsNiftyY1": 4.86,
+      "y5Pct": 50.18,
+      "vsNiftyY5": 24.78
     },
     {
       "id": "NIFTY50 USD",
@@ -1884,7 +3009,17 @@
       "vsNiftyDaily": 0.16,
       "vsNiftyWeekly": 1.95,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": 0.49,
+      "vsNiftyM1": 1.01,
+      "m3Pct": -3.1,
+      "vsNiftyM3": 1.37,
+      "m6Pct": -6.75,
+      "vsNiftyM6": -1.79,
+      "y1Pct": -15.82,
+      "vsNiftyY1": -6.63,
+      "y5Pct": -0.65,
+      "vsNiftyY5": -26.05
     },
     {
       "id": "NIFTY50 VALUE 20",
@@ -1900,7 +3035,17 @@
       "vsNiftyDaily": 0.21,
       "vsNiftyWeekly": 0.87,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": 0.24,
+      "vsNiftyM1": 0.76,
+      "m3Pct": -4.34,
+      "vsNiftyM3": 0.13,
+      "m6Pct": -8.84,
+      "vsNiftyM6": -3.88,
+      "y1Pct": -10.41,
+      "vsNiftyY1": -1.22,
+      "y5Pct": 22.8,
+      "vsNiftyY5": -2.6
     },
     {
       "id": "NIFTY500 EW",
@@ -1916,7 +3061,17 @@
       "vsNiftyDaily": -2.23,
       "vsNiftyWeekly": -1.65,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -2.07,
+      "vsNiftyM1": -1.55,
+      "m3Pct": -4.99,
+      "vsNiftyM3": -0.52,
+      "m6Pct": 2.13,
+      "vsNiftyM6": 7.09,
+      "y1Pct": -1.29,
+      "vsNiftyY1": 7.9,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY500 FLEXICAP",
@@ -1932,7 +3087,17 @@
       "vsNiftyDaily": -1.33,
       "vsNiftyWeekly": 0.69,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": 0.18,
+      "vsNiftyM1": 0.7,
+      "m3Pct": -2.46,
+      "vsNiftyM3": 2.01,
+      "m6Pct": -1.76,
+      "vsNiftyM6": 3.2,
+      "y1Pct": -9.24,
+      "vsNiftyY1": -0.05,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY500 LOWVOL50",
@@ -1948,7 +3113,17 @@
       "vsNiftyDaily": -0.88,
       "vsNiftyWeekly": -0.33,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.62,
+      "vsNiftyM1": -1.1,
+      "m3Pct": -5.22,
+      "vsNiftyM3": -0.75,
+      "m6Pct": -4.5,
+      "vsNiftyM6": 0.46,
+      "y1Pct": -7.3,
+      "vsNiftyY1": 1.89,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY500MOMENTM50",
@@ -1964,7 +3139,17 @@
       "vsNiftyDaily": -3.25,
       "vsNiftyWeekly": -3.41,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.68,
+      "vsNiftyM1": -1.16,
+      "m3Pct": -2.83,
+      "vsNiftyM3": 1.64,
+      "m6Pct": 0.86,
+      "vsNiftyM6": 5.82,
+      "y1Pct": -2.88,
+      "vsNiftyY1": 6.31,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY MULTI MQ 50",
@@ -1980,7 +3165,17 @@
       "vsNiftyDaily": -2.69,
       "vsNiftyWeekly": -3.17,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.58,
+      "vsNiftyM1": -1.06,
+      "m3Pct": -4.09,
+      "vsNiftyM3": 0.38,
+      "m6Pct": -4.36,
+      "vsNiftyM6": 0.6,
+      "y1Pct": -6.59,
+      "vsNiftyY1": 2.6,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY500 MQVLV50",
@@ -1996,7 +3191,17 @@
       "vsNiftyDaily": -1.67,
       "vsNiftyWeekly": -1.36,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.95,
+      "vsNiftyM1": -1.43,
+      "m3Pct": -6.51,
+      "vsNiftyM3": -2.04,
+      "m6Pct": -6.05,
+      "vsNiftyM6": -1.09,
+      "y1Pct": -8.05,
+      "vsNiftyY1": 1.14,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY500 QLTY50",
@@ -2012,7 +3217,17 @@
       "vsNiftyDaily": -1.65,
       "vsNiftyWeekly": 0.6,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.28,
+      "vsNiftyM1": -0.76,
+      "m3Pct": -5.27,
+      "vsNiftyM3": -0.8,
+      "m6Pct": -2.37,
+      "vsNiftyM6": 2.59,
+      "y1Pct": -3.37,
+      "vsNiftyY1": 5.82,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "id": "NIFTY500 VALUE 50",
@@ -2028,7 +3243,17 @@
       "vsNiftyDaily": -1.75,
       "vsNiftyWeekly": -1.48,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -3.48,
+      "vsNiftyM1": -2.96,
+      "m3Pct": -6.19,
+      "vsNiftyM3": -1.72,
+      "m6Pct": -8.85,
+      "vsNiftyM6": -3.89,
+      "y1Pct": 2.28,
+      "vsNiftyY1": 11.47,
+      "y5Pct": 124.02,
+      "vsNiftyY5": 98.62
     },
     {
       "id": "BSE-100.BO",
@@ -2044,7 +3269,17 @@
       "vsNiftyDaily": -0.23,
       "vsNiftyWeekly": -0.05,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -0.72,
+      "vsNiftyM1": -0.2,
+      "m3Pct": -4.03,
+      "vsNiftyM3": 0.44,
+      "m6Pct": -3.73,
+      "vsNiftyM6": 1.23,
+      "y1Pct": -7.4,
+      "vsNiftyY1": 1.79,
+      "y5Pct": 31.78,
+      "vsNiftyY5": 6.38
     },
     {
       "id": "BSE-500.BO",
@@ -2060,7 +3295,17 @@
       "vsNiftyDaily": -0.9,
       "vsNiftyWeekly": -0.77,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": -1.23,
+      "vsNiftyM1": -0.71,
+      "m3Pct": -4.39,
+      "vsNiftyM3": 0.08,
+      "m6Pct": -2.11,
+      "vsNiftyM6": 2.85,
+      "y1Pct": -5.33,
+      "vsNiftyY1": 3.86,
+      "y5Pct": 38.5,
+      "vsNiftyY5": 13.1
     },
     {
       "id": "^BSESN",
@@ -2076,7 +3321,17 @@
       "vsNiftyDaily": 0.45,
       "vsNiftyWeekly": 0.36,
       "watchlistSectors": [],
-      "watchlistTickers": []
+      "watchlistTickers": [],
+      "m1Pct": 0.42,
+      "vsNiftyM1": 0.94,
+      "m3Pct": -3.72,
+      "vsNiftyM3": 0.75,
+      "m6Pct": -4.71,
+      "vsNiftyM6": 0.25,
+      "y1Pct": -10.04,
+      "vsNiftyY1": -0.85,
+      "y5Pct": 21.22,
+      "vsNiftyY5": -4.18
     }
   ],
   "sectors": [
@@ -2099,7 +3354,17 @@
         "PERSISTENT.NS"
       ],
       "watchlistCount": 3,
-      "note": null
+      "note": null,
+      "m1Pct": null,
+      "vsNiftyM1": null,
+      "m3Pct": null,
+      "vsNiftyM3": null,
+      "m6Pct": null,
+      "vsNiftyM6": null,
+      "y1Pct": null,
+      "vsNiftyY1": null,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "sector": "Capital Goods / Infrastructure",
@@ -2118,7 +3383,17 @@
         "TRANSRAILL.NS"
       ],
       "watchlistCount": 1,
-      "note": null
+      "note": null,
+      "m1Pct": null,
+      "vsNiftyM1": null,
+      "m3Pct": null,
+      "vsNiftyM3": null,
+      "m6Pct": null,
+      "vsNiftyM6": null,
+      "y1Pct": null,
+      "vsNiftyY1": null,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "sector": "Defence / Aerospace",
@@ -2137,7 +3412,17 @@
         "HAL.NS"
       ],
       "watchlistCount": 1,
-      "note": null
+      "note": null,
+      "m1Pct": null,
+      "vsNiftyM1": null,
+      "m3Pct": null,
+      "vsNiftyM3": null,
+      "m6Pct": null,
+      "vsNiftyM6": null,
+      "y1Pct": null,
+      "vsNiftyY1": null,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "sector": "Pharma",
@@ -2157,7 +3442,17 @@
         "AUROPHARMA.NS"
       ],
       "watchlistCount": 2,
-      "note": null
+      "note": null,
+      "m1Pct": null,
+      "vsNiftyM1": null,
+      "m3Pct": null,
+      "vsNiftyM3": null,
+      "m6Pct": null,
+      "vsNiftyM6": null,
+      "y1Pct": null,
+      "vsNiftyY1": null,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "sector": "Private Bank",
@@ -2177,7 +3472,17 @@
         "KOTAKBANK.NS"
       ],
       "watchlistCount": 2,
-      "note": null
+      "note": null,
+      "m1Pct": null,
+      "vsNiftyM1": null,
+      "m3Pct": null,
+      "vsNiftyM3": null,
+      "m6Pct": null,
+      "vsNiftyM6": null,
+      "y1Pct": null,
+      "vsNiftyY1": null,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "sector": "Healthcare / Diagnostics",
@@ -2196,7 +3501,17 @@
         "VIJAYA.NS"
       ],
       "watchlistCount": 1,
-      "note": null
+      "note": null,
+      "m1Pct": null,
+      "vsNiftyM1": null,
+      "m3Pct": null,
+      "vsNiftyM3": null,
+      "m6Pct": null,
+      "vsNiftyM6": null,
+      "y1Pct": null,
+      "vsNiftyY1": null,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "sector": "Chemicals",
@@ -2215,7 +3530,17 @@
         "NAVINFLUOR.NS"
       ],
       "watchlistCount": 1,
-      "note": null
+      "note": null,
+      "m1Pct": null,
+      "vsNiftyM1": null,
+      "m3Pct": null,
+      "vsNiftyM3": null,
+      "m6Pct": null,
+      "vsNiftyM6": null,
+      "y1Pct": null,
+      "vsNiftyY1": null,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "sector": "Financial Services",
@@ -2234,7 +3559,17 @@
         "PRUDENT.NS"
       ],
       "watchlistCount": 1,
-      "note": null
+      "note": null,
+      "m1Pct": null,
+      "vsNiftyM1": null,
+      "m3Pct": null,
+      "vsNiftyM3": null,
+      "m6Pct": null,
+      "vsNiftyM6": null,
+      "y1Pct": null,
+      "vsNiftyY1": null,
+      "y5Pct": null,
+      "vsNiftyY5": null
     },
     {
       "sector": "Capital Markets / Exchanges",
@@ -2253,7 +3588,17 @@
         "MCX.NS"
       ],
       "watchlistCount": 1,
-      "note": null
+      "note": null,
+      "m1Pct": null,
+      "vsNiftyM1": null,
+      "m3Pct": null,
+      "vsNiftyM3": null,
+      "m6Pct": null,
+      "vsNiftyM6": null,
+      "y1Pct": null,
+      "vsNiftyY1": null,
+      "y5Pct": null,
+      "vsNiftyY5": null
     }
   ],
   "skipped": [
@@ -2327,5 +3672,70 @@
     }
   ],
   "notTracked": [],
-  "disclaimer": "Research / personal tracking only — not investment advice. Index levels from NSE allIndices (official); BSE indices via Yahoo Finance. Watchlist sectors fall back to equal-weight watchlist average when no official index."
+  "disclaimer": "Research / personal tracking only — not investment advice. Index levels from NSE allIndices (official); BSE indices via Yahoo Finance. Watchlist sectors fall back to equal-weight watchlist average when no official index.",
+  "horizonBasis": {
+    "asOfArchive": "2026-10-15",
+    "lookbacksCalendarDays": {
+      "m1": 30,
+      "m3": 91,
+      "m6": 182,
+      "y1": 365,
+      "y5": 1825
+    },
+    "sources": "NSE archives ind_close_all_*.csv; BSE via Yahoo Finance",
+    "missingLongHistory": [
+      "NIFTY FPI 150",
+      "NIFTY MIDSMALL 50 50",
+      "NIFTY SMALLCAP 500",
+      "NIFTY500 LMS EQL",
+      "NIFTY CEMENT",
+      "NIFTY CHEMICALS",
+      "NIFTY FINSEREXBNK",
+      "NIFTY MS FIN SERV",
+      "NIFTY MIDSML HLTH",
+      "NIFTY MS IT TELCM",
+      "NIFTY REITS REALTY",
+      "NIFTY500 HEALTH",
+      "NIFTY CAPITAL MKT",
+      "NIFTYCONGLOMERATE",
+      "NIFTY COREHOUSING",
+      "NIFTY EV",
+      "NIFTY HOUSING",
+      "NIFTY IPO",
+      "NIFTY TATA 25 CAP",
+      "NIFTY IND DEFENCE",
+      "NIFTY IND DIGITAL",
+      "NIFTY INFRALOG",
+      "NIFTY INTERNET",
+      "NIFTY NEW CONSUMP",
+      "NIFTY RAILWAYSPSU",
+      "NIFTY CORP MAATR",
+      "NIFTY IND TOURISM",
+      "NIFTY MS IND CONS",
+      "NIFTY MOBILITY",
+      "NIFTY NONCYC CONS",
+      "NIFTY RURAL",
+      "NIFTY TRANS LOGIS",
+      "NIFTY WAVES",
+      "NIFTY MULTI MFG",
+      "NIFTY MULTI INFRA",
+      "NIFTYM150MOMNTM50",
+      "NIFTYMS400 MQ 100",
+      "NIFTYSML250MQ 100",
+      "NIFTY SML250 Q50",
+      "NIFTY TOP 10 EW",
+      "NIFTY TOP 15 EW",
+      "NIFTY TOP 20 EW",
+      "NIFTY TMMQ 50",
+      "NIFTY200 ALPHA 30",
+      "NIFTY200 VALUE 30",
+      "NIFTY500 EW",
+      "NIFTY500 FLEXICAP",
+      "NIFTY500 LOWVOL50",
+      "NIFTY500MOMENTM50",
+      "NIFTY MULTI MQ 50",
+      "NIFTY500 MQVLV50",
+      "NIFTY500 QLTY50"
+    ]
+  }
 }

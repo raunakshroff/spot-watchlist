@@ -56,7 +56,9 @@ export function SummaryCard({ data, watchlist, period, compact, onOpen }: Props)
     <section className={`summary-card ${compact ? "compact" : ""}`} aria-label="Today's summary">
       <div className="summary-head">
         <div className="summary-title">
-          <span className="summary-kicker">{period === "daily" ? "Today's summary" : "This week's summary"}</span>
+          <span className="summary-kicker">
+            {period === "daily" ? "Today's summary" : period === "weekly" ? "This week's summary" : "Summary"}
+          </span>
           <span className="summary-date">as of {s.asOf}</span>
         </div>
         {onOpen && (

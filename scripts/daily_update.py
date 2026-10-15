@@ -109,6 +109,8 @@ YAHOO_SYMBOLS: dict[str, str] = {
     "NIFTY 500": "^CRSLDX",
     "NIFTY MIDCAP 50": "^NSEMDCP50",
     "NIFTY MIDCAP 100": "NIFTY_MIDCAP_100.NS",
+    "NIFTY MIDCAP 150": "NIFTYMIDCAP150.NS",
+    "NIFTY SMLCAP 250": "NIFTYSMLCAP250.NS",
     "NIFTY SMLCAP 100": "^CNXSC",
     "INDIA VIX": "^INDIAVIX",
     "NIFTY500 MULTICAP": "NIFTY500_MULTICAP.NS",
@@ -346,6 +348,7 @@ DATA_FILES = (
     "dropped.json",
     "indices.json",
     "sovrenn.json",
+    "index_history.json",
 )
 
 
@@ -893,6 +896,12 @@ def main() -> int:
 
     indices = build_indices(watchlist, as_of=day)
     if indices:
+        try:
+            from index_horizons import refresh_horizons_and_history
+
+            refresh_horizons_and_history(indices, DATA, full_history=False)
+        except Exception as e:  # noqa: BLE001
+            print(f"WARN: horizon/history enrichment failed: {e}")
         save("indices.json", indices)
         print(
             f"Updated indices.json ({len(indices['indices'])} indices, "

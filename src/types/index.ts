@@ -94,6 +94,11 @@ export interface IndexBenchmark {
   last: number | null;
   dailyPct: number | null;
   weeklyPct: number | null;
+  m1Pct?: number | null;
+  m3Pct?: number | null;
+  m6Pct?: number | null;
+  y1Pct?: number | null;
+  y5Pct?: number | null;
   source: "official" | "watchlist";
   dataSource?: "nse" | "yahoo";
   nseSymbol?: string;
@@ -101,6 +106,8 @@ export interface IndexBenchmark {
 }
 
 export type IndexGroup = "Broad Market" | "Sectoral" | "Thematic" | "Strategy" | "BSE";
+
+export type IndexHorizon = "daily" | "weekly" | "m1" | "m3" | "m6" | "y1" | "y5";
 
 export interface IndexUniverseRow {
   id: string;
@@ -112,8 +119,18 @@ export interface IndexUniverseRow {
   last: number | null;
   dailyPct: number | null;
   weeklyPct: number | null;
+  m1Pct?: number | null;
+  m3Pct?: number | null;
+  m6Pct?: number | null;
+  y1Pct?: number | null;
+  y5Pct?: number | null;
   vsNiftyDaily: number | null;
   vsNiftyWeekly: number | null;
+  vsNiftyM1?: number | null;
+  vsNiftyM3?: number | null;
+  vsNiftyM6?: number | null;
+  vsNiftyY1?: number | null;
+  vsNiftyY5?: number | null;
   watchlistSectors: string[];
   watchlistTickers: string[];
   isBenchmark?: boolean;
@@ -144,6 +161,12 @@ export interface IndicesData {
   primarySource?: "nse" | "yahoo";
   weekRefDate?: string;
   weeklyBasis?: string;
+  horizonBasis?: {
+    asOfArchive?: string;
+    lookbacksCalendarDays?: Record<string, number>;
+    sources?: string;
+    missingLongHistory?: string[];
+  };
   benchmark: IndexBenchmark;
   groups?: { group: string; count: number }[];
   indices?: IndexUniverseRow[];
@@ -151,6 +174,20 @@ export interface IndicesData {
   skipped?: { nseSymbol?: string; yahooSymbol?: string; reason: string }[];
   notTracked?: string[];
   disclaimer: string;
+}
+
+export interface IndexHistoryData {
+  asOf: string;
+  timezone: string;
+  benchmarkId: string;
+  builtUtc?: string;
+  source?: string;
+  daily: { dates: string[]; series: Record<string, (number | null)[]> };
+  weekly: { dates: string[]; series: Record<string, (number | null)[]> };
+  coverage?: Record<
+    string,
+    { dailyBars: number; weeklyBars: number; firstDaily: string | null; firstWeekly: string | null }
+  >;
 }
 
 export interface SovrennMention {

@@ -1,7 +1,46 @@
-import type { IndicesData, IndexUniverseRow, WatchlistStock } from "../types";
+import type { IndicesData, IndexHorizon, IndexUniverseRow, WatchlistStock } from "../types";
 import { shortTicker } from "./format";
 
-export type Period = "daily" | "weekly";
+export type Period = IndexHorizon;
+
+const RET_FIELD: Record<Period, keyof IndexUniverseRow> = {
+  daily: "dailyPct",
+  weekly: "weeklyPct",
+  m1: "m1Pct",
+  m3: "m3Pct",
+  m6: "m6Pct",
+  y1: "y1Pct",
+  y5: "y5Pct",
+};
+const VS_FIELD: Record<Period, keyof IndexUniverseRow> = {
+  daily: "vsNiftyDaily",
+  weekly: "vsNiftyWeekly",
+  m1: "vsNiftyM1",
+  m3: "vsNiftyM3",
+  m6: "vsNiftyM6",
+  y1: "vsNiftyY1",
+  y5: "vsNiftyY5",
+};
+
+export function pickHorizon(row: IndexUniverseRow, period: Period): { ret: number | null; vs: number | null } {
+  const ret = row[RET_FIELD[period]];
+  const vs = row[VS_FIELD[period]];
+  return {
+    ret: typeof ret === "number" ? ret : null,
+    vs: typeof vs === "number" ? vs : null,
+  };
+}
+
+export const PERIOD_LABEL: Record<Period, string> = {
+  daily: "1D",
+  weekly: "1W",
+  m1: "1M",
+  m3: "3M",
+  m6: "6M",
+  y1: "1Y",
+  y5: "5Y",
+};
+
 
 /** Distance (as % of stop) at or below which a name counts as "near stop". */
 export const NEAR_STOP_PCT = 2;
@@ -88,10 +127,7 @@ export function buildSummary(
   period: Period,
 ): Summary {
   const rows: IndexUniverseRow[] = data.indices ?? [];
-  const pick = (r: IndexUniverseRow) => ({
-    ret: period === "daily" ? r.dailyPct : r.weeklyPct,
-    vs: period === "daily" ? r.vsNiftyDaily : r.vsNiftyWeekly,
-  });
+  const pick = (r: IndexUniverseRow) => pickHorizon(r, period);
 
   const peers = rows.filter((r) => !r.isBenchmark);
   const scored = peers
@@ -105,7 +141,20 @@ export function buildSummary(
   const laggards = sorted.slice(-3).reverse();
 
   const b = data.benchmark;
-  const niftyRet = period === "daily" ? b.dailyPct : b.weeklyPct;
+  const niftyRet =
+    period === "daily"
+      ? b.dailyPct
+      : period === "weekly"
+        ? b.weeklyPct
+        : period === "m1"
+          ? (b.m1Pct ?? null)
+          : period === "m3"
+            ? (b.m3Pct ?? null)
+            : period === "m6"
+              ? (b.m6Pct ?? null)
+              : period === "y1"
+                ? (b.y1Pct ?? null)
+                : (b.y5Pct ?? null);
   const sx = rows.find((r) => r.yahooSymbol === "^BSESN");
   const sensex = sx
     ? { last: sx.last, dailyPct: sx.dailyPct, weeklyPct: sx.weeklyPct, ret: pick(sx).ret }
@@ -153,7 +202,12 @@ export function buildSummary(
       : share <= 0.35
         ? "Broad underperformance"
         : "Mixed breadth";
-  const pLabel = period === "daily" ? "today" : "this week";
+  const pLabel =
+    period === "daily"
+      ? "today"
+      : period === "weekly"
+        ? "this week"
+        : PERIOD_LABEL[period];
   const niftyMove =
     niftyRet == null
       ? "Nifty 50 n/a"
@@ -169,7 +223,12 @@ export function buildSummary(
   return {
     asOf: data.asOf,
     period,
-    periodLabel: period === "daily" ? "Day" : `Week (since ${data.weekRefDate ?? "1 wk ago"})`,
+    periodLabel:
+      period === "daily"
+        ? "Day"
+        : period === "weekly"
+          ? `Week (since ${data.weekRefDate ?? "1 wk ago"})`
+          : PERIOD_LABEL[period],
     nifty: { last: b.last, dailyPct: b.dailyPct, weeklyPct: b.weeklyPct, ret: niftyRet },
     sensex,
     total,

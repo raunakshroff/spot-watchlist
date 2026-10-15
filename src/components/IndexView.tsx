@@ -1,33 +1,43 @@
 import { useMemo, useState } from "react";
-import type { IndicesData, IndexSectorRow, IndexUniverseRow, WatchlistStock } from "../types";
+import type {
+  IndexHistoryData,
+  IndexHorizon,
+  IndicesData,
+  IndexSectorRow,
+  IndexUniverseRow,
+  WatchlistStock,
+} from "../types";
 import { SummaryCard } from "./SummaryCard";
+import { IndexOverlayChart } from "./IndexOverlayChart";
+import { PERIOD_LABEL, pickHorizon } from "../utils/summary";
 import { shortTicker } from "../utils/format";
 
 interface Props {
   data: IndicesData | null;
+  history?: IndexHistoryData | null;
   loadError?: string | null;
   watchlist?: WatchlistStock[];
 }
 
-type Period = "daily" | "weekly";
+type Period = IndexHorizon;
 type Scope = "all" | "watchlist";
 type Side = "all" | "above" | "below";
 type Layout = "ranked" | "grouped";
 
 const GROUP_ORDER = ["Broad Market", "Sectoral", "Thematic", "Strategy", "BSE"];
+const PERIODS: Period[] = ["daily", "weekly", "m1", "m3", "m6", "y1", "y5"];
+const LEADERBOARD_N = 10;
 
-/** Sort by period return (desc); rows without data sink to the bottom. */
 function byReturn(a: Ranked, b: Ranked): number {
   if (a.ret == null && b.ret == null) return a.row.name.localeCompare(b.row.name);
   if (a.ret == null) return 1;
   if (b.ret == null) return -1;
   if (b.ret !== a.ret) return b.ret - a.ret;
-  // tie on return: benchmark first so equal performers read as "in line"
   return (b.row.isBenchmark ? 1 : 0) - (a.row.isBenchmark ? 1 : 0);
 }
 
 function fmtPct(n: number | null | undefined, digits = 2): string {
-  if (n == null || Number.isNaN(n)) return "—";
+  if (n == null || Number.isNaN(n)) return "n/a";
   const sign = n > 0 ? "+" : "";
   return `${sign}${n.toFixed(digits)}%`;
 }
@@ -43,7 +53,7 @@ function tone(n: number | null | undefined): string {
 }
 
 function sourceLabel(row: IndexSectorRow, period: Period): string {
-  const src = period === "daily" ? row.dailySource : row.weeklySource;
+  const src = period === "weekly" ? row.weeklySource : row.dailySource;
   if (src === "official" && row.indexName) return row.indexName;
   if (src === "official") return row.symbol ?? "Official index";
   return "Watchlist avg";
@@ -58,8 +68,10 @@ function SectorCard({
   period: Period;
   niftyPct: number | null;
 }) {
-  const sectorPct = period === "daily" ? row.dailyPct : row.weeklyPct;
-  const vs = period === "daily" ? row.vsNiftyDaily : row.vsNiftyWeekly;
+  // Sector cards only have daily/weekly from the feed
+  const useWeekly = period === "weekly";
+  const sectorPct = useWeekly ? row.weeklyPct : row.dailyPct;
+  const vs = useWeekly ? row.vsNiftyWeekly : row.vsNiftyDaily;
   const above = (vs ?? 0) >= 0;
   const tickers = (row.watchlistTickers ?? []).map(shortTicker).join(" · ");
 
@@ -72,6 +84,9 @@ function SectorCard({
         </div>
         <div className="index-row-tickers">{tickers || "no watchlist names"}</div>
         {row.note && <div className="index-row-note">{row.note}</div>}
+        {period !== "daily" && period !== "weekly" && (
+          <div className="index-row-note">Longer horizons use the All indices board (official index history).</div>
+        )}
       </div>
       <div className="index-row-metrics">
         <div className="index-metric">
@@ -108,11 +123,15 @@ function UniverseTable({
   showGroup,
   maxAbs,
   startRank = 1,
+  selectedIds,
+  onToggle,
 }: {
   items: Ranked[];
   showGroup: boolean;
   maxAbs: number;
   startRank?: number;
+  selectedIds: Set<string>;
+  onToggle: (id: string) => void;
 }) {
   return (
     <div className="ix-table" role="table">
@@ -127,17 +146,24 @@ function UniverseTable({
         const r = x.row;
         const bench = !!r.isBenchmark;
         const width = x.vs == null ? 0 : Math.max(3, (Math.abs(x.vs) / maxAbs) * 100);
+        const selected = selectedIds.has(r.id);
         return (
           <div key={r.id} className="ix-row-wrap">
-            <div
-              className={`ix-tr ${
+            <button
+              type="button"
+              className={`ix-tr ix-selectable ${
                 bench ? "bench" : x.vs == null ? "na" : x.vs > 0 ? "above" : x.vs < 0 ? "below" : "level"
-              }`}
+              } ${selected ? "selected" : ""}`}
               role="row"
+              onClick={() => !bench && onToggle(r.id)}
+              title={bench ? "Nifty 50 benchmark" : selected ? "Remove from chart" : "Add to overlay chart"}
             >
               <span className="ix-rank">{x.ret == null ? "–" : startRank + i}</span>
               <span className="ix-name">
-                <span className="ix-title">{r.name}</span>
+                <span className="ix-title">
+                  {!bench && <span className={`ix-check ${selected ? "on" : ""}`}>{selected ? "✓" : "+"}</span>}
+                  {r.name}
+                </span>
                 <span className="ix-meta">
                   {bench && <span className="ix-chip bench">Benchmark</span>}
                   {showGroup && <span className="ix-chip">{r.group}</span>}
@@ -166,7 +192,7 @@ function UniverseTable({
                   />
                 </span>
               </span>
-            </div>
+            </button>
           </div>
         );
       })}
@@ -174,7 +200,60 @@ function UniverseTable({
   );
 }
 
-export function IndexView({ data, loadError, watchlist = [] }: Props) {
+function Leaderboard({
+  leaders,
+  laggards,
+  period,
+  onPick,
+}: {
+  leaders: Ranked[];
+  laggards: Ranked[];
+  period: Period;
+  onPick: (id: string) => void;
+}) {
+  return (
+    <div className="ix-leaderboard">
+      <div className="ix-lb-col">
+        <div className="ix-lb-head up">Top outperformers · {PERIOD_LABEL[period]}</div>
+        {leaders.length === 0 ? (
+          <div className="empty compact">No data for this horizon.</div>
+        ) : (
+          <ol className="ix-lb-list">
+            {leaders.map((x, i) => (
+              <li key={x.row.id}>
+                <button type="button" className="ix-lb-row" onClick={() => onPick(x.row.id)}>
+                  <span className="ix-lb-rank">{i + 1}</span>
+                  <span className="ix-lb-name">{x.row.name}</span>
+                  <span className={`ix-lb-vs up`}>{fmtPct(x.vs)}</span>
+                </button>
+              </li>
+            ))}
+          </ol>
+        )}
+      </div>
+      <div className="ix-lb-col">
+        <div className="ix-lb-head down">Bottom laggards · {PERIOD_LABEL[period]}</div>
+        {laggards.length === 0 ? (
+          <div className="empty compact">No data for this horizon.</div>
+        ) : (
+          <ol className="ix-lb-list">
+            {laggards.map((x, i) => (
+              <li key={x.row.id}>
+                <button type="button" className="ix-lb-row" onClick={() => onPick(x.row.id)}>
+                  <span className="ix-lb-rank">{i + 1}</span>
+                  <span className="ix-lb-name">{x.row.name}</span>
+                  <span className={`ix-lb-vs down`}>{fmtPct(x.vs)}</span>
+                </button>
+              </li>
+            ))}
+          </ol>
+        )}
+      </div>
+    </div>
+  );
+}
+
+export function IndexView({ data, history = null, loadError, watchlist = [] }: Props) {
   const [period, setPeriod] = useState<Period>("daily");
   const [scope, setScope] = useState<Scope>("all");
   const [group, setGroup] = useState<string>("All");
@@ -182,15 +261,37 @@ export function IndexView({ data, loadError, watchlist = [] }: Props) {
   const [layout, setLayout] = useState<Layout>("ranked");
   const [search, setSearch] = useState("");
   const [watchlistOnly, setWatchlistOnly] = useState(false);
+  const [selectedIds, setSelectedIds] = useState<string[]>([]);
 
   const niftyPct = useMemo(() => {
     if (!data) return null;
-    return period === "daily" ? data.benchmark.dailyPct : data.benchmark.weeklyPct;
+    return pickHorizon(
+      {
+        ...data.benchmark,
+        id: "NIFTY 50",
+        name: "Nifty 50",
+        nseSymbol: "NIFTY 50",
+        yahooSymbol: "^NSEI",
+        group: "Broad Market",
+        dataSource: data.benchmark.dataSource ?? "nse",
+        vsNiftyDaily: 0,
+        vsNiftyWeekly: 0,
+        watchlistSectors: [],
+        watchlistTickers: [],
+        isBenchmark: true,
+      } as IndexUniverseRow,
+      period,
+    ).ret;
   }, [data, period]);
 
   const universe = useMemo(() => data?.indices ?? [], [data]);
   const hasUniverse = universe.length > 0;
   const effScope: Scope = hasUniverse ? scope : "watchlist";
+  const namesById = useMemo(() => {
+    const m: Record<string, string> = {};
+    for (const r of universe) m[r.id] = r.name;
+    return m;
+  }, [universe]);
 
   const groups = useMemo(() => {
     const counts = new Map<string, number>();
@@ -207,11 +308,7 @@ export function IndexView({ data, loadError, watchlist = [] }: Props) {
   const benchRow = useMemo<Ranked | null>(() => {
     const b = universe.find((r) => r.isBenchmark);
     if (!b) return null;
-    return {
-      row: b,
-      ret: period === "daily" ? b.dailyPct : b.weeklyPct,
-      vs: period === "daily" ? b.vsNiftyDaily : b.vsNiftyWeekly,
-    };
+    return { row: b, ...pickHorizon(b, period) };
   }, [universe, period]);
 
   const ranked = useMemo<Ranked[]>(() => {
@@ -229,13 +326,19 @@ export function IndexView({ data, loadError, watchlist = [] }: Props) {
           r.group.toLowerCase().includes(q) ||
           r.watchlistSectors.some((s) => s.toLowerCase().includes(q)),
       )
-      .map((r) => ({
-        row: r,
-        ret: period === "daily" ? r.dailyPct : r.weeklyPct,
-        vs: period === "daily" ? r.vsNiftyDaily : r.vsNiftyWeekly,
-      }))
+      .map((r) => ({ row: r, ...pickHorizon(r, period) }))
       .sort(byReturn);
   }, [universe, group, watchlistOnly, search, period]);
+
+  const scored = useMemo(() => ranked.filter((x) => x.vs != null), [ranked]);
+  const leaders = useMemo(
+    () => [...scored].sort((a, b) => (b.vs ?? 0) - (a.vs ?? 0)).slice(0, LEADERBOARD_N),
+    [scored],
+  );
+  const laggards = useMemo(
+    () => [...scored].sort((a, b) => (a.vs ?? 0) - (b.vs ?? 0)).slice(0, LEADERBOARD_N),
+    [scored],
+  );
 
   const aboveN = ranked.filter((x) => x.vs != null && x.vs >= 0).length;
   const belowN = ranked.filter((x) => x.vs != null && x.vs < 0).length;
@@ -254,15 +357,24 @@ export function IndexView({ data, loadError, watchlist = [] }: Props) {
     [visible],
   );
 
-  /** Nifty 50 is always shown as the reference row inside every ranked table. */
   const withBench = (items: Ranked[]): Ranked[] =>
     benchRow ? [...items, benchRow].sort(byReturn) : items;
 
+  const selectedSet = useMemo(() => new Set(selectedIds), [selectedIds]);
+  const toggleSelect = (id: string) => {
+    setSelectedIds((prev) => {
+      if (prev.includes(id)) return prev.filter((x) => x !== id);
+      if (prev.length >= 6) return [...prev.slice(1), id];
+      return [...prev, id];
+    });
+  };
+
   const { aboveSectors, belowSectors } = useMemo(() => {
     if (!data) return { aboveSectors: [] as IndexSectorRow[], belowSectors: [] as IndexSectorRow[] };
+    const useWeekly = period === "weekly";
     const withVs = data.sectors.map((r) => ({
       row: r,
-      vs: period === "daily" ? r.vsNiftyDaily : r.vsNiftyWeekly,
+      vs: useWeekly ? r.vsNiftyWeekly : r.vsNiftyDaily,
     }));
     return {
       aboveSectors: withVs
@@ -298,18 +410,18 @@ export function IndexView({ data, loadError, watchlist = [] }: Props) {
   const unit = isAll ? "indices" : "sectors";
   const sourceTxt =
     data.primarySource === "nse" ? "NSE official" : data.primarySource === "yahoo" ? "Yahoo fallback" : "";
+  const summaryPeriod = period === "weekly" ? "weekly" : "daily";
 
   return (
     <section>
-      {hasUniverse && <SummaryCard data={data} watchlist={watchlist} period={period} />}
+      {hasUniverse && <SummaryCard data={data} watchlist={watchlist} period={summaryPeriod} />}
       {!isAll && (
         <div className="stats">
           <div className="stat-card">
             <div className="label">Nifty 50</div>
             <div className={`value ${tone(niftyPct)}`}>{fmtPct(niftyPct)}</div>
             <div className="hint">
-              {period === "daily" ? "today" : `since ${data.weekRefDate ?? "1 wk ago"}`} ·{" "}
-              {data.benchmark.last?.toLocaleString("en-IN")}
+              {PERIOD_LABEL[period]} · {data.benchmark.last?.toLocaleString("en-IN")}
             </div>
           </div>
           <div className="stat-card">
@@ -321,7 +433,7 @@ export function IndexView({ data, loadError, watchlist = [] }: Props) {
             <div className="label">Below Nifty</div>
             <div className="value down">{belowCount}</div>
             <div className="hint">
-              {unit} lagging benchmark{isAll && naN > 0 ? ` · ${naN} no data` : ""}
+              {unit} lagging benchmark{isAll && naN > 0 ? ` · ${naN} n/a` : ""}
             </div>
           </div>
           <div className="stat-card">
@@ -330,7 +442,9 @@ export function IndexView({ data, loadError, watchlist = [] }: Props) {
               {data.asOf}
             </div>
             <div className="hint">
-              {hasUniverse ? `${universe.length - (benchRow ? 1 : 0)} indices + Nifty 50` : `${data.sectors.length} sectors`}
+              {hasUniverse
+                ? `${universe.length - (benchRow ? 1 : 0)} indices + Nifty 50`
+                : `${data.sectors.length} sectors`}
               {sourceTxt ? ` · ${sourceTxt}` : ""}
             </div>
           </div>
@@ -340,20 +454,16 @@ export function IndexView({ data, loadError, watchlist = [] }: Props) {
       <div className="toolbar index-toolbar">
         <div className="ix-controls">
           <div className="period-toggle" role="group" aria-label="Period">
-            <button
-              type="button"
-              className={`pill ${period === "daily" ? "active" : ""}`}
-              onClick={() => setPeriod("daily")}
-            >
-              Daily
-            </button>
-            <button
-              type="button"
-              className={`pill ${period === "weekly" ? "active" : ""}`}
-              onClick={() => setPeriod("weekly")}
-            >
-              Weekly
-            </button>
+            {PERIODS.map((p) => (
+              <button
+                key={p}
+                type="button"
+                className={`pill ${period === p ? "active" : ""}`}
+                onClick={() => setPeriod(p)}
+              >
+                {PERIOD_LABEL[p]}
+              </button>
+            ))}
           </div>
           {hasUniverse && (
             <div className="period-toggle" role="group" aria-label="Scope">
@@ -377,6 +487,28 @@ export function IndexView({ data, loadError, watchlist = [] }: Props) {
 
         {isAll && (
           <>
+            <Leaderboard
+              leaders={leaders}
+              laggards={laggards}
+              period={period}
+              onPick={toggleSelect}
+            />
+            <IndexOverlayChart
+              history={history}
+              period={period}
+              selectedIds={selectedIds}
+              namesById={namesById}
+            />
+            {selectedIds.length > 0 && (
+              <div className="ix-selected-bar">
+                <span>
+                  Charting: {selectedIds.map((id) => namesById[id] ?? id).join(" · ")}
+                </span>
+                <button type="button" className="pill" onClick={() => setSelectedIds([])}>
+                  Clear
+                </button>
+              </div>
+            )}
             <div className="ix-controls">
               <input
                 className="search ix-search"
@@ -445,12 +577,16 @@ export function IndexView({ data, loadError, watchlist = [] }: Props) {
         )}
 
         <p className="index-help">
-          Relative spread = index return − Nifty 50 (percentage points).{" "}
+          Relative spread = index return − Nifty 50 (percentage points) over {PERIOD_LABEL[period]}.{" "}
           {period === "weekly"
-            ? data.weeklyBasis ?? "Weekly = close vs close one week earlier."
-            : "Daily = today's close vs previous close."}{" "}
+            ? data.weeklyBasis ?? "1W = close vs close one week earlier."
+            : period === "daily"
+              ? "1D = today's close vs previous close."
+              : `Longer horizons use NSE archive closes (~${
+                  { m1: "1 month", m3: "3 months", m6: "6 months", y1: "1 year", y5: "5 years" }[period]
+                } lookback); n/a when history is missing.`}{" "}
           {isAll
-            ? "Ranked by return — the highlighted Nifty 50 row splits outperformers (above) from underperformers (below). Levels from NSE's official index feed; Sensex via Yahoo Finance."
+            ? "Click a row (or a leaderboard name) to overlay it vs Nifty on the chart. Ranked by return — Nifty 50 splits outperformers from underperformers."
             : "Watchlist sectors use their official NSE index; otherwise equal-weight average of watchlist names."}
         </p>
       </div>
@@ -459,7 +595,13 @@ export function IndexView({ data, loadError, watchlist = [] }: Props) {
         visible.length === 0 ? (
           <div className="empty compact">No indices match these filters.</div>
         ) : layout === "ranked" || group !== "All" ? (
-          <UniverseTable items={withBench(visible)} showGroup={group === "All"} maxAbs={maxAbs} />
+          <UniverseTable
+            items={withBench(visible)}
+            showGroup={group === "All"}
+            maxAbs={maxAbs}
+            selectedIds={selectedSet}
+            onToggle={toggleSelect}
+          />
         ) : (
           <div className="ix-groups">
             {GROUP_ORDER.concat(groups.map((g) => g.group).filter((g) => !GROUP_ORDER.includes(g)))
@@ -477,7 +619,13 @@ export function IndexView({ data, loadError, watchlist = [] }: Props) {
                         <span className="down">▼ {dn}</span>
                       </span>
                     </div>
-                    <UniverseTable items={withBench(items)} showGroup={false} maxAbs={maxAbs} />
+                    <UniverseTable
+                      items={withBench(items)}
+                      showGroup={false}
+                      maxAbs={maxAbs}
+                      selectedIds={selectedSet}
+                      onToggle={toggleSelect}
+                    />
                   </div>
                 );
               })}
@@ -491,7 +639,7 @@ export function IndexView({ data, loadError, watchlist = [] }: Props) {
               <span className="sector-count">{aboveSectors.length}</span>
             </div>
             {aboveSectors.length === 0 ? (
-              <div className="empty compact">No sectors above Nifty this {period}.</div>
+              <div className="empty compact">No sectors above Nifty this period.</div>
             ) : (
               <div className="index-list">
                 {aboveSectors.map((row) => (
@@ -506,7 +654,7 @@ export function IndexView({ data, loadError, watchlist = [] }: Props) {
               <span className="sector-count">{belowSectors.length}</span>
             </div>
             {belowSectors.length === 0 ? (
-              <div className="empty compact">No sectors below Nifty this {period}.</div>
+              <div className="empty compact">No sectors below Nifty this period.</div>
             ) : (
               <div className="index-list">
                 {belowSectors.map((row) => (
