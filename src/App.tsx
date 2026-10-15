@@ -114,7 +114,7 @@ export default function App() {
           className={`tab ${tab === "index" ? "active" : ""}`}
           onClick={() => setTab("index")}
         >
-          vs Nifty
+          Indexes
         </button>
         <button
           type="button"

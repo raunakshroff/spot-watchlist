@@ -63,7 +63,7 @@ export function SummaryCard({ data, watchlist, period, compact, onOpen }: Props)
         </div>
         {onOpen && (
           <button type="button" className="pill" onClick={onOpen}>
-            Open vs Nifty →
+            Open Indexes →
           </button>
         )}
       </div>
