@@ -1133,11 +1133,3390 @@
       ],
       "skipReason": "too-small-prefilter",
       "minMembers": 3
+    },
+    {
+      "id": "CUSTOM-GAP-OTHER-CONSTRUCTION-MATERIALS",
+      "name": "Commodities · Other Construction Materials",
+      "macro": "Commodities",
+      "kind": "basic-industry",
+      "screenerName": "Other Construction Materials",
+      "candidates": [
+        {
+          "symbol": "RAMCOIND",
+          "name": "Ramco Inds."
+        },
+        {
+          "symbol": "GLASSWALL",
+          "name": "Glass Wall Syst."
+        },
+        {
+          "symbol": "ARIS",
+          "name": "Arisinfra Solu."
+        },
+        {
+          "symbol": "BIRLANU",
+          "name": "BirlaNu Ltd"
+        },
+        {
+          "symbol": "EVERESTIND",
+          "name": "Everest Inds."
+        },
+        {
+          "symbol": "TEAMTECH",
+          "name": "Teamtech Formwork"
+        },
+        {
+          "symbol": "VISHNUINFR",
+          "name": "Vishnusurya Pro."
+        },
+        {
+          "symbol": "SAHYADRI",
+          "name": "Sahyadri Industr"
+        },
+        {
+          "symbol": "MCON",
+          "name": "MCON Rasayan"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-INDUSTRIAL-MINERALS",
+      "name": "Commodities · Industrial Minerals",
+      "macro": "Commodities",
+      "kind": "basic-industry",
+      "screenerName": "Industrial Minerals",
+      "candidates": [
+        {
+          "symbol": "LLOYDSME",
+          "name": "Lloyds Metals"
+        },
+        {
+          "symbol": "NMDC",
+          "name": "NMDC"
+        },
+        {
+          "symbol": "GMDCLTD",
+          "name": "G M D C"
+        },
+        {
+          "symbol": "GRAVITA",
+          "name": "Gravita India"
+        },
+        {
+          "symbol": "MOIL",
+          "name": "MOIL"
+        },
+        {
+          "symbol": "ASHAPURMIN",
+          "name": "Ashapura Minech."
+        },
+        {
+          "symbol": "ORISSAMINE",
+          "name": "Orissa Minerals"
+        },
+        {
+          "symbol": "PCCL",
+          "name": "Petro Carbon"
+        },
+        {
+          "symbol": "20MICRONS",
+          "name": "20 Microns"
+        },
+        {
+          "symbol": "NILE",
+          "name": "NILE"
+        },
+        {
+          "symbol": "GOACARBON",
+          "name": "Goa Carbon"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-TRADING-METALS",
+      "name": "Commodities · Trading - Metals",
+      "macro": "Commodities",
+      "kind": "basic-industry",
+      "screenerName": "Trading - Metals",
+      "candidates": [
+        {
+          "symbol": "LLOYDSENT",
+          "name": "Lloyds Enterpris"
+        },
+        {
+          "symbol": "SGMART",
+          "name": "SG Mart"
+        },
+        {
+          "symbol": "MWL",
+          "name": "Mangalam World."
+        },
+        {
+          "symbol": "NRL",
+          "name": "Nupur Recyclers"
+        },
+        {
+          "symbol": "BMWVENTLTD",
+          "name": "BMW Ventures"
+        },
+        {
+          "symbol": "ABANSENT",
+          "name": "ABans Enterprise"
+        },
+        {
+          "symbol": "ASHOKAMET",
+          "name": "Ashoka Metcast"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-PAPER-PAPER-PRODUCTS",
+      "name": "Commodities · Paper & Paper Products",
+      "macro": "Commodities",
+      "kind": "basic-industry",
+      "screenerName": "Paper & Paper Products",
+      "candidates": [
+        {
+          "symbol": "JKPAPER",
+          "name": "JK Paper"
+        },
+        {
+          "symbol": "WSTCSTPAPR",
+          "name": "West Coast Paper"
+        },
+        {
+          "symbol": "SESHAPAPER",
+          "name": "Seshasayee Paper"
+        },
+        {
+          "symbol": "ANDHRAPAP",
+          "name": "Andhra Paper"
+        },
+        {
+          "symbol": "NRAIL",
+          "name": "N R Agarwal Inds"
+        },
+        {
+          "symbol": "TNPL",
+          "name": "T N Newsprint"
+        },
+        {
+          "symbol": "PDMJEPAPER",
+          "name": "Pudumjee Paper"
+        },
+        {
+          "symbol": "EMAMIPAP",
+          "name": "Emami Paper"
+        },
+        {
+          "symbol": "SATIA",
+          "name": "Satia Industries"
+        },
+        {
+          "symbol": "KUANTUM",
+          "name": "Kuantum Papers"
+        },
+        {
+          "symbol": "RAMANEWS",
+          "name": "Shree Rama News."
+        },
+        {
+          "symbol": "PAKKA",
+          "name": "Pakka"
+        },
+        {
+          "symbol": "ORIENTPPR",
+          "name": "Orient Paper"
+        },
+        {
+          "symbol": "RUCHIRA",
+          "name": "Ruchira Papers"
+        },
+        {
+          "symbol": "SAPPL",
+          "name": "Sh. Ajit Pulp"
+        },
+        {
+          "symbol": "STARPAPER",
+          "name": "Star Paper Mills"
+        },
+        {
+          "symbol": "GENUSPAPER",
+          "name": "Genus Paper & Bo"
+        },
+        {
+          "symbol": "SHREYANIND",
+          "name": "Shreyans Inds."
+        },
+        {
+          "symbol": "EXIMROUTES",
+          "name": "Exim Routes"
+        },
+        {
+          "symbol": "AARADHYA",
+          "name": "Aaradhya Dis."
+        },
+        {
+          "symbol": "NIKITA",
+          "name": "Nikita Greentech Recycling"
+        },
+        {
+          "symbol": "MAGNUM",
+          "name": "Magnum Ventures"
+        },
+        {
+          "symbol": "UTKAL",
+          "name": "Utkal Speciality"
+        },
+        {
+          "symbol": "MALUPAPER",
+          "name": "Malu Paper"
+        },
+        {
+          "symbol": "BALKRISHNA",
+          "name": "Balkrishna Paper"
+        },
+        {
+          "symbol": "ASTRON",
+          "name": "Astron Paper"
+        },
+        {
+          "symbol": "SHRENIK",
+          "name": "Shrenik"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-PLASTIC-PRODUCTS-CONSUMER",
+      "name": "Consumer Discretionary · Plastic Products - Consumer",
+      "macro": "Consumer Discretionary",
+      "kind": "basic-industry",
+      "screenerName": "Plastic Products - Consumer",
+      "candidates": [
+        {
+          "symbol": "SHAILY",
+          "name": "Shaily Engineer."
+        },
+        {
+          "symbol": "SAFARI",
+          "name": "Safari Inds."
+        },
+        {
+          "symbol": "VIPIND",
+          "name": "V I P Inds."
+        },
+        {
+          "symbol": "NILKAMAL",
+          "name": "Nilkamal Ltd"
+        },
+        {
+          "symbol": "ESFL",
+          "name": "Essen Speciality"
+        },
+        {
+          "symbol": "PILITA",
+          "name": "Pil Italica Life"
+        },
+        {
+          "symbol": "AVROIND",
+          "name": "Avro India"
+        },
+        {
+          "symbol": "TOKYOPLAST",
+          "name": "Tokyo Plast Intl"
+        },
+        {
+          "symbol": "PEARLPOLY",
+          "name": "Pearl Polymers"
+        },
+        {
+          "symbol": "NIRAJISPAT",
+          "name": "Niraj Ispat Ind."
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-LEATHER-AND-LEATHER-PRODUCTS",
+      "name": "Consumer Discretionary · Leather And Leather Products",
+      "macro": "Consumer Discretionary",
+      "kind": "basic-industry",
+      "screenerName": "Leather And Leather Products",
+      "candidates": [
+        {
+          "symbol": "MAYURUNIQ",
+          "name": "Mayur Uniquoters"
+        },
+        {
+          "symbol": "KOTIC",
+          "name": "Kothari Indl"
+        },
+        {
+          "symbol": "BIL",
+          "name": "Bhartiya Intl."
+        },
+        {
+          "symbol": "MIRZAINT",
+          "name": "Mirza Internatio"
+        },
+        {
+          "symbol": "SUPERHOUSE",
+          "name": "Superhouse Ltd"
+        },
+        {
+          "symbol": "ZENITHEXPO",
+          "name": "Zenith Exports"
+        },
+        {
+          "symbol": "SUPTANERY",
+          "name": "Super Tannery"
+        },
+        {
+          "symbol": "AKI",
+          "name": "AKI India"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-OTHER-TEXTILE-PRODUCTS",
+      "name": "Consumer Discretionary · Other Textile Products",
+      "macro": "Consumer Discretionary",
+      "kind": "basic-industry",
+      "screenerName": "Other Textile Products",
+      "candidates": [
+        {
+          "symbol": "KPRMILL",
+          "name": "K P R Mill Ltd"
+        },
+        {
+          "symbol": "WELSPUNLIV",
+          "name": "Welspun Living"
+        },
+        {
+          "symbol": "VTL",
+          "name": "Vardhman Textile"
+        },
+        {
+          "symbol": "TRIDENT",
+          "name": "Trident"
+        },
+        {
+          "symbol": "ICIL",
+          "name": "Indo Count Inds."
+        },
+        {
+          "symbol": "GARFIBRES",
+          "name": "Garware Tech."
+        },
+        {
+          "symbol": "KUSUMGAR",
+          "name": "Kusumgar"
+        },
+        {
+          "symbol": "FILATEX",
+          "name": "Filatex India"
+        },
+        {
+          "symbol": "SANATHAN",
+          "name": "Sanathan Textile"
+        },
+        {
+          "symbol": "ALOKINDS",
+          "name": "Alok Industries"
+        },
+        {
+          "symbol": "JINDWORLD",
+          "name": "Jindal Worldwide"
+        },
+        {
+          "symbol": "NITINSPIN",
+          "name": "Nitin Spinners"
+        },
+        {
+          "symbol": "RAYMONDLSL",
+          "name": "Raymond Lifestyl"
+        },
+        {
+          "symbol": "SANGAMIND",
+          "name": "Sangam India"
+        },
+        {
+          "symbol": "SPORTKING",
+          "name": "Sportking India"
+        },
+        {
+          "symbol": "GANECOS",
+          "name": "Ganesha Ecosphe."
+        },
+        {
+          "symbol": "INDORAMA",
+          "name": "Indo Rama Synth."
+        },
+        {
+          "symbol": "SIYSIL",
+          "name": "Siyaram Silk"
+        },
+        {
+          "symbol": "BOMDYEING",
+          "name": "Bombay Dyeing"
+        },
+        {
+          "symbol": "RUBYMILLS",
+          "name": "Ruby Mills"
+        },
+        {
+          "symbol": "AYMSYNTEX",
+          "name": "AYM Syntex"
+        },
+        {
+          "symbol": "PASHUPATI",
+          "name": "Pashupati Cotsp."
+        },
+        {
+          "symbol": "RAJRILTD",
+          "name": "Raj Rayon Inds."
+        },
+        {
+          "symbol": "GHCLTEXTIL",
+          "name": "GHCL Textiles"
+        },
+        {
+          "symbol": "CENTENKA",
+          "name": "Century Enka"
+        },
+        {
+          "symbol": "UNITEDPOLY",
+          "name": "United Polyfab"
+        },
+        {
+          "symbol": "SUNRAKSHAK",
+          "name": "Sunrakshakk Inds"
+        },
+        {
+          "symbol": "FAZE3Q",
+          "name": "Faze Three"
+        },
+        {
+          "symbol": "RSWM",
+          "name": "RSWM Ltd"
+        },
+        {
+          "symbol": "NAHARSPING",
+          "name": "Nahar Spinning"
+        },
+        {
+          "symbol": "SWARAJ",
+          "name": "Swaraj Suiting"
+        },
+        {
+          "symbol": "AMBIKCO",
+          "name": "Ambika Cotton"
+        },
+        {
+          "symbol": "MAFATIND",
+          "name": "Mafatlal Inds."
+        },
+        {
+          "symbol": "SARLAPOLY",
+          "name": "Sarla Performanc"
+        },
+        {
+          "symbol": "SUMEETINDS",
+          "name": "Sumeet Industrie"
+        },
+        {
+          "symbol": "HIMATSEIDE",
+          "name": "Himatsing. Seide"
+        },
+        {
+          "symbol": "PRECOT",
+          "name": "Precot"
+        },
+        {
+          "symbol": "BORANA",
+          "name": "Borana Weaves"
+        },
+        {
+          "symbol": "ORBTEXP",
+          "name": "Orbit Exports"
+        },
+        {
+          "symbol": "DCMSIL",
+          "name": "DCM Shriram Intl"
+        },
+        {
+          "symbol": "RAJPALAYAM",
+          "name": "Rajapalayam Mill"
+        },
+        {
+          "symbol": "VOITHPAPR",
+          "name": "Voith Paper"
+        },
+        {
+          "symbol": "SUTLEJTEX",
+          "name": "Sutlej Textiles"
+        },
+        {
+          "symbol": "LAKSHMIMIL",
+          "name": "Lakshmi Mills"
+        },
+        {
+          "symbol": "NAHARINDUS",
+          "name": "Nahar Indl. Ent."
+        },
+        {
+          "symbol": "SONA",
+          "name": "Sonaselection India"
+        },
+        {
+          "symbol": "VTMLTD",
+          "name": "VTM"
+        },
+        {
+          "symbol": "MANOMAY",
+          "name": "Manomay Tex Indi"
+        },
+        {
+          "symbol": "DONEAR",
+          "name": "Donear Inds."
+        },
+        {
+          "symbol": "ABCOTS",
+          "name": "AB Cotspin"
+        },
+        {
+          "symbol": "NDL",
+          "name": "Nandan Denim"
+        },
+        {
+          "symbol": "GINNIFILA",
+          "name": "Ginni Filaments"
+        },
+        {
+          "symbol": "BANSWRAS",
+          "name": "Banswara Syntex"
+        },
+        {
+          "symbol": "VARDHACRLC",
+          "name": "Vardhman Acrylic"
+        },
+        {
+          "symbol": "SHREEDHAR",
+          "name": "Shreedhar Spinners"
+        },
+        {
+          "symbol": "DCMNVL",
+          "name": "DCM Nouvelle"
+        },
+        {
+          "symbol": "ASHUTOSH",
+          "name": "Ashutosh Fibre"
+        },
+        {
+          "symbol": "SPUNWEB",
+          "name": "Spunweb Nonwoven"
+        },
+        {
+          "symbol": "VGL",
+          "name": "Varvee Global"
+        },
+        {
+          "symbol": "SHREEKARNI",
+          "name": "Shree Karni"
+        },
+        {
+          "symbol": "AXITA",
+          "name": "Axita Cotton"
+        },
+        {
+          "symbol": "ASHIMASYN",
+          "name": "Ashima"
+        },
+        {
+          "symbol": "VARDMNPOLY",
+          "name": "Vardhman Polytex"
+        },
+        {
+          "symbol": "LEMERITE",
+          "name": "Le Merite Export"
+        },
+        {
+          "symbol": "SOMATEX",
+          "name": "Soma Textiles"
+        },
+        {
+          "symbol": "AASTHA",
+          "name": "Aastha Spintex"
+        },
+        {
+          "symbol": "RNBDENIMS",
+          "name": "R&B Denims"
+        },
+        {
+          "symbol": "MARALOVER",
+          "name": "Maral Overseas"
+        },
+        {
+          "symbol": "SHIVATEX",
+          "name": "Shiva Texyarn"
+        },
+        {
+          "symbol": "MHLXMIRU",
+          "name": "Mahalaxmi Rubtec"
+        },
+        {
+          "symbol": "RRIL",
+          "name": "RRIL"
+        },
+        {
+          "symbol": "BASML",
+          "name": "Bannari Amm Spg."
+        },
+        {
+          "symbol": "TTL",
+          "name": "T T"
+        },
+        {
+          "symbol": "MODTHREAD",
+          "name": "Modern Threads"
+        },
+        {
+          "symbol": "ALPINETEX",
+          "name": "Alpine Texworld"
+        },
+        {
+          "symbol": "SURYALA",
+          "name": "Suryalata Spg."
+        },
+        {
+          "symbol": "SRTL",
+          "name": "Shree Ram Twist."
+        },
+        {
+          "symbol": "AVIANSH",
+          "name": "Avi Ansh"
+        },
+        {
+          "symbol": "SALONA",
+          "name": "Salona Cotspin"
+        },
+        {
+          "symbol": "LAMBODHARA",
+          "name": "Lambodhara Text."
+        },
+        {
+          "symbol": "LAGNAM",
+          "name": "Lagnam Spintex"
+        },
+        {
+          "symbol": "PREMCO",
+          "name": "Premco Global"
+        },
+        {
+          "symbol": "RAJVIR",
+          "name": "Rajvir Inds."
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-GARMENTS-APPARELS",
+      "name": "Consumer Discretionary · Garments & Apparels",
+      "macro": "Consumer Discretionary",
+      "kind": "basic-industry",
+      "screenerName": "Garments & Apparels",
+      "candidates": [
+        {
+          "symbol": "PAGEIND",
+          "name": "Page Industries"
+        },
+        {
+          "symbol": "ARVIND",
+          "name": "Arvind Ltd"
+        },
+        {
+          "symbol": "PGIL",
+          "name": "Pearl Global Ind"
+        },
+        {
+          "symbol": "GOKEX",
+          "name": "Gokaldas Exports"
+        },
+        {
+          "symbol": "LUXIND",
+          "name": "Lux Industries"
+        },
+        {
+          "symbol": "SBC",
+          "name": "SBC Exports"
+        },
+        {
+          "symbol": "KKCL",
+          "name": "Kewal Kir.Cloth."
+        },
+        {
+          "symbol": "SPAL",
+          "name": "S P Apparels"
+        },
+        {
+          "symbol": "KITEX",
+          "name": "Kitex Garments"
+        },
+        {
+          "symbol": "CANTABIL",
+          "name": "Cantabil Retail"
+        },
+        {
+          "symbol": "DOLLAR",
+          "name": "Dollar Industrie"
+        },
+        {
+          "symbol": "IRISDOREME",
+          "name": "Iris Clothings"
+        },
+        {
+          "symbol": "MONTECARLO",
+          "name": "Monte Carlo Fas."
+        },
+        {
+          "symbol": "RUPA",
+          "name": "Rupa & Co"
+        },
+        {
+          "symbol": "KARNIKA",
+          "name": "Karnika Industri"
+        },
+        {
+          "symbol": "VIRAT",
+          "name": "Virat Industries"
+        },
+        {
+          "symbol": "PURPLEUTED",
+          "name": "Purple United"
+        },
+        {
+          "symbol": "VISHAL",
+          "name": "Vishal Fabrics"
+        },
+        {
+          "symbol": "THOMASCOTT",
+          "name": "Thomas Scott"
+        },
+        {
+          "symbol": "FORCAS",
+          "name": "Forcas Studio"
+        },
+        {
+          "symbol": "BELLACASA",
+          "name": "Bella Casa Fashi"
+        },
+        {
+          "symbol": "SSDL",
+          "name": "Saraswati Saree"
+        },
+        {
+          "symbol": "CPS",
+          "name": "C P S Shapers"
+        },
+        {
+          "symbol": "ZODIACLOTH",
+          "name": "Zodiac Cloth. Co"
+        },
+        {
+          "symbol": "VIPCLOTHNG",
+          "name": "VIP Clothing"
+        },
+        {
+          "symbol": "NRVANDANA",
+          "name": "N R Vandana"
+        },
+        {
+          "symbol": "SDREAMS",
+          "name": "S D Retail"
+        },
+        {
+          "symbol": "LAL",
+          "name": "Lorenzini Appar."
+        },
+        {
+          "symbol": "FILATFASH",
+          "name": "Filatex Fash."
+        },
+        {
+          "symbol": "INDTERRAIN",
+          "name": "Indian Terrain"
+        },
+        {
+          "symbol": "FASCINATE",
+          "name": "Fascinate Textiles"
+        },
+        {
+          "symbol": "MADHURKNIT",
+          "name": "Madhur Knit"
+        },
+        {
+          "symbol": "LOVABLE",
+          "name": "Lovable Lingerie"
+        },
+        {
+          "symbol": "VEEKAYEM",
+          "name": "Veekayem Fash."
+        },
+        {
+          "symbol": "ADDIND",
+          "name": "Addi Industries"
+        },
+        {
+          "symbol": "KAYTEX",
+          "name": "Kaytex Fabrics"
+        },
+        {
+          "symbol": "SIGNORIA",
+          "name": "Signoria Creatio"
+        },
+        {
+          "symbol": "JAIPURKURT",
+          "name": "Nandani Creation"
+        },
+        {
+          "symbol": "BANG",
+          "name": "Bang Overseas"
+        },
+        {
+          "symbol": "CELEBRITY",
+          "name": "Celebrity Fash."
+        },
+        {
+          "symbol": "VINNY",
+          "name": "Vinny Overseas"
+        },
+        {
+          "symbol": "LIBAS",
+          "name": "Libas Consumer"
+        },
+        {
+          "symbol": "MITTAL",
+          "name": "Mittal Life Styl"
+        },
+        {
+          "symbol": "VCL",
+          "name": "Vaxtex Cotfab"
+        },
+        {
+          "symbol": "VIVIDHA",
+          "name": "Visagar Polytex"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-AMUSEMENT-PARKS-OTHER-RECREATION",
+      "name": "Utilities · Amusement Parks/ Other Recreation",
+      "macro": "Utilities",
+      "kind": "basic-industry",
+      "screenerName": "Amusement Parks/ Other Recreation",
+      "candidates": [
+        {
+          "symbol": "WONDERLA",
+          "name": "Wonderla Holiday"
+        },
+        {
+          "symbol": "IMAGICAA",
+          "name": "Imagica. Enter."
+        },
+        {
+          "symbol": "DELTACORP",
+          "name": "Delta Corp"
+        },
+        {
+          "symbol": "NICCOPAR",
+          "name": "Nicco Parks"
+        }
+      ],
+      "skipReason": "too-small-prefilter",
+      "minMembers": 3
+    },
+    {
+      "id": "CUSTOM-GAP-EDUCATION",
+      "name": "Consumer Discretionary · Education",
+      "macro": "Consumer Discretionary",
+      "kind": "basic-industry",
+      "screenerName": "Education",
+      "candidates": [
+        {
+          "symbol": "SEIL",
+          "name": "Shanti Educat."
+        },
+        {
+          "symbol": "NIITMTS",
+          "name": "NIIT Learning"
+        },
+        {
+          "symbol": "NIITLTD",
+          "name": "NIIT"
+        },
+        {
+          "symbol": "VINSYS",
+          "name": "Vinsys IT Serv."
+        },
+        {
+          "symbol": "GLOBAL",
+          "name": "Global Education"
+        },
+        {
+          "symbol": "APTECHT",
+          "name": "Aptech"
+        },
+        {
+          "symbol": "CPEDU",
+          "name": "Career Point Edu"
+        },
+        {
+          "symbol": "CLEDUCATE",
+          "name": "CL Educate"
+        },
+        {
+          "symbol": "ARIHANTACA",
+          "name": "Arihant Academy"
+        },
+        {
+          "symbol": "FWSTC",
+          "name": "Flywings Simula."
+        },
+        {
+          "symbol": "ZEELEARN",
+          "name": "Zee Learn"
+        },
+        {
+          "symbol": "MOXSH",
+          "name": "Moxsh Overseas"
+        },
+        {
+          "symbol": "COMPUSOFT",
+          "name": "Compucom Soft."
+        },
+        {
+          "symbol": "DRONE",
+          "name": "Drone Destinatio"
+        },
+        {
+          "symbol": "LCCINFOTEC",
+          "name": "LCC Infotech"
+        },
+        {
+          "symbol": "KEEPLEARN",
+          "name": "DSJ Keep Learn"
+        },
+        {
+          "symbol": "VIRTUALG",
+          "name": "Virtual Global"
+        },
+        {
+          "symbol": "TREEHOUSE",
+          "name": "Tree House Edu."
+        },
+        {
+          "symbol": "MTEDUCARE",
+          "name": "MT Educare"
+        },
+        {
+          "symbol": "EDUCOMP",
+          "name": "Educomp Sol."
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-E-LEARNING",
+      "name": "Consumer Discretionary · E-Learning",
+      "macro": "Consumer Discretionary",
+      "kind": "basic-industry",
+      "screenerName": "E-Learning",
+      "candidates": [
+        {
+          "symbol": "PWL",
+          "name": "Physicswallah"
+        },
+        {
+          "symbol": "JARO",
+          "name": "Jaro Institute"
+        },
+        {
+          "symbol": "VERANDA",
+          "name": "Veranda Learning"
+        },
+        {
+          "symbol": "ADDICTIVE",
+          "name": "Addictive Learn"
+        },
+        {
+          "symbol": "GTECJAINX",
+          "name": "G-Tec Janix"
+        },
+        {
+          "symbol": "UMESLTD",
+          "name": "Usha Mart. Edu."
+        },
+        {
+          "symbol": "DHTL",
+          "name": "Docmode Health"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-OTHER-CONSUMER-SERVICES",
+      "name": "Consumer Discretionary · Other Consumer Services",
+      "macro": "Consumer Discretionary",
+      "kind": "basic-industry",
+      "screenerName": "Other Consumer Services",
+      "candidates": [
+        {
+          "symbol": "SIS",
+          "name": "SIS"
+        },
+        {
+          "symbol": "EFACTOR",
+          "name": "E Factor Experie"
+        },
+        {
+          "symbol": "PARTYCRUS",
+          "name": "Party Cruisers"
+        },
+        {
+          "symbol": "EVENTIONS",
+          "name": "Eventions"
+        },
+        {
+          "symbol": "TOUCHWOOD",
+          "name": "Touchwood Enter."
+        },
+        {
+          "symbol": "BLUEPEBBLE",
+          "name": "Blue Pebble"
+        },
+        {
+          "symbol": "THESL",
+          "name": "Thinking Hats"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-DIVERSIFIED-RETAIL",
+      "name": "Consumer Discretionary · Diversified Retail",
+      "macro": "Consumer Discretionary",
+      "kind": "basic-industry",
+      "screenerName": "Diversified Retail",
+      "candidates": [
+        {
+          "symbol": "DMART",
+          "name": "Avenue Super."
+        },
+        {
+          "symbol": "VMM",
+          "name": "Vishal Mega Mart"
+        },
+        {
+          "symbol": "EMIL",
+          "name": "Electronics Mart"
+        },
+        {
+          "symbol": "VMART",
+          "name": "V-Mart Retail"
+        },
+        {
+          "symbol": "SHOPERSTOP",
+          "name": "Shoppers Stop"
+        },
+        {
+          "symbol": "PATELRMART",
+          "name": "Patel Retail"
+        },
+        {
+          "symbol": "KORE",
+          "name": "Jay Jalaram Tech"
+        },
+        {
+          "symbol": "SPENCERS",
+          "name": "Spencer's Retail"
+        },
+        {
+          "symbol": "ONDOOR",
+          "name": "On Door Concepts"
+        },
+        {
+          "symbol": "OSIAHYPER",
+          "name": "Osia Hyper Reta."
+        },
+        {
+          "symbol": "RETAIL",
+          "name": "JHS Svend.Retail"
+        },
+        {
+          "symbol": "FLFL",
+          "name": "Future Lifestyle"
+        },
+        {
+          "symbol": "FEL",
+          "name": "Future Enterp."
+        },
+        {
+          "symbol": "FELDVR",
+          "name": "Future Ent. DVR"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-SUGAR",
+      "name": "Fast Moving Consumer Goods · Sugar",
+      "macro": "Fast Moving Consumer Goods",
+      "kind": "basic-industry",
+      "screenerName": "Sugar",
+      "candidates": [
+        {
+          "symbol": "BALRAMCHIN",
+          "name": "Balrampur Chini"
+        },
+        {
+          "symbol": "TRIVENI",
+          "name": "Triven.Engg.Ind."
+        },
+        {
+          "symbol": "BAJAJHIND",
+          "name": "Bajaj Hindusthan"
+        },
+        {
+          "symbol": "RENUKA",
+          "name": "Sh.Renuka Sugar"
+        },
+        {
+          "symbol": "BANARISUG",
+          "name": "Bannari Amm.Sug."
+        },
+        {
+          "symbol": "DALMIASUG",
+          "name": "Dalmia Bharat"
+        },
+        {
+          "symbol": "AVADHSUGAR",
+          "name": "Avadh Sugar"
+        },
+        {
+          "symbol": "UTTAMSUGAR",
+          "name": "Uttam Sug.Mills"
+        },
+        {
+          "symbol": "MVKAGRO",
+          "name": "M.V.K. Agro"
+        },
+        {
+          "symbol": "DHAMPURSUG",
+          "name": "Dhampur Sugar"
+        },
+        {
+          "symbol": "DBOL",
+          "name": "Dhampur Bio"
+        },
+        {
+          "symbol": "DWARKESH",
+          "name": "Dwarikesh Sugar"
+        },
+        {
+          "symbol": "MAGADSUGAR",
+          "name": "Magadh Sugar"
+        },
+        {
+          "symbol": "ZUARIIND",
+          "name": "Zuari Industries"
+        },
+        {
+          "symbol": "MAWANASUG",
+          "name": "Mawana Sugars"
+        },
+        {
+          "symbol": "UGARSUGAR",
+          "name": "Ugar Sugar Works"
+        },
+        {
+          "symbol": "CKKRETAIL",
+          "name": "C K K Retail"
+        },
+        {
+          "symbol": "DCMSRIND",
+          "name": "DCM Shriram Inds"
+        },
+        {
+          "symbol": "PONNIERODE",
+          "name": "Ponni Sug.Erode"
+        },
+        {
+          "symbol": "KCPSUGIND",
+          "name": "KCP Sugar &Inds."
+        },
+        {
+          "symbol": "KMSUGAR",
+          "name": "KM Sugar Mills"
+        },
+        {
+          "symbol": "SAKHTISUG",
+          "name": "Sakthi Sugars"
+        },
+        {
+          "symbol": "KOTARISUG",
+          "name": "Kothari Sugars"
+        },
+        {
+          "symbol": "RANASUG",
+          "name": "Rana Sugars"
+        },
+        {
+          "symbol": "DOLLEX",
+          "name": "Dollex Agrotech"
+        },
+        {
+          "symbol": "VISHWARAJ",
+          "name": "Vishwaraj Sugar"
+        },
+        {
+          "symbol": "RAJSREESUG",
+          "name": "Rajshree Sugars"
+        },
+        {
+          "symbol": "PRUDMOULI",
+          "name": "Pruden. Sugar"
+        },
+        {
+          "symbol": "SIMBHALS",
+          "name": "Simbhaoli Sugar"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-OTHER-FOOD-PRODUCTS",
+      "name": "Fast Moving Consumer Goods · Other Food Products",
+      "macro": "Fast Moving Consumer Goods",
+      "kind": "basic-industry",
+      "screenerName": "Other Food Products",
+      "candidates": [
+        {
+          "symbol": "EIDPARRY",
+          "name": "EID Parry"
+        },
+        {
+          "symbol": "MANORAMA",
+          "name": "Manorama Indust."
+        },
+        {
+          "symbol": "ORKLAINDIA",
+          "name": "Orkla India"
+        },
+        {
+          "symbol": "KRISHIVAL",
+          "name": "Krishival Foods"
+        },
+        {
+          "symbol": "SHRIAHIMSA",
+          "name": "Shri Ahimsa"
+        },
+        {
+          "symbol": "FRESHARA",
+          "name": "Freshara Agro"
+        },
+        {
+          "symbol": "PROV",
+          "name": "Proventus Agro."
+        },
+        {
+          "symbol": "HOACFOODS",
+          "name": "Hoac Foods"
+        },
+        {
+          "symbol": "MADHUSUDAN",
+          "name": "Madhusudan Masa"
+        },
+        {
+          "symbol": "MEGASTAR",
+          "name": "Megastar Foods"
+        },
+        {
+          "symbol": "SSFL",
+          "name": "Srivari Spices &"
+        },
+        {
+          "symbol": "SHIVASHRIT",
+          "name": "Shivashrit Foods"
+        },
+        {
+          "symbol": "GOYALSALT",
+          "name": "Goyal Salt"
+        },
+        {
+          "symbol": "JEYYAM",
+          "name": "Jeyyam Global"
+        },
+        {
+          "symbol": "SHYAMDHANI",
+          "name": "Shyam Dhani Ind."
+        },
+        {
+          "symbol": "BABAFP",
+          "name": "Baba Food"
+        },
+        {
+          "symbol": "SANWARIA",
+          "name": "Sanwaria Consum."
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-SEAFOOD",
+      "name": "Fast Moving Consumer Goods · Seafood",
+      "macro": "Fast Moving Consumer Goods",
+      "kind": "basic-industry",
+      "screenerName": "Seafood",
+      "candidates": [
+        {
+          "symbol": "APEX",
+          "name": "Apex Frozen Food"
+        },
+        {
+          "symbol": "SHINDL",
+          "name": "Sharat Industrie"
+        },
+        {
+          "symbol": "COASTCORP",
+          "name": "Coastal Corporat"
+        },
+        {
+          "symbol": "WATERBASE",
+          "name": "Waterbase"
+        },
+        {
+          "symbol": "GREENASIA",
+          "name": "Green Asia"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-MEAT-PRODUCTS-INCLUDING-POULTRY",
+      "name": "Fast Moving Consumer Goods · Meat Products including Poultry",
+      "macro": "Fast Moving Consumer Goods",
+      "kind": "basic-industry",
+      "screenerName": "Meat Products including Poultry",
+      "candidates": [
+        {
+          "symbol": "VENKEYS",
+          "name": "Venky's (India)"
+        },
+        {
+          "symbol": "HMAAGRO",
+          "name": "HMA Agro Inds."
+        },
+        {
+          "symbol": "SKMEGGPROD",
+          "name": "SKM Egg Prod."
+        }
+      ],
+      "skipReason": "too-small-prefilter",
+      "minMembers": 3
+    },
+    {
+      "id": "CUSTOM-GAP-STATIONARY",
+      "name": "Fast Moving Consumer Goods · Stationary",
+      "macro": "Fast Moving Consumer Goods",
+      "kind": "basic-industry",
+      "screenerName": "Stationary",
+      "candidates": [
+        {
+          "symbol": "DOMS",
+          "name": "DOMS Industries"
+        },
+        {
+          "symbol": "NAVNETEDUL",
+          "name": "Navneet Educat."
+        },
+        {
+          "symbol": "FLAIR",
+          "name": "Flair Writing"
+        },
+        {
+          "symbol": "KOKUYOCMLN",
+          "name": "Kokuyo Camlin"
+        },
+        {
+          "symbol": "LINC",
+          "name": "Linc"
+        },
+        {
+          "symbol": "SUNDARAM",
+          "name": "Sundaram Multi."
+        },
+        {
+          "symbol": "VASA",
+          "name": "Vasa Retail"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-INVESTMENT-COMPANY",
+      "name": "Financial Services · Investment Company",
+      "macro": "Financial Services",
+      "kind": "basic-industry",
+      "screenerName": "Investment Company",
+      "candidates": [
+        {
+          "symbol": "JIOFIN",
+          "name": "Jio Financial"
+        },
+        {
+          "symbol": "ABCAPITAL",
+          "name": "Aditya Birla Cap"
+        },
+        {
+          "symbol": "TATAINVEST",
+          "name": "Tata Inv.Corpn."
+        },
+        {
+          "symbol": "CHOLAHLDNG",
+          "name": "Chola Financial"
+        },
+        {
+          "symbol": "TVSHLTD",
+          "name": "TVS Holdings"
+        },
+        {
+          "symbol": "MAHSCOOTER",
+          "name": "Mah. Scooters"
+        },
+        {
+          "symbol": "JSWHL",
+          "name": "JSW Holdings"
+        },
+        {
+          "symbol": "TSFINV",
+          "name": "Tsf Investments"
+        },
+        {
+          "symbol": "RELIGARE",
+          "name": "Religare Enterp."
+        },
+        {
+          "symbol": "PILANIINVS",
+          "name": "Pilani Invest."
+        },
+        {
+          "symbol": "NSIL",
+          "name": "Nalwa Sons Invst"
+        },
+        {
+          "symbol": "KICL",
+          "name": "Kalyani Invest."
+        },
+        {
+          "symbol": "ELCIDIN",
+          "name": "Elcid Investment"
+        },
+        {
+          "symbol": "SCILAL",
+          "name": "Shipping Land"
+        },
+        {
+          "symbol": "SUMMITSEC",
+          "name": "Summit Securitie"
+        },
+        {
+          "symbol": "PNBGILTS",
+          "name": "PNB Gilts"
+        },
+        {
+          "symbol": "VHL",
+          "name": "Vardhman Hold."
+        },
+        {
+          "symbol": "JINDALPHOT",
+          "name": "Jindal Photo"
+        },
+        {
+          "symbol": "STEL",
+          "name": "STEL Holdings"
+        },
+        {
+          "symbol": "INDPRUD",
+          "name": "Indl.& Prud.Inv."
+        },
+        {
+          "symbol": "JPOLYINVST",
+          "name": "Jindal Poly Inve"
+        },
+        {
+          "symbol": "GKWLIMITED",
+          "name": "GKW"
+        },
+        {
+          "symbol": "HEXATRADEX",
+          "name": "Hexa Tradex"
+        },
+        {
+          "symbol": "WELINV",
+          "name": "Welspun Investme"
+        },
+        {
+          "symbol": "VLSFINANCE",
+          "name": "VLS Finance"
+        },
+        {
+          "symbol": "BLAL",
+          "name": "BEML Land Assets"
+        },
+        {
+          "symbol": "OSWALGREEN",
+          "name": "Oswal Green Tech"
+        },
+        {
+          "symbol": "SILINV",
+          "name": "SIL Investments"
+        },
+        {
+          "symbol": "NAHARCAP",
+          "name": "Nahar Capital"
+        },
+        {
+          "symbol": "IITL",
+          "name": "Indl. Inv. Trust"
+        },
+        {
+          "symbol": "BLBLIMITED",
+          "name": "BLB"
+        },
+        {
+          "symbol": "PARASPETRO",
+          "name": "Paras Petrofils"
+        },
+        {
+          "symbol": "3PLAND",
+          "name": "3P Land Hold."
+        },
+        {
+          "symbol": "MASKINVEST",
+          "name": "MASK INVESTMENTS"
+        },
+        {
+          "symbol": "LFIC",
+          "name": "Lak. Fin. & Indl"
+        },
+        {
+          "symbol": "NAGREEKCAP",
+          "name": "Nagreeka Cap."
+        },
+        {
+          "symbol": "WILLAMAGOR",
+          "name": "Williamson Magor"
+        },
+        {
+          "symbol": "DCMFINSERV",
+          "name": "DCM Financial"
+        },
+        {
+          "symbol": "BLUECHIP",
+          "name": "Blue Chip India"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-OTHER-FINANCIAL-SERVICES",
+      "name": "Financial Services · Other Financial Services",
+      "macro": "Financial Services",
+      "kind": "basic-industry",
+      "screenerName": "Other Financial Services",
+      "candidates": [
+        {
+          "symbol": "CRISIL",
+          "name": "CRISIL"
+        },
+        {
+          "symbol": "KISSHT",
+          "name": "Onemi Technology"
+        },
+        {
+          "symbol": "ARCIL",
+          "name": "A R C I"
+        },
+        {
+          "symbol": "ALGOQUANT",
+          "name": "Algoquant Fin"
+        },
+        {
+          "symbol": "GYFTR",
+          "name": "GYFTR"
+        },
+        {
+          "symbol": "PRIMESECU",
+          "name": "Prime Securities"
+        },
+        {
+          "symbol": "WEALTH",
+          "name": "Wealth First Por"
+        },
+        {
+          "symbol": "CENTRUM",
+          "name": "Centrum Capital"
+        },
+        {
+          "symbol": "RNFI",
+          "name": "RNFI Services"
+        },
+        {
+          "symbol": "THEINVEST",
+          "name": "The Invest.Trust"
+        },
+        {
+          "symbol": "AKIKO",
+          "name": "Akiko"
+        },
+        {
+          "symbol": "NDLVENTURE",
+          "name": "NDL Ventures"
+        },
+        {
+          "symbol": "DELPHIFX",
+          "name": "Delphi World"
+        },
+        {
+          "symbol": "PML",
+          "name": "Paul Merchants"
+        },
+        {
+          "symbol": "RELIABLE",
+          "name": "Reliable Data"
+        },
+        {
+          "symbol": "MAHAPEXLTD",
+          "name": "Maha Rashtra Apx"
+        },
+        {
+          "symbol": "MYMUDRA",
+          "name": "My Mudra Fin."
+        },
+        {
+          "symbol": "THACKER",
+          "name": "Thacker & Co."
+        },
+        {
+          "symbol": "GATECH",
+          "name": "GACM Tech"
+        },
+        {
+          "symbol": "TRANSCOR",
+          "name": "Transcorp Intl."
+        },
+        {
+          "symbol": "HBPOR",
+          "name": "HB Portfolio"
+        },
+        {
+          "symbol": "APOORVA",
+          "name": "Apoorva Leasing"
+        },
+        {
+          "symbol": "PIONRINV",
+          "name": "Pioneer Invest"
+        },
+        {
+          "symbol": "TOYAMSL",
+          "name": "Toyam Sports"
+        },
+        {
+          "symbol": "SUMEDHA",
+          "name": "Sumedha Fiscal"
+        },
+        {
+          "symbol": "GLFL",
+          "name": "Guj. Lease Fin."
+        },
+        {
+          "symbol": "GATECHDVR",
+          "name": "GACM Tech-DVR"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-HOLDING-COMPANY",
+      "name": "Financial Services · Holding Company",
+      "macro": "Financial Services",
+      "kind": "basic-industry",
+      "screenerName": "Holding Company",
+      "candidates": [
+        {
+          "symbol": "BAJAJFINSV",
+          "name": "Bajaj Finserv"
+        },
+        {
+          "symbol": "BAJAJHLDNG",
+          "name": "Bajaj Holdings"
+        },
+        {
+          "symbol": "CHOICEIN",
+          "name": "Choice Intl."
+        },
+        {
+          "symbol": "EDELWEISS",
+          "name": "Edelweiss.Fin."
+        },
+        {
+          "symbol": "JMFINANCIL",
+          "name": "JM Financial"
+        },
+        {
+          "symbol": "KAMAHOLD",
+          "name": "Kama Holdings"
+        },
+        {
+          "symbol": "RANEHOLDIN",
+          "name": "Rane Holdings"
+        },
+        {
+          "symbol": "BFINVEST",
+          "name": "BF Investment"
+        },
+        {
+          "symbol": "BLIL",
+          "name": "Balmer Law. Inv."
+        },
+        {
+          "symbol": "AFSL",
+          "name": "Abans Financial"
+        },
+        {
+          "symbol": "MAXIND",
+          "name": "Max India Ltd"
+        },
+        {
+          "symbol": "GFLLIMITED",
+          "name": "GFL"
+        },
+        {
+          "symbol": "TAMBOLIIN",
+          "name": "Tamboli Industri"
+        },
+        {
+          "symbol": "BILVYAPAR",
+          "name": "BIL Vyapar"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-CONSTRUCTION-VEHICLES",
+      "name": "Industrials · Construction Vehicles",
+      "macro": "Industrials",
+      "kind": "basic-industry",
+      "screenerName": "Construction Vehicles",
+      "candidates": [
+        {
+          "symbol": "BEML",
+          "name": "BEML Ltd"
+        },
+        {
+          "symbol": "ACE",
+          "name": "Action Const.Eq."
+        },
+        {
+          "symbol": "AJAXENGG",
+          "name": "Ajax Engineering"
+        },
+        {
+          "symbol": "TIL",
+          "name": "TIL"
+        },
+        {
+          "symbol": "INDOFARM",
+          "name": "Indo Farm Equip."
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-PACKAGING",
+      "name": "Industrials · Packaging",
+      "macro": "Industrials",
+      "kind": "basic-industry",
+      "screenerName": "Packaging",
+      "candidates": [
+        {
+          "symbol": "EPL",
+          "name": "EPL Ltd"
+        },
+        {
+          "symbol": "AGI",
+          "name": "AGI Greenpac"
+        },
+        {
+          "symbol": "UFLEX",
+          "name": "Uflex"
+        },
+        {
+          "symbol": "TCPLPACK",
+          "name": "TCPL Packaging"
+        },
+        {
+          "symbol": "POLYPLEX",
+          "name": "Polyplex Corpn"
+        },
+        {
+          "symbol": "JINDALPOLY",
+          "name": "Jindal Poly Film"
+        },
+        {
+          "symbol": "KNACK",
+          "name": "Knack Packaging"
+        },
+        {
+          "symbol": "XPROINDIA",
+          "name": "XPRO India"
+        },
+        {
+          "symbol": "COSMOFIRST",
+          "name": "Cosmo First"
+        },
+        {
+          "symbol": "MOLDTKPAC",
+          "name": "Mold-Tek Pack."
+        },
+        {
+          "symbol": "HUHTAMAKI",
+          "name": "Huhtamaki India"
+        },
+        {
+          "symbol": "ARROWGREEN",
+          "name": "Arrow Greentech"
+        },
+        {
+          "symbol": "COMSYN",
+          "name": "Commerl. Synbags"
+        },
+        {
+          "symbol": "DVL",
+          "name": "Dhunseri Vent."
+        },
+        {
+          "symbol": "ESTER",
+          "name": "Ester Industries"
+        },
+        {
+          "symbol": "HALDYNGL",
+          "name": "Haldyn Glass"
+        },
+        {
+          "symbol": "ORICONENT",
+          "name": "Oricon Enterpris"
+        },
+        {
+          "symbol": "HITECHCORP",
+          "name": "Hitech Corp."
+        },
+        {
+          "symbol": "SHREERAMA",
+          "name": "Sh. Rama Multi."
+        },
+        {
+          "symbol": "SHRJAGP",
+          "name": "Sh. Jagdamba Pol"
+        },
+        {
+          "symbol": "KANPRPLA",
+          "name": "Kanpur Plastipa."
+        },
+        {
+          "symbol": "PYRAMID",
+          "name": "Pyramid Technopl"
+        },
+        {
+          "symbol": "TPLPLASTEH",
+          "name": "TPL Plastech"
+        },
+        {
+          "symbol": "NAHARPOLY",
+          "name": "Nahar Poly"
+        },
+        {
+          "symbol": "BBTCL",
+          "name": "B&B Triplewall"
+        },
+        {
+          "symbol": "ECOLINE",
+          "name": "Ecoline Exim"
+        },
+        {
+          "symbol": "WORTHPERI",
+          "name": "Worth Peripheral"
+        },
+        {
+          "symbol": "RFBL",
+          "name": "RFBL Flexi Pack"
+        },
+        {
+          "symbol": "COOLCAPS",
+          "name": "Cool Caps"
+        },
+        {
+          "symbol": "MEGAFLEX",
+          "name": "Mega Flex Plast."
+        },
+        {
+          "symbol": "BALAJEE",
+          "name": "Shree TirupatiBa"
+        },
+        {
+          "symbol": "AERONEU",
+          "name": "Aeroflex Neu"
+        },
+        {
+          "symbol": "EMMBI",
+          "name": "Emmbi Industries"
+        },
+        {
+          "symbol": "RPPL",
+          "name": "Rajshree Polypac"
+        },
+        {
+          "symbol": "BARFLEX",
+          "name": "Barflex Polyfilm"
+        },
+        {
+          "symbol": "ROLLT",
+          "name": "Rollatainers"
+        },
+        {
+          "symbol": "GSMFOILS",
+          "name": "GSM Foils"
+        },
+        {
+          "symbol": "AMDIND",
+          "name": "AMD Industries"
+        },
+        {
+          "symbol": "IDEALTECHO",
+          "name": "Ideal Technopl."
+        },
+        {
+          "symbol": "JYOTIGLOBL",
+          "name": "Jyoti Global"
+        },
+        {
+          "symbol": "ORIENTLTD",
+          "name": "Orient Press"
+        },
+        {
+          "symbol": "BULKCORP",
+          "name": "Bulkcorp Inter."
+        },
+        {
+          "symbol": "DKEGL",
+          "name": "D.K. Enterprises"
+        },
+        {
+          "symbol": "GUJRAFFIA",
+          "name": "Guj. Raffia Inds"
+        },
+        {
+          "symbol": "UMA",
+          "name": "Uma Converter"
+        },
+        {
+          "symbol": "POLYSPIN",
+          "name": "Polyspin Exports"
+        },
+        {
+          "symbol": "SATIPOLY",
+          "name": "Sati Poly"
+        },
+        {
+          "symbol": "SPPPOLY",
+          "name": "SPP Polymer"
+        },
+        {
+          "symbol": "ANTGRAPHIC",
+          "name": "Antarctica"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-PLASTIC-PRODUCTS-INDUSTRIAL",
+      "name": "Industrials · Plastic Products - Industrial",
+      "macro": "Industrials",
+      "kind": "basic-industry",
+      "screenerName": "Plastic Products - Industrial",
+      "candidates": [
+        {
+          "symbol": "SUPREMEIND",
+          "name": "Supreme Inds."
+        },
+        {
+          "symbol": "ASTRAL",
+          "name": "Astral"
+        },
+        {
+          "symbol": "GRWRHITECH",
+          "name": "Garware Hi Tech"
+        },
+        {
+          "symbol": "FINPIPE",
+          "name": "Finolex Inds."
+        },
+        {
+          "symbol": "KINGFA",
+          "name": "Kingfa Science"
+        },
+        {
+          "symbol": "TIMETECHNO",
+          "name": "Time Technoplast"
+        },
+        {
+          "symbol": "PRINCEPIPE",
+          "name": "Prince Pipes"
+        },
+        {
+          "symbol": "APOLLOPIPE",
+          "name": "Apollo Pipes"
+        },
+        {
+          "symbol": "JISLJALEQS",
+          "name": "Jain Irrigation"
+        },
+        {
+          "symbol": "JAICORPLTD",
+          "name": "Jai Corp"
+        },
+        {
+          "symbol": "PREMIERPOL",
+          "name": "Premier Polyfilm"
+        },
+        {
+          "symbol": "RMDRIP",
+          "name": "R M Drip & Sprin"
+        },
+        {
+          "symbol": "MANIKA",
+          "name": "Manika Plastech"
+        },
+        {
+          "symbol": "PPL",
+          "name": "Prakash Pipes"
+        },
+        {
+          "symbol": "DHABRIYA",
+          "name": "Dhabriya Poly."
+        },
+        {
+          "symbol": "CPL",
+          "name": "Captain Polyplas"
+        },
+        {
+          "symbol": "KRITI",
+          "name": "Kriti Industries"
+        },
+        {
+          "symbol": "TIRUPATI",
+          "name": "Shree Tirupati"
+        },
+        {
+          "symbol": "HINDADH",
+          "name": "Hind.Adhesive"
+        },
+        {
+          "symbol": "TAINWALCHM",
+          "name": "Tainwala Chem."
+        },
+        {
+          "symbol": "MASTER",
+          "name": "Master Component"
+        },
+        {
+          "symbol": "SHRITECH",
+          "name": "Shri Techtex"
+        },
+        {
+          "symbol": "TEXMOPIPES",
+          "name": "Texmo Pipes"
+        },
+        {
+          "symbol": "POLYSIL",
+          "name": "Polysil Irrigati"
+        },
+        {
+          "symbol": "BRIGHTBR",
+          "name": "Bright Brothers"
+        },
+        {
+          "symbol": "PURVFLEXI",
+          "name": "Purv Flexi"
+        },
+        {
+          "symbol": "VIGOR",
+          "name": "Vigor Plast"
+        },
+        {
+          "symbol": "MPEL",
+          "name": "Manas Polymers"
+        },
+        {
+          "symbol": "SRIKPRIND",
+          "name": "Sri KPR Inds."
+        },
+        {
+          "symbol": "JISLDVREQS",
+          "name": "Jain Irrigat-DVR"
+        },
+        {
+          "symbol": "TIJARIA",
+          "name": "Tijaria Polypipe"
+        },
+        {
+          "symbol": "SMVD",
+          "name": "SMVD Poly Pack"
+        },
+        {
+          "symbol": "BALCO",
+          "name": "Solve Plastic"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-OTHER-INDUSTRIAL-PRODUCTS",
+      "name": "Industrials · Other Industrial Products",
+      "macro": "Industrials",
+      "kind": "basic-industry",
+      "screenerName": "Other Industrial Products",
+      "candidates": [
+        {
+          "symbol": "HBLENGINE",
+          "name": "HBL Engineering"
+        },
+        {
+          "symbol": "INOXINDIA",
+          "name": "Inox India"
+        },
+        {
+          "symbol": "ESABINDIA",
+          "name": "Esab India"
+        },
+        {
+          "symbol": "KRN",
+          "name": "KRN Heat Exchan"
+        },
+        {
+          "symbol": "SUBROS",
+          "name": "Subros"
+        },
+        {
+          "symbol": "HARSHA",
+          "name": "Harsha Engg Intl"
+        },
+        {
+          "symbol": "ADOR",
+          "name": "Ador Welding"
+        },
+        {
+          "symbol": "DIFFNKG",
+          "name": "Diffusion Eng"
+        },
+        {
+          "symbol": "SAHASRA",
+          "name": "Sahasra Electro."
+        },
+        {
+          "symbol": "MICEL",
+          "name": "MIC Electronics"
+        },
+        {
+          "symbol": "TANKUP",
+          "name": "Tankup Engi."
+        },
+        {
+          "symbol": "VILAS",
+          "name": "Vilas Transcore"
+        },
+        {
+          "symbol": "HTEL",
+          "name": "Hy-Tech Engineer"
+        },
+        {
+          "symbol": "ORIRAIL",
+          "name": "Oriental Rail"
+        },
+        {
+          "symbol": "MALLCOM",
+          "name": "Mallcom (India)"
+        },
+        {
+          "symbol": "MEGATHERM",
+          "name": "Megatherm Indu."
+        },
+        {
+          "symbol": "UHTL",
+          "name": "United Heat"
+        },
+        {
+          "symbol": "CGRAPHICS",
+          "name": "Creative Graphic"
+        },
+        {
+          "symbol": "SHUBHSHREE",
+          "name": "Shubhshree Bio."
+        },
+        {
+          "symbol": "RAPPID",
+          "name": "Rappid Valves"
+        },
+        {
+          "symbol": "AERON",
+          "name": "Aeron Composites"
+        },
+        {
+          "symbol": "AMEYA",
+          "name": "Ameya Precision"
+        },
+        {
+          "symbol": "HOLMARC",
+          "name": "Holmarc Opto"
+        },
+        {
+          "symbol": "SRIVASAVI",
+          "name": "Srivasavi Adhes."
+        },
+        {
+          "symbol": "WHBRADY",
+          "name": "W H Brady"
+        },
+        {
+          "symbol": "ENVIRO",
+          "name": "Envirotech Sys."
+        },
+        {
+          "symbol": "CLASSICEIL",
+          "name": "Classic Electrod"
+        },
+        {
+          "symbol": "BEARDSELL",
+          "name": "Beardsell"
+        },
+        {
+          "symbol": "WOL3D",
+          "name": "WOL 3D India"
+        },
+        {
+          "symbol": "EXCELLENT",
+          "name": "Excellent Wires"
+        },
+        {
+          "symbol": "PSFL",
+          "name": "Paramount Specia"
+        },
+        {
+          "symbol": "DELTAMAGNT",
+          "name": "Delta Manufact."
+        },
+        {
+          "symbol": "ARCIIL",
+          "name": "ARC Insulation"
+        },
+        {
+          "symbol": "JIWANRAM",
+          "name": "Jiwanram Sheo"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-CABLES-ELECTRICALS",
+      "name": "Industrials · Cables - Electricals",
+      "macro": "Industrials",
+      "kind": "basic-industry",
+      "screenerName": "Cables - Electricals",
+      "candidates": [
+        {
+          "symbol": "POLYCAB",
+          "name": "Polycab India"
+        },
+        {
+          "symbol": "KEI",
+          "name": "KEI Industries"
+        },
+        {
+          "symbol": "RRKABEL",
+          "name": "R R Kabel"
+        },
+        {
+          "symbol": "FINCABLES",
+          "name": "Finolex Cables"
+        },
+        {
+          "symbol": "KSHINTL",
+          "name": "KSH Internationa"
+        },
+        {
+          "symbol": "UNIVCABLES",
+          "name": "Universal Cables"
+        },
+        {
+          "symbol": "VMARCIND",
+          "name": "V-Marc India"
+        },
+        {
+          "symbol": "LASERPOWER",
+          "name": "Laser Power"
+        },
+        {
+          "symbol": "LUMINO",
+          "name": "Lumino Inds"
+        },
+        {
+          "symbol": "DYCL",
+          "name": "Dynamic Cables"
+        },
+        {
+          "symbol": "PARACABLES",
+          "name": "Paramount Comm."
+        },
+        {
+          "symbol": "QUADFUTURE",
+          "name": "Quadrant Future"
+        },
+        {
+          "symbol": "DPEL",
+          "name": "Divine Power"
+        },
+        {
+          "symbol": "CORDSCABLE",
+          "name": "Cords Cable"
+        },
+        {
+          "symbol": "PRIMECAB",
+          "name": "Prime Cable Ind."
+        },
+        {
+          "symbol": "BHADORA",
+          "name": "Bhadora Indust."
+        },
+        {
+          "symbol": "PLAZACABLE",
+          "name": "Plaza Wires"
+        },
+        {
+          "symbol": "DCG",
+          "name": "DCG Cables"
+        },
+        {
+          "symbol": "MARCO",
+          "name": "Marco Cables"
+        },
+        {
+          "symbol": "BCP",
+          "name": "B.C. Power"
+        },
+        {
+          "symbol": "CMICABLES",
+          "name": "CMI"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-COMPRESSORS-PUMPS-DIESEL-ENGINES",
+      "name": "Industrials · Compressors, Pumps & Diesel Engines",
+      "macro": "Industrials",
+      "kind": "basic-industry",
+      "screenerName": "Compressors, Pumps & Diesel Engines",
+      "candidates": [
+        {
+          "symbol": "CUMMINSIND",
+          "name": "Cummins India"
+        },
+        {
+          "symbol": "KIRLOSENG",
+          "name": "Kirloskar Oil"
+        },
+        {
+          "symbol": "ELGIEQUIP",
+          "name": "Elgi Equipments"
+        },
+        {
+          "symbol": "KIRLOSBROS",
+          "name": "Kirl. Brothers"
+        },
+        {
+          "symbol": "KSB",
+          "name": "KSB"
+        },
+        {
+          "symbol": "INGERRAND",
+          "name": "Ingersoll-Rand"
+        },
+        {
+          "symbol": "KIRLPNU",
+          "name": "Kirl.Pneumatic"
+        },
+        {
+          "symbol": "SHAKTIPUMP",
+          "name": "Shakti Pumps"
+        },
+        {
+          "symbol": "GREAVESCOT",
+          "name": "Greaves Cotton"
+        },
+        {
+          "symbol": "SWARAJENG",
+          "name": "Swaraj Engines"
+        },
+        {
+          "symbol": "OSWALPUMPS",
+          "name": "Oswal Pumps"
+        },
+        {
+          "symbol": "YUKEN",
+          "name": "Yuken India"
+        },
+        {
+          "symbol": "ROTO",
+          "name": "Roto Pumps"
+        },
+        {
+          "symbol": "LATTEYS",
+          "name": "Latteys Industri"
+        },
+        {
+          "symbol": "MAKS",
+          "name": "Maks Energy"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-ELECTRODES-REFRACTORIES",
+      "name": "Industrials · Electrodes & Refractories",
+      "macro": "Industrials",
+      "kind": "basic-industry",
+      "screenerName": "Electrodes & Refractories",
+      "candidates": [
+        {
+          "symbol": "GRAPHITE",
+          "name": "Graphite India"
+        },
+        {
+          "symbol": "VESUVIUS",
+          "name": "Vesuvius India"
+        },
+        {
+          "symbol": "RPEL",
+          "name": "Raghav Product."
+        },
+        {
+          "symbol": "RHIM",
+          "name": "RHI Magnesita"
+        },
+        {
+          "symbol": "HEGAM",
+          "name": "HEG Advanced Materials"
+        },
+        {
+          "symbol": "MONOLITH",
+          "name": "Monolithisch Ind"
+        },
+        {
+          "symbol": "IFGLEXPOR",
+          "name": "IFGL Refractori."
+        },
+        {
+          "symbol": "ORIENTCER",
+          "name": "Orient Ceratech"
+        },
+        {
+          "symbol": "DENORA",
+          "name": "DE Nora India"
+        },
+        {
+          "symbol": "ROYALARC",
+          "name": "Royal Arc Ele."
+        },
+        {
+          "symbol": "REFRACTORY",
+          "name": "Refractory Shap."
+        },
+        {
+          "symbol": "AUROIMPEX",
+          "name": "Auro Impex"
+        },
+        {
+          "symbol": "SPRL",
+          "name": "SP Refractories"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-RUBBER",
+      "name": "Industrials · Rubber",
+      "macro": "Industrials",
+      "kind": "basic-industry",
+      "screenerName": "Rubber",
+      "candidates": [
+        {
+          "symbol": "APCOTEXIND",
+          "name": "Apcotex Industri"
+        },
+        {
+          "symbol": "PIXTRANS",
+          "name": "Pix Transmission"
+        },
+        {
+          "symbol": "TINNARUBR",
+          "name": "Tinna Rubber"
+        },
+        {
+          "symbol": "GRPLTD",
+          "name": "GRP"
+        },
+        {
+          "symbol": "RUBFILA",
+          "name": "Rubfila Intl."
+        },
+        {
+          "symbol": "GRCL",
+          "name": "Gayatri Rubbers"
+        },
+        {
+          "symbol": "HARRMALAYA",
+          "name": "Harri. Malayalam"
+        },
+        {
+          "symbol": "ELGIRUBCO",
+          "name": "Elgi Rubber Co"
+        },
+        {
+          "symbol": "SAMPANN",
+          "name": "Sampann Utpadan"
+        },
+        {
+          "symbol": "LRRPL",
+          "name": "Lead Reclaim"
+        },
+        {
+          "symbol": "PENTAGON",
+          "name": "Pentagon Rubber"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-TRADING-DISTRIBUTORS",
+      "name": "Services · Trading & Distributors",
+      "macro": "Services",
+      "kind": "basic-industry",
+      "screenerName": "Trading & Distributors",
+      "candidates": [
+        {
+          "symbol": "REDINGTON",
+          "name": "Redington"
+        },
+        {
+          "symbol": "MMTC",
+          "name": "MMTC"
+        },
+        {
+          "symbol": "MSTCLTD",
+          "name": "MSTC"
+        },
+        {
+          "symbol": "CNL",
+          "name": "Creative Newtech"
+        },
+        {
+          "symbol": "BNAGROCHEM",
+          "name": "BN Agrochem"
+        },
+        {
+          "symbol": "SHIVAUM",
+          "name": "Shiv Aum Steels"
+        },
+        {
+          "symbol": "STCINDIA",
+          "name": "S T C"
+        },
+        {
+          "symbol": "HPTL",
+          "name": "HP Telecom"
+        },
+        {
+          "symbol": "OSWALAGRO",
+          "name": "Oswal Agro Mills"
+        },
+        {
+          "symbol": "KOTHARIPRO",
+          "name": "Kothari Products"
+        },
+        {
+          "symbol": "ENCOMPAS",
+          "name": "Encompass Design"
+        },
+        {
+          "symbol": "SAKUMA",
+          "name": "Sakuma Exports"
+        },
+        {
+          "symbol": "VIKASLIFE",
+          "name": "Vikas Lifecare"
+        },
+        {
+          "symbol": "SICAGEN",
+          "name": "Sicagen India"
+        },
+        {
+          "symbol": "ROCKINGDCE",
+          "name": "Rockingdeals Cir"
+        },
+        {
+          "symbol": "SIGIND",
+          "name": "Signet Industrie"
+        },
+        {
+          "symbol": "SPCENET",
+          "name": "Spacenet Enterpr"
+        },
+        {
+          "symbol": "ESSENTIA",
+          "name": "Integra Essentia"
+        },
+        {
+          "symbol": "METROGLOBL",
+          "name": "Metroglobal"
+        },
+        {
+          "symbol": "ANIKINDS",
+          "name": "Anik Industries"
+        },
+        {
+          "symbol": "LAHOTIOV",
+          "name": "Lahoti Overseas"
+        },
+        {
+          "symbol": "LANDSMILL",
+          "name": "Landsmill Green"
+        },
+        {
+          "symbol": "CFEL",
+          "name": "Confidence Fut."
+        },
+        {
+          "symbol": "CRAVATEX",
+          "name": "Cravatex"
+        },
+        {
+          "symbol": "GOYALALUM",
+          "name": "Goyal Aluminiums"
+        },
+        {
+          "symbol": "MINALIND",
+          "name": "Minal Industries"
+        },
+        {
+          "symbol": "UMAEXPORTS",
+          "name": "Uma Exports"
+        },
+        {
+          "symbol": "KSR",
+          "name": "KSR Footwear"
+        },
+        {
+          "symbol": "BMETRICS",
+          "name": "Bombay Metrics"
+        },
+        {
+          "symbol": "ABMINTLLTD",
+          "name": "A B M Internatl."
+        },
+        {
+          "symbol": "PHOGLOBAL",
+          "name": "Phoenix Overseas"
+        },
+        {
+          "symbol": "AKG",
+          "name": "AKG Exim"
+        },
+        {
+          "symbol": "PRISMX",
+          "name": "Prismx Global"
+        },
+        {
+          "symbol": "ASIANTNE",
+          "name": "Asian Tea & Exp"
+        },
+        {
+          "symbol": "CONTI",
+          "name": "Continental Seed"
+        },
+        {
+          "symbol": "SHYAMTEL",
+          "name": "Shyam Telecom"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-CONSULTING-SERVICES",
+      "name": "Services · Consulting Services",
+      "macro": "Services",
+      "kind": "basic-industry",
+      "screenerName": "Consulting Services",
+      "candidates": [
+        {
+          "symbol": "MARC",
+          "name": "Marc Technocrats"
+        },
+        {
+          "symbol": "EKI",
+          "name": "EKI Energy"
+        },
+        {
+          "symbol": "AAATECH",
+          "name": "AAA Technologies"
+        },
+        {
+          "symbol": "MITCON",
+          "name": "Mitcon Consult."
+        },
+        {
+          "symbol": "DHRUV",
+          "name": "Dhruv Consultanc"
+        },
+        {
+          "symbol": "MIEL",
+          "name": "Manglam Infra"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-BUSINESS-PROCESS-OUTSOURCING-BPO-KNOW",
+      "name": "Services · Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)",
+      "macro": "Services",
+      "kind": "basic-industry",
+      "screenerName": "Business Process Outsourcing (BPO)/ Knowledge Process Outsourcing (KPO)",
+      "candidates": [
+        {
+          "symbol": "FSL",
+          "name": "Firstsour.Solu."
+        },
+        {
+          "symbol": "ECLERX",
+          "name": "eClerx Services"
+        },
+        {
+          "symbol": "RPSGVENT",
+          "name": "RPSG Ventures"
+        },
+        {
+          "symbol": "ONEPOINT",
+          "name": "One Point One"
+        },
+        {
+          "symbol": "HGS",
+          "name": "Hinduja Global"
+        },
+        {
+          "symbol": "ALLDIGI",
+          "name": "Alldigi Tech"
+        },
+        {
+          "symbol": "KANDARP",
+          "name": "Kandarp Digi"
+        },
+        {
+          "symbol": "WEWIN",
+          "name": "We Win Ltd"
+        },
+        {
+          "symbol": "CADSYS",
+          "name": "Cadsys (India)"
+        },
+        {
+          "symbol": "HRHNEXT",
+          "name": "HRH Next"
+        },
+        {
+          "symbol": "PLADAINFO",
+          "name": "Plada Infotech S"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-GAP-DIVERSIFIED-COMMERCIAL-SERVICES",
+      "name": "Utilities · Diversified Commercial Services",
+      "macro": "Utilities",
+      "kind": "basic-industry",
+      "screenerName": "Diversified Commercial Services",
+      "candidates": [
+        {
+          "symbol": "IGIL",
+          "name": "International Gemological Instit"
+        },
+        {
+          "symbol": "WEWORK",
+          "name": "Wework India"
+        },
+        {
+          "symbol": "IBULLSLTD",
+          "name": "Indiabulls"
+        },
+        {
+          "symbol": "NESCO",
+          "name": "NESCO"
+        },
+        {
+          "symbol": "NDRINVIT",
+          "name": "NDR INVIT Trust"
+        },
+        {
+          "symbol": "LEAPIND",
+          "name": "Leap India"
+        },
+        {
+          "symbol": "NIRLON",
+          "name": "Nirlon"
+        },
+        {
+          "symbol": "SMARTWORKS",
+          "name": "Smartworks Cowor"
+        },
+        {
+          "symbol": "INOXGREEN",
+          "name": "Inox Green"
+        },
+        {
+          "symbol": "QUESS",
+          "name": "Quess Corp"
+        },
+        {
+          "symbol": "INDIQUBE",
+          "name": "Indiqube Spaces"
+        },
+        {
+          "symbol": "CMSINFO",
+          "name": "CMS Info Systems"
+        },
+        {
+          "symbol": "HEMIPROP",
+          "name": "Hemisphere Prop"
+        },
+        {
+          "symbol": "SANGHVIMOV",
+          "name": "Sanghvi Movers"
+        },
+        {
+          "symbol": "BLUSPRING",
+          "name": "Bluspring Enter."
+        },
+        {
+          "symbol": "EFCIL",
+          "name": "EFC (I)"
+        },
+        {
+          "symbol": "TVSINVIT",
+          "name": "TVS Infra. Trust"
+        },
+        {
+          "symbol": "AWFIS",
+          "name": "AWFIS Space"
+        },
+        {
+          "symbol": "TEAMLEASE",
+          "name": "Team Lease Serv."
+        },
+        {
+          "symbol": "KAPSTON",
+          "name": "Kapston Services"
+        },
+        {
+          "symbol": "TEXINFRA",
+          "name": "Texmaco Infrast."
+        },
+        {
+          "symbol": "UDS",
+          "name": "Updater Services"
+        },
+        {
+          "symbol": "KRYSTAL",
+          "name": "Krystal Integrat"
+        },
+        {
+          "symbol": "VIESL",
+          "name": "Vision Infra"
+        },
+        {
+          "symbol": "PHOENXINTL",
+          "name": "Phoenix Intl."
+        },
+        {
+          "symbol": "ICDSLTD",
+          "name": "ICDS"
+        },
+        {
+          "symbol": "SFML",
+          "name": "Supreme Facility"
+        },
+        {
+          "symbol": "CHAMUNDA",
+          "name": "Chamunda Ele."
+        },
+        {
+          "symbol": "FMNL",
+          "name": "Future Market"
+        },
+        {
+          "symbol": "MMEL",
+          "name": "Moving Media"
+        },
+        {
+          "symbol": "SAICAPI",
+          "name": "Sai Capital"
+        },
+        {
+          "symbol": "ARMOUR",
+          "name": "Armour Security"
+        },
+        {
+          "symbol": "WHITEFORCE",
+          "name": "Happy Square"
+        },
+        {
+          "symbol": "SHAIVAL",
+          "name": "Shaival Reality"
+        },
+        {
+          "symbol": "FALCONTECH",
+          "name": "Falcon"
+        },
+        {
+          "symbol": "KONTOR",
+          "name": "Kontor Space"
+        },
+        {
+          "symbol": "TRANSWIND",
+          "name": "Transwind Infra."
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 5
+    },
+    {
+      "id": "CUSTOM-MICRO-CDMO",
+      "name": "Healthcare · CDMO (micro)",
+      "macro": "Healthcare",
+      "kind": "micro-niche",
+      "screenerName": null,
+      "niche": "Healthcare · CDMO (micro)",
+      "candidates": [
+        {
+          "symbol": "DIVISLAB",
+          "name": "DIVISLAB"
+        },
+        {
+          "symbol": "LAURUSLABS",
+          "name": "LAURUSLABS"
+        },
+        {
+          "symbol": "SYNGENE",
+          "name": "SYNGENE"
+        },
+        {
+          "symbol": "PIRAMAL",
+          "name": "PIRAMAL"
+        },
+        {
+          "symbol": "CLEAN",
+          "name": "Clean Science"
+        },
+        {
+          "symbol": "SAILIFE",
+          "name": "SAILIFE"
+        },
+        {
+          "symbol": "JUBLPHARMA",
+          "name": "JUBLPHARMA"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 3
+    },
+    {
+      "id": "CUSTOM-MICRO-API",
+      "name": "Healthcare · API / bulk drugs (micro)",
+      "macro": "Healthcare",
+      "kind": "micro-niche",
+      "screenerName": null,
+      "niche": "Healthcare · API / bulk drugs (micro)",
+      "candidates": [
+        {
+          "symbol": "DIVISLAB",
+          "name": "DIVISLAB"
+        },
+        {
+          "symbol": "LAURUSLABS",
+          "name": "LAURUSLABS"
+        },
+        {
+          "symbol": "AARTIDRUGS",
+          "name": "AARTIDRUGS"
+        },
+        {
+          "symbol": "GRANULES",
+          "name": "GRANULES"
+        },
+        {
+          "symbol": "SOLARA",
+          "name": "SOLARA"
+        },
+        {
+          "symbol": "NATCOPHARM",
+          "name": "NATCOPHARM"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 3
+    },
+    {
+      "id": "CUSTOM-MICRO-GENERICS",
+      "name": "Healthcare · Branded generics (micro)",
+      "macro": "Healthcare",
+      "kind": "micro-niche",
+      "screenerName": null,
+      "niche": "Healthcare · Branded generics (micro)",
+      "candidates": [
+        {
+          "symbol": "SUNPHARMA",
+          "name": "SUNPHARMA"
+        },
+        {
+          "symbol": "CIPLA",
+          "name": "CIPLA"
+        },
+        {
+          "symbol": "DRREDDY",
+          "name": "DRREDDY"
+        },
+        {
+          "symbol": "TORNTPHARM",
+          "name": "TORNTPHARM"
+        },
+        {
+          "symbol": "ALKEM",
+          "name": "ALKEM"
+        },
+        {
+          "symbol": "AUROPHARMA",
+          "name": "AUROPHARMA"
+        },
+        {
+          "symbol": "LUPIN",
+          "name": "LUPIN"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 3
+    },
+    {
+      "id": "CUSTOM-MICRO-DIAG",
+      "name": "Healthcare · Diagnostics (micro)",
+      "macro": "Healthcare",
+      "kind": "micro-niche",
+      "screenerName": null,
+      "niche": "Healthcare · Diagnostics (micro)",
+      "candidates": [
+        {
+          "symbol": "THYROCARE",
+          "name": "THYROCARE"
+        },
+        {
+          "symbol": "METROPOLIS",
+          "name": "METROPOLIS"
+        },
+        {
+          "symbol": "LALPATHLAB",
+          "name": "LALPATHLAB"
+        },
+        {
+          "symbol": "VIJAYA",
+          "name": "VIJAYA"
+        },
+        {
+          "symbol": "SURAKSHA",
+          "name": "SURAKSHA"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 3
+    },
+    {
+      "id": "CUSTOM-MICRO-EV2W",
+      "name": "Automobile · EV 2W/3W (micro)",
+      "macro": "Consumer Discretionary",
+      "kind": "micro-niche",
+      "screenerName": null,
+      "niche": "Automobile · EV 2W/3W (micro)",
+      "candidates": [
+        {
+          "symbol": "BAJAJ-AUTO",
+          "name": "BAJAJ-AUTO"
+        },
+        {
+          "symbol": "TVSMOTOR",
+          "name": "TVSMOTOR"
+        },
+        {
+          "symbol": "HEROMOTOCO",
+          "name": "HEROMOTOCO"
+        },
+        {
+          "symbol": "OLA",
+          "name": "OLA"
+        },
+        {
+          "symbol": "ATHER",
+          "name": "ATHER"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 3
+    },
+    {
+      "id": "CUSTOM-MICRO-EVPV",
+      "name": "Automobile · EV passenger vehicles (micro)",
+      "macro": "Consumer Discretionary",
+      "kind": "micro-niche",
+      "screenerName": null,
+      "niche": "Automobile · EV passenger vehicles (micro)",
+      "candidates": [
+        {
+          "symbol": "TATAMOTORS",
+          "name": "TATAMOTORS"
+        },
+        {
+          "symbol": "M&M",
+          "name": "M&M"
+        },
+        {
+          "symbol": "HYUNDAI",
+          "name": "HYUNDAI"
+        },
+        {
+          "symbol": "TEMPO",
+          "name": "TEMPO"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 3
+    },
+    {
+      "id": "CUSTOM-MICRO-EVCOMP",
+      "name": "Auto Components · EV components (micro)",
+      "macro": "Consumer Discretionary",
+      "kind": "micro-niche",
+      "screenerName": null,
+      "niche": "Auto Components · EV components (micro)",
+      "candidates": [
+        {
+          "symbol": "UNOMINDA",
+          "name": "UNOMINDA"
+        },
+        {
+          "symbol": "SONACOMS",
+          "name": "SONACOMS"
+        },
+        {
+          "symbol": "MOTHERSON",
+          "name": "MOTHERSON"
+        },
+        {
+          "symbol": "BOSCHLTD",
+          "name": "BOSCHLTD"
+        },
+        {
+          "symbol": "ENDURANCE",
+          "name": "ENDURANCE"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 3
+    },
+    {
+      "id": "CUSTOM-MICRO-QSR",
+      "name": "Consumer Services · QSR (micro)",
+      "macro": "Consumer Discretionary",
+      "kind": "micro-niche",
+      "screenerName": null,
+      "niche": "Consumer Services · QSR (micro)",
+      "candidates": [
+        {
+          "symbol": "JUBLFOOD",
+          "name": "JUBLFOOD"
+        },
+        {
+          "symbol": "DEVYANI",
+          "name": "DEVYANI"
+        },
+        {
+          "symbol": "SAPPHIRE",
+          "name": "SAPPHIRE"
+        },
+        {
+          "symbol": "WESTLIFE",
+          "name": "WESTLIFE"
+        },
+        {
+          "symbol": "RESTAURANT",
+          "name": "RESTAURANT"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 3
+    },
+    {
+      "id": "CUSTOM-MICRO-SANITARY",
+      "name": "Consumer Durables · Sanitary ware (micro)",
+      "macro": "Consumer Discretionary",
+      "kind": "micro-niche",
+      "screenerName": null,
+      "niche": "Consumer Durables · Sanitary ware (micro)",
+      "candidates": [
+        {
+          "symbol": "CERA",
+          "name": "CERA"
+        },
+        {
+          "symbol": "HINDWAREAP",
+          "name": "HINDWAREAP"
+        },
+        {
+          "symbol": "HSIL",
+          "name": "HSIL"
+        },
+        {
+          "symbol": "SOMANY",
+          "name": "SOMANY"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 3
+    },
+    {
+      "id": "CUSTOM-MICRO-CNC",
+      "name": "Capital Goods · CNC / machine tools (micro)",
+      "macro": "Industrials",
+      "kind": "micro-niche",
+      "screenerName": null,
+      "niche": "Capital Goods · CNC / machine tools (micro)",
+      "candidates": [
+        {
+          "symbol": "LAKSHMIMACH",
+          "name": "LAKSHMIMACH"
+        },
+        {
+          "symbol": "TDPOWERSYS",
+          "name": "TDPOWERSYS"
+        },
+        {
+          "symbol": "KENNAMET",
+          "name": "KENNAMET"
+        },
+        {
+          "symbol": "PREMIER",
+          "name": "PREMIER"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 3
+    },
+    {
+      "id": "CUSTOM-MICRO-TRANSFORM",
+      "name": "Capital Goods · Transformers (micro)",
+      "macro": "Industrials",
+      "kind": "micro-niche",
+      "screenerName": null,
+      "niche": "Capital Goods · Transformers (micro)",
+      "candidates": [
+        {
+          "symbol": "TRANSRAIL",
+          "name": "TRANSRAIL"
+        },
+        {
+          "symbol": "VOLTAMP",
+          "name": "VOLTAMP"
+        },
+        {
+          "symbol": "SCHNEIDER",
+          "name": "SCHNEIDER"
+        },
+        {
+          "symbol": "ABB",
+          "name": "ABB"
+        },
+        {
+          "symbol": "SIEMENS",
+          "name": "SIEMENS"
+        }
+      ],
+      "skipReason": null,
+      "minMembers": 3
     }
   ],
   "lastBuild": {
     "asOf": "2026-10-15",
-    "builtUtc": "2026-10-15T19:58:20Z",
+    "builtUtc": "2026-10-15T20:01:00Z",
     "report": {
       "built": [
         {
@@ -1189,6 +4568,141 @@
           "id": "CUSTOM-CHEM-CHLORALKALI",
           "members": 5,
           "excluded": 0
+        },
+        {
+          "id": "CUSTOM-GAP-INDUSTRIAL-MINERALS",
+          "members": 8,
+          "excluded": 3
+        },
+        {
+          "id": "CUSTOM-GAP-TRADING-METALS",
+          "members": 5,
+          "excluded": 2
+        },
+        {
+          "id": "CUSTOM-GAP-PAPER-PAPER-PRODUCTS",
+          "members": 8,
+          "excluded": 19
+        },
+        {
+          "id": "CUSTOM-GAP-OTHER-TEXTILE-PRODUCTS",
+          "members": 35,
+          "excluded": 48
+        },
+        {
+          "id": "CUSTOM-GAP-GARMENTS-APPARELS",
+          "members": 16,
+          "excluded": 29
+        },
+        {
+          "id": "CUSTOM-GAP-DIVERSIFIED-RETAIL",
+          "members": 6,
+          "excluded": 8
+        },
+        {
+          "id": "CUSTOM-GAP-SUGAR",
+          "members": 17,
+          "excluded": 12
+        },
+        {
+          "id": "CUSTOM-GAP-INVESTMENT-COMPANY",
+          "members": 12,
+          "excluded": 27
+        },
+        {
+          "id": "CUSTOM-GAP-OTHER-FINANCIAL-SERVICES",
+          "members": 5,
+          "excluded": 22
+        },
+        {
+          "id": "CUSTOM-GAP-HOLDING-COMPANY",
+          "members": 7,
+          "excluded": 7
+        },
+        {
+          "id": "CUSTOM-GAP-CONSTRUCTION-VEHICLES",
+          "members": 5,
+          "excluded": 0
+        },
+        {
+          "id": "CUSTOM-GAP-PACKAGING",
+          "members": 17,
+          "excluded": 32
+        },
+        {
+          "id": "CUSTOM-GAP-PLASTIC-PRODUCTS-INDUSTRIAL",
+          "members": 11,
+          "excluded": 22
+        },
+        {
+          "id": "CUSTOM-GAP-OTHER-INDUSTRIAL-PRODUCTS",
+          "members": 11,
+          "excluded": 23
+        },
+        {
+          "id": "CUSTOM-GAP-CABLES-ELECTRICALS",
+          "members": 13,
+          "excluded": 8
+        },
+        {
+          "id": "CUSTOM-GAP-COMPRESSORS-PUMPS-DIESEL-ENGINES",
+          "members": 13,
+          "excluded": 2
+        },
+        {
+          "id": "CUSTOM-GAP-ELECTRODES-REFRACTORIES",
+          "members": 5,
+          "excluded": 8
+        },
+        {
+          "id": "CUSTOM-GAP-TRADING-DISTRIBUTORS",
+          "members": 6,
+          "excluded": 30
+        },
+        {
+          "id": "CUSTOM-GAP-DIVERSIFIED-COMMERCIAL-SERVICES",
+          "members": 19,
+          "excluded": 18
+        },
+        {
+          "id": "CUSTOM-MICRO-CDMO",
+          "members": 6,
+          "excluded": 1
+        },
+        {
+          "id": "CUSTOM-MICRO-API",
+          "members": 6,
+          "excluded": 0
+        },
+        {
+          "id": "CUSTOM-MICRO-GENERICS",
+          "members": 7,
+          "excluded": 0
+        },
+        {
+          "id": "CUSTOM-MICRO-DIAG",
+          "members": 5,
+          "excluded": 0
+        },
+        {
+          "id": "CUSTOM-MICRO-EV2W",
+          "members": 3,
+          "excluded": 2
+        },
+        {
+          "id": "CUSTOM-MICRO-EVCOMP",
+          "members": 5,
+          "excluded": 0
+        },
+        {
+          "id": "CUSTOM-MICRO-QSR",
+          "members": 4,
+          "excluded": 1
+        },
+        {
+          "id": "CUSTOM-MICRO-TRANSFORM",
+          "members": 4,
+          "excluded": 1
         }
       ],
       "skipped": [
@@ -1222,6 +4736,106 @@
           "id": "CUSTOM-CHEM-OLEO",
           "reason": "too-small-prefilter",
           "candidates": 3
+        },
+        {
+          "id": "CUSTOM-GAP-OTHER-CONSTRUCTION-MATERIALS",
+          "reason": "only 3 liquid names (min 5)",
+          "kept": 3,
+          "excluded": 6
+        },
+        {
+          "id": "CUSTOM-GAP-PLASTIC-PRODUCTS-CONSUMER",
+          "reason": "only 4 liquid names (min 5)",
+          "kept": 4,
+          "excluded": 6
+        },
+        {
+          "id": "CUSTOM-GAP-LEATHER-AND-LEATHER-PRODUCTS",
+          "reason": "only 3 liquid names (min 5)",
+          "kept": 3,
+          "excluded": 5
+        },
+        {
+          "id": "CUSTOM-GAP-AMUSEMENT-PARKS-OTHER-RECREATION",
+          "reason": "too-small-prefilter",
+          "candidates": 4
+        },
+        {
+          "id": "CUSTOM-GAP-EDUCATION",
+          "reason": "only 4 liquid names (min 5)",
+          "kept": 4,
+          "excluded": 16
+        },
+        {
+          "id": "CUSTOM-GAP-E-LEARNING",
+          "reason": "only 3 liquid names (min 5)",
+          "kept": 3,
+          "excluded": 4
+        },
+        {
+          "id": "CUSTOM-GAP-OTHER-CONSUMER-SERVICES",
+          "reason": "only 1 liquid names (min 5)",
+          "kept": 1,
+          "excluded": 6
+        },
+        {
+          "id": "CUSTOM-GAP-OTHER-FOOD-PRODUCTS",
+          "reason": "only 3 liquid names (min 5)",
+          "kept": 3,
+          "excluded": 14
+        },
+        {
+          "id": "CUSTOM-GAP-SEAFOOD",
+          "reason": "only 2 liquid names (min 5)",
+          "kept": 2,
+          "excluded": 3
+        },
+        {
+          "id": "CUSTOM-GAP-MEAT-PRODUCTS-INCLUDING-POULTRY",
+          "reason": "too-small-prefilter",
+          "candidates": 3
+        },
+        {
+          "id": "CUSTOM-GAP-STATIONARY",
+          "reason": "only 3 liquid names (min 5)",
+          "kept": 3,
+          "excluded": 4
+        },
+        {
+          "id": "CUSTOM-GAP-RUBBER",
+          "reason": "only 3 liquid names (min 5)",
+          "kept": 3,
+          "excluded": 8
+        },
+        {
+          "id": "CUSTOM-GAP-CONSULTING-SERVICES",
+          "reason": "only 2 liquid names (min 5)",
+          "kept": 2,
+          "excluded": 4
+        },
+        {
+          "id": "CUSTOM-GAP-BUSINESS-PROCESS-OUTSOURCING-BPO-KNOW",
+          "reason": "only 4 liquid names (min 5)",
+          "kept": 4,
+          "excluded": 7
+        },
+        {
+          "id": "CUSTOM-MICRO-EVPV",
+          "reason": "only 2 liquid names (min 3)",
+          "kept": 2,
+          "excluded": 2
+        },
+        {
+          "id": "CUSTOM-MICRO-SANITARY",
+          "reason": "only 2 liquid names (min 3)",
+          "kept": 2,
+          "excluded": 2
+        },
+        {
+          "id": "CUSTOM-MICRO-CNC",
+          "reason": "only 2 liquid names (min 3)",
+          "kept": 2,
+          "excluded": 2
         }
       ],
       "excluded": {
@@ -1780,7 +5394,2487 @@
         ],
         "CUSTOM-CHEM-AMINES": [],
         "CUSTOM-CHEM-CDMO": [],
-        "CUSTOM-CHEM-CHLORALKALI": []
+        "CUSTOM-CHEM-CHLORALKALI": [],
+        "CUSTOM-GAP-OTHER-CONSTRUCTION-MATERIALS": [
+          {
+            "symbol": "GLASSWALL",
+            "name": "Glass Wall Syst.",
+            "reason": "history"
+          },
+          {
+            "symbol": "EVERESTIND",
+            "name": "Everest Inds.",
+            "reason": "liquidity",
+            "adv": 9666041
+          },
+          {
+            "symbol": "TEAMTECH",
+            "name": "Teamtech Formwork",
+            "reason": "history"
+          },
+          {
+            "symbol": "VISHNUINFR",
+            "name": "Vishnusurya Pro.",
+            "reason": "liquidity",
+            "adv": 3075353
+          },
+          {
+            "symbol": "SAHYADRI",
+            "name": "Sahyadri Industr",
+            "reason": "liquidity",
+            "adv": 2509944
+          },
+          {
+            "symbol": "MCON",
+            "name": "MCON Rasayan",
+            "reason": "liquidity",
+            "adv": 253685
+          }
+        ],
+        "CUSTOM-GAP-INDUSTRIAL-MINERALS": [
+          {
+            "symbol": "PCCL",
+            "name": "Petro Carbon",
+            "reason": "liquidity",
+            "adv": 4167967
+          },
+          {
+            "symbol": "NILE",
+            "name": "NILE",
+            "reason": "liquidity",
+            "adv": 5435333
+          },
+          {
+            "symbol": "GOACARBON",
+            "name": "Goa Carbon",
+            "reason": "liquidity",
+            "adv": 8907784
+          }
+        ],
+        "CUSTOM-GAP-TRADING-METALS": [
+          {
+            "symbol": "ABANSENT",
+            "name": "ABans Enterprise",
+            "reason": "liquidity",
+            "adv": 471096
+          },
+          {
+            "symbol": "ASHOKAMET",
+            "name": "Ashoka Metcast",
+            "reason": "liquidity",
+            "adv": 923288
+          }
+        ],
+        "CUSTOM-GAP-PAPER-PAPER-PRODUCTS": [
+          {
+            "symbol": "EMAMIPAP",
+            "name": "Emami Paper",
+            "reason": "liquidity",
+            "adv": 3584168
+          },
+          {
+            "symbol": "SATIA",
+            "name": "Satia Industries",
+            "reason": "liquidity",
+            "adv": 7551732
+          },
+          {
+            "symbol": "RAMANEWS",
+            "name": "Shree Rama News.",
+            "reason": "liquidity",
+            "adv": 527504
+          },
+          {
+            "symbol": "PAKKA",
+            "name": "Pakka",
+            "reason": "liquidity",
+            "adv": 8569170
+          },
+          {
+            "symbol": "ORIENTPPR",
+            "name": "Orient Paper",
+            "reason": "liquidity",
+            "adv": 2826005
+          },
+          {
+            "symbol": "RUCHIRA",
+            "name": "Ruchira Papers",
+            "reason": "liquidity",
+            "adv": 2439855
+          },
+          {
+            "symbol": "SAPPL",
+            "name": "Sh. Ajit Pulp",
+            "reason": "liquidity",
+            "adv": 1068983
+          },
+          {
+            "symbol": "STARPAPER",
+            "name": "Star Paper Mills",
+            "reason": "liquidity",
+            "adv": 1509833
+          },
+          {
+            "symbol": "GENUSPAPER",
+            "name": "Genus Paper & Bo",
+            "reason": "liquidity",
+            "adv": 1185682
+          },
+          {
+            "symbol": "SHREYANIND",
+            "name": "Shreyans Inds.",
+            "reason": "liquidity",
+            "adv": 763454
+          },
+          {
+            "symbol": "EXIMROUTES",
+            "name": "Exim Routes",
+            "reason": "history"
+          },
+          {
+            "symbol": "AARADHYA",
+            "name": "Aaradhya Dis.",
+            "reason": "history"
+          },
+          {
+            "symbol": "NIKITA",
+            "name": "Nikita Greentech Recycling",
+            "reason": "history"
+          },
+          {
+            "symbol": "MAGNUM",
+            "name": "Magnum Ventures",
+            "reason": "liquidity",
+            "adv": 559755
+          },
+          {
+            "symbol": "UTKAL",
+            "name": "Utkal Speciality",
+            "reason": "history"
+          },
+          {
+            "symbol": "MALUPAPER",
+            "name": "Malu Paper",
+            "reason": "liquidity",
+            "adv": 512271
+          },
+          {
+            "symbol": "BALKRISHNA",
+            "name": "Balkrishna Paper",
+            "reason": "liquidity",
+            "adv": 96106
+          },
+          {
+            "symbol": "ASTRON",
+            "name": "Astron Paper",
+            "reason": "liquidity",
+            "adv": 54512
+          },
+          {
+            "symbol": "SHRENIK",
+            "name": "Shrenik",
+            "reason": "liquidity",
+            "adv": 144059
+          }
+        ],
+        "CUSTOM-GAP-PLASTIC-PRODUCTS-CONSUMER": [
+          {
+            "symbol": "ESFL",
+            "name": "Essen Speciality",
+            "reason": "liquidity",
+            "adv": 1414903
+          },
+          {
+            "symbol": "PILITA",
+            "name": "Pil Italica Life",
+            "reason": "liquidity",
+            "adv": 245493
+          },
+          {
+            "symbol": "AVROIND",
+            "name": "Avro India",
+            "reason": "liquidity",
+            "adv": 2422473
+          },
+          {
+            "symbol": "TOKYOPLAST",
+            "name": "Tokyo Plast Intl",
+            "reason": "liquidity",
+            "adv": 91773
+          },
+          {
+            "symbol": "PEARLPOLY",
+            "name": "Pearl Polymers",
+            "reason": "liquidity",
+            "adv": 206876
+          },
+          {
+            "symbol": "NIRAJISPAT",
+            "name": "Niraj Ispat Ind.",
+            "reason": "liquidity",
+            "adv": 40374
+          }
+        ],
+        "CUSTOM-GAP-LEATHER-AND-LEATHER-PRODUCTS": [
+          {
+            "symbol": "MIRZAINT",
+            "name": "Mirza Internatio",
+            "reason": "liquidity",
+            "adv": 2294333
+          },
+          {
+            "symbol": "SUPERHOUSE",
+            "name": "Superhouse Ltd",
+            "reason": "liquidity",
+            "adv": 645397
+          },
+          {
+            "symbol": "ZENITHEXPO",
+            "name": "Zenith Exports",
+            "reason": "liquidity",
+            "adv": 27278
+          },
+          {
+            "symbol": "SUPTANERY",
+            "name": "Super Tannery",
+            "reason": "liquidity",
+            "adv": 1537422
+          },
+          {
+            "symbol": "AKI",
+            "name": "AKI India",
+            "reason": "liquidity",
+            "adv": 734133
+          }
+        ],
+        "CUSTOM-GAP-OTHER-TEXTILE-PRODUCTS": [
+          {
+            "symbol": "RAJRILTD",
+            "name": "Raj Rayon Inds.",
+            "reason": "liquidity",
+            "adv": 230207
+          },
+          {
+            "symbol": "SUNRAKSHAK",
+            "name": "Sunrakshakk Inds",
+            "reason": "liquidity",
+            "adv": 2583184
+          },
+          {
+            "symbol": "NAHARSPING",
+            "name": "Nahar Spinning",
+            "reason": "liquidity",
+            "adv": 5386325
+          },
+          {
+            "symbol": "MAFATIND",
+            "name": "Mafatlal Inds.",
+            "reason": "liquidity",
+            "adv": 3746643
+          },
+          {
+            "symbol": "SARLAPOLY",
+            "name": "Sarla Performanc",
+            "reason": "liquidity",
+            "adv": 3742385
+          },
+          {
+            "symbol": "PRECOT",
+            "name": "Precot",
+            "reason": "liquidity",
+            "adv": 3095744
+          },
+          {
+            "symbol": "BORANA",
+            "name": "Borana Weaves",
+            "reason": "liquidity",
+            "adv": 8653841
+          },
+          {
+            "symbol": "ORBTEXP",
+            "name": "Orbit Exports",
+            "reason": "liquidity",
+            "adv": 4054706
+          },
+          {
+            "symbol": "RAJPALAYAM",
+            "name": "Rajapalayam Mill",
+            "reason": "liquidity",
+            "adv": 969107
+          },
+          {
+            "symbol": "VOITHPAPR",
+            "name": "Voith Paper",
+            "reason": "liquidity",
+            "adv": 543970
+          },
+          {
+            "symbol": "SUTLEJTEX",
+            "name": "Sutlej Textiles",
+            "reason": "liquidity",
+            "adv": 1428482
+          },
+          {
+            "symbol": "LAKSHMIMIL",
+            "name": "Lakshmi Mills",
+            "reason": "liquidity",
+            "adv": 317564
+          },
+          {
+            "symbol": "NAHARINDUS",
+            "name": "Nahar Indl. Ent.",
+            "reason": "liquidity",
+            "adv": 2681237
+          },
+          {
+            "symbol": "SONA",
+            "name": "Sonaselection India",
+            "reason": "history"
+          },
+          {
+            "symbol": "VTMLTD",
+            "name": "VTM",
+            "reason": "liquidity",
+            "adv": 7475474
+          },
+          {
+            "symbol": "DONEAR",
+            "name": "Donear Inds.",
+            "reason": "liquidity",
+            "adv": 979642
+          },
+          {
+            "symbol": "ABCOTS",
+            "name": "AB Cotspin",
+            "reason": "liquidity",
+            "adv": 3130364
+          },
+          {
+            "symbol": "NDL",
+            "name": "Nandan Denim",
+            "reason": "liquidity",
+            "adv": 2378299
+          },
+          {
+            "symbol": "GINNIFILA",
+            "name": "Ginni Filaments",
+            "reason": "liquidity",
+            "adv": 1745662
+          },
+          {
+            "symbol": "BANSWRAS",
+            "name": "Banswara Syntex",
+            "reason": "liquidity",
+            "adv": 2599260
+          },
+          {
+            "symbol": "VARDHACRLC",
+            "name": "Vardhman Acrylic",
+            "reason": "liquidity",
+            "adv": 1407646
+          },
+          {
+            "symbol": "SHREEDHAR",
+            "name": "Shreedhar Spinners",
+            "reason": "history"
+          },
+          {
+            "symbol": "DCMNVL",
+            "name": "DCM Nouvelle",
+            "reason": "liquidity",
+            "adv": 1340148
+          },
+          {
+            "symbol": "ASHUTOSH",
+            "name": "Ashutosh Fibre",
+            "reason": "history"
+          },
+          {
+            "symbol": "SPUNWEB",
+            "name": "Spunweb Nonwoven",
+            "reason": "history"
+          },
+          {
+            "symbol": "VGL",
+            "name": "Varvee Global",
+            "reason": "liquidity",
+            "adv": 9248587
+          },
+          {
+            "symbol": "SHREEKARNI",
+            "name": "Shree Karni",
+            "reason": "liquidity",
+            "adv": 1384069
+          },
+          {
+            "symbol": "AXITA",
+            "name": "Axita Cotton",
+            "reason": "liquidity",
+            "adv": 5184277
+          },
+          {
+            "symbol": "ASHIMASYN",
+            "name": "Ashima",
+            "reason": "liquidity",
+            "adv": 1410112
+          },
+          {
+            "symbol": "VARDMNPOLY",
+            "name": "Vardhman Polytex",
+            "reason": "liquidity",
+            "adv": 1176852
+          },
+          {
+            "symbol": "LEMERITE",
+            "name": "Le Merite Export",
+            "reason": "liquidity",
+            "adv": 5758660
+          },
+          {
+            "symbol": "SOMATEX",
+            "name": "Soma Textiles",
+            "reason": "liquidity",
+            "adv": 472613
+          },
+          {
+            "symbol": "RNBDENIMS",
+            "name": "R&B Denims",
+            "reason": "liquidity",
+            "adv": 1004686
+          },
+          {
+            "symbol": "MARALOVER",
+            "name": "Maral Overseas",
+            "reason": "liquidity",
+            "adv": 836480
+          },
+          {
+            "symbol": "SHIVATEX",
+            "name": "Shiva Texyarn",
+            "reason": "liquidity",
+            "adv": 595504
+          },
+          {
+            "symbol": "MHLXMIRU",
+            "name": "Mahalaxmi Rubtec",
+            "reason": "liquidity",
+            "adv": 1443071
+          },
+          {
+            "symbol": "RRIL",
+            "name": "RRIL",
+            "reason": "liquidity",
+            "adv": 340849
+          },
+          {
+            "symbol": "BASML",
+            "name": "Bannari Amm Spg.",
+            "reason": "liquidity",
+            "adv": 1688755
+          },
+          {
+            "symbol": "TTL",
+            "name": "T T",
+            "reason": "liquidity",
+            "adv": 2402536
+          },
+          {
+            "symbol": "MODTHREAD",
+            "name": "Modern Threads",
+            "reason": "liquidity",
+            "adv": 185076
+          },
+          {
+            "symbol": "ALPINETEX",
+            "name": "Alpine Texworld",
+            "reason": "liquidity",
+            "adv": 8529420
+          },
+          {
+            "symbol": "SURYALA",
+            "name": "Suryalata Spg.",
+            "reason": "liquidity",
+            "adv": 249202
+          },
+          {
+            "symbol": "SRTL",
+            "name": "Shree Ram Twist.",
+            "reason": "liquidity",
+            "adv": 835283
+          },
+          {
+            "symbol": "AVIANSH",
+            "name": "Avi Ansh",
+            "reason": "history"
+          },
+          {
+            "symbol": "SALONA",
+            "name": "Salona Cotspin",
+            "reason": "liquidity",
+            "adv": 208085
+          },
+          {
+            "symbol": "LAGNAM",
+            "name": "Lagnam Spintex",
+            "reason": "liquidity",
+            "adv": 356781
+          },
+          {
+            "symbol": "PREMCO",
+            "name": "Premco Global",
+            "reason": "liquidity",
+            "adv": 271128
+          },
+          {
+            "symbol": "RAJVIR",
+            "name": "Rajvir Inds.",
+            "reason": "liquidity",
+            "adv": 0
+          }
+        ],
+        "CUSTOM-GAP-GARMENTS-APPARELS": [
+          {
+            "symbol": "KARNIKA",
+            "name": "Karnika Industri",
+            "reason": "liquidity",
+            "adv": 7057920
+          },
+          {
+            "symbol": "VIRAT",
+            "name": "Virat Industries",
+            "reason": "liquidity",
+            "adv": 4159977
+          },
+          {
+            "symbol": "PURPLEUTED",
+            "name": "Purple United",
+            "reason": "history"
+          },
+          {
+            "symbol": "VISHAL",
+            "name": "Vishal Fabrics",
+            "reason": "liquidity",
+            "adv": 992065
+          },
+          {
+            "symbol": "FORCAS",
+            "name": "Forcas Studio",
+            "reason": "history"
+          },
+          {
+            "symbol": "BELLACASA",
+            "name": "Bella Casa Fashi",
+            "reason": "liquidity",
+            "adv": 3887571
+          },
+          {
+            "symbol": "CPS",
+            "name": "C P S Shapers",
+            "reason": "liquidity",
+            "adv": 1214722
+          },
+          {
+            "symbol": "ZODIACLOTH",
+            "name": "Zodiac Cloth. Co",
+            "reason": "liquidity",
+            "adv": 242431
+          },
+          {
+            "symbol": "VIPCLOTHNG",
+            "name": "VIP Clothing",
+            "reason": "liquidity",
+            "adv": 794187
+          },
+          {
+            "symbol": "NRVANDANA",
+            "name": "N R Vandana",
+            "reason": "history"
+          },
+          {
+            "symbol": "SDREAMS",
+            "name": "S D Retail",
+            "reason": "history"
+          },
+          {
+            "symbol": "LAL",
+            "name": "Lorenzini Appar.",
+            "reason": "liquidity",
+            "adv": 714639
+          },
+          {
+            "symbol": "FILATFASH",
+            "name": "Filatex Fash.",
+            "reason": "liquidity",
+            "adv": 3300739
+          },
+          {
+            "symbol": "INDTERRAIN",
+            "name": "Indian Terrain",
+            "reason": "liquidity",
+            "adv": 907471
+          },
+          {
+            "symbol": "FASCINATE",
+            "name": "Fascinate Textiles",
+            "reason": "history"
+          },
+          {
+            "symbol": "MADHURKNIT",
+            "name": "Madhur Knit",
+            "reason": "history"
+          },
+          {
+            "symbol": "LOVABLE",
+            "name": "Lovable Lingerie",
+            "reason": "liquidity",
+            "adv": 574445
+          },
+          {
+            "symbol": "VEEKAYEM",
+            "name": "Veekayem Fash.",
+            "reason": "liquidity",
+            "adv": 879786
+          },
+          {
+            "symbol": "ADDIND",
+            "name": "Addi Industries",
+            "reason": "liquidity",
+            "adv": 52465
+          },
+          {
+            "symbol": "KAYTEX",
+            "name": "Kaytex Fabrics",
+            "reason": "history"
+          },
+          {
+            "symbol": "SIGNORIA",
+            "name": "Signoria Creatio",
+            "reason": "liquidity",
+            "adv": 95285
+          },
+          {
+            "symbol": "JAIPURKURT",
+            "name": "Nandani Creation",
+            "reason": "liquidity",
+            "adv": 2850367
+          },
+          {
+            "symbol": "BANG",
+            "name": "Bang Overseas",
+            "reason": "liquidity",
+            "adv": 716007
+          },
+          {
+            "symbol": "CELEBRITY",
+            "name": "Celebrity Fash.",
+            "reason": "liquidity",
+            "adv": 144421
+          },
+          {
+            "symbol": "VINNY",
+            "name": "Vinny Overseas",
+            "reason": "liquidity",
+            "adv": 272769
+          },
+          {
+            "symbol": "LIBAS",
+            "name": "Libas Consumer",
+            "reason": "liquidity",
+            "adv": 1379347
+          },
+          {
+            "symbol": "MITTAL",
+            "name": "Mittal Life Styl",
+            "reason": "liquidity",
+            "adv": 1057599
+          },
+          {
+            "symbol": "VCL",
+            "name": "Vaxtex Cotfab",
+            "reason": "liquidity",
+            "adv": 1057995
+          },
+          {
+            "symbol": "VIVIDHA",
+            "name": "Visagar Polytex",
+            "reason": "liquidity",
+            "adv": 127284
+          }
+        ],
+        "CUSTOM-GAP-EDUCATION": [
+          {
+            "symbol": "VINSYS",
+            "name": "Vinsys IT Serv.",
+            "reason": "liquidity",
+            "adv": 2792028
+          },
+          {
+            "symbol": "APTECHT",
+            "name": "Aptech",
+            "reason": "liquidity",
+            "adv": 6534365
+          },
+          {
+            "symbol": "CPEDU",
+            "name": "Career Point Edu",
+            "reason": "liquidity",
+            "adv": 678980
+          },
+          {
+            "symbol": "CLEDUCATE",
+            "name": "CL Educate",
+            "reason": "liquidity",
+            "adv": 971413
+          },
+          {
+            "symbol": "ARIHANTACA",
+            "name": "Arihant Academy",
+            "reason": "liquidity",
+            "adv": 2447364
+          },
+          {
+            "symbol": "FWSTC",
+            "name": "Flywings Simula.",
+            "reason": "history"
+          },
+          {
+            "symbol": "ZEELEARN",
+            "name": "Zee Learn",
+            "reason": "liquidity",
+            "adv": 2059250
+          },
+          {
+            "symbol": "MOXSH",
+            "name": "Moxsh Overseas",
+            "reason": "liquidity",
+            "adv": 226868
+          },
+          {
+            "symbol": "COMPUSOFT",
+            "name": "Compucom Soft.",
+            "reason": "liquidity",
+            "adv": 417742
+          },
+          {
+            "symbol": "DRONE",
+            "name": "Drone Destinatio",
+            "reason": "liquidity",
+            "adv": 580674
+          },
+          {
+            "symbol": "LCCINFOTEC",
+            "name": "LCC Infotech",
+            "reason": "liquidity",
+            "adv": 456988
+          },
+          {
+            "symbol": "KEEPLEARN",
+            "name": "DSJ Keep Learn",
+            "reason": "liquidity",
+            "adv": 73531
+          },
+          {
+            "symbol": "VIRTUALG",
+            "name": "Virtual Global",
+            "reason": "liquidity",
+            "adv": 126056
+          },
+          {
+            "symbol": "TREEHOUSE",
+            "name": "Tree House Edu.",
+            "reason": "liquidity",
+            "adv": 104433
+          },
+          {
+            "symbol": "MTEDUCARE",
+            "name": "MT Educare",
+            "reason": "liquidity",
+            "adv": 54613
+          },
+          {
+            "symbol": "EDUCOMP",
+            "name": "Educomp Sol.",
+            "reason": "liquidity",
+            "adv": 17939
+          }
+        ],
+        "CUSTOM-GAP-E-LEARNING": [
+          {
+            "symbol": "ADDICTIVE",
+            "name": "Addictive Learn",
+            "reason": "history"
+          },
+          {
+            "symbol": "GTECJAINX",
+            "name": "G-Tec Janix",
+            "reason": "liquidity",
+            "adv": 380711
+          },
+          {
+            "symbol": "UMESLTD",
+            "name": "Usha Mart. Edu.",
+            "reason": "liquidity",
+            "adv": 207401
+          },
+          {
+            "symbol": "DHTL",
+            "name": "Docmode Health",
+            "reason": "liquidity",
+            "adv": 729178
+          }
+        ],
+        "CUSTOM-GAP-OTHER-CONSUMER-SERVICES": [
+          {
+            "symbol": "EFACTOR",
+            "name": "E Factor Experie",
+            "reason": "liquidity",
+            "adv": 2391165
+          },
+          {
+            "symbol": "PARTYCRUS",
+            "name": "Party Cruisers",
+            "reason": "liquidity",
+            "adv": 788705
+          },
+          {
+            "symbol": "EVENTIONS",
+            "name": "Eventions",
+            "reason": "history"
+          },
+          {
+            "symbol": "TOUCHWOOD",
+            "name": "Touchwood Enter.",
+            "reason": "liquidity",
+            "adv": 94603
+          },
+          {
+            "symbol": "BLUEPEBBLE",
+            "name": "Blue Pebble",
+            "reason": "liquidity",
+            "adv": 86472
+          },
+          {
+            "symbol": "THESL",
+            "name": "Thinking Hats",
+            "reason": "history"
+          }
+        ],
+        "CUSTOM-GAP-DIVERSIFIED-RETAIL": [
+          {
+            "symbol": "KORE",
+            "name": "Jay Jalaram Tech",
+            "reason": "liquidity",
+            "adv": 2743473
+          },
+          {
+            "symbol": "SPENCERS",
+            "name": "Spencer's Retail",
+            "reason": "liquidity",
+            "adv": 1262116
+          },
+          {
+            "symbol": "ONDOOR",
+            "name": "On Door Concepts",
+            "reason": "liquidity",
+            "adv": 1621024
+          },
+          {
+            "symbol": "OSIAHYPER",
+            "name": "Osia Hyper Reta.",
+            "reason": "liquidity",
+            "adv": 780266
+          },
+          {
+            "symbol": "RETAIL",
+            "name": "JHS Svend.Retail",
+            "reason": "liquidity",
+            "adv": 881596
+          },
+          {
+            "symbol": "FLFL",
+            "name": "Future Lifestyle",
+            "reason": "liquidity",
+            "adv": 59279
+          },
+          {
+            "symbol": "FEL",
+            "name": "Future Enterp.",
+            "reason": "liquidity",
+            "adv": 76570
+          },
+          {
+            "symbol": "FELDVR",
+            "name": "Future Ent. DVR",
+            "reason": "liquidity",
+            "adv": 11078
+          }
+        ],
+        "CUSTOM-GAP-SUGAR": [
+          {
+            "symbol": "BANARISUG",
+            "name": "Bannari Amm.Sug.",
+            "reason": "liquidity",
+            "adv": 3651770
+          },
+          {
+            "symbol": "CKKRETAIL",
+            "name": "C K K Retail",
+            "reason": "history"
+          },
+          {
+            "symbol": "KCPSUGIND",
+            "name": "KCP Sugar &Inds.",
+            "reason": "liquidity",
+            "adv": 3744799
+          },
+          {
+            "symbol": "KMSUGAR",
+            "name": "KM Sugar Mills",
+            "reason": "liquidity",
+            "adv": 7666670
+          },
+          {
+            "symbol": "SAKHTISUG",
+            "name": "Sakthi Sugars",
+            "reason": "liquidity",
+            "adv": 3081599
+          },
+          {
+            "symbol": "KOTARISUG",
+            "name": "Kothari Sugars",
+            "reason": "liquidity",
+            "adv": 909945
+          },
+          {
+            "symbol": "RANASUG",
+            "name": "Rana Sugars",
+            "reason": "liquidity",
+            "adv": 5912835
+          },
+          {
+            "symbol": "DOLLEX",
+            "name": "Dollex Agrotech",
+            "reason": "liquidity",
+            "adv": 984312
+          },
+          {
+            "symbol": "VISHWARAJ",
+            "name": "Vishwaraj Sugar",
+            "reason": "liquidity",
+            "adv": 2063792
+          },
+          {
+            "symbol": "RAJSREESUG",
+            "name": "Rajshree Sugars",
+            "reason": "liquidity",
+            "adv": 3388152
+          },
+          {
+            "symbol": "PRUDMOULI",
+            "name": "Pruden. Sugar",
+            "reason": "liquidity",
+            "adv": 173970
+          },
+          {
+            "symbol": "SIMBHALS",
+            "name": "Simbhaoli Sugar",
+            "reason": "liquidity",
+            "adv": 101567
+          }
+        ],
+        "CUSTOM-GAP-OTHER-FOOD-PRODUCTS": [
+          {
+            "symbol": "KRISHIVAL",
+            "name": "Krishival Foods",
+            "reason": "liquidity",
+            "adv": 8955784
+          },
+          {
+            "symbol": "SHRIAHIMSA",
+            "name": "Shri Ahimsa",
+            "reason": "history"
+          },
+          {
+            "symbol": "FRESHARA",
+            "name": "Freshara Agro",
+            "reason": "history"
+          },
+          {
+            "symbol": "PROV",
+            "name": "Proventus Agro.",
+            "reason": "liquidity",
+            "adv": 1166911
+          },
+          {
+            "symbol": "HOACFOODS",
+            "name": "Hoac Foods",
+            "reason": "liquidity",
+            "adv": 2569823
+          },
+          {
+            "symbol": "MADHUSUDAN",
+            "name": "Madhusudan Masa",
+            "reason": "liquidity",
+            "adv": 4201840
+          },
+          {
+            "symbol": "MEGASTAR",
+            "name": "Megastar Foods",
+            "reason": "liquidity",
+            "adv": 4050448
+          },
+          {
+            "symbol": "SSFL",
+            "name": "Srivari Spices &",
+            "reason": "liquidity",
+            "adv": 1700174
+          },
+          {
+            "symbol": "SHIVASHRIT",
+            "name": "Shivashrit Foods",
+            "reason": "history"
+          },
+          {
+            "symbol": "GOYALSALT",
+            "name": "Goyal Salt",
+            "reason": "liquidity",
+            "adv": 821457
+          },
+          {
+            "symbol": "JEYYAM",
+            "name": "Jeyyam Global",
+            "reason": "history"
+          },
+          {
+            "symbol": "SHYAMDHANI",
+            "name": "Shyam Dhani Ind.",
+            "reason": "history"
+          },
+          {
+            "symbol": "BABAFP",
+            "name": "Baba Food",
+            "reason": "liquidity",
+            "adv": 100032
+          },
+          {
+            "symbol": "SANWARIA",
+            "name": "Sanwaria Consum.",
+            "reason": "liquidity",
+            "adv": 119503
+          }
+        ],
+        "CUSTOM-GAP-SEAFOOD": [
+          {
+            "symbol": "COASTCORP",
+            "name": "Coastal Corporat",
+            "reason": "liquidity",
+            "adv": 2717694
+          },
+          {
+            "symbol": "WATERBASE",
+            "name": "Waterbase",
+            "reason": "liquidity",
+            "adv": 895089
+          },
+          {
+            "symbol": "GREENASIA",
+            "name": "Green Asia",
+            "reason": "history"
+          }
+        ],
+        "CUSTOM-GAP-STATIONARY": [
+          {
+            "symbol": "KOKUYOCMLN",
+            "name": "Kokuyo Camlin",
+            "reason": "liquidity",
+            "adv": 1855967
+          },
+          {
+            "symbol": "LINC",
+            "name": "Linc",
+            "reason": "liquidity",
+            "adv": 3087468
+          },
+          {
+            "symbol": "SUNDARAM",
+            "name": "Sundaram Multi.",
+            "reason": "liquidity",
+            "adv": 464020
+          },
+          {
+            "symbol": "VASA",
+            "name": "Vasa Retail",
+            "reason": "liquidity",
+            "adv": 6420
+          }
+        ],
+        "CUSTOM-GAP-INVESTMENT-COMPANY": [
+          {
+            "symbol": "PILANIINVS",
+            "name": "Pilani Invest.",
+            "reason": "liquidity",
+            "adv": 7788658
+          },
+          {
+            "symbol": "NSIL",
+            "name": "Nalwa Sons Invst",
+            "reason": "liquidity",
+            "adv": 9704706
+          },
+          {
+            "symbol": "KICL",
+            "name": "Kalyani Invest.",
+            "reason": "liquidity",
+            "adv": 7379399
+          },
+          {
+            "symbol": "ELCIDIN",
+            "name": "Elcid Investment",
+            "reason": "liquidity",
+            "adv": 876021
+          },
+          {
+            "symbol": "SUMMITSEC",
+            "name": "Summit Securitie",
+            "reason": "liquidity",
+            "adv": 2908877
+          },
+          {
+            "symbol": "VHL",
+            "name": "Vardhman Hold.",
+            "reason": "liquidity",
+            "adv": 3178662
+          },
+          {
+            "symbol": "JINDALPHOT",
+            "name": "Jindal Photo",
+            "reason": "liquidity",
+            "adv": 2564884
+          },
+          {
+            "symbol": "STEL",
+            "name": "STEL Holdings",
+            "reason": "liquidity",
+            "adv": 3352046
+          },
+          {
+            "symbol": "INDPRUD",
+            "name": "Indl.& Prud.Inv.",
+            "reason": "liquidity",
+            "adv": 683430
+          },
+          {
+            "symbol": "JPOLYINVST",
+            "name": "Jindal Poly Inve",
+            "reason": "liquidity",
+            "adv": 3615266
+          },
+          {
+            "symbol": "GKWLIMITED",
+            "name": "GKW",
+            "reason": "liquidity",
+            "adv": 4276879
+          },
+          {
+            "symbol": "HEXATRADEX",
+            "name": "Hexa Tradex",
+            "reason": "liquidity",
+            "adv": 303178
+          },
+          {
+            "symbol": "WELINV",
+            "name": "Welspun Investme",
+            "reason": "liquidity",
+            "adv": 249681
+          },
+          {
+            "symbol": "VLSFINANCE",
+            "name": "VLS Finance",
+            "reason": "liquidity",
+            "adv": 1558930
+          },
+          {
+            "symbol": "BLAL",
+            "name": "BEML Land Assets",
+            "reason": "liquidity",
+            "adv": 2794324
+          },
+          {
+            "symbol": "OSWALGREEN",
+            "name": "Oswal Green Tech",
+            "reason": "liquidity",
+            "adv": 1957740
+          },
+          {
+            "symbol": "SILINV",
+            "name": "SIL Investments",
+            "reason": "liquidity",
+            "adv": 919487
+          },
+          {
+            "symbol": "NAHARCAP",
+            "name": "Nahar Capital",
+            "reason": "liquidity",
+            "adv": 638477
+          },
+          {
+            "symbol": "BLBLIMITED",
+            "name": "BLB",
+            "reason": "liquidity",
+            "adv": 1881586
+          },
+          {
+            "symbol": "PARASPETRO",
+            "name": "Paras Petrofils",
+            "reason": "liquidity",
+            "adv": 204131
+          },
+          {
+            "symbol": "3PLAND",
+            "name": "3P Land Hold.",
+            "reason": "liquidity",
+            "adv": 187235
+          },
+          {
+            "symbol": "MASKINVEST",
+            "name": "MASK INVESTMENTS",
+            "reason": "liquidity",
+            "adv": 20405
+          },
+          {
+            "symbol": "LFIC",
+            "name": "Lak. Fin. & Indl",
+            "reason": "liquidity",
+            "adv": 243468
+          },
+          {
+            "symbol": "NAGREEKCAP",
+            "name": "Nagreeka Cap.",
+            "reason": "liquidity",
+            "adv": 953633
+          },
+          {
+            "symbol": "WILLAMAGOR",
+            "name": "Williamson Magor",
+            "reason": "liquidity",
+            "adv": 84127
+          },
+          {
+            "symbol": "DCMFINSERV",
+            "name": "DCM Financial",
+            "reason": "liquidity",
+            "adv": 77496
+          },
+          {
+            "symbol": "BLUECHIP",
+            "name": "Blue Chip India",
+            "reason": "liquidity",
+            "adv": 598
+          }
+        ],
+        "CUSTOM-GAP-OTHER-FINANCIAL-SERVICES": [
+          {
+            "symbol": "ARCIL",
+            "name": "A R C I",
+            "reason": "history"
+          },
+          {
+            "symbol": "WEALTH",
+            "name": "Wealth First Por",
+            "reason": "liquidity",
+            "adv": 5505898
+          },
+          {
+            "symbol": "CENTRUM",
+            "name": "Centrum Capital",
+            "reason": "liquidity",
+            "adv": 5588796
+          },
+          {
+            "symbol": "RNFI",
+            "name": "RNFI Services",
+            "reason": "history"
+          },
+          {
+            "symbol": "THEINVEST",
+            "name": "The Invest.Trust",
+            "reason": "liquidity",
+            "adv": 427994
+          },
+          {
+            "symbol": "AKIKO",
+            "name": "Akiko",
+            "reason": "liquidity",
+            "adv": 5722440
+          },
+          {
+            "symbol": "NDLVENTURE",
+            "name": "NDL Ventures",
+            "reason": "liquidity",
+            "adv": 933983
+          },
+          {
+            "symbol": "DELPHIFX",
+            "name": "Delphi World",
+            "reason": "liquidity",
+            "adv": 910825
+          },
+          {
+            "symbol": "PML",
+            "name": "Paul Merchants",
+            "reason": "liquidity",
+            "adv": 166020
+          },
+          {
+            "symbol": "RELIABLE",
+            "name": "Reliable Data",
+            "reason": "liquidity",
+            "adv": 5973024
+          },
+          {
+            "symbol": "MAHAPEXLTD",
+            "name": "Maha Rashtra Apx",
+            "reason": "liquidity",
+            "adv": 414996
+          },
+          {
+            "symbol": "MYMUDRA",
+            "name": "My Mudra Fin.",
+            "reason": "history"
+          },
+          {
+            "symbol": "THACKER",
+            "name": "Thacker & Co.",
+            "reason": "liquidity",
+            "adv": 43215
+          },
+          {
+            "symbol": "GATECH",
+            "name": "GACM Tech",
+            "reason": "liquidity",
+            "adv": 9158937
+          },
+          {
+            "symbol": "TRANSCOR",
+            "name": "Transcorp Intl.",
+            "reason": "liquidity",
+            "adv": 96748
+          },
+          {
+            "symbol": "HBPOR",
+            "name": "HB Portfolio",
+            "reason": "liquidity",
+            "adv": 37608
+          },
+          {
+            "symbol": "APOORVA",
+            "name": "Apoorva Leasing",
+            "reason": "liquidity",
+            "adv": 16491
+          },
+          {
+            "symbol": "PIONRINV",
+            "name": "Pioneer Invest",
+            "reason": "liquidity",
+            "adv": 436114
+          },
+          {
+            "symbol": "TOYAMSL",
+            "name": "Toyam Sports",
+            "reason": "liquidity",
+            "adv": 1111508
+          },
+          {
+            "symbol": "SUMEDHA",
+            "name": "Sumedha Fiscal",
+            "reason": "liquidity",
+            "adv": 95755
+          },
+          {
+            "symbol": "GLFL",
+            "name": "Guj. Lease Fin.",
+            "reason": "liquidity",
+            "adv": 45702
+          },
+          {
+            "symbol": "GATECHDVR",
+            "name": "GACM Tech-DVR",
+            "reason": "liquidity",
+            "adv": 124892
+          }
+        ],
+        "CUSTOM-GAP-HOLDING-COMPANY": [
+          {
+            "symbol": "KAMAHOLD",
+            "name": "Kama Holdings",
+            "reason": "liquidity",
+            "adv": 7336383
+          },
+          {
+            "symbol": "BFINVEST",
+            "name": "BF Investment",
+            "reason": "liquidity",
+            "adv": 5302897
+          },
+          {
+            "symbol": "BLIL",
+            "name": "Balmer Law. Inv.",
+            "reason": "liquidity",
+            "adv": 4346960
+          },
+          {
+            "symbol": "AFSL",
+            "name": "Abans Financial",
+            "reason": "liquidity",
+            "adv": 1130512
+          },
+          {
+            "symbol": "GFLLIMITED",
+            "name": "GFL",
+            "reason": "liquidity",
+            "adv": 3627443
+          },
+          {
+            "symbol": "TAMBOLIIN",
+            "name": "Tamboli Industri",
+            "reason": "liquidity",
+            "adv": 2423554
+          },
+          {
+            "symbol": "BILVYAPAR",
+            "name": "BIL Vyapar",
+            "reason": "liquidity",
+            "adv": 35980
+          }
+        ],
+        "CUSTOM-GAP-CONSTRUCTION-VEHICLES": [],
+        "CUSTOM-GAP-PACKAGING": [
+          {
+            "symbol": "DVL",
+            "name": "Dhunseri Vent.",
+            "reason": "liquidity",
+            "adv": 2691216
+          },
+          {
+            "symbol": "ORICONENT",
+            "name": "Oricon Enterpris",
+            "reason": "liquidity",
+            "adv": 7289678
+          },
+          {
+            "symbol": "HITECHCORP",
+            "name": "Hitech Corp.",
+            "reason": "liquidity",
+            "adv": 9959221
+          },
+          {
+            "symbol": "SHREERAMA",
+            "name": "Sh. Rama Multi.",
+            "reason": "liquidity",
+            "adv": 2129103
+          },
+          {
+            "symbol": "SHRJAGP",
+            "name": "Sh. Jagdamba Pol",
+            "reason": "liquidity",
+            "adv": 287400
+          },
+          {
+            "symbol": "KANPRPLA",
+            "name": "Kanpur Plastipa.",
+            "reason": "liquidity",
+            "adv": 5695414
+          },
+          {
+            "symbol": "PYRAMID",
+            "name": "Pyramid Technopl",
+            "reason": "liquidity",
+            "adv": 5874424
+          },
+          {
+            "symbol": "NAHARPOLY",
+            "name": "Nahar Poly",
+            "reason": "liquidity",
+            "adv": 916689
+          },
+          {
+            "symbol": "BBTCL",
+            "name": "B&B Triplewall",
+            "reason": "liquidity",
+            "adv": 1389087
+          },
+          {
+            "symbol": "ECOLINE",
+            "name": "Ecoline Exim",
+            "reason": "history"
+          },
+          {
+            "symbol": "WORTHPERI",
+            "name": "Worth Peripheral",
+            "reason": "liquidity",
+            "adv": 2460233
+          },
+          {
+            "symbol": "RFBL",
+            "name": "RFBL Flexi Pack",
+            "reason": "history"
+          },
+          {
+            "symbol": "COOLCAPS",
+            "name": "Cool Caps",
+            "reason": "liquidity",
+            "adv": 2135144
+          },
+          {
+            "symbol": "MEGAFLEX",
+            "name": "Mega Flex Plast.",
+            "reason": "liquidity",
+            "adv": 94703
+          },
+          {
+            "symbol": "BALAJEE",
+            "name": "Shree TirupatiBa",
+            "reason": "liquidity",
+            "adv": 850032
+          },
+          {
+            "symbol": "AERONEU",
+            "name": "Aeroflex Neu",
+            "reason": "liquidity",
+            "adv": 4200935
+          },
+          {
+            "symbol": "EMMBI",
+            "name": "Emmbi Industries",
+            "reason": "liquidity",
+            "adv": 707842
+          },
+          {
+            "symbol": "RPPL",
+            "name": "Rajshree Polypac",
+            "reason": "liquidity",
+            "adv": 896244
+          },
+          {
+            "symbol": "BARFLEX",
+            "name": "Barflex Polyfilm",
+            "reason": "history"
+          },
+          {
+            "symbol": "ROLLT",
+            "name": "Rollatainers",
+            "reason": "liquidity",
+            "adv": 3123683
+          },
+          {
+            "symbol": "AMDIND",
+            "name": "AMD Industries",
+            "reason": "liquidity",
+            "adv": 2911500
+          },
+          {
+            "symbol": "IDEALTECHO",
+            "name": "Ideal Technopl.",
+            "reason": "history"
+          },
+          {
+            "symbol": "JYOTIGLOBL",
+            "name": "Jyoti Global",
+            "reason": "history"
+          },
+          {
+            "symbol": "ORIENTLTD",
+            "name": "Orient Press",
+            "reason": "liquidity",
+            "adv": 138771
+          },
+          {
+            "symbol": "BULKCORP",
+            "name": "Bulkcorp Inter.",
+            "reason": "history"
+          },
+          {
+            "symbol": "DKEGL",
+            "name": "D.K. Enterprises",
+            "reason": "liquidity",
+            "adv": 55495
+          },
+          {
+            "symbol": "GUJRAFFIA",
+            "name": "Guj. Raffia Inds",
+            "reason": "liquidity",
+            "adv": 3601259
+          },
+          {
+            "symbol": "UMA",
+            "name": "Uma Converter",
+            "reason": "liquidity",
+            "adv": 68600
+          },
+          {
+            "symbol": "POLYSPIN",
+            "name": "Polyspin Exports",
+            "reason": "liquidity",
+            "adv": 40101
+          },
+          {
+            "symbol": "SATIPOLY",
+            "name": "Sati Poly",
+            "reason": "liquidity",
+            "adv": 50297
+          },
+          {
+            "symbol": "SPPPOLY",
+            "name": "SPP Polymer",
+            "reason": "history"
+          },
+          {
+            "symbol": "ANTGRAPHIC",
+            "name": "Antarctica",
+            "reason": "liquidity",
+            "adv": 121543
+          }
+        ],
+        "CUSTOM-GAP-PLASTIC-PRODUCTS-INDUSTRIAL": [
+          {
+            "symbol": "RMDRIP",
+            "name": "R M Drip & Sprin",
+            "reason": "liquidity",
+            "adv": 7545371
+          },
+          {
+            "symbol": "MANIKA",
+            "name": "Manika Plastech",
+            "reason": "history"
+          },
+          {
+            "symbol": "PPL",
+            "name": "Prakash Pipes",
+            "reason": "liquidity",
+            "adv": 7339314
+          },
+          {
+            "symbol": "DHABRIYA",
+            "name": "Dhabriya Poly.",
+            "reason": "liquidity",
+            "adv": 5071248
+          },
+          {
+            "symbol": "CPL",
+            "name": "Captain Polyplas",
+            "reason": "liquidity",
+            "adv": 1931938
+          },
+          {
+            "symbol": "KRITI",
+            "name": "Kriti Industries",
+            "reason": "liquidity",
+            "adv": 864405
+          },
+          {
+            "symbol": "TIRUPATI",
+            "name": "Shree Tirupati",
+            "reason": "liquidity",
+            "adv": 9146
+          },
+          {
+            "symbol": "HINDADH",
+            "name": "Hind.Adhesive",
+            "reason": "liquidity",
+            "adv": 929133
+          },
+          {
+            "symbol": "TAINWALCHM",
+            "name": "Tainwala Chem.",
+            "reason": "liquidity",
+            "adv": 1191929
+          },
+          {
+            "symbol": "MASTER",
+            "name": "Master Component",
+            "reason": "liquidity",
+            "adv": 621030
+          },
+          {
+            "symbol": "SHRITECH",
+            "name": "Shri Techtex",
+            "reason": "liquidity",
+            "adv": 258505
+          },
+          {
+            "symbol": "TEXMOPIPES",
+            "name": "Texmo Pipes",
+            "reason": "liquidity",
+            "adv": 9342882
+          },
+          {
+            "symbol": "POLYSIL",
+            "name": "Polysil Irrigati",
+            "reason": "liquidity",
+            "adv": 2009106
+          },
+          {
+            "symbol": "BRIGHTBR",
+            "name": "Bright Brothers",
+            "reason": "liquidity",
+            "adv": 522581
+          },
+          {
+            "symbol": "PURVFLEXI",
+            "name": "Purv Flexi",
+            "reason": "liquidity",
+            "adv": 93812
+          },
+          {
+            "symbol": "VIGOR",
+            "name": "Vigor Plast",
+            "reason": "history"
+          },
+          {
+            "symbol": "MPEL",
+            "name": "Manas Polymers",
+            "reason": "history"
+          },
+          {
+            "symbol": "SRIKPRIND",
+            "name": "Sri KPR Inds.",
+            "reason": "liquidity",
+            "adv": 128616
+          },
+          {
+            "symbol": "JISLDVREQS",
+            "name": "Jain Irrigat-DVR",
+            "reason": "liquidity",
+            "adv": 463759
+          },
+          {
+            "symbol": "TIJARIA",
+            "name": "Tijaria Polypipe",
+            "reason": "liquidity",
+            "adv": 285674
+          },
+          {
+            "symbol": "SMVD",
+            "name": "SMVD Poly Pack",
+            "reason": "liquidity",
+            "adv": 14887
+          },
+          {
+            "symbol": "BALCO",
+            "name": "Solve Plastic",
+            "reason": "history"
+          }
+        ],
+        "CUSTOM-GAP-OTHER-INDUSTRIAL-PRODUCTS": [
+          {
+            "symbol": "SAHASRA",
+            "name": "Sahasra Electro.",
+            "reason": "history"
+          },
+          {
+            "symbol": "MICEL",
+            "name": "MIC Electronics",
+            "reason": "liquidity",
+            "adv": 4306435
+          },
+          {
+            "symbol": "TANKUP",
+            "name": "Tankup Engi.",
+            "reason": "history"
+          },
+          {
+            "symbol": "MALLCOM",
+            "name": "Mallcom (India)",
+            "reason": "liquidity",
+            "adv": 2229161
+          },
+          {
+            "symbol": "MEGATHERM",
+            "name": "Megatherm Indu.",
+            "reason": "liquidity",
+            "adv": 4043153
+          },
+          {
+            "symbol": "UHTL",
+            "name": "United Heat",
+            "reason": "history"
+          },
+          {
+            "symbol": "CGRAPHICS",
+            "name": "Creative Graphic",
+            "reason": "liquidity",
+            "adv": 5699938
+          },
+          {
+            "symbol": "SHUBHSHREE",
+            "name": "Shubhshree Bio.",
+            "reason": "history"
+          },
+          {
+            "symbol": "RAPPID",
+            "name": "Rappid Valves",
+            "reason": "history"
+          },
+          {
+            "symbol": "AERON",
+            "name": "Aeron Composites",
+            "reason": "history"
+          },
+          {
+            "symbol": "AMEYA",
+            "name": "Ameya Precision",
+            "reason": "liquidity",
+            "adv": 2830353
+          },
+          {
+            "symbol": "HOLMARC",
+            "name": "Holmarc Opto",
+            "reason": "liquidity",
+            "adv": 1138973
+          },
+          {
+            "symbol": "SRIVASAVI",
+            "name": "Srivasavi Adhes.",
+            "reason": "liquidity",
+            "adv": 1090003
+          },
+          {
+            "symbol": "WHBRADY",
+            "name": "W H Brady",
+            "reason": "liquidity",
+            "adv": 53760
+          },
+          {
+            "symbol": "ENVIRO",
+            "name": "Envirotech Sys.",
+            "reason": "history"
+          },
+          {
+            "symbol": "CLASSICEIL",
+            "name": "Classic Electrod",
+            "reason": "history"
+          },
+          {
+            "symbol": "BEARDSELL",
+            "name": "Beardsell",
+            "reason": "liquidity",
+            "adv": 793433
+          },
+          {
+            "symbol": "WOL3D",
+            "name": "WOL 3D India",
+            "reason": "history"
+          },
+          {
+            "symbol": "EXCELLENT",
+            "name": "Excellent Wires",
+            "reason": "history"
+          },
+          {
+            "symbol": "PSFL",
+            "name": "Paramount Specia",
+            "reason": "history"
+          },
+          {
+            "symbol": "DELTAMAGNT",
+            "name": "Delta Manufact.",
+            "reason": "liquidity",
+            "adv": 166074
+          },
+          {
+            "symbol": "ARCIIL",
+            "name": "ARC Insulation",
+            "reason": "history"
+          },
+          {
+            "symbol": "JIWANRAM",
+            "name": "Jiwanram Sheo",
+            "reason": "liquidity",
+            "adv": 55125
+          }
+        ],
+        "CUSTOM-GAP-CABLES-ELECTRICALS": [
+          {
+            "symbol": "LUMINO",
+            "name": "Lumino Inds",
+            "reason": "history"
+          },
+          {
+            "symbol": "PRIMECAB",
+            "name": "Prime Cable Ind.",
+            "reason": "history"
+          },
+          {
+            "symbol": "BHADORA",
+            "name": "Bhadora Indust.",
+            "reason": "history"
+          },
+          {
+            "symbol": "PLAZACABLE",
+            "name": "Plaza Wires",
+            "reason": "liquidity",
+            "adv": 4189275
+          },
+          {
+            "symbol": "DCG",
+            "name": "DCG Cables",
+            "reason": "liquidity",
+            "adv": 1470093
+          },
+          {
+            "symbol": "MARCO",
+            "name": "Marco Cables",
+            "reason": "liquidity",
+            "adv": 240803
+          },
+          {
+            "symbol": "BCP",
+            "name": "B.C. Power",
+            "reason": "history"
+          },
+          {
+            "symbol": "CMICABLES",
+            "name": "CMI",
+            "reason": "liquidity",
+            "adv": 2355
+          }
+        ],
+        "CUSTOM-GAP-COMPRESSORS-PUMPS-DIESEL-ENGINES": [
+          {
+            "symbol": "LATTEYS",
+            "name": "Latteys Industri",
+            "reason": "liquidity",
+            "adv": 1105901
+          },
+          {
+            "symbol": "MAKS",
+            "name": "Maks Energy",
+            "reason": "liquidity",
+            "adv": 3315
+          }
+        ],
+        "CUSTOM-GAP-ELECTRODES-REFRACTORIES": [
+          {
+            "symbol": "MONOLITH",
+            "name": "Monolithisch Ind",
+            "reason": "history"
+          },
+          {
+            "symbol": "IFGLEXPOR",
+            "name": "IFGL Refractori.",
+            "reason": "liquidity",
+            "adv": 4855996
+          },
+          {
+            "symbol": "ORIENTCER",
+            "name": "Orient Ceratech",
+            "reason": "liquidity",
+            "adv": 3492750
+          },
+          {
+            "symbol": "DENORA",
+            "name": "DE Nora India",
+            "reason": "liquidity",
+            "adv": 4382039
+          },
+          {
+            "symbol": "ROYALARC",
+            "name": "Royal Arc Ele.",
+            "reason": "history"
+          },
+          {
+            "symbol": "REFRACTORY",
+            "name": "Refractory Shap.",
+            "reason": "liquidity",
+            "adv": 605943
+          },
+          {
+            "symbol": "AUROIMPEX",
+            "name": "Auro Impex",
+            "reason": "liquidity",
+            "adv": 772624
+          },
+          {
+            "symbol": "SPRL",
+            "name": "SP Refractories",
+            "reason": "liquidity",
+            "adv": 187510
+          }
+        ],
+        "CUSTOM-GAP-RUBBER": [
+          {
+            "symbol": "GRPLTD",
+            "name": "GRP",
+            "reason": "liquidity",
+            "adv": 3779655
+          },
+          {
+            "symbol": "RUBFILA",
+            "name": "Rubfila Intl.",
+            "reason": "liquidity",
+            "adv": 3131156
+          },
+          {
+            "symbol": "GRCL",
+            "name": "Gayatri Rubbers",
+            "reason": "liquidity",
+            "adv": 652892
+          },
+          {
+            "symbol": "HARRMALAYA",
+            "name": "Harri. Malayalam",
+            "reason": "liquidity",
+            "adv": 1637722
+          },
+          {
+            "symbol": "ELGIRUBCO",
+            "name": "Elgi Rubber Co",
+            "reason": "liquidity",
+            "adv": 3244410
+          },
+          {
+            "symbol": "SAMPANN",
+            "name": "Sampann Utpadan",
+            "reason": "liquidity",
+            "adv": 337428
+          },
+          {
+            "symbol": "LRRPL",
+            "name": "Lead Reclaim",
+            "reason": "liquidity",
+            "adv": 1019929
+          },
+          {
+            "symbol": "PENTAGON",
+            "name": "Pentagon Rubber",
+            "reason": "liquidity",
+            "adv": 346775
+          }
+        ],
+        "CUSTOM-GAP-TRADING-DISTRIBUTORS": [
+          {
+            "symbol": "STCINDIA",
+            "name": "S T C",
+            "reason": "liquidity",
+            "adv": 1713252
+          },
+          {
+            "symbol": "HPTL",
+            "name": "HP Telecom",
+            "reason": "history"
+          },
+          {
+            "symbol": "OSWALAGRO",
+            "name": "Oswal Agro Mills",
+            "reason": "liquidity",
+            "adv": 1195661
+          },
+          {
+            "symbol": "KOTHARIPRO",
+            "name": "Kothari Products",
+            "reason": "liquidity",
+            "adv": 948084
+          },
+          {
+            "symbol": "ENCOMPAS",
+            "name": "Encompass Design",
+            "reason": "history"
+          },
+          {
+            "symbol": "SAKUMA",
+            "name": "Sakuma Exports",
+            "reason": "liquidity",
+            "adv": 1659622
+          },
+          {
+            "symbol": "VIKASLIFE",
+            "name": "Vikas Lifecare",
+            "reason": "liquidity",
+            "adv": 2321138
+          },
+          {
+            "symbol": "SICAGEN",
+            "name": "Sicagen India",
+            "reason": "liquidity",
+            "adv": 526699
+          },
+          {
+            "symbol": "ROCKINGDCE",
+            "name": "Rockingdeals Cir",
+            "reason": "liquidity",
+            "adv": 1116819
+          },
+          {
+            "symbol": "SIGIND",
+            "name": "Signet Industrie",
+            "reason": "liquidity",
+            "adv": 1131762
+          },
+          {
+            "symbol": "SPCENET",
+            "name": "Spacenet Enterpr",
+            "reason": "liquidity",
+            "adv": 1619384
+          },
+          {
+            "symbol": "ESSENTIA",
+            "name": "Integra Essentia",
+            "reason": "liquidity",
+            "adv": 1851499
+          },
+          {
+            "symbol": "METROGLOBL",
+            "name": "Metroglobal",
+            "reason": "liquidity",
+            "adv": 70103
+          },
+          {
+            "symbol": "ANIKINDS",
+            "name": "Anik Industries",
+            "reason": "liquidity",
+            "adv": 427923
+          },
+          {
+            "symbol": "LAHOTIOV",
+            "name": "Lahoti Overseas",
+            "reason": "liquidity",
+            "adv": 139032
+          },
+          {
+            "symbol": "LANDSMILL",
+            "name": "Landsmill Green",
+            "reason": "liquidity",
+            "adv": 6106685
+          },
+          {
+            "symbol": "CFEL",
+            "name": "Confidence Fut.",
+            "reason": "liquidity",
+            "adv": 714045
+          },
+          {
+            "symbol": "CRAVATEX",
+            "name": "Cravatex",
+            "reason": "liquidity",
+            "adv": 537079
+          },
+          {
+            "symbol": "GOYALALUM",
+            "name": "Goyal Aluminiums",
+            "reason": "liquidity",
+            "adv": 411553
+          },
+          {
+            "symbol": "MINALIND",
+            "name": "Minal Industries",
+            "reason": "liquidity",
+            "adv": 20612
+          },
+          {
+            "symbol": "UMAEXPORTS",
+            "name": "Uma Exports",
+            "reason": "liquidity",
+            "adv": 533955
+          },
+          {
+            "symbol": "KSR",
+            "name": "KSR Footwear",
+            "reason": "liquidity",
+            "adv": 1086055
+          },
+          {
+            "symbol": "BMETRICS",
+            "name": "Bombay Metrics",
+            "reason": "liquidity",
+            "adv": 245722
+          },
+          {
+            "symbol": "ABMINTLLTD",
+            "name": "A B M Internatl.",
+            "reason": "liquidity",
+            "adv": 26785
+          },
+          {
+            "symbol": "PHOGLOBAL",
+            "name": "Phoenix Overseas",
+            "reason": "history"
+          },
+          {
+            "symbol": "AKG",
+            "name": "AKG Exim",
+            "reason": "liquidity",
+            "adv": 160097
+          },
+          {
+            "symbol": "PRISMX",
+            "name": "Prismx Global",
+            "reason": "liquidity",
+            "adv": 111771
+          },
+          {
+            "symbol": "ASIANTNE",
+            "name": "Asian Tea & Exp",
+            "reason": "liquidity",
+            "adv": 109864
+          },
+          {
+            "symbol": "CONTI",
+            "name": "Continental Seed",
+            "reason": "liquidity",
+            "adv": 52395
+          },
+          {
+            "symbol": "SHYAMTEL",
+            "name": "Shyam Telecom",
+            "reason": "liquidity",
+            "adv": 66077
+          }
+        ],
+        "CUSTOM-GAP-CONSULTING-SERVICES": [
+          {
+            "symbol": "MARC",
+            "name": "Marc Technocrats",
+            "reason": "liquidity",
+            "adv": 1513881
+          },
+          {
+            "symbol": "MITCON",
+            "name": "Mitcon Consult.",
+            "reason": "liquidity",
+            "adv": 2362422
+          },
+          {
+            "symbol": "DHRUV",
+            "name": "Dhruv Consultanc",
+            "reason": "liquidity",
+            "adv": 204294
+          },
+          {
+            "symbol": "MIEL",
+            "name": "Manglam Infra",
+            "reason": "history"
+          }
+        ],
+        "CUSTOM-GAP-BUSINESS-PROCESS-OUTSOURCING-BPO-KNOW": [
+          {
+            "symbol": "HGS",
+            "name": "Hinduja Global",
+            "reason": "liquidity",
+            "adv": 4125108
+          },
+          {
+            "symbol": "ALLDIGI",
+            "name": "Alldigi Tech",
+            "reason": "liquidity",
+            "adv": 6593453
+          },
+          {
+            "symbol": "KANDARP",
+            "name": "Kandarp Digi",
+            "reason": "liquidity",
+            "adv": 1027363
+          },
+          {
+            "symbol": "WEWIN",
+            "name": "We Win Ltd",
+            "reason": "liquidity",
+            "adv": 288000
+          },
+          {
+            "symbol": "CADSYS",
+            "name": "Cadsys (India)",
+            "reason": "liquidity",
+            "adv": 21421
+          },
+          {
+            "symbol": "HRHNEXT",
+            "name": "HRH Next",
+            "reason": "liquidity",
+            "adv": 164546
+          },
+          {
+            "symbol": "PLADAINFO",
+            "name": "Plada Infotech S",
+            "reason": "liquidity",
+            "adv": 35603
+          }
+        ],
+        "CUSTOM-GAP-DIVERSIFIED-COMMERCIAL-SERVICES": [
+          {
+            "symbol": "NDRINVIT",
+            "name": "NDR INVIT Trust",
+            "reason": "history"
+          },
+          {
+            "symbol": "NIRLON",
+            "name": "Nirlon",
+            "reason": "liquidity",
+            "adv": 2449128
+          },
+          {
+            "symbol": "INDIQUBE",
+            "name": "Indiqube Spaces",
+            "reason": "liquidity",
+            "adv": 8991000
+          },
+          {
+            "symbol": "TVSINVIT",
+            "name": "TVS Infra. Trust",
+            "reason": "history"
+          },
+          {
+            "symbol": "VIESL",
+            "name": "Vision Infra",
+            "reason": "history"
+          },
+          {
+            "symbol": "PHOENXINTL",
+            "name": "Phoenix Intl.",
+            "reason": "liquidity",
+            "adv": 1201262
+          },
+          {
+            "symbol": "ICDSLTD",
+            "name": "ICDS",
+            "reason": "liquidity",
+            "adv": 144755
+          },
+          {
+            "symbol": "SFML",
+            "name": "Supreme Facility",
+            "reason": "history"
+          },
+          {
+            "symbol": "CHAMUNDA",
+            "name": "Chamunda Ele.",
+            "reason": "history"
+          },
+          {
+            "symbol": "FMNL",
+            "name": "Future Market",
+            "reason": "liquidity",
+            "adv": 579917
+          },
+          {
+            "symbol": "MMEL",
+            "name": "Moving Media",
+            "reason": "history"
+          },
+          {
+            "symbol": "SAICAPI",
+            "name": "Sai Capital",
+            "reason": "liquidity",
+            "adv": 61905
+          },
+          {
+            "symbol": "ARMOUR",
+            "name": "Armour Security",
+            "reason": "history"
+          },
+          {
+            "symbol": "WHITEFORCE",
+            "name": "Happy Square",
+            "reason": "history"
+          },
+          {
+            "symbol": "SHAIVAL",
+            "name": "Shaival Reality",
+            "reason": "liquidity",
+            "adv": 11880
+          },
+          {
+            "symbol": "FALCONTECH",
+            "name": "Falcon",
+            "reason": "liquidity",
+            "adv": 92814
+          },
+          {
+            "symbol": "KONTOR",
+            "name": "Kontor Space",
+            "reason": "liquidity",
+            "adv": 78643
+          },
+          {
+            "symbol": "TRANSWIND",
+            "name": "Transwind Infra.",
+            "reason": "liquidity",
+            "adv": 2260
+          }
+        ],
+        "CUSTOM-MICRO-CDMO": [
+          {
+            "symbol": "PIRAMAL",
+            "name": "PIRAMAL",
+            "reason": "history"
+          }
+        ],
+        "CUSTOM-MICRO-API": [],
+        "CUSTOM-MICRO-GENERICS": [],
+        "CUSTOM-MICRO-DIAG": [],
+        "CUSTOM-MICRO-EV2W": [
+          {
+            "symbol": "OLA",
+            "name": "OLA",
+            "reason": "history"
+          },
+          {
+            "symbol": "ATHER",
+            "name": "ATHER",
+            "reason": "history"
+          }
+        ],
+        "CUSTOM-MICRO-EVPV": [
+          {
+            "symbol": "TATAMOTORS",
+            "name": "TATAMOTORS",
+            "reason": "history"
+          },
+          {
+            "symbol": "TEMPO",
+            "name": "TEMPO",
+            "reason": "history"
+          }
+        ],
+        "CUSTOM-MICRO-EVCOMP": [],
+        "CUSTOM-MICRO-QSR": [
+          {
+            "symbol": "RESTAURANT",
+            "name": "RESTAURANT",
+            "reason": "history"
+          }
+        ],
+        "CUSTOM-MICRO-SANITARY": [
+          {
+            "symbol": "HSIL",
+            "name": "HSIL",
+            "reason": "history"
+          },
+          {
+            "symbol": "SOMANY",
+            "name": "SOMANY",
+            "reason": "history"
+          }
+        ],
+        "CUSTOM-MICRO-CNC": [
+          {
+            "symbol": "LAKSHMIMACH",
+            "name": "LAKSHMIMACH",
+            "reason": "history"
+          },
+          {
+            "symbol": "PREMIER",
+            "name": "PREMIER",
+            "reason": "liquidity",
+            "adv": 49285
+          }
+        ],
+        "CUSTOM-MICRO-TRANSFORM": [
+          {
+            "symbol": "TRANSRAIL",
+            "name": "TRANSRAIL",
+            "reason": "history"
+          }
+        ]
       }
     }
   }
