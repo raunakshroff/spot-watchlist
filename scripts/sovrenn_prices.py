@@ -22,6 +22,7 @@ IST = ZoneInfo("Asia/Kolkata")
 # (key = sovrenn.json "key"). Name checked against Yahoo longName.
 OVERRIDES = {
     "544161": ["DPABHUSHAN.NS"],  # D. P. Abhushan Limited
+    "PARTH": ["PARTH-SM.NS"],  # Parth Electricals & Engineering Limited (NSE-SME)
 }
 
 

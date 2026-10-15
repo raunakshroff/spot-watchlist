@@ -1,5 +1,299 @@
 [
   {
+    "key": "PARTH",
+    "name": "Parth Electricals & Engineering Limited",
+    "nameRaw": "PARTH ELECTRICALS & ENGINEERING LIMITED",
+    "codes": {
+      "NSE-SME": "PARTH"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "PARTH.NS"
+    ],
+    "ticker": "PARTH-SM.NS",
+    "firstCoveredBySovrenn": "2025-09-16",
+    "mentions": [
+      {
+        "date": "2026-10-15",
+        "tag": "ORDER",
+        "filing": "(ORDER) Company secured domestic orders worth INR 85 Cr (excluding GST) from various EPC contractors in Gujarat to manufacture and supply Ring Main Units (RMUs). The project is scheduled to commence within two months and will be executed over the subsequent 12 months, bringing the company's total executable order book to INR 471 Cr as of 15th Oct 2026.",
+        "outlook": "Company targets 25–30% annual revenue growth over the next 3–5 years, with EBITDA margins improving by at least 1 percentage point annually for 2–3 years. Growth will be supported by the INR 271 Cr order book, INR 100+ Cr opportunity pipeline and commissioning of Vadodara and Odisha facilities, expanding peak revenue potential to 2.5x FY26 revenue. Exports are targeted to contribute 20–25% of manufacturing sales.",
+        "sovrennMcap": "INR 775 Crore",
+        "sovrennPe": "55.3x"
+      }
+    ],
+    "firstHighlighted": "2026-10-15",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-15",
+    "latestTag": "ORDER",
+    "latestReason": "(ORDER) Company secured domestic orders worth INR 85 Cr (excluding GST) from various EPC contractors in Gujarat to manufacture and supply Ring Main Units (RMUs). The project is scheduled to commence within two months and will be executed over the subsequent 12 months, bringing the company's total executable order book to INR 471 Cr as of 15th Oct 2026.",
+    "latestOutlook": "Company targets 25–30% annual revenue growth over the next 3–5 years, with EBITDA margins improving by at least 1 percentage point annually for 2–3 years. Growth will be supported by the INR 271 Cr order book, INR 100+ Cr opportunity pipeline and commissioning of Vadodara and Odisha facilities, expanding peak revenue potential to 2.5x FY26 revenue. Exports are targeted to contribute 20–25% of manufacturing sales.",
+    "sovrennMcap": "INR 775 Crore",
+    "sovrennPe": "55.3x",
+    "price": 560.35,
+    "buyZone": "n/a",
+    "buyZoneNote": "Yahoo has no daily history for this listing (latest quote only)",
+    "priceDate": "2026-10-15",
+    "dma20": null,
+    "dma50": null,
+    "dma200": null,
+    "rsi14": null,
+    "bars": 1,
+    "priceAtHighlight": 560.35,
+    "priceAtHighlightDate": "2026-10-15",
+    "pctSinceHighlight": 0.0,
+    "mcapCr": null,
+    "lastUpdated": "2026-10-15 22:11 IST"
+  },
+  {
+    "key": "EMMVEE",
+    "name": "Emmvee Photovoltaic Power Limited",
+    "nameRaw": "EMMVEE PHOTOVOLTAIC POWER LIMITED",
+    "codes": {
+      "NSE": "EMMVEE"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "EMMVEE.NS"
+    ],
+    "ticker": "EMMVEE.NS",
+    "firstCoveredBySovrenn": "2026-05-06",
+    "mentions": [
+      {
+        "date": "2026-10-15",
+        "tag": "GOOD TO EXCELLENT RESULTS",
+        "filing": "(GOOD TO EXCELLENT RESULTS) For the quarter ending Sep-26, Sales up 39% YoY from INR 1,131 Cr in Sep-25 to INR 1,576 Cr in Sep-26. Over the same period, Operating Profit Margin remained flat at 35%. Similarly, Net Profit up 61% from INR 238 Cr to INR 382 Cr. On a QoQ basis, Sales up 1% and Net Profit up 1%.",
+        "outlook": "Company targets FY27 EBITDA of INR 2,400 Cr, up 38%, supported by its 9.9 GW order book, with over 7 GW scheduled for execution within 18 months. Capacity will expand to 16.3 GW modules and 8.9 GW cells by early FY28. INR 10,500–11,000 Cr capex will fund integrated manufacturing and backward integration. ALMM-II and nearly 100% DCR sales targeted by Jan’27 can support domestic demand.",
+        "sovrennMcap": "INR 19,625 Crore",
+        "sovrennPe": "13.8x"
+      }
+    ],
+    "firstHighlighted": "2026-10-15",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-15",
+    "latestTag": "GOOD TO EXCELLENT RESULTS",
+    "latestReason": "(GOOD TO EXCELLENT RESULTS) For the quarter ending Sep-26, Sales up 39% YoY from INR 1,131 Cr in Sep-25 to INR 1,576 Cr in Sep-26. Over the same period, Operating Profit Margin remained flat at 35%. Similarly, Net Profit up 61% from INR 238 Cr to INR 382 Cr. On a QoQ basis, Sales up 1% and Net Profit up 1%.",
+    "latestOutlook": "Company targets FY27 EBITDA of INR 2,400 Cr, up 38%, supported by its 9.9 GW order book, with over 7 GW scheduled for execution within 18 months. Capacity will expand to 16.3 GW modules and 8.9 GW cells by early FY28. INR 10,500–11,000 Cr capex will fund integrated manufacturing and backward integration. ALMM-II and nearly 100% DCR sales targeted by Jan’27 can support domestic demand.",
+    "sovrennMcap": "INR 19,625 Crore",
+    "sovrennPe": "13.8x",
+    "price": 282.1,
+    "priceDate": "2026-10-15",
+    "dma20": 311.81,
+    "dma50": 320.05,
+    "dma200": 273.97,
+    "rsi14": 30.3,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport, rsiOk",
+    "bars": 226,
+    "priceAtHighlight": 282.1,
+    "priceAtHighlightDate": "2026-10-15",
+    "pctSinceHighlight": 0.0,
+    "mcapCr": 19531,
+    "lastUpdated": "2026-10-15 22:11 IST"
+  },
+  {
+    "key": "544751",
+    "name": "Mehul Telecom Limited",
+    "nameRaw": "MEHUL TELECOM LIMITED",
+    "codes": {
+      "BSE-SME": "544751"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "544751.BO"
+    ],
+    "ticker": "MTL.BO",
+    "firstCoveredBySovrenn": "2026-10-15",
+    "mentions": [
+      {
+        "date": "2026-10-15",
+        "tag": "NEW STORE",
+        "filing": "(NEW STORE) Company opened a new franchise retail store under the brand name “Mobile Daddy” in Metoda, Rajkot, Gujarat, on 14th Oct 2026.",
+        "outlook": "Company targets 50% revenue growth in both FY27 and FY28, driven by festive- heavy sales and an aggressive retail expansion from 98 to 300 stores across Gujarat by FY28-end. This growth will be fueled by high-yielding Company-Owned Company-Operated (COCO) stores, projected to contribute 60% of total revenue with 6–7% EBITDA margins. Furthermore, expanding beyond Rajkot and Morbi will reduce geographic concentration, allowing seamless scaling without requiring additional external funding.",
+        "sovrennMcap": "INR 138 Crore",
+        "sovrennPe": "13.8x"
+      }
+    ],
+    "firstHighlighted": "2026-10-15",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-15",
+    "latestTag": "NEW STORE",
+    "latestReason": "(NEW STORE) Company opened a new franchise retail store under the brand name “Mobile Daddy” in Metoda, Rajkot, Gujarat, on 14th Oct 2026.",
+    "latestOutlook": "Company targets 50% revenue growth in both FY27 and FY28, driven by festive- heavy sales and an aggressive retail expansion from 98 to 300 stores across Gujarat by FY28-end. This growth will be fueled by high-yielding Company-Owned Company-Operated (COCO) stores, projected to contribute 60% of total revenue with 6–7% EBITDA margins. Furthermore, expanding beyond Rajkot and Morbi will reduce geographic concentration, allowing seamless scaling without requiring additional external funding.",
+    "sovrennMcap": "INR 138 Crore",
+    "sovrennPe": "13.8x",
+    "tickerResolvedBy": "yahoo search",
+    "price": 130.3,
+    "priceDate": "2026-10-15",
+    "dma20": 122.48,
+    "dma50": 108.34,
+    "dma200": null,
+    "rsi14": 56.8,
+    "buyZone": "n/a",
+    "buyZoneNote": "insufficient history (above200)",
+    "bars": 120,
+    "priceAtHighlight": 130.3,
+    "priceAtHighlightDate": "2026-10-15",
+    "pctSinceHighlight": 0.0,
+    "mcapCr": 136,
+    "lastUpdated": "2026-10-15 22:11 IST"
+  },
+  {
+    "key": "544669",
+    "name": "Admach Systems Limited",
+    "nameRaw": "ADMACH SYSTEMS LIMITED",
+    "codes": {
+      "BSE-SME": "544669"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "544669.BO"
+    ],
+    "ticker": "ADMACH.BO",
+    "firstCoveredBySovrenn": "2026-01-06",
+    "mentions": [
+      {
+        "date": "2026-10-15",
+        "tag": "ORDER",
+        "filing": "(ORDER) Company secured a domestic purchase order worth INR 8 Cr (including GST) from a listed steel company to supply Processing and Non-Destructive Testing (NDT) Equipment for Steel Bars within 26 weeks, expanding its total order book to INR 76 Cr. The payment structure involves a 20% advance against an Advance Bank Guarantee, 70% (with 100% tax) paid against inspection and a proforma invoice, and the remaining 10% paid after successful commissioning against a Performance Bank Guarantee valid for 12 to 18 months.",
+        "outlook": "Company targets revenue of INR 100 Cr in FY27 and INR 200 Cr in FY28. Growth will be supported by the INR 84 Cr order book, expected to be executed by Q3FY27, and INR 200 Cr worth of submitted bids, with a historical win rate of 60–65%. Existing facilities can support revenue up to INR 200 Cr, providing capacity to meet the FY28 target without requiring immediate facility expansion.",
+        "sovrennMcap": "INR 345 Crore",
+        "sovrennPe": "34.5x"
+      }
+    ],
+    "firstHighlighted": "2026-10-15",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-15",
+    "latestTag": "ORDER",
+    "latestReason": "(ORDER) Company secured a domestic purchase order worth INR 8 Cr (including GST) from a listed steel company to supply Processing and Non-Destructive Testing (NDT) Equipment for Steel Bars within 26 weeks, expanding its total order book to INR 76 Cr. The payment structure involves a 20% advance against an Advance Bank Guarantee, 70% (with 100% tax) paid against inspection and a proforma invoice, and the remaining 10% paid after successful commissioning against a Performance Bank Guarantee valid for 12 to 18 months.",
+    "latestOutlook": "Company targets revenue of INR 100 Cr in FY27 and INR 200 Cr in FY28. Growth will be supported by the INR 84 Cr order book, expected to be executed by Q3FY27, and INR 200 Cr worth of submitted bids, with a historical win rate of 60–65%. Existing facilities can support revenue up to INR 200 Cr, providing capacity to meet the FY28 target without requiring immediate facility expansion.",
+    "sovrennMcap": "INR 345 Crore",
+    "sovrennPe": "34.5x",
+    "tickerResolvedBy": "yahoo search",
+    "price": 520.0,
+    "priceDate": "2026-10-15",
+    "dma20": 469.83,
+    "dma50": 427.0,
+    "dma200": null,
+    "rsi14": 68.5,
+    "buyZone": "n/a",
+    "buyZoneNote": "insufficient history (above200)",
+    "bars": 195,
+    "priceAtHighlight": 520.0,
+    "priceAtHighlightDate": "2026-10-15",
+    "pctSinceHighlight": 0.0,
+    "mcapCr": 352,
+    "lastUpdated": "2026-10-15 22:11 IST"
+  },
+  {
+    "key": "544248",
+    "name": "Mach Travel Solutions Limited",
+    "nameRaw": "MACH TRAVEL SOLUTIONS LIMITED",
+    "codes": {
+      "BSE-SME": "544248"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "544248.BO"
+    ],
+    "ticker": "MACHLTD.BO",
+    "firstCoveredBySovrenn": "2024-09-12",
+    "mentions": [
+      {
+        "date": "2026-09-29",
+        "tag": "PROMOTER BUYING",
+        "filing": "(PROMOTER BUYING) Promoter and Director Amit Bhatia acquired a combined 2,400 equity shares on 28th Sep 2026, for a total value of INR 4 lakh, at an average price of INR 165 per share.",
+        "outlook": "Company targets INR 500 Cr revenue in FY27, supported by the INR 92 Cr Punjab Government contract, with INR 71 Cr remaining for execution by Nov’26. Growth will also come from 100+ corporate accounts, the planned MacTravel.com OTA/app targeting 1.25 lakh annual travellers, and IRCTC empanelment with an INR 1 Cr initial order. Management aspires to achieve a 10% EBITDA margin, while expanding across MICE, B2G, Corporate Travel and B2C.",
+        "sovrennMcap": "INR 416 Crore",
+        "sovrennPe": "19.4x"
+      },
+      {
+        "date": "2026-10-15",
+        "tag": "EMPANELMENT",
+        "filing": "(EMPANELMENT) Company has been empanelled by the Madhya Pradesh State Tourism Development Corporation Limited (MPSTDC) under the state's Mukhya Mantri Tirth Yatra Scheme, a pilgrimage programme envisaging approximately 10,000 pilgrims. As part of this empanelment, the company will provide comprehensive pilgrimage management services — including transportation, accommodation, meals, and operational support.",
+        "outlook": "Company targets FY27 revenue of INR 500 Cr, representing 130% growth, with an aspiration to achieve 10% EBITDA margins. Growth will be supported by executing the INR 92 Cr Punjab Government contract, onboarding 100+ corporate accounts and launching MacTravel.com to monetize its captive base of 1.25 lakh annual travellers. IRCTC empanelment and its initial INR 1 Cr order provide additional opportunities to expand corporate, government and B2C travel businesses.",
+        "sovrennMcap": "INR 494 Crore",
+        "sovrennPe": "24.4x"
+      }
+    ],
+    "firstHighlighted": "2026-09-29",
+    "timesMentioned": 2,
+    "latestDate": "2026-10-15",
+    "latestTag": "EMPANELMENT",
+    "latestReason": "(EMPANELMENT) Company has been empanelled by the Madhya Pradesh State Tourism Development Corporation Limited (MPSTDC) under the state's Mukhya Mantri Tirth Yatra Scheme, a pilgrimage programme envisaging approximately 10,000 pilgrims. As part of this empanelment, the company will provide comprehensive pilgrimage management services — including transportation, accommodation, meals, and operational support.",
+    "latestOutlook": "Company targets FY27 revenue of INR 500 Cr, representing 130% growth, with an aspiration to achieve 10% EBITDA margins. Growth will be supported by executing the INR 92 Cr Punjab Government contract, onboarding 100+ corporate accounts and launching MacTravel.com to monetize its captive base of 1.25 lakh annual travellers. IRCTC empanelment and its initial INR 1 Cr order provide additional opportunities to expand corporate, government and B2C travel businesses.",
+    "sovrennMcap": "INR 494 Crore",
+    "sovrennPe": "24.4x",
+    "price": 224.95,
+    "priceDate": "2026-10-15",
+    "dma20": 195.21,
+    "dma50": 177.58,
+    "dma200": 141.13,
+    "rsi14": 65.2,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport, rsiOk, notExtended",
+    "bars": 495,
+    "priceAtHighlight": 193.0,
+    "priceAtHighlightDate": "2026-09-29",
+    "pctSinceHighlight": 16.55,
+    "mcapCr": 473,
+    "lastUpdated": "2026-10-15 22:11 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "505872",
+    "name": "Accent Microcell Limited",
+    "nameRaw": "ACCENT MICROCELL LIMITED",
+    "codes": {
+      "BSE-SME": "505872"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "505872.BO"
+    ],
+    "ticker": "ACCENTMIC-SM.NS",
+    "firstCoveredBySovrenn": "2023-12-22",
+    "mentions": [
+      {
+        "date": "2026-10-15",
+        "tag": "GOOD TO EXCELLENT RESULTS",
+        "filing": "(GOOD TO EXCELLENT RESULTS) For the half year ending Sep-26, Sales up 26% YoY from INR 139 Cr in Sep-25 to INR 175 Cr in Sep-26. Over the same period, Operating Profit Margin increased from 17% to 24%. Similarly, Net Profit up 72% from INR 18 Cr to INR 31 Cr. On a HoH basis, Sales down 17% and Net Profit up 19%.",
+        "outlook": "Company’s growth will be driven by capacity expansion beyond Units I and II, which were operating at 95–100% utilization in Q4FY26. Unit 3 Phase 1 offers INR 150–170 Cr revenue potential, with 50–60% utilization targeted in its first year. Phase 2 adds INR 200 Cr potential, targeting 75–80% first-year utilization. INR 102 Cr capital work-in-progress supports expansion, with land available for future development through Phase 6.",
+        "sovrennMcap": "INR 1,650 Crore",
+        "sovrennPe": "29x"
+      }
+    ],
+    "firstHighlighted": "2026-10-15",
+    "timesMentioned": 1,
+    "latestDate": "2026-10-15",
+    "latestTag": "GOOD TO EXCELLENT RESULTS",
+    "latestReason": "(GOOD TO EXCELLENT RESULTS) For the half year ending Sep-26, Sales up 26% YoY from INR 139 Cr in Sep-25 to INR 175 Cr in Sep-26. Over the same period, Operating Profit Margin increased from 17% to 24%. Similarly, Net Profit up 72% from INR 18 Cr to INR 31 Cr. On a HoH basis, Sales down 17% and Net Profit up 19%.",
+    "latestOutlook": "Company’s growth will be driven by capacity expansion beyond Units I and II, which were operating at 95–100% utilization in Q4FY26. Unit 3 Phase 1 offers INR 150–170 Cr revenue potential, with 50–60% utilization targeted in its first year. Phase 2 adds INR 200 Cr potential, targeting 75–80% first-year utilization. INR 102 Cr capital work-in-progress supports expansion, with land available for future development through Phase 6.",
+    "sovrennMcap": "INR 1,650 Crore",
+    "sovrennPe": "29x",
+    "tickerResolvedBy": "yahoo search",
+    "price": 688.0,
+    "priceDate": "2026-10-15",
+    "dma20": null,
+    "dma50": null,
+    "dma200": null,
+    "rsi14": null,
+    "buyZone": "n/a",
+    "buyZoneNote": "Yahoo has no daily history for this listing (latest quote only)",
+    "bars": 1,
+    "priceAtHighlight": 688.0,
+    "priceAtHighlightDate": "2026-10-15",
+    "pctSinceHighlight": 0.0,
+    "mcapCr": null,
+    "lastUpdated": "2026-10-15 22:11 IST"
+  },
+  {
     "key": "TARIL",
     "name": "Transformers & Rectifiers (India) Limited",
     "nameRaw": "TRANSFORMERS & RECTIFIERS (INDIA) LIMITED",
@@ -44,7 +338,7 @@
     "priceAtHighlightDate": "2026-10-14",
     "pctSinceHighlight": -4.59,
     "mcapCr": 10009,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "SEJALLTD",
@@ -91,7 +385,7 @@
     "priceAtHighlightDate": "2026-10-14",
     "pctSinceHighlight": 10.29,
     "mcapCr": 1133,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "RECODE",
@@ -138,7 +432,7 @@
     "priceAtHighlightDate": "2026-10-14",
     "pctSinceHighlight": -4.11,
     "mcapCr": 466,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "OBSCP",
@@ -193,7 +487,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -242,7 +536,7 @@
     "priceAtHighlightDate": "2026-10-14",
     "pctSinceHighlight": -6.0,
     "mcapCr": 748,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "KARAMTARA",
@@ -289,7 +583,7 @@
     "priceAtHighlightDate": "2026-10-14",
     "pctSinceHighlight": 2.85,
     "mcapCr": null,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "UTLSOLAR",
@@ -336,7 +630,7 @@
     "priceAtHighlightDate": "2026-10-13",
     "pctSinceHighlight": -0.07,
     "mcapCr": 12350,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "PRECWIRE",
@@ -385,7 +679,7 @@
     "priceAtHighlightDate": "2026-10-13",
     "pctSinceHighlight": -6.89,
     "mcapCr": 8102,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "PNGSREVA",
@@ -440,7 +734,7 @@
     "priceAtHighlightDate": "2026-10-06",
     "pctSinceHighlight": 16.77,
     "mcapCr": 2025,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "KERNEX",
@@ -487,7 +781,7 @@
     "priceAtHighlightDate": "2026-10-13",
     "pctSinceHighlight": -1.47,
     "mcapCr": 2887,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "KARNIKA",
@@ -534,7 +828,7 @@
     "priceAtHighlightDate": "2026-10-13",
     "pctSinceHighlight": -0.04,
     "mcapCr": 1930,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "543939",
@@ -581,7 +875,7 @@
     "priceAtHighlightDate": "2026-10-13",
     "pctSinceHighlight": -1.04,
     "mcapCr": 298,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -637,7 +931,7 @@
     "priceAtHighlightDate": "2026-10-07",
     "pctSinceHighlight": 10.45,
     "mcapCr": 915,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "CLEANMAX",
@@ -684,7 +978,7 @@
     "priceAtHighlightDate": "2026-10-12",
     "pctSinceHighlight": -3.13,
     "mcapCr": 14765,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "APSISAERO",
@@ -731,7 +1025,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -779,7 +1073,7 @@
     "priceAtHighlightDate": "2026-10-12",
     "pctSinceHighlight": -4.7,
     "mcapCr": 1271,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "AEROFLEX",
@@ -826,7 +1120,7 @@
     "priceAtHighlightDate": "2026-10-12",
     "pctSinceHighlight": -10.03,
     "mcapCr": 6761,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "544332",
@@ -873,7 +1167,7 @@
     "priceAtHighlightDate": "2026-10-12",
     "pctSinceHighlight": -2.13,
     "mcapCr": 588,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -921,7 +1215,7 @@
     "priceAtHighlightDate": "2026-10-09",
     "pctSinceHighlight": 1.79,
     "mcapCr": 2919,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "SHREEREF",
@@ -968,7 +1262,7 @@
     "priceAtHighlightDate": "2026-10-09",
     "pctSinceHighlight": -7.79,
     "mcapCr": 1226,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "PURPLEUTED",
@@ -1023,7 +1317,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -1073,7 +1367,7 @@
     "priceAtHighlightDate": "2026-10-09",
     "pctSinceHighlight": 32.14,
     "mcapCr": null,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "AVALON",
@@ -1120,7 +1414,7 @@
     "priceAtHighlightDate": "2026-10-09",
     "pctSinceHighlight": -11.02,
     "mcapCr": 13690,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "VOLTAMP",
@@ -1167,7 +1461,7 @@
     "priceAtHighlightDate": "2026-10-08",
     "pctSinceHighlight": -0.05,
     "mcapCr": 10516,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "VINYAS",
@@ -1214,7 +1508,7 @@
     "priceAtHighlightDate": "2026-10-08",
     "pctSinceHighlight": 14.29,
     "mcapCr": 1441,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "UNIVASTU",
@@ -1261,7 +1555,7 @@
     "priceAtHighlightDate": "2026-10-08",
     "pctSinceHighlight": 8.8,
     "mcapCr": 508,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "SKYGOLD",
@@ -1308,7 +1602,7 @@
     "priceAtHighlightDate": "2026-10-08",
     "pctSinceHighlight": 13.22,
     "mcapCr": 15510,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "KANORICHEM",
@@ -1357,7 +1651,7 @@
     "priceAtHighlightDate": "2026-10-08",
     "pctSinceHighlight": 7.06,
     "mcapCr": 830,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "539730",
@@ -1404,7 +1698,7 @@
     "priceAtHighlightDate": "2026-10-08",
     "pctSinceHighlight": -4.54,
     "mcapCr": 2498,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -1452,7 +1746,7 @@
     "priceAtHighlightDate": "2026-10-07",
     "pctSinceHighlight": 6.4,
     "mcapCr": 763,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -1500,7 +1794,7 @@
     "priceAtHighlightDate": "2026-10-07",
     "pctSinceHighlight": -4.77,
     "mcapCr": 195,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "PATELCHEM",
@@ -1549,7 +1843,7 @@
     "priceAtHighlightDate": "2026-10-07",
     "pctSinceHighlight": 13.83,
     "mcapCr": 406,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "KRMAYURVEDA",
@@ -1596,7 +1890,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -1644,7 +1938,7 @@
     "priceAtHighlightDate": "2026-10-07",
     "pctSinceHighlight": -8.51,
     "mcapCr": 7905,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -1692,7 +1986,7 @@
     "priceAtHighlightDate": "2026-10-06",
     "pctSinceHighlight": 3.84,
     "mcapCr": null,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "SKYWAYS",
@@ -1739,7 +2033,7 @@
     "priceAtHighlightDate": "2026-10-06",
     "pctSinceHighlight": -6.98,
     "mcapCr": 1535,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "MPIMANIPAL",
@@ -1786,7 +2080,7 @@
     "priceAtHighlightDate": "2026-10-06",
     "pctSinceHighlight": -8.36,
     "mcapCr": null,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "INDOSMC",
@@ -1835,7 +2129,7 @@
     "priceAtHighlightDate": "2026-10-06",
     "pctSinceHighlight": -2.51,
     "mcapCr": 1112,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -1885,7 +2179,7 @@
     "priceAtHighlightDate": "2026-10-06",
     "pctSinceHighlight": 27.89,
     "mcapCr": 224,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -1969,7 +2263,7 @@
     "priceAtHighlightDate": "2026-10-05",
     "pctSinceHighlight": -6.28,
     "mcapCr": 6330,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -2017,7 +2311,7 @@
     "priceAtHighlightDate": "2026-10-05",
     "pctSinceHighlight": -6.07,
     "mcapCr": 6167,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "HIIL",
@@ -2066,7 +2360,7 @@
     "priceAtHighlightDate": "2026-10-05",
     "pctSinceHighlight": 17.12,
     "mcapCr": 1335,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -2114,7 +2408,7 @@
     "priceAtHighlightDate": "2026-10-05",
     "pctSinceHighlight": 1.55,
     "mcapCr": 760,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -2162,7 +2456,7 @@
     "priceAtHighlightDate": "2026-10-01",
     "pctSinceHighlight": -8.05,
     "mcapCr": 45157,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "SATKARTAR",
@@ -2209,7 +2503,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -2257,7 +2551,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -2305,7 +2599,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -2353,7 +2647,7 @@
     "priceAtHighlightDate": "2026-10-01",
     "pctSinceHighlight": -5.77,
     "mcapCr": 28788,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "544310",
@@ -2398,7 +2692,7 @@
     "priceAtHighlightDate": "2026-10-01",
     "pctSinceHighlight": 5.87,
     "mcapCr": 3499,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -2478,7 +2772,7 @@
     "priceAtHighlightDate": "2026-09-30",
     "pctSinceHighlight": -15.21,
     "mcapCr": 552,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -2526,7 +2820,7 @@
     "priceAtHighlightDate": "2026-09-30",
     "pctSinceHighlight": 33.75,
     "mcapCr": 5462,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "543616",
@@ -2573,7 +2867,7 @@
     "priceAtHighlightDate": "2026-09-30",
     "pctSinceHighlight": 13.03,
     "mcapCr": 494,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -2621,7 +2915,7 @@
     "priceAtHighlightDate": "2026-09-30",
     "pctSinceHighlight": 1.96,
     "mcapCr": 520,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -2669,7 +2963,7 @@
     "priceAtHighlightDate": "2026-09-30",
     "pctSinceHighlight": -3.18,
     "mcapCr": 1963,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -2717,7 +3011,7 @@
     "priceAtHighlightDate": "2026-09-29",
     "pctSinceHighlight": -1.02,
     "mcapCr": 471,
-    "lastUpdated": "2026-10-15 16:22 IST"
+    "lastUpdated": "2026-10-15 22:11 IST"
   },
   {
     "key": "544695",
@@ -2764,7 +3058,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -2812,55 +3106,7 @@
     "priceAtHighlightDate": "2026-09-29",
     "pctSinceHighlight": -16.19,
     "mcapCr": 222,
-    "lastUpdated": "2026-10-15 16:22 IST",
-    "tickerResolvedBy": "yahoo search"
-  },
-  {
-    "key": "544248",
-    "name": "Mach Travel Solutions Limited",
-    "nameRaw": "MACH TRAVEL SOLUTIONS LIMITED",
-    "codes": {
-      "BSE-SME": "544248"
-    },
-    "isin": null,
-    "sme": true,
-    "candidates": [
-      "544248.BO"
-    ],
-    "ticker": "MACHLTD.BO",
-    "firstCoveredBySovrenn": "2024-09-12",
-    "mentions": [
-      {
-        "date": "2026-09-29",
-        "tag": "PROMOTER BUYING",
-        "filing": "(PROMOTER BUYING) Promoter and Director Amit Bhatia acquired a combined 2,400 equity shares on 28th Sep 2026, for a total value of INR 4 lakh, at an average price of INR 165 per share.",
-        "outlook": "Company targets INR 500 Cr revenue in FY27, supported by the INR 92 Cr Punjab Government contract, with INR 71 Cr remaining for execution by Nov’26. Growth will also come from 100+ corporate accounts, the planned MacTravel.com OTA/app targeting 1.25 lakh annual travellers, and IRCTC empanelment with an INR 1 Cr initial order. Management aspires to achieve a 10% EBITDA margin, while expanding across MICE, B2G, Corporate Travel and B2C.",
-        "sovrennMcap": "INR 416 Crore",
-        "sovrennPe": "19.4x"
-      }
-    ],
-    "firstHighlighted": "2026-09-29",
-    "timesMentioned": 1,
-    "latestDate": "2026-09-29",
-    "latestTag": "PROMOTER BUYING",
-    "latestReason": "(PROMOTER BUYING) Promoter and Director Amit Bhatia acquired a combined 2,400 equity shares on 28th Sep 2026, for a total value of INR 4 lakh, at an average price of INR 165 per share.",
-    "latestOutlook": "Company targets INR 500 Cr revenue in FY27, supported by the INR 92 Cr Punjab Government contract, with INR 71 Cr remaining for execution by Nov’26. Growth will also come from 100+ corporate accounts, the planned MacTravel.com OTA/app targeting 1.25 lakh annual travellers, and IRCTC empanelment with an INR 1 Cr initial order. Management aspires to achieve a 10% EBITDA margin, while expanding across MICE, B2G, Corporate Travel and B2C.",
-    "sovrennMcap": "INR 416 Crore",
-    "sovrennPe": "19.4x",
-    "price": 224.95,
-    "priceDate": "2026-10-15",
-    "dma20": 195.21,
-    "dma50": 177.58,
-    "dma200": 141.13,
-    "rsi14": 65.2,
-    "buyZone": "N",
-    "buyZoneNote": "fails: nearSupport, rsiOk, notExtended",
-    "bars": 495,
-    "priceAtHighlight": 193.0,
-    "priceAtHighlightDate": "2026-09-29",
-    "pctSinceHighlight": 16.55,
-    "mcapCr": 473,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -2908,7 +3154,7 @@
     "priceAtHighlightDate": "2026-09-29",
     "pctSinceHighlight": -1.01,
     "mcapCr": 2061,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -2956,7 +3202,7 @@
     "priceAtHighlightDate": "2026-09-29",
     "pctSinceHighlight": -3.2,
     "mcapCr": 7323,
-    "lastUpdated": "2026-10-15 16:22 IST",
+    "lastUpdated": "2026-10-15 22:11 IST",
     "tickerResolvedBy": "yahoo search"
   }
 ]
