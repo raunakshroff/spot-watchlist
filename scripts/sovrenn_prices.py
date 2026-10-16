@@ -23,6 +23,8 @@ IST = ZoneInfo("Asia/Kolkata")
 OVERRIDES = {
     "544161": ["DPABHUSHAN.NS"],  # D. P. Abhushan Limited
     "PARTH": ["PARTH-SM.NS"],  # Parth Electricals & Engineering Limited (NSE-SME)
+    "ANAWIL": ["ANAWIL-SM.NS"],  # Anawil Wire & Engineering Limited (NSE-SME)
+    "538920": ["VINCOFE.NS"],  # Vintage Coffee & Beverages Limited (BSE 538920)
 }
 
 
