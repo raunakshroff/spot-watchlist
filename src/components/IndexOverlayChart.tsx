@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
   CartesianGrid,
   Legend,
@@ -12,13 +12,13 @@ import {
 import type { IndexHistoryData, IndexHorizon } from "../types";
 
 const COLORS = [
-  "#5b8cff",
-  "#3dd68c",
-  "#f5b942",
-  "#ff6b7a",
-  "#c084fc",
+  "#60a5fa",
+  "#34d399",
+  "#fbbf24",
+  "#f472b6",
+  "#a78bfa",
   "#22d3ee",
-  "#fb7185",
+  "#fb923c",
   "#a3e635",
 ];
 
@@ -56,7 +56,20 @@ function rebase(vals: (number | null)[]): (number | null)[] {
   return vals.map((v) => (v == null || v <= 0 ? null : Math.round((v / first) * 10000) / 100));
 }
 
+function useNarrow(maxWidth = 640): boolean {
+  const q = `(max-width: ${maxWidth}px)`;
+  const [narrow, setNarrow] = useState(() => typeof window !== "undefined" && window.matchMedia(q).matches);
+  useEffect(() => {
+    const mq = window.matchMedia(q);
+    const on = () => setNarrow(mq.matches);
+    mq.addEventListener("change", on);
+    return () => mq.removeEventListener("change", on);
+  }, [q]);
+  return narrow;
+}
+
 export function IndexOverlayChart({ history, period, selectedIds, namesById }: Props) {
+  const narrow = useNarrow();
   const chart = useMemo(() => {
     if (!history || selectedIds.length === 0) return null;
     const useDaily = period === "daily" || period === "weekly" || period === "m1" || period === "m3";
@@ -88,17 +101,18 @@ export function IndexOverlayChart({ history, period, selectedIds, namesById }: P
   }, [history, period, selectedIds, namesById]);
 
   if (!history) {
-    return <div className="empty compact">Loading index history…</div>;
+    return <div className="ix-chart-empty">Loading index history…</div>;
   }
   if (selectedIds.length === 0) {
     return (
-      <div className="empty compact">
-        Select one or more indices below (click a row) to overlay vs Nifty 50, rebased to 100.
+      <div className="ix-chart-empty">
+        <strong>Overlay chart</strong>
+        <span>Tap any index row or leaderboard name to chart it against Nifty 50 (rebased to 100). Up to 6 at once.</span>
       </div>
     );
   }
   if (!chart) {
-    return <div className="empty compact">Not enough history in this window to chart the selection.</div>;
+    return <div className="ix-chart-empty">Not enough history in this window to chart the selection.</div>;
   }
 
   return (
@@ -110,13 +124,13 @@ export function IndexOverlayChart({ history, period, selectedIds, namesById }: P
         </span>
       </div>
       <div className="ix-chart">
-        <ResponsiveContainer width="100%" height={280}>
-          <LineChart data={chart.rows} margin={{ top: 8, right: 12, left: 0, bottom: 0 }}>
-            <CartesianGrid stroke="rgba(255,255,255,0.06)" vertical={false} />
+        <ResponsiveContainer width="100%" height={narrow ? 230 : 340}>
+          <LineChart data={chart.rows} margin={{ top: 8, right: narrow ? 6 : 16, left: narrow ? -8 : 0, bottom: 0 }}>
+            <CartesianGrid stroke="rgba(148,163,184,0.10)" vertical={false} />
             <XAxis
               dataKey="date"
               tick={{ fill: "var(--text-dim)", fontSize: 10 }}
-              minTickGap={28}
+              minTickGap={narrow ? 36 : 28}
               axisLine={false}
               tickLine={false}
             />
@@ -125,25 +139,31 @@ export function IndexOverlayChart({ history, period, selectedIds, namesById }: P
               axisLine={false}
               tickLine={false}
               domain={["auto", "auto"]}
-              width={42}
+              width={narrow ? 36 : 44}
             />
             <Tooltip
               contentStyle={{
-                background: "var(--bg-card)",
-                border: "1px solid var(--border)",
-                borderRadius: 8,
+                background: "var(--surface-2)",
+                border: "1px solid var(--border-strong)",
+                borderRadius: 10,
                 fontSize: 12,
+                boxShadow: "0 8px 24px rgba(0,0,0,0.4)",
               }}
+              itemStyle={{ padding: 0 }}
               labelStyle={{ color: "var(--text-muted)" }}
             />
-            <Legend wrapperStyle={{ fontSize: 11 }} />
+            <Legend
+              verticalAlign="bottom"
+              iconType="plainline"
+              wrapperStyle={{ fontSize: narrow ? 10 : 11.5, paddingTop: 6, lineHeight: "16px" }}
+            />
             {chart.series.map((s, i) => (
               <Line
                 key={s.id}
                 type="monotone"
                 dataKey={s.id}
                 name={s.name}
-                stroke={s.id === history.benchmarkId ? "#9db8ff" : COLORS[i % COLORS.length]}
+                stroke={s.id === history.benchmarkId ? "#cbd5e1" : COLORS[i % COLORS.length]}
                 strokeWidth={s.id === history.benchmarkId ? 2.2 : 1.7}
                 strokeDasharray={s.id === history.benchmarkId ? "5 4" : undefined}
                 dot={false}

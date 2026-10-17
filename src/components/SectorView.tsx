@@ -1,8 +1,10 @@
 import { useMemo, useState } from "react";
 import type { WatchlistStock } from "../types";
 import { SECTOR_ORDER } from "../types";
-import { WatchlistCard } from "./WatchlistCard";
-import { shortTicker } from "../utils/format";
+import { Search } from "lucide-react";
+import { WatchTable } from "./WatchTable";
+import { formatSignedPct, shortTicker, toneOf } from "../utils/format";
+import { computeZone } from "../utils/zone";
 
 interface Props {
   stocks: WatchlistStock[];
@@ -50,63 +52,63 @@ export function SectorView({ stocks }: Props) {
     );
   }, [filtered]);
 
-  const buyZoneCount = filtered.filter((s) => s.buyZone).length;
-  const holdingsCount = filtered.filter(
-    (s) => s.status === "Holding" || (s.sharesHeld ?? 0) > 0,
-  ).length;
+  const zoneCounts = useMemo(() => {
+    const c = { buy: 0, near: 0, below: 0, wait: 0 };
+    for (const s of filtered) c[computeZone(s).kind]++;
+    return c;
+  }, [filtered]);
+  const holdingsCount = filtered.filter((s) => s.status === "Holding" || (s.sharesHeld ?? 0) > 0).length;
 
   return (
-    <section>
-      <div className="stats">
-        <div className="stat-card">
-          <div className="label">Sectors</div>
-          <div className="value">{sectors.length}</div>
-          <div className="hint">on active watchlist</div>
+    <section className="stack">
+      <div className="kpis">
+        <div className="kpi static">
+          <span className="kpi-label">Sectors</span>
+          <span className="kpi-value">{sectors.length}</span>
+          <span className="kpi-hint">on active watchlist</span>
         </div>
-        <div className="stat-card">
-          <div className="label">Names shown</div>
-          <div className="value">{filtered.length}</div>
-          <div className="hint">
-            {sectorFilter === "All" ? "all sectors" : sectorFilter}
-          </div>
+        <div className="kpi static">
+          <span className="kpi-label">Names shown</span>
+          <span className="kpi-value">{filtered.length}</span>
+          <span className="kpi-hint">{sectorFilter === "All" ? "all sectors" : sectorFilter}</span>
         </div>
-        <div className="stat-card">
-          <div className="label">Buy-zone</div>
-          <div className="value">{buyZoneCount}</div>
-          <div className="hint">in current filter</div>
+        <div className="kpi static kpi-buy">
+          <span className="kpi-label"><span className="zone-dot dot-buy" aria-hidden />Buy zone</span>
+          <span className="kpi-value">{zoneCounts.buy}</span>
+          <span className="kpi-hint">in current filter</span>
         </div>
-        <div className="stat-card">
-          <div className="label">Holdings</div>
-          <div className="value">{holdingsCount}</div>
-          <div className="hint">in current filter</div>
+        <div className="kpi static kpi-near">
+          <span className="kpi-label"><span className="zone-dot dot-near" aria-hidden />Near / below stop</span>
+          <span className="kpi-value">{zoneCounts.near + zoneCounts.below}</span>
+          <span className="kpi-hint">{zoneCounts.near} near · {zoneCounts.below} below</span>
+        </div>
+        <div className="kpi static">
+          <span className="kpi-label">Holdings</span>
+          <span className="kpi-value">{holdingsCount}</span>
+          <span className="kpi-hint">in current filter</span>
         </div>
       </div>
 
-      <div className="toolbar">
-        <input
-          className="search"
-          placeholder="Search ticker, name, or sector…"
-          value={search}
-          onChange={(e) => setSearch(e.target.value)}
-        />
-        <div className="filter-pills">
-          <button
-            type="button"
-            className={`pill ${sectorFilter === "All" ? "active" : ""}`}
-            onClick={() => setSectorFilter("All")}
-          >
-            All ({stocks.length})
+      <div className="panel">
+        <div className="panel-head">
+          <div>
+            <h2 className="panel-title">By sector</h2>
+            <p className="panel-sub">Watchlist grouped by sector · tap a row for thesis &amp; levels</p>
+          </div>
+          <label className="search-box">
+            <Search size={15} aria-hidden />
+            <input placeholder="Search ticker, name, or sector" value={search} onChange={(e) => setSearch(e.target.value)} />
+          </label>
+        </div>
+        <div className="pill-row scroll-x">
+          <button type="button" className={`pill ${sectorFilter === "All" ? "active" : ""}`} onClick={() => setSectorFilter("All")}>
+            All <span className="pill-n">{stocks.length}</span>
           </button>
           {sectors.map((sec) => {
             const count = stocks.filter((s) => s.sector === sec).length;
             return (
-              <button
-                key={sec}
-                type="button"
-                className={`pill ${sectorFilter === sec ? "active" : ""}`}
-                onClick={() => setSectorFilter(sec)}
-              >
-                {sec} ({count})
+              <button key={sec} type="button" className={`pill ${sectorFilter === sec ? "active" : ""}`} onClick={() => setSectorFilter(sec)}>
+                {sec} <span className="pill-n">{count}</span>
               </button>
             );
           })}
@@ -118,26 +120,24 @@ export function SectorView({ stocks }: Props) {
       ) : (
         <div className="sector-sections">
           {groups.map(([sector, list]) => {
-            const bz = list.filter((s) => s.buyZone).length;
+            const bz = list.filter((s) => computeZone(s).kind === "buy").length;
+            const withPct = list.filter((s) => s.dailyPct != null);
+            const avg = withPct.length ? withPct.reduce((a, s) => a + (s.dailyPct ?? 0), 0) / withPct.length : null;
             return (
-              <div key={sector} className="sector-section">
+              <div key={sector} className="panel sector-section">
                 <div className="sector-header">
                   <div className="sector-title">
-                    <span className="sector-badge">{sector}</span>
+                    <h3>{sector}</h3>
                     <span className="sector-count">
                       {list.length} name{list.length === 1 ? "" : "s"}
-                      {bz > 0 ? ` · ${bz} buy-zone` : ""}
+                      {bz > 0 ? ` · ${bz} in buy zone` : ""}
                     </span>
                   </div>
-                  <div className="sector-tickers">
-                    {list.map((s) => shortTicker(s.ticker)).join(" · ")}
+                  <div className={`sector-avg ${toneOf(avg)}`} title="Equal-weight average day change of these names">
+                    avg {formatSignedPct(avg)} today
                   </div>
                 </div>
-                <div className="grid">
-                  {list.map((s) => (
-                    <WatchlistCard key={s.ticker} stock={s} />
-                  ))}
-                </div>
+                <WatchTable stocks={list} />
               </div>
             );
           })}

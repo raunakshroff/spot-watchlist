@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Activity } from "lucide-react";
+import { Activity, LayoutDashboard, Layers, LineChart, Newspaper, History as HistoryIcon, Archive, ExternalLink } from "lucide-react";
 import type { DroppedStock, HistoryEntry, IndexConstituentsData, IndexHistoryData, IndicesData, Meta, SovrennEntry, WatchlistStock } from "./types";
 import { SovrennView } from "./components/SovrennView";
 import { Overview } from "./components/Overview";
@@ -17,8 +17,34 @@ async function loadJson<T>(path: string): Promise<T> {
   return res.json() as Promise<T>;
 }
 
+const TAB_HASH: Record<Tab, string> = {
+  overview: "watchlist",
+  sector: "sector",
+  index: "indexes",
+  sovrenn: "sovrenn",
+  history: "history",
+  dropped: "dropped",
+};
+
+function tabFromHash(): Tab {
+  const h = window.location.hash.replace(/^#/, "").toLowerCase();
+  if (h === "overview") return "overview";
+  const hit = (Object.keys(TAB_HASH) as Tab[]).find((t) => TAB_HASH[t] === h);
+  return hit ?? "overview";
+}
+
 export default function App() {
-  const [tab, setTab] = useState<Tab>("overview");
+  const [tab, setTabState] = useState<Tab>(tabFromHash);
+  const setTab = (t: Tab) => {
+    setTabState(t);
+    if (window.location.hash !== `#${TAB_HASH[t]}`) window.history.replaceState(null, "", `#${TAB_HASH[t]}`);
+    window.scrollTo({ top: 0 });
+  };
+  useEffect(() => {
+    const onHash = () => setTabState(tabFromHash());
+    window.addEventListener("hashchange", onHash);
+    return () => window.removeEventListener("hashchange", onHash);
+  }, []);
   const [watchlist, setWatchlist] = useState<WatchlistStock[]>([]);
   const [history, setHistory] = useState<HistoryEntry[]>([]);
   const [dropped, setDropped] = useState<DroppedStock[]>([]);
@@ -81,69 +107,57 @@ export default function App() {
     return <div className="loading">Loading Spot Watchlist…</div>;
   }
 
+  const tabs: { id: Tab; label: string; icon: typeof Activity; count?: number }[] = [
+    { id: "overview", label: "Watchlist", icon: LayoutDashboard, count: watchlist.length },
+    { id: "sector", label: "Sector", icon: Layers },
+    { id: "index", label: "Indexes", icon: LineChart, count: indices?.indices?.length ? indices.indices.length - 1 : undefined },
+    { id: "sovrenn", label: "Sovrenn", icon: Newspaper, count: sovrenn?.length },
+    { id: "history", label: "History", icon: HistoryIcon },
+    { id: "dropped", label: "Dropped", icon: Archive, count: dropped.length },
+  ];
+
   return (
-    <div className="app">
-      <header className="header">
-        <div className="brand">
-          <div className="brand-mark">
-            <Activity size={22} />
+    <div className="shell">
+      <header className="topbar">
+        <div className="topbar-inner">
+          <div className="brand">
+            <div className="brand-mark">
+              <Activity size={18} />
+            </div>
+            <div className="brand-text">
+              <h1>{meta.title}</h1>
+              <p>NSE spot dashboard · {meta.timezone}</p>
+            </div>
           </div>
-          <div>
-            <h1>{meta.title}</h1>
-            <p>NSE technical dashboard · {meta.timezone}</p>
+          <div className="meta-chip" title="Last market update">
+            <span className="live-dot" />
+            <span className="meta-label">Updated</span>
+            <span className="meta-date">{meta.lastMarketUpdate}</span>
           </div>
-        </div>
-        <div className="meta-chip">
-          <span style={{ width: 8, height: 8, borderRadius: "50%", background: "var(--green)" }} />
-          last market update · {meta.lastMarketUpdate}
         </div>
       </header>
-
       <nav className="tabs" aria-label="Sections">
-        <button
-          type="button"
-          className={`tab ${tab === "overview" ? "active" : ""}`}
-          onClick={() => setTab("overview")}
-        >
-          Overview
-        </button>
-        <button
-          type="button"
-          className={`tab ${tab === "sector" ? "active" : ""}`}
-          onClick={() => setTab("sector")}
-        >
-          Sector
-        </button>
-        <button
-          type="button"
-          className={`tab ${tab === "index" ? "active" : ""}`}
-          onClick={() => setTab("index")}
-        >
-          Indexes
-        </button>
-        <button
-          type="button"
-          className={`tab ${tab === "sovrenn" ? "active" : ""}`}
-          onClick={() => setTab("sovrenn")}
-        >
-          Sovrenn{sovrenn ? ` (${sovrenn.length})` : ""}
-        </button>
-        <button
-          type="button"
-          className={`tab ${tab === "history" ? "active" : ""}`}
-          onClick={() => setTab("history")}
-        >
-          History
-        </button>
-        <button
-          type="button"
-          className={`tab ${tab === "dropped" ? "active" : ""}`}
-          onClick={() => setTab("dropped")}
-        >
-          Dropped ({dropped.length})
-        </button>
-      </nav>
+          <div className="tabs-inner">
+            {tabs.map((t) => {
+              const Icon = t.icon;
+              return (
+                <button
+                  key={t.id}
+                  type="button"
+                  className={`tab ${tab === t.id ? "active" : ""}`}
+                  onClick={() => setTab(t.id)}
+                  aria-current={tab === t.id ? "page" : undefined}
+                >
+                  <Icon size={15} aria-hidden />
+                  <span>{t.label}</span>
+                  {t.count != null && <span className="tab-count">{t.count}</span>}
+                </button>
+              );
+            })}
+          </div>
+        </nav>
 
+      <main className="app">
       {tab === "overview" && (
         <Overview
           stocks={watchlist}
@@ -165,14 +179,15 @@ export default function App() {
 
       <footer className="footer">
         <div>
-          Last update: <strong style={{ color: "var(--text-muted)" }}>{meta.lastMarketUpdate}</strong>
+          Last update <strong>{meta.lastMarketUpdate}</strong>
           {" · "}
           <a href={meta.repoUrl} target="_blank" rel="noreferrer">
-            GitHub repo
+            GitHub repo <ExternalLink size={12} aria-hidden />
           </a>
         </div>
         <div>{meta.disclaimer}</div>
       </footer>
+      </main>
     </div>
   );
 }

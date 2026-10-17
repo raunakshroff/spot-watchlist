@@ -35,3 +35,21 @@ export function rsiTone(rsi: number | null | undefined): "hot" | "cold" | "neutr
   if (rsi <= 35) return "cold";
   return "neutral";
 }
+
+/** ₹-prefixed Indian-grouped price, e.g. ₹9,144.5 */
+export function formatInr(n: number | null | undefined): string {
+  if (n == null || Number.isNaN(n)) return "—";
+  return `₹${formatPrice(n)}`;
+}
+
+/** Signed percent with configurable digits. */
+export function formatSignedPct(n: number | null | undefined, digits = 1): string {
+  if (n == null || Number.isNaN(n)) return "—";
+  const sign = n > 0 ? "+" : n < 0 ? "−" : "";
+  return `${sign}${Math.abs(n).toFixed(digits)}%`;
+}
+
+export function toneOf(n: number | null | undefined): "up" | "down" | "" {
+  if (n == null || Number.isNaN(n) || n === 0) return "";
+  return n > 0 ? "up" : "down";
+}

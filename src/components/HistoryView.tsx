@@ -18,13 +18,16 @@ export function HistoryView({ history }: { history: HistoryEntry[] }) {
   const droppedCount = rows.filter((r) => r.droppedThatDay || r.status === "Dropped").length;
 
   return (
-    <section>
-      <div className="toolbar">
-        <label style={{ color: "var(--text-muted)", fontSize: "0.85rem" }}>
-          Market day{" "}
+    <section className="stack">
+      <div className="panel">
+      <div className="panel-head">
+        <div>
+          <h2 className="panel-title">Daily history</h2>
+          <p className="panel-sub">Snapshot of every tracked name per market day ({dates.length} days logged)</p>
+        </div>
+        <label className="select-box">
+          <span>Market day</span>
           <select
-            className="search"
-            style={{ minWidth: 180, marginLeft: 8 }}
             value={selected}
             onChange={(e) => setSelected(e.target.value)}
           >
@@ -49,15 +52,15 @@ export function HistoryView({ history }: { history: HistoryEntry[] }) {
               </span>
             </h3>
             <div className="table-wrap">
-              <table>
+              <table className="data-table">
                 <thead>
                   <tr>
                     <th>Ticker</th>
                     <th>Name</th>
                     <th>Status</th>
-                    <th>Close</th>
-                    <th>Daily %</th>
-                    <th>RSI14</th>
+                    <th className="num">Close</th>
+                    <th className="num">Day %</th>
+                    <th className="num">RSI</th>
                     <th>Support</th>
                     <th>Resistance</th>
                     <th>Notes</th>
@@ -78,16 +81,16 @@ export function HistoryView({ history }: { history: HistoryEntry[] }) {
                       <td>
                         <StatusBadge status={r.status} />
                       </td>
-                      <td style={{ fontFamily: "var(--mono)" }}>{formatPrice(r.price)}</td>
+                      <td className="num strong">₹{formatPrice(r.price)}</td>
                       <td
                         className={
                           r.dailyPct == null ? "" : r.dailyPct >= 0 ? "up" : "down"
                         }
-                        style={{ fontFamily: "var(--mono)" }}
+                        style={{ fontFamily: "var(--mono)", textAlign: "right" }}
                       >
                         {formatPct(r.dailyPct)}
                       </td>
-                      <td style={{ fontFamily: "var(--mono)" }}>{formatRsi(r.rsi14)}</td>
+                      <td className="num">{formatRsi(r.rsi14)}</td>
                       <td>{r.support ?? "—"}</td>
                       <td>{r.resistance ?? "—"}</td>
                       <td
@@ -109,6 +112,7 @@ export function HistoryView({ history }: { history: HistoryEntry[] }) {
       })}
 
       {dates.length === 0 && <div className="empty">No history yet.</div>}
+      </div>
     </section>
   );
 }

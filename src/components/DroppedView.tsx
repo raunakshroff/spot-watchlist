@@ -7,16 +7,23 @@ export function DroppedView({ dropped }: { dropped: DroppedStock[] }) {
   }
 
   return (
-    <section>
+    <section className="stack">
+      <div className="panel">
+        <div className="panel-head">
+          <div>
+            <h2 className="panel-title">Dropped names</h2>
+            <p className="panel-sub">{dropped.length} names removed from the active list · newest first</p>
+          </div>
+        </div>
       <div className="table-wrap">
-        <table>
+        <table className="data-table">
           <thead>
             <tr>
               <th>Ticker</th>
               <th>Name</th>
               <th>Sector</th>
               <th>Dropped</th>
-              <th>Last price</th>
+              <th className="num">Last price</th>
               <th>Prior status</th>
               <th>Reason</th>
               <th>Notes</th>
@@ -38,7 +45,7 @@ export function DroppedView({ dropped }: { dropped: DroppedStock[] }) {
                     <span className="sector-chip">{d.sector ?? "—"}</span>
                   </td>
                   <td style={{ fontFamily: "var(--mono)" }}>{d.droppedDate}</td>
-                  <td style={{ fontFamily: "var(--mono)" }}>{formatPrice(d.lastPrice)}</td>
+                  <td className="num strong">₹{formatPrice(d.lastPrice)}</td>
                   <td>{d.priorStatus ?? "—"}</td>
                   <td style={{ whiteSpace: "normal", maxWidth: 360 }}>{d.reason}</td>
                   <td
@@ -54,6 +61,7 @@ export function DroppedView({ dropped }: { dropped: DroppedStock[] }) {
               ))}
           </tbody>
         </table>
+      </div>
       </div>
     </section>
   );

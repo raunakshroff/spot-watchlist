@@ -272,7 +272,7 @@ function UniverseTable({
                   </span>
                 </span>
                 <span className="ix-num ix-last">{fmtLevel(r.last)}</span>
-                <span className={`ix-num ${tone(x.ret)}`}>{fmtPct(x.ret)}</span>
+                <span className={`ix-num ix-ret ${tone(x.ret)}`}>{fmtPct(x.ret)}</span>
                 <span className={`ix-num ix-spread ${tone(x.vs)}`}>
                   {bench ? "±0.00%" : fmtPct(x.vs)}
                   <span className="ix-bar-wrap" aria-hidden>
@@ -578,7 +578,7 @@ export function IndexView({ data, history = null, constituents = null, loadError
         </div>
       )}
 
-      <div className="toolbar index-toolbar">
+      <div className="panel index-toolbar">
         <div className="ix-controls">
           <div className="period-toggle" role="group" aria-label="Period">
             {PERIODS.map((p) => (
@@ -628,11 +628,14 @@ export function IndexView({ data, history = null, constituents = null, loadError
             />
             {selectedIds.length > 0 && (
               <div className="ix-selected-bar">
-                <span>
-                  Charting: {selectedIds.map((id) => namesById[id] ?? id).join(" · ")}
-                </span>
-                <button type="button" className="pill" onClick={() => setSelectedIds([])}>
-                  Clear
+                <span className="eyebrow">Charting</span>
+                {selectedIds.map((id) => (
+                  <button key={id} type="button" className="sel-chip" onClick={() => toggleSelect(id)} title="Remove from chart">
+                    {namesById[id] ?? id} <span aria-hidden>✕</span>
+                  </button>
+                ))}
+                <button type="button" className="btn-ghost" onClick={() => setSelectedIds([])}>
+                  Clear all
                 </button>
               </div>
             )}
@@ -690,7 +693,7 @@ export function IndexView({ data, history = null, constituents = null, loadError
                 </button>
               ))}
             </div>
-            <div className="filter-pills">
+            <div className="filter-pills scroll-x">
               <button
                 type="button"
                 className={`pill ${group === "All" ? "active" : ""}`}
