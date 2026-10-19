@@ -68,5 +68,15 @@
     "reason": "Stop hit: daily close 1275.8 < 1280 (closing-basis stop)",
     "priorStatus": "Dip-buy",
     "notes": "15-Oct close 1275.8 (-7.76%), high 1385.9, low 1260.5, vol 4.17x 20d, RSI 36.9. Close-basis stop <1280 broken by ~0.3%; setup invalidated. Levels at drop: Trigger: test 1293-1310 that closes >1310 (Entry 1293-1310); stop close <1280; T1 1362 (200DMA) / T2 1401 (20d high)."
+  },
+  {
+    "ticker": "VIJAYA.NS",
+    "name": "Vijaya Diagnostic Centre",
+    "sector": "Healthcare / Diagnostics",
+    "droppedDate": "2026-10-19",
+    "lastPrice": 1365.6,
+    "reason": "Stop hit: daily close 1365.6 < 1380 (closing-basis stop)",
+    "priorStatus": "Active",
+    "notes": "19-Oct close 1365.6 (-1.17%), high 1378.0, low 1354.7, vol 1.44x 20d, RSI 34.9. Close-basis stop <1380 broken by ~1.0%; setup invalidated. Levels at drop: Entry 1430-1460; stop close <1380; T1 1594 (60d high) / T2 1680."
   }
 ]
