@@ -78,5 +78,55 @@
     "reason": "Stop hit: daily close 1365.6 < 1380 (closing-basis stop)",
     "priorStatus": "Active",
     "notes": "19-Oct close 1365.6 (-1.17%), high 1378.0, low 1354.7, vol 1.44x 20d, RSI 34.9. Close-basis stop <1380 broken by ~1.0%; setup invalidated. Levels at drop: Entry 1430-1460; stop close <1380; T1 1594 (60d high) / T2 1680."
+  },
+  {
+    "ticker": "E2E.NS",
+    "name": "E2E Networks",
+    "sector": "IT / Cloud / Data center",
+    "droppedDate": "2026-10-21",
+    "lastPrice": 627.15,
+    "reason": "Stop hit: daily close 627.15 < 635 (closing-basis stop)",
+    "priorStatus": "Active",
+    "notes": "21-Oct close: 627.15 (-5.00%), high 627.15, low 627.15; vol 0.18x 20d. RSI 42.4. Levels at drop: Triggers (16-Oct weekly check): pullback hold 650-665 (stop close <635, T 698/745) OR re-breakout close >705 on ≥1.5x vol (entry 705-715, stop close <675, T 765/850); stop close <635 (pullback-hold invalidation); breakout-entry stop close <675; T1 698 (pullback) / 765 (breakout) / T2 745 (pullback) / 850 (breakout)."
+  },
+  {
+    "ticker": "AUROPHARMA.NS",
+    "name": "Aurobindo Pharma",
+    "sector": "Pharma",
+    "droppedDate": "2026-10-21",
+    "lastPrice": 1578.8,
+    "reason": "Stop hit: daily close 1578.8 < 1620 (closing-basis stop)",
+    "priorStatus": "Dip-buy",
+    "notes": "21-Oct close: 1578.8 (-2.63%), high 1636.9, low 1564.0; vol 1.43x 20d. RSI 35.0. Levels at drop: Entry 1670-1685; stop close <1620; T1 1720 / T2 1740."
+  },
+  {
+    "ticker": "NAVINFLUOR.NS",
+    "name": "Navin Fluorine International",
+    "sector": "Chemicals",
+    "droppedDate": "2026-10-21",
+    "lastPrice": 8014.5,
+    "reason": "Stop hit: daily close 8014.5 < 8030 (closing-basis stop)",
+    "priorStatus": "Active",
+    "notes": "21-Oct close: 8014.5 (-1.69%), high 8180.5, low 7916.0; vol 1.17x 20d. RSI 38.6. Levels at drop: Entry 8350-8520; stop close <8030; T1 8950 (52w high) / T2 9400."
+  },
+  {
+    "ticker": "PRUDENT.NS",
+    "name": "Prudent Corporate Advisory",
+    "sector": "Financial Services",
+    "droppedDate": "2026-10-21",
+    "lastPrice": 2930.0,
+    "reason": "Stop hit: daily close 2930.0 < 3039 (closing-basis stop)",
+    "priorStatus": "Active",
+    "notes": "21-Oct close: 2930.0 (-4.14%), high 3048.2, low 2906.3; vol 5.79x 20d. RSI 33.1. Levels at drop: Entry 3150-3220; stop close <3039; T1 3312 (50DMA) / T2 3545 (20d high)."
+  },
+  {
+    "ticker": "MCX.NS",
+    "name": "Multi Commodity Exchange",
+    "sector": "Capital Markets / Exchanges",
+    "droppedDate": "2026-10-21",
+    "lastPrice": 3087.0,
+    "reason": "Stop hit: daily close 3087.0 < 3150 (closing-basis stop)",
+    "priorStatus": "Active",
+    "notes": "21-Oct close: 3087.0 (-3.06%), high 3212.3, low 3076.6; vol 0.67x 20d. RSI 41.0. Levels at drop: Entry 3280-3380 (limit on dip); stop close <3150; T1 3481 (52w high) / T2 3700."
   }
 ]
