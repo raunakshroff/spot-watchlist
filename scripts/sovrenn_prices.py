@@ -25,6 +25,7 @@ OVERRIDES = {
     "PARTH": ["PARTH-SM.NS"],  # Parth Electricals & Engineering Limited (NSE-SME)
     "ANAWIL": ["ANAWIL-SM.NS"],  # Anawil Wire & Engineering Limited (NSE-SME)
     "538920": ["VINCOFE.NS"],  # Vintage Coffee & Beverages Limited (BSE 538920)
+    "530475": ["TINNARUBR.NS"],  # Tinna Rubber & Infrastructure Limited (BSE 530475)
 }
 
 
