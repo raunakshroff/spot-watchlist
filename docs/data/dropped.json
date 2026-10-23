@@ -128,5 +128,27 @@
     "reason": "Stop hit: daily close 3087.0 < 3150 (closing-basis stop)",
     "priorStatus": "Active",
     "notes": "21-Oct close: 3087.0 (-3.06%), high 3212.3, low 3076.6; vol 0.67x 20d. RSI 41.0. Levels at drop: Entry 3280-3380 (limit on dip); stop close <3150; T1 3481 (52w high) / T2 3700."
+  },
+  {
+    "ticker": "TRANSRAILL.NS",
+    "name": "Transrail Lighting",
+    "sector": "Capital Goods / Infrastructure",
+    "droppedDate": "2026-10-23",
+    "lastPrice": 428.8,
+    "reason": "Stop hit: daily close 428.8 < 437 (closing-basis stop)",
+    "priorStatus": "Holding",
+    "notes": "23-Oct close: 428.8 (-5.51%), high 453.8, low 425.3; vol 0.38x 20d. RSI 40.6. Levels at drop: Add only: hold 450-460 (stop <437) OR close >500 (stop 460); stop close <437; T1 496-505 (trim). Position still held: 300 shares (not sold by tracker).",
+    "sharesHeld": 300,
+    "avgCost": null
+  },
+  {
+    "ticker": "DIVISLAB.NS",
+    "name": "Divi's Laboratories",
+    "sector": "Pharma",
+    "droppedDate": "2026-10-23",
+    "lastPrice": 8950.0,
+    "reason": "Stop hit: daily close 8950.0 < 9000 (closing-basis stop)",
+    "priorStatus": "Dip-buy",
+    "notes": "23-Oct close: 8950.0 (-2.31%), high 9175.5, low 8797.0; vol 1.10x 20d. RSI 41.5. Levels at drop: Entry 9150-9250; stop close <9000; T1 9500 / T2 9740."
   }
 ]
