@@ -65,22 +65,23 @@ def parse_edition(text: str) -> dict:
         if not m:
             continue
         nxt = " ".join(lines[i:i + 3])
-        if lines[i].startswith(" ") and ("1st time covered" in nxt or "NSE" in lines[i] or "BSE" in lines[i] or "LIMITED" in lines[i + 1]):
-            if "Recent Filing" in " ".join(lines[i:i + 6]):
-                detail_idx.append(i)
-        elif not lines[i].startswith(" ") and "Filing:" in " ".join(lines[i:i + 3]):
+        # classify by content, not indentation (Oct 26 2026 edition indents summary items too)
+        if "Recent Filing" in " ".join(lines[i:i + 6]) and ("1st time covered" in nxt or "NSE" in lines[i] or "BSE" in lines[i] or "LIMITED" in lines[i + 1]):
+            detail_idx.append(i)
+        elif re.match(r"\s*Filing:", lines[i + 1] if i + 1 < len(lines) else "") or (
+                not lines[i].startswith(" ") and "Filing:" in " ".join(lines[i:i + 3])):
             summary_idx.append(i)
     items: dict[int, dict] = {}
     for i in summary_idx:
         n = int(item_re.match(lines[i]).group(1))
         name = re.sub(r"\s*-\s*$", "", lines[i].split(". ", 1)[1]).strip()
         j, buf = i + 1, []
-        while j < len(lines) and not lines[j].startswith("MCap"):
+        while j < len(lines) and not lines[j].lstrip().startswith("MCap"):
             buf.append(lines[j]); j += 1
         filing = clean(" ".join(buf)).removeprefix("Filing:").strip()
         mcap = pe = None
         if j < len(lines):
-            mm = re.search(r"MCap:\s*(.+?Crore)", lines[j]); mcap = mm.group(1) if mm else None
+            mm = re.search(r"MCap:\s*(.+?Cr(?:ore)?)\b", lines[j]); mcap = mm.group(1) if mm else None
             pm = re.search(r"PE:\s*(\S+)", lines[j]); pe = pm.group(1) if pm else None
         tag = re.match(r"\(([^)]+)\)", filing)
         items[n] = {"n": n, "name": name, "tag": tag.group(1) if tag else None,
