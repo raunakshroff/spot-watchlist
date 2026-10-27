@@ -4,6 +4,7 @@ export type StockStatus =
   | "Breakout-watch"
   | "Holding"
   | "Watch-only"
+  | "Watch"
   | "Wait-RBI"
   | "Dropped";
 
@@ -259,4 +260,53 @@ export interface IndexConstituentsData {
   counts?: { withConstituents: number; withoutConstituents: number; total: number };
   missing?: { id: string; reason: string }[];
   indices: IndexConstituentsBlock[];
+}
+
+export type EventConfidence = "high" | "med" | "low";
+
+export interface EventSource {
+  label: string;
+  url: string;
+}
+
+export interface EventCompany {
+  ticker: string;
+  name: string;
+  why: string;
+  confidence: EventConfidence;
+  packages?: string[];
+  priceAtEvent?: number | null;
+  priceAtEventDate?: string | null;
+  price?: number | null;
+  priceDate?: string | null;
+  pctSinceEvent?: number | null;
+  rsi14?: number | null;
+  dma20?: number | null;
+  dma50?: number | null;
+  dma200?: number | null;
+  buyZone?: "Y" | "N" | "n/a" | null;
+  buyZoneNote?: string | null;
+  promotedToActive?: boolean;
+  promotedDate?: string | null;
+  promotedStatus?: string | null;
+  promotedNote?: string | null;
+  lastUpdated?: string | null;
+}
+
+export interface MacroEvent {
+  id: string;
+  title: string;
+  date: string;
+  amountCr?: number | null;
+  indigenousPct?: number | null;
+  summary: string;
+  packages?: string[];
+  sources: EventSource[];
+  companies: EventCompany[];
+}
+
+export interface EventsData {
+  updatedAt: string;
+  disclaimer: string;
+  events: MacroEvent[];
 }

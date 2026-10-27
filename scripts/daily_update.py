@@ -351,6 +351,7 @@ DATA_FILES = (
     "index_history.json",
     "index_constituents.json",
     "custom_baskets.json",
+    "events.json",
 )
 
 
@@ -944,9 +945,70 @@ def main() -> int:
     except Exception as e:  # noqa: BLE001
         print(f"WARN: sovrenn refresh failed: {e}")
 
+    # Events tab (macro catalysts → beneficiaries): refresh + auto-promote to Active
+    events_promo_note = "Events→Active: skipped (no events.json)"
+    try:
+        sys.path.insert(0, str(Path(__file__).parent))
+        from events_prices import (
+            refresh as events_refresh,
+            promote_to_active,
+            strip_ephemeral,
+            format_promotion_note,
+        )
+
+        ev_path = DATA / "events.json"
+        if ev_path.exists():
+            # Reload watchlist after earlier saves; dropped for skip set
+            watchlist = load("watchlist.json")
+            dropped = load("dropped.json") if (DATA / "dropped.json").exists() else []
+            evdb = load("events.json")
+            events_refresh(evdb)
+            promotions = promote_to_active(evdb, watchlist, dropped, day)
+            strip_ephemeral(evdb)
+            save("events.json", evdb)
+            if promotions:
+                save("watchlist.json", watchlist)
+                # Append history rows for newly promoted names
+                history = load("history.json")
+                for p in promotions:
+                    stock = next((w for w in watchlist if w["ticker"] == p["ticker"]), None)
+                    if not stock:
+                        continue
+                    history = [
+                        h for h in history
+                        if not (h.get("date") == day and h.get("ticker") == p["ticker"])
+                    ]
+                    history.append({
+                        "date": day,
+                        "ticker": stock["ticker"],
+                        "name": stock.get("name"),
+                        "status": stock.get("status"),
+                        "price": stock.get("price"),
+                        "dailyPct": stock.get("dailyPct"),
+                        "rsi14": stock.get("rsi14"),
+                        "volume": stock.get("volume"),
+                        "volVs20d": stock.get("volVs20d"),
+                        "support": stock.get("support"),
+                        "resistance": stock.get("resistance"),
+                        "buyZoneLevels": stock.get("buyZoneLevels"),
+                        "stop": stock.get("stop"),
+                        "notes": f"Events auto-promote {day}",
+                        "droppedThatDay": False,
+                    })
+                history.sort(key=lambda h: (h.get("date", ""), h.get("ticker", "")))
+                save("history.json", history)
+            events_promo_note = format_promotion_note(promotions)
+            nco = sum(len(e.get("companies", [])) for e in evdb.get("events", []))
+            print(f"Updated events.json ({len(evdb.get('events', []))} events, {nco} companies)")
+            print(events_promo_note)
+    except Exception as e:  # noqa: BLE001
+        events_promo_note = f"Events→Active: refresh failed ({e})"
+        print(f"WARN: events refresh failed: {e}")
+
     sync_docs_data()
 
     print(f"Updated {updated}/{len(watchlist)} tickers for {day}")
+    print(f"CHAT_NOTE_EVENTS: {events_promo_note}")
     return 0
 
 

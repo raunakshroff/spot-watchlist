@@ -1,0 +1,457 @@
+{
+  "updatedAt": "2026-10-28",
+  "disclaimer": "Research / personal tracking only — not SEBI-registered investment advice. AoN ≠ contract; awards still require tender/RFP/CCS stages.",
+  "events": [
+    {
+      "id": "dac-2026-10-26",
+      "title": "DAC AoN — capital acquisitions (~₹2.12 lakh Cr)",
+      "date": "2026-10-26",
+      "amountCr": 212000,
+      "indigenousPct": 82,
+      "summary": "On 26 Oct 2026 the Defence Acquisition Council (chaired by RM Rajnath Singh) accorded Acceptance of Necessity for capital buys of about ₹2,12,000 Cr across Army, Navy and IAF. ~82% earmarked for Indian industry. AoN is in-principle clearance, not a signed order. Army: HMV, Self-Propelled Tracked Gun (addl. K9 Vajra), GSRS, LMRH, VSHORADS, platform C-UAS, long-range UAS brick, surveillance UAV, Integrated Surveillance & Strike, Long Range Kamikaze Drone. Navy: Active Offboard Decoy System (AODS) + major naval platforms. IAF: helicopters / Special Utility Helicopters, air defence, weapons, Mobile X-Band Doppler Weather Radar.",
+      "packages": [
+        "High Mobility Vehicles (HMV)",
+        "Self-Propelled Tracked Gun System (K9 Vajra)",
+        "Gun Shot Response System (GSRS)",
+        "Light Multi Role Helicopters (LMRH)",
+        "Very Short-Range Air Defence (VSHORADS)",
+        "Platform-based Counter-UAS",
+        "Long-range UAS / Surveillance UAV / ISSS / Kamikaze drones",
+        "Active Offboard Decoy System (AODS)",
+        "Major naval platforms",
+        "IAF helicopters / Special Utility Helicopters",
+        "IAF air defence & weapons",
+        "Mobile X-Band Doppler Weather Radar"
+      ],
+      "sources": [
+        {
+          "label": "PIB — DAC clears ₹2.12 lakh Cr AoNs (26 Oct 2026)",
+          "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2328486&lang=1&reg=1"
+        },
+        {
+          "label": "Financial Express — analyst mapping of listed beneficiaries",
+          "url": "https://www.financialexpress.com/market/lampt-to-bel-hal-12-defence-stocks-in-focus-after-dac-clears-rs-2-12-lk-cr-procurement-4370338/"
+        },
+        {
+          "label": "The Hindu — DAC clearance report",
+          "url": "https://www.thehindu.com/news/national/dac-clears-defence-procurement-proposals-worth-212-lakh-crore/article71627089.ece"
+        }
+      ],
+      "companies": [
+        {
+          "ticker": "BEL.NS",
+          "name": "Bharat Electronics",
+          "why": "Broadest electronics play: GSRS, C-UAS, ISSS, AODS/naval EW, IAF air defence radars/C2, X-band weather radar. Analysts (Equirus/Kotak/Elara) call BEL the widest beneficiary.",
+          "confidence": "high",
+          "packages": [
+            "GSRS",
+            "C-UAS",
+            "ISSS",
+            "AODS",
+            "IAF air defence",
+            "X-Band weather radar"
+          ],
+          "priceAtEvent": 363.0,
+          "price": 363.0,
+          "pctSinceEvent": 0.0,
+          "rsi14": 32.4,
+          "dma20": 377.78,
+          "dma50": 394.06,
+          "dma200": 416.43,
+          "buyZone": "N",
+          "buyZoneNote": "fails: above200, nearSupport, rsiOk",
+          "promotedToActive": false,
+          "priceDate": "2026-10-26",
+          "lastUpdated": "2026-10-28 02:39 IST",
+          "priceAtEventDate": "2026-10-26"
+        },
+        {
+          "ticker": "HAL.NS",
+          "name": "Hindustan Aeronautics",
+          "why": "Direct exposure to Army/IAF Light Multi-Role Helicopters and IAF Special Utility Helicopters. Platform selection still open; AoN ≠ award.",
+          "confidence": "high",
+          "packages": [
+            "LMRH",
+            "IAF helicopters"
+          ],
+          "priceAtEvent": 4775.0,
+          "price": 4775.0,
+          "pctSinceEvent": 0.0,
+          "rsi14": 48.2,
+          "dma20": 4777.55,
+          "dma50": 4841.96,
+          "dma200": 4444.07,
+          "buyZone": "N",
+          "buyZoneNote": "fails: nearSupport",
+          "promotedToActive": true,
+          "priceDate": "2026-10-26",
+          "lastUpdated": "2026-10-28 02:39 IST",
+          "priceAtEventDate": "2026-10-26",
+          "promotedNote": "already on Active watchlist at seed"
+        },
+        {
+          "ticker": "LT.NS",
+          "name": "Larsen & Toubro",
+          "why": "Prime candidate for Self-Propelled Tracked Gun (addl. K9 Vajra) via existing Hazira line; also potential naval-platform builder. Faster path to contract possible vs greenfield programmes.",
+          "confidence": "high",
+          "packages": [
+            "Self-Propelled Tracked Gun (K9 Vajra)",
+            "Major naval platforms"
+          ],
+          "priceAtEvent": 3680.0,
+          "price": 3680.0,
+          "pctSinceEvent": 0.0,
+          "rsi14": 44.1,
+          "dma20": 3693.09,
+          "dma50": 3866.27,
+          "dma200": 3939.0,
+          "buyZone": "N",
+          "buyZoneNote": "fails: above200, nearSupport",
+          "promotedToActive": false,
+          "priceDate": "2026-10-26",
+          "lastUpdated": "2026-10-28 02:39 IST",
+          "priceAtEventDate": "2026-10-26"
+        },
+        {
+          "ticker": "BDL.NS",
+          "name": "Bharat Dynamics",
+          "why": "Missile OEM positioned for VSHORADS and IAF weapons/air-defence missiles. Prior VSHORADS tenders have lapsed — treat as pipeline, not order.",
+          "confidence": "high",
+          "packages": [
+            "VSHORADS",
+            "IAF weapons"
+          ],
+          "priceAtEvent": 1029.0,
+          "price": 1029.0,
+          "pctSinceEvent": 0.0,
+          "rsi14": 32.3,
+          "dma20": 1089.47,
+          "dma50": 1195.27,
+          "dma200": 1293.58,
+          "buyZone": "N",
+          "buyZoneNote": "fails: above200, nearSupport, rsiOk",
+          "promotedToActive": false,
+          "priceDate": "2026-10-26",
+          "lastUpdated": "2026-10-28 02:39 IST",
+          "priceAtEventDate": "2026-10-26"
+        },
+        {
+          "ticker": "BEML.NS",
+          "name": "BEML",
+          "why": "Land-systems / mobility OEM mapped by Elara & SBI Sec to Army High Mobility Vehicles.",
+          "confidence": "med",
+          "packages": [
+            "HMV"
+          ],
+          "priceAtEvent": 1844.6,
+          "price": 1844.6,
+          "pctSinceEvent": 0.0,
+          "rsi14": 38.6,
+          "dma20": 1951.64,
+          "dma50": 1981.62,
+          "dma200": 1799.93,
+          "buyZone": "N",
+          "buyZoneNote": "fails: nearSupport, rsiOk",
+          "promotedToActive": false,
+          "priceDate": "2026-10-26",
+          "lastUpdated": "2026-10-28 02:39 IST",
+          "priceAtEventDate": "2026-10-26"
+        },
+        {
+          "ticker": "BHARATFORG.NS",
+          "name": "Bharat Forge",
+          "why": "Artillery / land-defence forgings and HMV-adjacent land systems; Elara & SBI Sec list for HMV and artillery ecosystem.",
+          "confidence": "med",
+          "packages": [
+            "HMV",
+            "Self-Propelled Tracked Gun (K9 Vajra)"
+          ],
+          "priceAtEvent": 1730.4,
+          "price": 1730.4,
+          "pctSinceEvent": 0.0,
+          "rsi14": 31.6,
+          "dma20": 1840.46,
+          "dma50": 1942.44,
+          "dma200": 1878.5,
+          "buyZone": "N",
+          "buyZoneNote": "fails: above200, nearSupport, rsiOk",
+          "promotedToActive": false,
+          "priceDate": "2026-10-26",
+          "lastUpdated": "2026-10-28 02:39 IST",
+          "priceAtEventDate": "2026-10-26"
+        },
+        {
+          "ticker": "SOLARINDS.NS",
+          "name": "Solar Industries India",
+          "why": "Energetics / munitions play for long-range kamikaze drones and Integrated Surveillance & Strike System (Elara, SBI Sec, Equirus).",
+          "confidence": "med",
+          "packages": [
+            "Long Range Kamikaze Drone",
+            "ISSS"
+          ],
+          "priceAtEvent": 18683.0,
+          "price": 18683.0,
+          "pctSinceEvent": 0.0,
+          "rsi14": 39.7,
+          "dma20": 19588.2,
+          "dma50": 20030.76,
+          "dma200": 16770.73,
+          "buyZone": "N",
+          "buyZoneNote": "fails: nearSupport, rsiOk",
+          "promotedToActive": false,
+          "priceDate": "2026-10-26",
+          "lastUpdated": "2026-10-28 02:39 IST",
+          "priceAtEventDate": "2026-10-26"
+        },
+        {
+          "ticker": "ZENTEC.NS",
+          "name": "Zen Technologies",
+          "why": "Counter-drone / simulation specialist mapped to platform-based C-UAS (Elara, Equirus, Mirae/Sharekhan).",
+          "confidence": "med",
+          "packages": [
+            "C-UAS"
+          ],
+          "priceAtEvent": 1544.7,
+          "price": 1544.7,
+          "pctSinceEvent": 0.0,
+          "rsi14": 40.8,
+          "dma20": 1603.38,
+          "dma50": 1717.53,
+          "dma200": 1598.33,
+          "buyZone": "N",
+          "buyZoneNote": "fails: above200, nearSupport",
+          "promotedToActive": false,
+          "priceDate": "2026-10-26",
+          "lastUpdated": "2026-10-28 02:39 IST",
+          "priceAtEventDate": "2026-10-26"
+        },
+        {
+          "ticker": "IDEAFORGE.NS",
+          "name": "ideaForge Technology",
+          "why": "Listed UAV OEM mapped to surveillance UAV / long-range UAS brick requirements.",
+          "confidence": "med",
+          "packages": [
+            "Surveillance UAV",
+            "Long-range UAS"
+          ],
+          "priceAtEvent": 651.0,
+          "price": 651.0,
+          "pctSinceEvent": 0.0,
+          "rsi14": 36.2,
+          "dma20": 708.3,
+          "dma50": 746.46,
+          "dma200": 663.85,
+          "buyZone": "N",
+          "buyZoneNote": "fails: above200, nearSupport, rsiOk",
+          "promotedToActive": false,
+          "priceDate": "2026-10-26",
+          "lastUpdated": "2026-10-28 02:39 IST",
+          "priceAtEventDate": "2026-10-26"
+        },
+        {
+          "ticker": "PARAS.NS",
+          "name": "Paras Defence and Space Technologies",
+          "why": "Electro-optics / drone subsystems; Equirus & Mirae list for UAV / counter-drone ecosystem.",
+          "confidence": "med",
+          "packages": [
+            "Surveillance UAV",
+            "C-UAS"
+          ],
+          "priceAtEvent": 1254.0,
+          "price": 1254.0,
+          "pctSinceEvent": 0.0,
+          "rsi14": 45.4,
+          "dma20": 1273.94,
+          "dma50": 1365.55,
+          "dma200": 997.78,
+          "buyZone": "N",
+          "buyZoneNote": "fails: nearSupport",
+          "promotedToActive": false,
+          "priceDate": "2026-10-26",
+          "lastUpdated": "2026-10-28 02:39 IST",
+          "priceAtEventDate": "2026-10-26"
+        },
+        {
+          "ticker": "NIBE.NS",
+          "name": "NIBE",
+          "why": "Loitering-munition exposure (shared ~₹1,580 Cr kamikaze order Aug 2026 with TASL). Equirus maps to kamikaze / long-range drone bids — competitive tenders.",
+          "confidence": "med",
+          "packages": [
+            "Long Range Kamikaze Drone"
+          ],
+          "priceAtEvent": 1126.1,
+          "price": 1126.1,
+          "pctSinceEvent": 0.0,
+          "rsi14": 35.8,
+          "dma20": 1241.35,
+          "dma50": 1315.05,
+          "dma200": 1253.64,
+          "buyZone": "N",
+          "buyZoneNote": "fails: above200, nearSupport, rsiOk",
+          "promotedToActive": false,
+          "priceDate": "2026-10-26",
+          "lastUpdated": "2026-10-28 02:39 IST",
+          "priceAtEventDate": "2026-10-26"
+        },
+        {
+          "ticker": "APOLLO.NS",
+          "name": "Apollo Micro Systems",
+          "why": "Defence electronics / munition electronics; Elara maps to platform-based C-UAS. Already on Spot Watchlist as Watch.",
+          "confidence": "med",
+          "packages": [
+            "C-UAS"
+          ],
+          "priceAtEvent": 410.9,
+          "price": 410.9,
+          "pctSinceEvent": 0.0,
+          "rsi14": 52.9,
+          "dma20": 404.11,
+          "dma50": 396.74,
+          "dma200": 330.41,
+          "buyZone": "Y",
+          "buyZoneNote": "all rules met",
+          "promotedToActive": true,
+          "priceDate": "2026-10-26",
+          "lastUpdated": "2026-10-28 02:39 IST",
+          "priceAtEventDate": "2026-10-26",
+          "promotedNote": "already on Active watchlist at seed"
+        },
+        {
+          "ticker": "AXISCADES.NS",
+          "name": "AXISCADES Technologies",
+          "why": "Defence engineering / electronics; Elara lists for platform-based C-UAS alongside BEL/Zen/Apollo.",
+          "confidence": "med",
+          "packages": [
+            "C-UAS"
+          ],
+          "priceAtEvent": 1921.3,
+          "price": 1921.3,
+          "pctSinceEvent": 0.0,
+          "rsi14": 45.1,
+          "dma20": 2078.42,
+          "dma50": 1856.4,
+          "dma200": 1674.06,
+          "buyZone": "Y",
+          "buyZoneNote": "all rules met",
+          "promotedToActive": false,
+          "priceDate": "2026-10-26",
+          "lastUpdated": "2026-10-28 02:39 IST",
+          "priceAtEventDate": "2026-10-26"
+        },
+        {
+          "ticker": "DATAPATTNS.NS",
+          "name": "Data Patterns (India)",
+          "why": "Radar / EW processors and defence electronics — indirect via BEL/DRDO/shipyard programmes (Equirus: real but later).",
+          "confidence": "med",
+          "packages": [
+            "X-Band weather radar",
+            "IAF air defence",
+            "Naval electronics"
+          ],
+          "priceAtEvent": 3773.8,
+          "price": 3773.8,
+          "pctSinceEvent": 0.0,
+          "rsi14": 26.5,
+          "dma20": 4115.35,
+          "dma50": 4407.39,
+          "dma200": 3838.37,
+          "buyZone": "N",
+          "buyZoneNote": "fails: above200, nearSupport, rsiOk",
+          "promotedToActive": false,
+          "priceDate": "2026-10-26",
+          "lastUpdated": "2026-10-28 02:39 IST",
+          "priceAtEventDate": "2026-10-26"
+        },
+        {
+          "ticker": "ASTRAMICRO.NS",
+          "name": "Astra Microwave Products",
+          "why": "RF / microwave modules for radars and EW; mapped to X-band weather radar and defence electronics chain.",
+          "confidence": "med",
+          "packages": [
+            "X-Band weather radar",
+            "IAF air defence"
+          ],
+          "priceAtEvent": 1498.3,
+          "price": 1498.3,
+          "pctSinceEvent": 0.0,
+          "rsi14": 34.4,
+          "dma20": 1622.83,
+          "dma50": 1655.05,
+          "dma200": 1345.23,
+          "buyZone": "N",
+          "buyZoneNote": "fails: nearSupport, rsiOk",
+          "promotedToActive": false,
+          "priceDate": "2026-10-26",
+          "lastUpdated": "2026-10-28 02:39 IST",
+          "priceAtEventDate": "2026-10-26"
+        },
+        {
+          "ticker": "MAZDOCK.NS",
+          "name": "Mazagon Dock Shipbuilders",
+          "why": "PSU shipyard for indigenously designed major naval platforms cleared under Navy AoN.",
+          "confidence": "med",
+          "packages": [
+            "Major naval platforms"
+          ],
+          "priceAtEvent": 1875.0,
+          "price": 1875.0,
+          "pctSinceEvent": 0.0,
+          "rsi14": 26.6,
+          "dma20": 2050.82,
+          "dma50": 2283.2,
+          "dma200": 2399.61,
+          "buyZone": "N",
+          "buyZoneNote": "fails: above200, nearSupport, rsiOk",
+          "promotedToActive": false,
+          "priceDate": "2026-10-26",
+          "lastUpdated": "2026-10-28 02:39 IST",
+          "priceAtEventDate": "2026-10-26"
+        },
+        {
+          "ticker": "COCHINSHIP.NS",
+          "name": "Cochin Shipyard",
+          "why": "PSU shipyard competing for major naval platforms / indigenous warship construction.",
+          "confidence": "med",
+          "packages": [
+            "Major naval platforms"
+          ],
+          "priceAtEvent": 1133.9,
+          "price": 1133.9,
+          "pctSinceEvent": 0.0,
+          "rsi14": 25.1,
+          "dma20": 1250.12,
+          "dma50": 1377.55,
+          "dma200": 1461.26,
+          "buyZone": "N",
+          "buyZoneNote": "fails: above200, nearSupport, rsiOk",
+          "promotedToActive": false,
+          "priceDate": "2026-10-26",
+          "lastUpdated": "2026-10-28 02:39 IST",
+          "priceAtEventDate": "2026-10-26"
+        },
+        {
+          "ticker": "GRSE.NS",
+          "name": "Garden Reach Shipbuilders & Engineers",
+          "why": "PSU shipyard; SBI Sec lists GRSE among naval-platform beneficiaries of the AoN.",
+          "confidence": "med",
+          "packages": [
+            "Major naval platforms"
+          ],
+          "priceAtEvent": 1869.1,
+          "price": 1869.1,
+          "pctSinceEvent": 0.0,
+          "rsi14": 23.6,
+          "dma20": 2092.74,
+          "dma50": 2345.49,
+          "dma200": 2514.02,
+          "buyZone": "N",
+          "buyZoneNote": "fails: above200, nearSupport, rsiOk",
+          "promotedToActive": false,
+          "priceDate": "2026-10-26",
+          "lastUpdated": "2026-10-28 02:39 IST",
+          "priceAtEventDate": "2026-10-26"
+        }
+      ]
+    }
+  ]
+}

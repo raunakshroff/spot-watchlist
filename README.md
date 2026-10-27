@@ -13,6 +13,8 @@ Modern NSE stock-tracking dashboard for **Raunak Shroff**. Dark technical UI, JS
 - **Overview** — status filters, ticker search, buy-zone / RSI alerts, expandable cards with levels + thesis + sparkline + sector badge
 - **Sector** — group active names by NSE sector; filter pills per sector; same expandable cards
 - **vs Nifty** — Daily / Weekly toggle; every available NSE index (broad, sectoral, thematic, strategy) plus BSE Sensex / BSE 100 / BSE 500, ranked by return with Nifty 50 as a highlighted row — above it outperformed, below it underperformed. Search, group filters, Above/Below filter, Ranked or By-group layout, ★ watchlist-linked filter; "My sectors" keeps the watchlist-sector cards. Config in `scripts/daily_update.py` (exclusions + BSE_INDICES).
+- **Sovrenn** — Sovrenn Times highlights with price since first mention, buy-zone, RSI (separate from Active watchlist)
+- **Events** — macro catalysts (seeded with DAC 26 Oct 2026 ~₹2.12 lakh Cr defence AoNs) with listed beneficiaries, % since event, buy-zone, RSI; daily auto-promotes near-breakout names to Active
 - **History** — pick any logged market day and see that day's roster, prices, RSI, and whether anything was dropped
 - **Dropped archive** — drop date, last price, sector, reason
 - **Daily auto-update** — weekday cron at `45 10 * * 1-5` UTC (= **4:15 PM IST**), plus manual `workflow_dispatch`
@@ -33,10 +35,12 @@ Modern NSE stock-tracking dashboard for **Raunak Shroff**. Dark technical UI, JS
 | `public/data/dropped.json` | Archived / dropped names |
 | `public/data/meta.json` | Title, timezone, last update, how-to blurbs |
 | `public/data/indices.json` | Nifty 50 benchmark + `indices[]` (all equity NSE indices + BSE Sensex/100/500 + a Nifty 50 benchmark row) + watchlist `sectors[]`, daily / weekly vs Nifty |
+| `public/data/sovrenn.json` | Sovrenn Times highlighted companies (separate list) |
+| `public/data/events.json` | Macro events + beneficiary companies (DAC defence AoNs, …); daily price/BZ refresh + auto-promote |
 
 ### Status values
 
-`Active` · `Dip-buy` · `Breakout-watch` · `Holding` · `Watch-only` · `Wait-RBI`
+`Active` · `Dip-buy` · `Breakout-watch` · `Holding` · `Watch` / `Watch-only` · `Wait-RBI`
 
 ---
 

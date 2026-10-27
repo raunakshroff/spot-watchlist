@@ -627,3 +627,32 @@ tr.dropped-row td { color: var(--text-muted); }
 .wt-table .lvl-cell { max-width: none; }
 .history-date .data-table td:last-child { min-width: 440px; max-width: 600px !important; font-size: 0.8rem; line-height: 1.5; }
 .data-table td:nth-last-child(2):not(.num) { white-space: normal; }
+
+
+/* ---------- Events tab ---------- */
+.ev-list {
+  display: flex; gap: 10px; overflow-x: auto; padding-bottom: 4px;
+  scrollbar-width: thin; -webkit-overflow-scrolling: touch;
+}
+.ev-card {
+  flex: 0 0 min(320px, 86vw); text-align: left;
+  padding: 12px 14px; border-radius: var(--radius);
+  border: 1px solid var(--border); background: var(--surface-2);
+  display: flex; flex-direction: column; gap: 6px;
+  transition: border-color .15s, box-shadow .15s, transform .15s;
+}
+.ev-card:hover { border-color: var(--border-strong); transform: translateY(-1px); }
+.ev-card.active {
+  border-color: rgba(108, 156, 255, 0.55);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+  background: linear-gradient(180deg, rgba(108,156,255,0.08), var(--surface-2) 55%);
+}
+.ev-card-top { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; color: var(--text-dim); }
+.ev-card-title { font-weight: 600; font-size: 0.92rem; line-height: 1.35; letter-spacing: -0.01em; }
+.ev-card-meta { margin-top: 2px; }
+.ev-packages { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+.ev-sources { margin: 8px 0 0; padding-left: 18px; }
+.ev-sources li { margin: 4px 0; }
+.tag-chip.conf-high { color: var(--green); background: var(--green-soft); border-color: var(--green-line); }
+.tag-chip.conf-med { color: var(--amber); background: var(--amber-soft); border-color: var(--amber-line); }
+.tag-chip.conf-low { color: var(--text-dim); background: var(--surface-3); border-color: var(--border); }

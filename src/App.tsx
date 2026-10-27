@@ -1,14 +1,15 @@
 import { useEffect, useState } from "react";
-import { Activity, LayoutDashboard, Layers, LineChart, Newspaper, History as HistoryIcon, Archive, ExternalLink } from "lucide-react";
-import type { DroppedStock, HistoryEntry, IndexConstituentsData, IndexHistoryData, IndicesData, Meta, SovrennEntry, WatchlistStock } from "./types";
+import { Activity, LayoutDashboard, Layers, LineChart, Newspaper, History as HistoryIcon, Archive, ExternalLink, CalendarDays } from "lucide-react";
+import type { DroppedStock, EventsData, HistoryEntry, IndexConstituentsData, IndexHistoryData, IndicesData, Meta, SovrennEntry, WatchlistStock } from "./types";
 import { SovrennView } from "./components/SovrennView";
+import { EventsView } from "./components/EventsView";
 import { Overview } from "./components/Overview";
 import { HistoryView } from "./components/HistoryView";
 import { DroppedView } from "./components/DroppedView";
 import { SectorView } from "./components/SectorView";
 import { IndexView } from "./components/IndexView";
 
-type Tab = "overview" | "sector" | "index" | "sovrenn" | "history" | "dropped";
+type Tab = "overview" | "sector" | "index" | "sovrenn" | "events" | "history" | "dropped";
 
 async function loadJson<T>(path: string): Promise<T> {
   const base = import.meta.env.BASE_URL;
@@ -22,6 +23,7 @@ const TAB_HASH: Record<Tab, string> = {
   sector: "sector",
   index: "indexes",
   sovrenn: "sovrenn",
+  events: "events",
   history: "history",
   dropped: "dropped",
 };
@@ -55,6 +57,8 @@ export default function App() {
   const [indicesError, setIndicesError] = useState<string | null>(null);
   const [sovrenn, setSovrenn] = useState<SovrennEntry[] | null>(null);
   const [sovrennError, setSovrennError] = useState<string | null>(null);
+  const [events, setEvents] = useState<EventsData | null>(null);
+  const [eventsError, setEventsError] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [search, setSearch] = useState("");
   const [statusFilter, setStatusFilter] = useState("All");
@@ -89,6 +93,10 @@ export default function App() {
     loadJson<SovrennEntry[]>("data/sovrenn.json")
       .then(setSovrenn)
       .catch((e: Error) => setSovrennError(e.message));
+
+    loadJson<EventsData>("data/events.json")
+      .then(setEvents)
+      .catch((e: Error) => setEventsError(e.message));
   }, []);
 
   if (error) {
@@ -112,6 +120,7 @@ export default function App() {
     { id: "sector", label: "Sector", icon: Layers },
     { id: "index", label: "Indexes", icon: LineChart, count: indices?.indices?.length ? indices.indices.length - 1 : undefined },
     { id: "sovrenn", label: "Sovrenn", icon: Newspaper, count: sovrenn?.length },
+    { id: "events", label: "Events", icon: CalendarDays, count: events?.events?.reduce((n, e) => n + e.companies.length, 0) },
     { id: "history", label: "History", icon: HistoryIcon },
     { id: "dropped", label: "Dropped", icon: Archive, count: dropped.length },
   ];
@@ -174,6 +183,7 @@ export default function App() {
         <IndexView data={indices} history={indexHistory} constituents={indexConstituents} loadError={indicesError} watchlist={watchlist} />
       )}
       {tab === "sovrenn" && <SovrennView data={sovrenn} loadError={sovrennError} />}
+      {tab === "events" && <EventsView data={events} loadError={eventsError} />}
       {tab === "history" && <HistoryView history={history} />}
       {tab === "dropped" && <DroppedView dropped={dropped} />}
 
