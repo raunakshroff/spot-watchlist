@@ -2,6 +2,7 @@ import { Fragment, useMemo, useState } from "react";
 import type { EventCompany, EventsData, MacroEvent } from "../types";
 import { Search, ArrowUpDown, ExternalLink, CalendarDays } from "lucide-react";
 import { formatInr, formatPct, formatSignedPct, toneOf } from "../utils/format";
+import { Sparkline } from "./Sparkline";
 
 type Key =
   | "ticker"
@@ -9,6 +10,7 @@ type Key =
   | "confidence"
   | "buyZone"
   | "price"
+  | "dailyPct"
   | "pctSinceEvent"
   | "priceAtEvent"
   | "rsi14";
@@ -18,13 +20,14 @@ const COLS: { key: Key; label: string }[] = [
   { key: "name", label: "Name" },
   { key: "confidence", label: "Link" },
   { key: "buyZone", label: "Buy zone" },
-  { key: "price", label: "Current" },
+  { key: "price", label: "Today" },
+  { key: "dailyPct", label: "Day %" },
   { key: "pctSinceEvent", label: "% since event" },
   { key: "priceAtEvent", label: "Price @ event" },
   { key: "rsi14", label: "RSI" },
 ];
 
-const NUM_COLS = new Set<Key>(["price", "pctSinceEvent", "priceAtEvent", "rsi14"]);
+const NUM_COLS = new Set<Key>(["price", "dailyPct", "pctSinceEvent", "priceAtEvent", "rsi14"]);
 const CONF_RANK: Record<string, number> = { high: 3, med: 2, low: 1 };
 
 function sym(c: EventCompany) {
@@ -54,7 +57,7 @@ function bzChip(c: EventCompany) {
 
 export function EventsView({ data, loadError }: { data: EventsData | null; loadError: string | null }) {
   const [eventId, setEventId] = useState<string | null>(null);
-  const [sortKey, setSortKey] = useState<Key>("pctSinceEvent");
+  const [sortKey, setSortKey] = useState<Key>("dailyPct");
   const [asc, setAsc] = useState(false);
   const [q, setQ] = useState("");
   const [onlyBz, setOnlyBz] = useState(false);
@@ -130,6 +133,15 @@ export function EventsView({ data, loadError }: { data: EventsData | null; loadE
       </div>
     </div>
   );
+
+  const sparkCell = (c: EventCompany) => {
+    const up = (c.dailyPct ?? 0) >= 0;
+    return (
+      <div className="ev-spark" onClick={(e) => e.stopPropagation()}>
+        <Sparkline data={c.sparkline ?? []} up={up} />
+      </div>
+    );
+  };
 
   return (
     <section className="stack">
@@ -256,7 +268,8 @@ export function EventsView({ data, loadError }: { data: EventsData | null; loadE
             Buy zone (daily, same as Sovrenn): above 200 DMA, within 0 to +4% of 20/50 DMA, RSI 40–60, not more than
             8% above 20 DMA. Auto-promote to Active (Breakout-watch / Watch) when buy-zone Y <em>or</em> near-breakout
             bundle: above 20 &amp; 50 DMA, RSI 45–68, ≥+2% since event, within 3% of 20-session high, ≤12% above 20 DMA.
-            Skips names already on Active or Dropped. Does not invent stop/target levels.
+            Skips names already on Active or Dropped. Does not invent stop/target levels. Today / Day % / spark use the
+            latest Yahoo close vs prior session (~20-day sparkline).
           </p>
         </details>
 
@@ -295,6 +308,7 @@ export function EventsView({ data, loadError }: { data: EventsData | null; loadE
                     <span className="sort-ind">{sortKey === c.key ? (asc ? "▲" : "▼") : ""}</span>
                   </th>
                 ))}
+                <th>Spark</th>
                 <th>Why it benefits</th>
               </tr>
             </thead>
@@ -313,18 +327,22 @@ export function EventsView({ data, loadError }: { data: EventsData | null; loadE
                     <td>{confChip(c)}</td>
                     <td>{bzChip(c)}</td>
                     <td className="num strong">{c.price != null ? formatInr(c.price) : "n/a"}</td>
+                    <td className={`num ${toneOf(c.dailyPct)}`}>
+                      {c.dailyPct != null ? formatSignedPct(c.dailyPct) : "n/a"}
+                    </td>
                     <td className={`num ${toneOf(c.pctSinceEvent)}`}>
                       {c.pctSinceEvent != null ? formatPct(c.pctSinceEvent) : "n/a"}
                     </td>
                     <td className="num muted">{c.priceAtEvent != null ? formatInr(c.priceAtEvent) : "n/a"}</td>
                     <td className="num">{c.rsi14 ?? "n/a"}</td>
+                    <td>{sparkCell(c)}</td>
                     <td className="reason-cell" title={c.why}>
                       <div className="clamp-2">{c.why}</div>
                     </td>
                   </tr>
                   {open === c.ticker && (
                     <tr className="detail-row">
-                      <td colSpan={COLS.length + 1}>{detail(c)}</td>
+                      <td colSpan={COLS.length + 2}>{detail(c)}</td>
                     </tr>
                   )}
                 </Fragment>
@@ -334,53 +352,63 @@ export function EventsView({ data, loadError }: { data: EventsData | null; loadE
         </div>
 
         <div className="sv-cards">
-          {rows.map((c) => (
-            <article key={c.ticker} className={`wcard ${open === c.ticker ? "open" : ""}`}>
-              <button
-                type="button"
-                className="wcard-main"
-                onClick={() => setOpen(open === c.ticker ? null : c.ticker)}
-              >
-                <div className="wcard-top">
-                  <div className="wcard-id">
-                    <div className="tkr">
-                      <span className="tkr-sym">{sym(c)}</span>
-                      {confChip(c)}
-                      {c.promotedToActive && <span className="tag-chip sme">Active</span>}
+          {rows.map((c) => {
+            const up = (c.dailyPct ?? 0) >= 0;
+            return (
+              <article key={c.ticker} className={`wcard ${open === c.ticker ? "open" : ""}`}>
+                <button
+                  type="button"
+                  className="wcard-main"
+                  onClick={() => setOpen(open === c.ticker ? null : c.ticker)}
+                >
+                  <div className="wcard-top">
+                    <div className="wcard-id">
+                      <div className="tkr">
+                        <span className="tkr-sym">{sym(c)}</span>
+                        {confChip(c)}
+                        {c.promotedToActive && <span className="tag-chip sme">Active</span>}
+                      </div>
+                      <div className="tkr-name">{c.name}</div>
                     </div>
-                    <div className="tkr-name">{c.name}</div>
-                  </div>
-                  <div className="wcard-px">
-                    <div className="px">{c.price != null ? formatInr(c.price) : "n/a"}</div>
-                    <div className={`px-chg ${toneOf(c.pctSinceEvent)}`}>
-                      {c.pctSinceEvent != null ? `${formatPct(c.pctSinceEvent)} since` : "n/a"}
+                    <div className="wcard-px">
+                      <div className="px">{c.price != null ? formatInr(c.price) : "n/a"}</div>
+                      <div className={`px-chg ${toneOf(c.dailyPct)}`}>
+                        {c.dailyPct != null ? formatSignedPct(c.dailyPct) : "n/a"} today
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div className="wcard-mid">{bzChip(c)}</div>
-                <div className="wcard-grid">
-                  <div>
-                    <span className="k">@ event</span>
-                    <span className="v">{c.priceAtEvent != null ? formatInr(c.priceAtEvent) : "n/a"}</span>
+                  <div className="wcard-mid">
+                    {bzChip(c)}
+                    <div className="wcard-spark ev-spark">
+                      <Sparkline data={c.sparkline ?? []} up={up} />
+                    </div>
                   </div>
-                  <div>
-                    <span className="k">RSI</span>
-                    <span className="v">{c.rsi14 ?? "n/a"}</span>
+                  <div className="wcard-grid">
+                    <div>
+                      <span className="k">Since event</span>
+                      <span className={`v ${toneOf(c.pctSinceEvent)}`}>
+                        {c.pctSinceEvent != null ? formatPct(c.pctSinceEvent) : "n/a"}
+                      </span>
+                    </div>
+                    <div>
+                      <span className="k">@ event</span>
+                      <span className="v">{c.priceAtEvent != null ? formatInr(c.priceAtEvent) : "n/a"}</span>
+                    </div>
+                    <div>
+                      <span className="k">RSI</span>
+                      <span className="v">{c.rsi14 ?? "n/a"}</span>
+                    </div>
+                    <div>
+                      <span className="k">Link</span>
+                      <span className="v">{c.confidence}</span>
+                    </div>
                   </div>
-                  <div>
-                    <span className="k">Link</span>
-                    <span className="v">{c.confidence}</span>
-                  </div>
-                  <div>
-                    <span className="k">Pkgs</span>
-                    <span className="v">{c.packages?.length ?? 0}</span>
-                  </div>
-                </div>
-                <div className="wcard-trigger clamp-3">{c.why}</div>
-              </button>
-              {open === c.ticker && detail(c)}
-            </article>
-          ))}
+                  <div className="wcard-trigger clamp-3">{c.why}</div>
+                </button>
+                {open === c.ticker && detail(c)}
+              </article>
+            );
+          })}
         </div>
       </div>
     </section>

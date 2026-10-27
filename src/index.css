@@ -656,3 +656,7 @@ tr.dropped-row td { color: var(--text-muted); }
 .tag-chip.conf-high { color: var(--green); background: var(--green-soft); border-color: var(--green-line); }
 .tag-chip.conf-med { color: var(--amber); background: var(--amber-soft); border-color: var(--amber-line); }
 .tag-chip.conf-low { color: var(--text-dim); background: var(--surface-3); border-color: var(--border); }
+
+.ev-spark { width: 96px; height: 28px; opacity: 0.9; }
+.ev-spark .spark { width: 96px; height: 28px; }
+td .ev-spark { margin: 0 auto; }

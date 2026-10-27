@@ -279,6 +279,8 @@ export interface EventCompany {
   priceAtEventDate?: string | null;
   price?: number | null;
   priceDate?: string | null;
+  dailyPct?: number | null;
+  sparkline?: number[];
   pctSinceEvent?: number | null;
   rsi14?: number | null;
   dma20?: number | null;

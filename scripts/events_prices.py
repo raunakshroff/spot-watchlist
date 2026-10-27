@@ -1,7 +1,7 @@
 """Price / buy-zone refresh + Active promotion for public/data/events.json.
 
-Reuses sovrenn_prices.evaluate (same daily buy-zone rules). Sets priceAtEvent
-once (close on/before event date), pctSinceEvent, rsi14, DMAs, buyZone.
+Reuses sovrenn_prices.evaluate (same daily buy-zone rules). Sets priceAtEvent once (close on/before event date), pctSinceEvent,
+dailyPct, sparkline (~20 closes), rsi14, DMAs, buyZone.
 
 Promotion heuristic (conservative — documented for daily chat note):
   Promote an Events company into watchlist.json when ALL of:
@@ -28,6 +28,21 @@ from zoneinfo import ZoneInfo
 from sovrenn_prices import _hist, evaluate
 
 IST = ZoneInfo("Asia/Kolkata")
+
+
+def _daily_pct(h) -> float | None:
+    c = h["Close"].dropna()
+    if len(c) < 2:
+        return None
+    last, prev = float(c.iloc[-1]), float(c.iloc[-2])
+    if not prev:
+        return None
+    return round((last / prev - 1) * 100, 2)
+
+
+def _sparkline(h, n: int = 20) -> list[float]:
+    vals = [float(x) for x in h["Close"].dropna().tail(n).tolist() if x == x]
+    return [round(v, 2) for v in vals]
 
 
 def _price_on_or_before(h, date_str: str):
@@ -71,17 +86,21 @@ def refresh(db: dict) -> None:
         for c in ev.get("companies", []):
             t = c.get("ticker")
             if not t:
-                c.update({"price": None, "buyZone": "n/a", "buyZoneNote": "no ticker"})
+                c.update({"price": None, "dailyPct": None, "sparkline": [], "buyZone": "n/a", "buyZoneNote": "no ticker"})
                 continue
             h = _hist(t)
             if h is None or len(h) < 15:
                 print(f"WARN events: no data for {t}")
-                c.update({"price": None, "buyZone": "n/a", "buyZoneNote": "no price data"})
+                c.update({"price": None, "dailyPct": None, "sparkline": [], "buyZone": "n/a", "buyZoneNote": "no price data"})
                 continue
             metrics = evaluate(h)
+            daily = _daily_pct(h)
+            spark = _sparkline(h, 20)
             c.update({
                 "price": metrics["price"],
                 "priceDate": metrics["priceDate"],
+                "dailyPct": daily,
+                "sparkline": spark,
                 "dma20": metrics["dma20"],
                 "dma50": metrics["dma50"],
                 "dma200": metrics["dma200"],
@@ -102,7 +121,7 @@ def refresh(db: dict) -> None:
             c["_hist_ok"] = True  # ephemeral; stripped before save
             c["_nearBreakout"] = _near_breakout(h, c)
             print(
-                f"events {t}: {metrics['price']} bz={metrics['buyZone']} "
+                f"events {t}: {metrics['price']} d={daily}% bz={metrics['buyZone']} "
                 f"since={c['pctSinceEvent']} nearBO={c['_nearBreakout']}"
             )
     db["updatedAt"] = datetime.now(IST).strftime("%Y-%m-%d")
@@ -163,8 +182,9 @@ def promote_to_active(
                 "target1": None,
                 "target2": None,
                 "price": c.get("price"),
-                "dailyPct": None,
+                "dailyPct": c.get("dailyPct"),
                 "rsi14": c.get("rsi14"),
+                "sparkline": c.get("sparkline") or [],
                 "volume": None,
                 "volVs20d": None,
                 "support": None,
