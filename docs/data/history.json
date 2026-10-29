@@ -3585,5 +3585,22 @@
     "buyZoneLevels": "—",
     "stop": "—",
     "notes": "Oct 26 results: OPM 50%→71%, PAT 44→66 Cr. Screener OPM↑ + PAT↑ QoQ/YoY. | 28-Oct close: 793.9 (+7.05%), high 799.0, low 736.0; vol 1.81x 20d. RSI 69.2. Closed above prior 20-session high 778.2 on 1.81x vol (volume-backed breakout); RSI 69.2 near overbought. No levels set on this Watch row yet."
+  },
+  {
+    "date": "2026-10-29",
+    "ticker": "IGIL.NS",
+    "name": "International Gemological Institute",
+    "status": "Active",
+    "price": 406.05,
+    "dailyPct": 1.91,
+    "rsi14": 81.4,
+    "volume": 478328,
+    "volVs20d": 0.2,
+    "support": "381-385 / 368 / 353 (gap) / 332-338 (20-50-200DMA)",
+    "resistance": "417 (IPO) / 419 (52w high) / 471",
+    "buyZoneLevels": "Entry 381-386 (breakout retest) or close >419 on >=1.5x vol",
+    "stop": "close <368",
+    "notes": "Promoted Watch→Active; starting price 406.05 (intraday ~11:10 IST, +1.91%). RSI 81.4 overbought; buy-zone N — wait for 381-386 retest or close >419 on volume; stop close <368.",
+    "droppedThatDay": false
   }
 ]
