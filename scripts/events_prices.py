@@ -173,7 +173,7 @@ def promote_to_active(
             row = {
                 "ticker": t,
                 "name": c.get("name") or t.replace(".NS", "").replace(".BO", ""),
-                "sector": "Defence / Aerospace",
+                "sector": ev.get("sector") or "Defence / Aerospace",
                 "status": status,
                 "thesis": reason,
                 "buyZone": False,

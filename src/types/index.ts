@@ -318,6 +318,7 @@ export interface MacroEvent {
   id: string;
   title: string;
   date: string;
+  sector?: string | null;
   amountCr?: number | null;
   indigenousPct?: number | null;
   summary: string;
