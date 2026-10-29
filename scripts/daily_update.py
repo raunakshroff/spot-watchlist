@@ -414,6 +414,14 @@ def fetch_metrics(ticker: str) -> dict | None:
             "volume": int(vol) if vol == vol else None,
             "volVs20d": vol_vs,
             "sparkline": sparkline(closes),
+            # Ephemeral (not saved): last daily bar, used by price alerts
+            "ohlc": {
+                "date": hist.index[-1].strftime("%Y-%m-%d"),
+                "open": round(float(hist["Open"].iloc[-1]), 2),
+                "high": round(float(hist["High"].iloc[-1]), 2),
+                "low": round(float(hist["Low"].iloc[-1]), 2),
+                "close": round(last, 2),
+            },
         }
     except Exception as e:  # noqa: BLE001
         print(f"WARN: fetch failed for {ticker}: {e}")
@@ -851,6 +859,11 @@ def main() -> int:
     day = today_ist()
 
     updated = 0
+    sys.path.insert(0, str(Path(__file__).parent))
+    from price_alerts import evaluate_stock, format_note as format_alerts_note
+
+    eval_alerts = datetime.now(IST).strftime("%H:%M") >= "15:30" or "--force-alerts" in sys.argv
+    alert_hits: list[dict] = []
     for stock in watchlist:
         ticker = stock["ticker"]
         metrics = fetch_metrics(ticker)
@@ -865,6 +878,8 @@ def main() -> int:
         stock["sparkline"] = metrics["sparkline"]
         stock["lastUpdated"] = day
         updated += 1
+        if eval_alerts and stock.get("alerts"):
+            alert_hits += evaluate_stock(stock, metrics.get("ohlc"), day)
 
         history = [
             h for h in history if not (h.get("date") == day and h.get("ticker") == ticker)
@@ -896,6 +911,10 @@ def main() -> int:
     save("watchlist.json", watchlist)
     save("history.json", history)
     save("meta.json", meta)
+    alerts_note = format_alerts_note(alert_hits, watchlist)
+    if not eval_alerts:
+        alerts_note += " (not evaluated: run before 15:30 IST close)"
+    print(alerts_note)
 
     indices = build_indices(watchlist, as_of=day)
     if indices:
@@ -1009,6 +1028,7 @@ def main() -> int:
 
     print(f"Updated {updated}/{len(watchlist)} tickers for {day}")
     print(f"CHAT_NOTE_EVENTS: {events_promo_note}")
+    print("CHAT_NOTE_ALERTS: " + alerts_note.replace("\n", "\nCHAT_NOTE_ALERTS: "))
     return 0
 
 

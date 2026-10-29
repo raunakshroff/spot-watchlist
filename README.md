@@ -110,3 +110,17 @@ To activate Actions:
 2. Until then, the site is served from the **`/docs` folder on `main`** (GitHub Pages).
 3. After workflows are in place, you can switch Pages source to **GitHub Actions** and optionally stop committing `docs/`.
 
+
+## Price alerts
+
+Optional `alerts` array on any `watchlist.json` entry (see `scripts/price_alerts.py`):
+
+```json
+{"id": "igil-pullback-381-386", "type": "range", "low": 381, "high": 386, "label": "Pullback entry zone 381–386", "status": "armed", "createdDate": "2026-10-29"}
+{"id": "igil-breakout-419", "type": "closeAbove", "level": 419, "label": "Breakout: daily close above 419", "status": "armed", "createdDate": "2026-10-29"}
+```
+
+- `range` fires when the day's low ≤ `high` and high ≥ `low`; `closeAbove` / `closeBelow` fire on the daily close.
+- Evaluated only by `daily_update.py` on today's completed bar (after 15:30 IST, or `--force-alerts`). A fired alert becomes `triggered` with `triggeredDate`, `triggeredPrice` (close), `dayLow`, `dayHigh`, `volVs20d`, stays visible, and never re-fires.
+- The script prints `CHAT_NOTE_ALERTS:` lines (hits + armed count) for the daily chat note.
+- Dry run against live data: `python scripts/price_alerts.py IGIL.NS` (writes nothing).

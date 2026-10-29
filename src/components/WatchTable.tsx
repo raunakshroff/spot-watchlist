@@ -4,6 +4,7 @@ import type { WatchlistStock } from "../types";
 import { StatusBadge } from "./StatusBadge";
 import { Sparkline } from "./Sparkline";
 import { ZoneChip } from "./ZoneChip";
+import { AlertChips } from "./AlertChips";
 import { computeZone, firstLevel, ZONE_RANK, type Zone } from "../utils/zone";
 import { formatInr, formatRsi, formatSignedPct, rsiTone, shortTicker, toneOf } from "../utils/format";
 
@@ -104,6 +105,18 @@ function Detail({ s, z }: { s: WatchlistStock; z: Zone }) {
           <dd className={z.distPct == null ? "" : z.distPct < 0 ? "down" : z.distPct <= 1 ? "warn" : ""}>
             {z.distPct == null ? "—" : `${formatSignedPct(z.distPct, 2)} vs ${formatInr(z.stop)}`}
           </dd>
+          {s.alerts?.length ? (
+            <>
+              <dt>Price alerts</dt>
+              <dd>
+                {s.alerts.map((a) => (
+                  <div key={a.id} className={a.status === "triggered" ? "warn" : ""}>
+                    {a.label} · {a.status === "triggered" ? `triggered ${a.triggeredDate} @ ${formatInr(a.triggeredPrice ?? null)}` : `armed since ${a.createdDate}`}
+                  </div>
+                ))}
+              </dd>
+            </>
+          ) : null}
           <dt>Volume vs 20d</dt>
           <dd>{s.volVs20d == null ? "—" : `${s.volVs20d.toFixed(2)}×`}</dd>
           {s.sharesHeld ? (
@@ -196,6 +209,7 @@ export function WatchTable({ stocks, emptyText = "No names match this filter." }
                       {s.sharesHeld ? <span className="held-chip">{s.sharesHeld} sh</span> : null}
                     </div>
                     <div className="tkr-name">{s.name}</div>
+                    <AlertChips alerts={s.alerts} />
                   </td>
                   <td>
                     <ZoneChip kind={z.kind} />
@@ -257,6 +271,7 @@ export function WatchTable({ stocks, emptyText = "No names match this filter." }
                     <Sparkline data={s.sparkline ?? []} up={up} />
                   </div>
                 </div>
+                <AlertChips alerts={s.alerts} />
                 <div className="wcard-grid">
                   <div>
                     <span className="k">Stop</span>

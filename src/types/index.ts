@@ -32,6 +32,25 @@ export interface WatchlistStock {
   lastUpdated: string;
   notes: string | null;
   sparkline?: number[];
+  /** Optional price alerts, evaluated once per day by scripts/price_alerts.py */
+  alerts?: PriceAlert[];
+}
+
+export interface PriceAlert {
+  id: string;
+  type: "range" | "closeAbove" | "closeBelow";
+  low?: number;
+  high?: number;
+  level?: number;
+  label: string;
+  status: "armed" | "triggered";
+  createdDate: string;
+  triggeredDate?: string;
+  triggeredPrice?: number;
+  dayLow?: number;
+  dayHigh?: number;
+  volVs20d?: number | null;
+  note?: string;
 }
 
 export interface HistoryEntry {

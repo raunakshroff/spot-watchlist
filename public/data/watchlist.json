@@ -357,6 +357,26 @@
       392.55,
       398.45,
       406.05
+    ],
+    "alerts": [
+      {
+        "id": "igil-pullback-381-386",
+        "type": "range",
+        "low": 381,
+        "high": 386,
+        "label": "Pullback entry zone 381–386",
+        "status": "armed",
+        "createdDate": "2026-10-29"
+      },
+      {
+        "id": "igil-breakout-419",
+        "type": "closeAbove",
+        "level": 419,
+        "label": "Breakout: daily close above 419",
+        "status": "armed",
+        "createdDate": "2026-10-29",
+        "note": "Confirm volume >=1.5x 20d avg (volVs20d recorded at trigger); triggers on close alone"
+      }
     ]
   },
   {

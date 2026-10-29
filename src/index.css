@@ -660,3 +660,16 @@ tr.dropped-row td { color: var(--text-muted); }
 .ev-spark { width: 96px; height: 28px; opacity: 0.9; }
 .ev-spark .spark { width: 96px; height: 28px; }
 td .ev-spark { margin: 0 auto; }
+
+/* ---------- price alerts ---------- */
+.alert-chips { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+.alert-chip {
+  display: inline-flex; align-items: center; gap: 4px; height: 19px; padding: 0 7px; border-radius: 999px;
+  font-family: var(--mono); font-size: 0.66rem; font-weight: 600; white-space: nowrap; border: 1px solid transparent;
+}
+.alert-chip.armed { color: var(--text-muted); background: var(--surface-3); border-color: var(--border); }
+.alert-chip.hit { color: var(--amber); background: var(--amber-soft); border-color: var(--amber-line); }
+.alert-chip.hit svg { animation: pulse 1.8s ease-in-out infinite; }
+.alert-when { font-weight: 500; opacity: 0.85; }
+.pill-alerts { display: inline-flex; align-items: center; gap: 5px; }
+.pill-hit { font-size: 0.66rem; font-weight: 700; padding: 0 6px; border-radius: 999px; color: var(--amber); background: var(--amber-soft); }

@@ -3,6 +3,8 @@ import { Search } from "lucide-react";
 import type { IndicesData, WatchlistStock } from "../types";
 import { SummaryCard } from "./SummaryCard";
 import { WatchTable } from "./WatchTable";
+import { alertCounts } from "../utils/alerts";
+import { BellRing } from "lucide-react";
 import { shortTicker } from "../utils/format";
 import { computeZone, ZONE_LABEL, ZONE_NEAR_STOP_PCT, type ZoneKind } from "../utils/zone";
 
@@ -27,6 +29,14 @@ const ZONE_HINT: Record<ZoneKind, string> = {
 
 export function Overview({ stocks, search, setSearch, statusFilter, setStatusFilter, indices, onOpenIndex }: Props) {
   const [zoneFilter, setZoneFilter] = useState<ZoneKind | "all">("all");
+  const [alertsOnly, setAlertsOnly] = useState(false);
+  const alertTotals = stocks.reduce(
+    (t, s) => {
+      const c = alertCounts(s);
+      return { armed: t.armed + c.armed, hit: t.hit + c.hit, names: t.names + (c.armed + c.hit ? 1 : 0) };
+    },
+    { armed: 0, hit: 0, names: 0 },
+  );
   const zones = useMemo(() => new Map(stocks.map((s) => [s.ticker, computeZone(s).kind])), [stocks]);
   const count = (k: ZoneKind) => stocks.filter((s) => zones.get(s.ticker) === k).length;
   const holdings = stocks.filter((s) => s.status === "Holding" || (s.sharesHeld ?? 0) > 0);
@@ -40,7 +50,8 @@ export function Overview({ stocks, search, setSearch, statusFilter, setStatusFil
       s.ticker.toLowerCase().includes(q) ||
       s.name.toLowerCase().includes(q) ||
       shortTicker(s.ticker).toLowerCase().includes(q);
-    return matchStatus && matchQ && matchZone;
+    const matchAlert = !alertsOnly || (s.alerts?.length ?? 0) > 0;
+    return matchStatus && matchQ && matchZone && matchAlert;
   });
 
   const statusCounts = (st: string) => (st === "All" ? stocks.length : stocks.filter((s) => s.status === st).length);
@@ -100,6 +111,17 @@ export function Overview({ stocks, search, setSearch, statusFilter, setStatusFil
               </button>
             );
           })}
+          {alertTotals.names > 0 && (
+            <button
+              type="button"
+              className={`pill pill-alerts ${alertsOnly ? "active" : ""} ${alertTotals.hit ? "has-hit" : ""}`}
+              onClick={() => setAlertsOnly(!alertsOnly)}
+              title={`${alertTotals.armed} armed · ${alertTotals.hit} triggered`}
+            >
+              <BellRing size={12} aria-hidden /> Price alerts <span className="pill-n">{alertTotals.armed}</span>
+              {alertTotals.hit ? <span className="pill-hit">{alertTotals.hit} hit</span> : null}
+            </button>
+          )}
           {zoneFilter !== "all" && (
             <button type="button" className="pill pill-clear" onClick={() => setZoneFilter("all")}>
               Zone: {ZONE_LABEL[zoneFilter]} ✕
