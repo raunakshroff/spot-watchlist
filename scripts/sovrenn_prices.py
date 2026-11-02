@@ -21,6 +21,7 @@ IST = ZoneInfo("Asia/Kolkata")
 # Manually verified Yahoo symbols where the Sovrenn code does not resolve
 # (key = sovrenn.json "key"). Name checked against Yahoo longName.
 OVERRIDES = {
+    "SSEGL": ["SSEGL-SM.NS"],  # Sathlokhar Synergys E&C Global Limited (NSE-SME)
     "544161": ["DPABHUSHAN.NS"],  # D. P. Abhushan Limited
     "PARTH": ["PARTH-SM.NS"],  # Parth Electricals & Engineering Limited (NSE-SME)
     "ANAWIL": ["ANAWIL-SM.NS"],  # Anawil Wire & Engineering Limited (NSE-SME)
