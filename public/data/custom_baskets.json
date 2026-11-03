@@ -4515,14 +4515,14 @@
     }
   ],
   "lastBuild": {
-    "asOf": "2026-11-02",
-    "builtUtc": "2026-11-02T10:59:04Z",
+    "asOf": "2026-11-03",
+    "builtUtc": "2026-11-03T11:01:32Z",
     "report": {
       "built": [
         {
           "id": "CUSTOM-CHEM-SPECIALTY",
-          "members": 47,
-          "excluded": 41,
+          "members": 46,
+          "excluded": 42,
           "thin": false,
           "liquidityFallback": false
         },
@@ -4668,15 +4668,15 @@
         },
         {
           "id": "CUSTOM-GAP-LEATHER-AND-LEATHER-PRODUCTS",
-          "members": 3,
-          "excluded": 5,
-          "thin": false,
+          "members": 2,
+          "excluded": 6,
+          "thin": true,
           "liquidityFallback": false
         },
         {
           "id": "CUSTOM-GAP-OTHER-TEXTILE-PRODUCTS",
-          "members": 32,
-          "excluded": 51,
+          "members": 31,
+          "excluded": 52,
           "thin": false,
           "liquidityFallback": false
         },
@@ -4703,9 +4703,9 @@
         },
         {
           "id": "CUSTOM-GAP-E-LEARNING",
-          "members": 3,
-          "excluded": 4,
-          "thin": false,
+          "members": 2,
+          "excluded": 5,
+          "thin": true,
           "liquidityFallback": false
         },
         {
@@ -4787,8 +4787,8 @@
         },
         {
           "id": "CUSTOM-GAP-PACKAGING",
-          "members": 17,
-          "excluded": 32,
+          "members": 16,
+          "excluded": 33,
           "thin": false,
           "liquidityFallback": false
         },
@@ -4857,8 +4857,8 @@
         },
         {
           "id": "CUSTOM-GAP-DIVERSIFIED-COMMERCIAL-SERVICES",
-          "members": 19,
-          "excluded": 18,
+          "members": 18,
+          "excluded": 19,
           "thin": false,
           "liquidityFallback": false
         },
@@ -4946,187 +4946,193 @@
           {
             "symbol": "VIDHIING",
             "name": "Vidhi Specialty",
-            "adv": 6856702,
+            "adv": 6684044,
             "reason": "liquidity"
           },
           {
             "symbol": "NITTAGELA",
             "name": "Nitta Gelatin",
-            "adv": 6172700,
+            "adv": 6423871,
             "reason": "liquidity"
           },
           {
             "symbol": "EXCELINDUS",
             "name": "Excel Industries",
-            "adv": 7306096,
+            "adv": 6920855,
             "reason": "liquidity"
           },
           {
             "symbol": "JYOTIRES",
             "name": "Jyoti Resins",
-            "adv": 5076953,
+            "adv": 5007447,
             "reason": "liquidity"
           },
           {
             "symbol": "SUNSHIEL",
             "name": "Sunshield Chem.",
-            "adv": 1162223,
+            "adv": 1085581,
             "reason": "liquidity"
           },
           {
             "symbol": "CHEMCON",
             "name": "Chemcon Special.",
-            "adv": 9822142,
+            "adv": 9517556,
+            "reason": "liquidity"
+          },
+          {
+            "symbol": "KRONOX",
+            "name": "Kronox Lab",
+            "adv": 9762717,
             "reason": "liquidity"
           },
           {
             "symbol": "GEMAROMA",
             "name": "Gem Aromatics",
-            "adv": 7824762,
+            "adv": 8385950,
             "reason": "liquidity"
           },
           {
             "symbol": "CHEMBONDCH",
             "name": "Chembond Chemic.",
-            "adv": 4915917,
+            "adv": 4964906,
             "reason": "liquidity"
           },
           {
             "symbol": "JAYAGROGN",
             "name": "Jayant Agro Org.",
-            "adv": 2347349,
+            "adv": 2296399,
             "reason": "liquidity"
           },
           {
             "symbol": "BLACKROSE",
             "name": "Black Rose Indus",
-            "adv": 1888160,
+            "adv": 1902569,
             "reason": "liquidity"
           },
           {
             "symbol": "AARTISURF",
             "name": "Aarti Surfactant",
-            "adv": 2428460,
+            "adv": 2414778,
             "reason": "liquidity"
           },
           {
             "symbol": "AGASTYAEN",
             "name": "Agastya Energy",
-            "adv": 4484040,
+            "adv": 4358027,
             "reason": "liquidity"
           },
           {
             "symbol": "HPAL",
             "name": "HP Adhesives",
-            "adv": 1319713,
+            "adv": 1282571,
             "reason": "liquidity"
           },
           {
             "symbol": "DYNPRO",
             "name": "Dynemic Products",
-            "adv": 5089721,
+            "adv": 5269958,
             "reason": "liquidity"
           },
           {
             "symbol": "SILKFLEX",
             "name": "Silkflex Polymer",
-            "adv": 5367530,
+            "adv": 5018755,
             "reason": "liquidity"
           },
           {
             "symbol": "CHEMBOND",
             "name": "Chembond Materi.",
-            "adv": 1549285,
+            "adv": 1520124,
             "reason": "liquidity"
           },
           {
             "symbol": "ARVEE",
             "name": "Arvee Laborat.",
-            "adv": 1577997,
+            "adv": 1507084,
             "reason": "liquidity"
           },
           {
             "symbol": "DIAMINESQ",
             "name": "Diamines & Chem.",
-            "adv": 1081585,
+            "adv": 1125340,
             "reason": "liquidity"
           },
           {
             "symbol": "DSFCL",
             "name": "DCM Shriram Fine Chemicals",
-            "adv": 1100085,
+            "adv": 1092488,
             "reason": "liquidity"
           },
           {
             "symbol": "IVP",
             "name": "IVP",
-            "adv": 6961708,
+            "adv": 6789130,
             "reason": "liquidity"
           },
           {
             "symbol": "DAICHI",
             "name": "Dai-ichi Karkari",
-            "adv": 242318,
+            "adv": 240776,
             "reason": "liquidity"
           },
           {
             "symbol": "VIKASECO",
             "name": "Vikas Ecotech",
-            "adv": 1778346,
+            "adv": 1872255,
             "reason": "liquidity"
           },
           {
             "symbol": "HINDCON",
             "name": "Hindcon Chemical",
-            "adv": 1249535,
+            "adv": 1262531,
             "reason": "liquidity"
           },
           {
             "symbol": "ISHANCH",
             "name": "Ishan Dyes",
-            "adv": 742149,
+            "adv": 747062,
             "reason": "liquidity"
           },
           {
             "symbol": "VITAL",
             "name": "Vital Chemtech",
-            "adv": 212897,
+            "adv": 214970,
             "reason": "liquidity"
           },
           {
             "symbol": "CHEMCRUX",
             "name": "Chemcrux Enterp.",
-            "adv": 548007,
+            "adv": 568835,
             "reason": "liquidity"
           },
           {
             "symbol": "DEEP",
             "name": "Deep Polymers",
-            "adv": 228843,
+            "adv": 239212,
             "reason": "liquidity"
           },
           {
             "symbol": "ALKALI",
             "name": "Alkali Metals",
-            "adv": 514722,
+            "adv": 486792,
             "reason": "liquidity"
           },
           {
             "symbol": "IEML",
             "name": "Indian Emuls",
-            "adv": 4524065,
+            "adv": 4011951,
             "reason": "liquidity"
           },
           {
             "symbol": "SEYAIND",
             "name": "Seya Industries",
-            "adv": 47761,
+            "adv": 48407,
             "reason": "liquidity"
           },
           {
             "symbol": "VSCL",
             "name": "Vadivarhe Speci.",
-            "adv": 52290,
+            "adv": 46170,
             "reason": "liquidity"
           },
           {
@@ -5138,7 +5144,7 @@
           {
             "symbol": "RITEZONE",
             "name": "Rite Zone",
-            "adv": 126464,
+            "adv": 123744,
             "reason": "liquidity"
           },
           {
@@ -5186,91 +5192,91 @@
           {
             "symbol": "AMNPLST",
             "name": "Amines & Plast.",
-            "adv": 5390095,
+            "adv": 5421752,
             "reason": "liquidity"
           },
           {
             "symbol": "SRHHYPOLTD",
             "name": "Sr.Rayala.Hypo",
-            "adv": 6687417,
+            "adv": 6267215,
             "reason": "liquidity"
           },
           {
             "symbol": "TRANSPEK",
             "name": "Transpek Inds.",
-            "adv": 1666695,
+            "adv": 1758503,
             "reason": "liquidity"
           },
           {
             "symbol": "SADHNANIQ",
             "name": "Sadhana Nitro",
-            "adv": 6529290,
+            "adv": 6629394,
             "reason": "liquidity"
           },
           {
             "symbol": "TUTIALKA",
             "name": "Tuticorin Alkali",
-            "adv": 288571,
+            "adv": 292094,
             "reason": "liquidity"
           },
           {
             "symbol": "PRIMO",
             "name": "Primo Chemicals",
-            "adv": 5478433,
+            "adv": 5643563,
             "reason": "liquidity"
           },
           {
             "symbol": "ALUFLUOR",
             "name": "Alufluoride",
-            "adv": 4917354,
+            "adv": 4483375,
             "reason": "liquidity"
           },
           {
             "symbol": "CHEMFAB",
             "name": "Chemfab Alka.",
-            "adv": 885517,
+            "adv": 857260,
             "reason": "liquidity"
           },
           {
             "symbol": "LORDSCHLO",
             "name": "Lords Chloro",
-            "adv": 2215189,
+            "adv": 2268956,
             "reason": "liquidity"
           },
           {
             "symbol": "POEL",
             "name": "POCL Enterprises",
-            "adv": 3551417,
+            "adv": 3527651,
             "reason": "liquidity"
           },
           {
             "symbol": "MANORG",
             "name": "Mangalam Organic",
-            "adv": 3361669,
+            "adv": 3368974,
             "reason": "liquidity"
           },
           {
             "symbol": "ARCL",
             "name": "ARCL Organics",
-            "adv": 198229,
+            "adv": 211214,
             "reason": "liquidity"
           },
           {
             "symbol": "KANCHI",
             "name": "Kanchi Karpooram",
-            "adv": 1015222,
+            "adv": 1006241,
             "reason": "liquidity"
           },
           {
             "symbol": "JOCIL",
             "name": "Jocil",
-            "adv": 253352,
+            "adv": 251378,
             "reason": "liquidity"
           },
           {
             "symbol": "TECILCHEM",
             "name": "TECIL Chemical",
-            "adv": 133140,
+            "adv": 126600,
             "reason": "liquidity"
           },
           {
@@ -5283,37 +5289,37 @@
           {
             "symbol": "INSECTICID",
             "name": "Insecticid.India",
-            "adv": 5040137,
+            "adv": 5297259,
             "reason": "liquidity"
           },
           {
             "symbol": "PUNJABCHEM",
             "name": "Punjab Chemicals",
-            "adv": 4911692,
+            "adv": 5748608,
             "reason": "liquidity"
           },
           {
             "symbol": "HERANBA",
             "name": "Heranba Inds",
-            "adv": 4981038,
+            "adv": 4795044,
             "reason": "liquidity"
           },
           {
             "symbol": "SIKKO",
             "name": "Sikko Industries",
-            "adv": 1781848,
+            "adv": 1707261,
             "reason": "liquidity"
           },
           {
             "symbol": "CLSL",
             "name": "Crop Life Scienc",
-            "adv": 434465,
+            "adv": 558785,
             "reason": "liquidity"
           },
           {
             "symbol": "ARISTO",
             "name": "Aristo Bio-Tech",
-            "adv": 133898,
+            "adv": 130218,
             "reason": "liquidity"
           },
           {
@@ -5326,31 +5332,31 @@
           {
             "symbol": "MADRASFERT",
             "name": "Madras Fertilize",
-            "adv": 1489432,
+            "adv": 1541524,
             "reason": "liquidity"
           },
           {
             "symbol": "ARIES",
             "name": "Aries Agro",
-            "adv": 6324057,
+            "adv": 5544425,
             "reason": "liquidity"
           },
           {
             "symbol": "KHAICHEM",
             "name": "Khaitan Chemical",
-            "adv": 4149987,
+            "adv": 3960527,
             "reason": "liquidity"
           },
           {
             "symbol": "RAMAPHO",
             "name": "Rama Phosphates",
-            "adv": 2517725,
+            "adv": 2678780,
             "reason": "liquidity"
           },
           {
             "symbol": "NOVAAGRI",
             "name": "Nova Agritech",
-            "adv": 672717,
+            "adv": 646837,
             "reason": "liquidity"
           },
           {
@@ -5362,19 +5368,19 @@
           {
             "symbol": "AGROPHOS",
             "name": "Agro Phos India",
-            "adv": 327552,
+            "adv": 313833,
             "reason": "liquidity"
           },
           {
             "symbol": "SHIVAAGRO",
             "name": "Shiva Global",
-            "adv": 53725,
+            "adv": 52362,
             "reason": "liquidity"
           },
           {
             "symbol": "BOHRAIND",
             "name": "Bohra Industries",
-            "adv": 148996,
+            "adv": 148601,
             "reason": "liquidity"
           },
           {
@@ -5392,25 +5398,25 @@
           {
             "symbol": "ASAHISONG",
             "name": "Asahi Songwon",
-            "adv": 3496887,
+            "adv": 3558894,
             "reason": "liquidity"
           },
           {
             "symbol": "AKSHARCHEM",
             "name": "AksharChem (I)",
-            "adv": 4212673,
+            "adv": 4151553,
             "reason": "liquidity"
           },
           {
             "symbol": "PODDARMENT",
             "name": "Poddar Pigments",
-            "adv": 830555,
+            "adv": 832916,
             "reason": "liquidity"
           },
           {
             "symbol": "MAHICKRA",
             "name": "Mahickra Chem.",
-            "adv": 955888,
+            "adv": 811944,
             "reason": "liquidity"
           },
           {
@@ -5422,31 +5428,31 @@
           {
             "symbol": "DUCOL",
             "name": "Ducol Organics",
-            "adv": 559934,
+            "adv": 550262,
             "reason": "liquidity"
           },
           {
             "symbol": "HPIL",
             "name": "Hindprakash Indu",
-            "adv": 1141363,
+            "adv": 1172557,
             "reason": "liquidity"
           },
           {
             "symbol": "PARAGON",
             "name": "Paragon Fine",
-            "adv": 378960,
+            "adv": 367116,
             "reason": "liquidity"
           },
           {
             "symbol": "PROLIFE",
             "name": "Prolife Indust.",
-            "adv": 7695,
+            "adv": 1995,
             "reason": "liquidity"
           },
           {
             "symbol": "YCCL",
             "name": "Yasons Chemex",
-            "adv": 22132,
+            "adv": 28132,
             "reason": "liquidity"
           },
           {
@@ -5464,13 +5470,13 @@
           {
             "symbol": "KOTHARIPET",
             "name": "Kothari Petroche",
-            "adv": 4997831,
+            "adv": 5228142,
             "reason": "liquidity"
           },
           {
             "symbol": "AGARIND",
             "name": "Agarwal Indl.",
-            "adv": 9190446,
+            "adv": 9004808,
             "reason": "liquidity"
           },
           {
@@ -5488,19 +5494,19 @@
           {
             "symbol": "UNIENTER",
             "name": "Uniphos Enter.",
-            "adv": 434243,
+            "adv": 462609,
             "reason": "liquidity"
           },
           {
             "symbol": "SRD",
             "name": "Shankar Lal Ram.",
-            "adv": 1080421,
+            "adv": 1110904,
             "reason": "liquidity"
           },
           {
             "symbol": "MYSORPETRO",
             "name": "Mysore Petro",
-            "adv": 121948,
+            "adv": 118199,
             "reason": "liquidity"
           },
           {
@@ -5516,7 +5522,7 @@
           {
             "symbol": "DICIND",
             "name": "DIC India",
-            "adv": 919209,
+            "adv": 943557,
             "reason": "liquidity"
           }
         ],
@@ -5546,25 +5552,25 @@
           {
             "symbol": "EVERESTIND",
             "name": "Everest Inds.",
-            "adv": 9329449,
+            "adv": 8888350,
             "reason": "liquidity"
           },
           {
             "symbol": "VISHNUINFR",
             "name": "Vishnusurya Pro.",
-            "adv": 969887,
+            "adv": 944000,
             "reason": "liquidity"
           },
           {
             "symbol": "SAHYADRI",
             "name": "Sahyadri Industr",
-            "adv": 2326002,
+            "adv": 2267182,
             "reason": "liquidity"
           },
           {
             "symbol": "MCON",
             "name": "MCON Rasayan",
-            "adv": 172280,
+            "adv": 171605,
             "reason": "liquidity"
           },
           {
@@ -5577,19 +5583,19 @@
           {
             "symbol": "PCCL",
             "name": "Petro Carbon",
-            "adv": 1710356,
+            "adv": 1604446,
             "reason": "liquidity"
           },
           {
             "symbol": "NILE",
             "name": "NILE",
-            "adv": 3523301,
+            "adv": 3354228,
             "reason": "liquidity"
           },
           {
             "symbol": "GOACARBON",
             "name": "Goa Carbon",
-            "adv": 6421170,
+            "adv": 6013386,
             "reason": "liquidity"
           }
         ],
@@ -5597,19 +5603,19 @@
           {
             "symbol": "NRL",
             "name": "Nupur Recyclers",
-            "adv": 7452832,
+            "adv": 7413292,
             "reason": "liquidity"
           },
           {
             "symbol": "ABANSENT",
             "name": "ABans Enterprise",
-            "adv": 648350,
+            "adv": 650442,
             "reason": "liquidity"
           },
           {
             "symbol": "ASHOKAMET",
             "name": "Ashoka Metcast",
-            "adv": 845699,
+            "adv": 837214,
             "reason": "liquidity"
           }
         ],
@@ -5617,91 +5623,91 @@
           {
             "symbol": "EMAMIPAP",
             "name": "Emami Paper",
-            "adv": 8729011,
+            "adv": 9118483,
             "reason": "liquidity"
           },
           {
             "symbol": "SATIA",
             "name": "Satia Industries",
-            "adv": 7048351,
+            "adv": 6857378,
             "reason": "liquidity"
           },
           {
             "symbol": "KUANTUM",
             "name": "Kuantum Papers",
-            "adv": 8399852,
+            "adv": 8226864,
             "reason": "liquidity"
           },
           {
             "symbol": "RAMANEWS",
             "name": "Shree Rama News.",
-            "adv": 409860,
+            "adv": 434799,
             "reason": "liquidity"
           },
           {
             "symbol": "ORIENTPPR",
             "name": "Orient Paper",
-            "adv": 2333803,
+            "adv": 2318545,
             "reason": "liquidity"
           },
           {
             "symbol": "RUCHIRA",
             "name": "Ruchira Papers",
-            "adv": 1775195,
+            "adv": 1804447,
             "reason": "liquidity"
           },
           {
             "symbol": "SAPPL",
             "name": "Sh. Ajit Pulp",
-            "adv": 754737,
+            "adv": 600865,
             "reason": "liquidity"
           },
           {
             "symbol": "STARPAPER",
             "name": "Star Paper Mills",
-            "adv": 2223619,
+            "adv": 2269579,
             "reason": "liquidity"
           },
           {
             "symbol": "GENUSPAPER",
             "name": "Genus Paper & Bo",
-            "adv": 869856,
+            "adv": 865027,
             "reason": "liquidity"
           },
           {
             "symbol": "SHREYANIND",
             "name": "Shreyans Inds.",
-            "adv": 1515155,
+            "adv": 1479455,
             "reason": "liquidity"
           },
           {
             "symbol": "MAGNUM",
             "name": "Magnum Ventures",
-            "adv": 359493,
+            "adv": 332385,
             "reason": "liquidity"
           },
           {
             "symbol": "MALUPAPER",
             "name": "Malu Paper",
-            "adv": 444422,
+            "adv": 441916,
             "reason": "liquidity"
           },
           {
             "symbol": "BALKRISHNA",
             "name": "Balkrishna Paper",
-            "adv": 78657,
+            "adv": 82253,
             "reason": "liquidity"
           },
           {
             "symbol": "ASTRON",
             "name": "Astron Paper",
-            "adv": 49699,
+            "adv": 49138,
             "reason": "liquidity"
           },
           {
             "symbol": "SHRENIK",
             "name": "Shrenik",
-            "adv": 160404,
+            "adv": 156690,
             "reason": "liquidity"
           },
           {
@@ -5729,69 +5735,75 @@
           {
             "symbol": "ESFL",
             "name": "Essen Speciality",
-            "adv": 1368841,
+            "adv": 1327904,
             "reason": "liquidity"
           },
           {
             "symbol": "PILITA",
             "name": "Pil Italica Life",
-            "adv": 315968,
+            "adv": 315321,
             "reason": "liquidity"
           },
           {
             "symbol": "AVROIND",
             "name": "Avro India",
-            "adv": 2863385,
+            "adv": 2677464,
             "reason": "liquidity"
           },
           {
             "symbol": "TOKYOPLAST",
             "name": "Tokyo Plast Intl",
-            "adv": 189925,
+            "adv": 197936,
             "reason": "liquidity"
           },
           {
             "symbol": "PEARLPOLY",
             "name": "Pearl Polymers",
-            "adv": 87219,
+            "adv": 84868,
             "reason": "liquidity"
           },
           {
             "symbol": "NIRAJISPAT",
             "name": "Niraj Ispat Ind.",
-            "adv": 12947,
+            "adv": 13714,
             "reason": "liquidity"
           }
         ],
         "CUSTOM-GAP-LEATHER-AND-LEATHER-PRODUCTS": [
           {
+            "symbol": "BIL",
+            "name": "Bhartiya Intl.",
+            "adv": 7486003,
+            "reason": "liquidity"
+          },
+          {
             "symbol": "MIRZAINT",
             "name": "Mirza Internatio",
-            "adv": 1436112,
+            "adv": 1476107,
             "reason": "liquidity"
           },
           {
             "symbol": "SUPERHOUSE",
             "name": "Superhouse Ltd",
-            "adv": 451148,
+            "adv": 445699,
             "reason": "liquidity"
           },
           {
             "symbol": "ZENITHEXPO",
             "name": "Zenith Exports",
-            "adv": 28637,
+            "adv": 21977,
             "reason": "liquidity"
           },
           {
             "symbol": "SUPTANERY",
             "name": "Super Tannery",
-            "adv": 855093,
+            "adv": 755409,
             "reason": "liquidity"
           },
           {
             "symbol": "AKI",
             "name": "AKI India",
-            "adv": 381289,
+            "adv": 374446,
             "reason": "liquidity"
           }
         ],
@@ -5799,277 +5811,283 @@
           {
             "symbol": "RAJRILTD",
             "name": "Raj Rayon Inds.",
-            "adv": 265975,
+            "adv": 254741,
             "reason": "liquidity"
           },
           {
             "symbol": "SUNRAKSHAK",
             "name": "Sunrakshakk Inds",
-            "adv": 2231625,
+            "adv": 2044483,
             "reason": "liquidity"
           },
           {
             "symbol": "RSWM",
             "name": "RSWM Ltd",
-            "adv": 5694511,
+            "adv": 6683199,
             "reason": "liquidity"
           },
           {
             "symbol": "NAHARSPING",
             "name": "Nahar Spinning",
-            "adv": 7212392,
+            "adv": 7222235,
             "reason": "liquidity"
           },
           {
             "symbol": "AMBIKCO",
             "name": "Ambika Cotton",
-            "adv": 6139800,
+            "adv": 5977135,
             "reason": "liquidity"
           },
           {
             "symbol": "MAFATIND",
             "name": "Mafatlal Inds.",
-            "adv": 2648991,
+            "adv": 2347424,
             "reason": "liquidity"
           },
           {
             "symbol": "SARLAPOLY",
             "name": "Sarla Performanc",
-            "adv": 3667057,
+            "adv": 3481087,
             "reason": "liquidity"
           },
           {
             "symbol": "SUMEETINDS",
             "name": "Sumeet Industrie",
-            "adv": 6817944,
+            "adv": 6922905,
             "reason": "liquidity"
           },
           {
             "symbol": "PRECOT",
             "name": "Precot",
-            "adv": 1942294,
+            "adv": 1783976,
             "reason": "liquidity"
           },
           {
             "symbol": "ORBTEXP",
             "name": "Orbit Exports",
-            "adv": 2480008,
+            "adv": 2438599,
             "reason": "liquidity"
           },
           {
             "symbol": "DCMSIL",
             "name": "DCM Shriram Intl",
-            "adv": 7285531,
+            "adv": 7727103,
             "reason": "liquidity"
           },
           {
             "symbol": "RAJPALAYAM",
             "name": "Rajapalayam Mill",
-            "adv": 635397,
+            "adv": 1016074,
             "reason": "liquidity"
           },
           {
             "symbol": "VOITHPAPR",
             "name": "Voith Paper",
-            "adv": 422492,
+            "adv": 405699,
             "reason": "liquidity"
           },
           {
             "symbol": "SUTLEJTEX",
             "name": "Sutlej Textiles",
-            "adv": 1488328,
+            "adv": 1357416,
             "reason": "liquidity"
           },
           {
             "symbol": "LAKSHMIMIL",
             "name": "Lakshmi Mills",
-            "adv": 478672,
+            "adv": 533521,
             "reason": "liquidity"
           },
           {
             "symbol": "NAHARINDUS",
             "name": "Nahar Indl. Ent.",
-            "adv": 1755596,
+            "adv": 1742797,
             "reason": "liquidity"
           },
           {
             "symbol": "VTMLTD",
             "name": "VTM",
-            "adv": 6139587,
+            "adv": 6071179,
             "reason": "liquidity"
           },
           {
             "symbol": "DONEAR",
             "name": "Donear Inds.",
-            "adv": 1153462,
+            "adv": 1142317,
             "reason": "liquidity"
           },
           {
             "symbol": "ABCOTS",
             "name": "AB Cotspin",
-            "adv": 972820,
+            "adv": 894748,
             "reason": "liquidity"
           },
           {
             "symbol": "NDL",
             "name": "Nandan Denim",
-            "adv": 2177555,
+            "adv": 2170902,
             "reason": "liquidity"
           },
           {
             "symbol": "GINNIFILA",
             "name": "Ginni Filaments",
-            "adv": 2996318,
+            "adv": 3244636,
             "reason": "liquidity"
           },
           {
             "symbol": "BANSWRAS",
             "name": "Banswara Syntex",
-            "adv": 2113188,
+            "adv": 2093279,
             "reason": "liquidity"
           },
           {
             "symbol": "VARDHACRLC",
             "name": "Vardhman Acrylic",
-            "adv": 1107933,
+            "adv": 1056195,
             "reason": "liquidity"
           },
           {
             "symbol": "DCMNVL",
             "name": "DCM Nouvelle",
-            "adv": 966230,
+            "adv": 1211599,
             "reason": "liquidity"
           },
           {
             "symbol": "VGL",
             "name": "Varvee Global",
-            "adv": 2659887,
+            "adv": 2576456,
             "reason": "liquidity"
           },
           {
             "symbol": "SHREEKARNI",
             "name": "Shree Karni",
-            "adv": 1158064,
+            "adv": 1272337,
             "reason": "liquidity"
           },
           {
             "symbol": "AXITA",
             "name": "Axita Cotton",
-            "adv": 8096684,
+            "adv": 8296473,
             "reason": "liquidity"
           },
           {
             "symbol": "ASHIMASYN",
             "name": "Ashima",
-            "adv": 1004924,
+            "adv": 946388,
             "reason": "liquidity"
           },
           {
             "symbol": "VARDMNPOLY",
             "name": "Vardhman Polytex",
-            "adv": 2047577,
+            "adv": 2629430,
             "reason": "liquidity"
           },
           {
             "symbol": "LEMERITE",
             "name": "Le Merite Export",
-            "adv": 3644621,
+            "adv": 4215929,
             "reason": "liquidity"
           },
           {
             "symbol": "SOMATEX",
             "name": "Soma Textiles",
-            "adv": 415508,
+            "adv": 408751,
+            "reason": "liquidity"
+          },
+          {
+            "symbol": "AASTHA",
+            "name": "Aastha Spintex",
+            "adv": 9439475,
             "reason": "liquidity"
           },
           {
             "symbol": "RNBDENIMS",
             "name": "R&B Denims",
-            "adv": 1302091,
+            "adv": 1301132,
             "reason": "liquidity"
           },
           {
             "symbol": "MARALOVER",
             "name": "Maral Overseas",
-            "adv": 812889,
+            "adv": 819752,
             "reason": "liquidity"
           },
           {
             "symbol": "SHIVATEX",
             "name": "Shiva Texyarn",
-            "adv": 645065,
+            "adv": 608471,
             "reason": "liquidity"
           },
           {
             "symbol": "MHLXMIRU",
             "name": "Mahalaxmi Rubtec",
-            "adv": 932199,
+            "adv": 884044,
             "reason": "liquidity"
           },
           {
             "symbol": "RRIL",
             "name": "RRIL",
-            "adv": 287128,
+            "adv": 287125,
             "reason": "liquidity"
           },
           {
             "symbol": "BASML",
             "name": "Bannari Amm Spg.",
-            "adv": 1555042,
+            "adv": 1527640,
             "reason": "liquidity"
           },
           {
             "symbol": "TTL",
             "name": "T T",
-            "adv": 568698,
+            "adv": 619882,
             "reason": "liquidity"
           },
           {
             "symbol": "MODTHREAD",
             "name": "Modern Threads",
-            "adv": 99770,
+            "adv": 96792,
             "reason": "liquidity"
           },
           {
             "symbol": "ALPINETEX",
             "name": "Alpine Texworld",
-            "adv": 3715889,
+            "adv": 3588041,
             "reason": "liquidity"
           },
           {
             "symbol": "SURYALA",
             "name": "Suryalata Spg.",
-            "adv": 163060,
+            "adv": 170743,
             "reason": "liquidity"
           },
           {
             "symbol": "SRTL",
             "name": "Shree Ram Twist.",
-            "adv": 775805,
+            "adv": 802683,
             "reason": "liquidity"
           },
           {
             "symbol": "SALONA",
             "name": "Salona Cotspin",
-            "adv": 119717,
+            "adv": 120348,
             "reason": "liquidity"
           },
           {
             "symbol": "LAMBODHARA",
             "name": "Lambodhara Text.",
-            "adv": 3266748,
+            "adv": 3175147,
             "reason": "liquidity"
           },
           {
             "symbol": "LAGNAM",
             "name": "Lagnam Spintex",
-            "adv": 7812184,
+            "adv": 7853607,
             "reason": "liquidity"
           },
           {
             "symbol": "PREMCO",
             "name": "Premco Global",
-            "adv": 244036,
+            "adv": 255131,
             "reason": "liquidity"
           },
           {
@@ -6103,139 +6121,139 @@
           {
             "symbol": "KARNIKA",
             "name": "Karnika Industri",
-            "adv": 6690375,
+            "adv": 6839765,
             "reason": "liquidity"
           },
           {
             "symbol": "VIRAT",
             "name": "Virat Industries",
-            "adv": 4399134,
+            "adv": 4345089,
             "reason": "liquidity"
           },
           {
             "symbol": "VISHAL",
             "name": "Vishal Fabrics",
-            "adv": 849049,
+            "adv": 877079,
             "reason": "liquidity"
           },
           {
             "symbol": "BELLACASA",
             "name": "Bella Casa Fashi",
-            "adv": 1988200,
+            "adv": 1954038,
             "reason": "liquidity"
           },
           {
             "symbol": "SSDL",
             "name": "Saraswati Saree",
-            "adv": 6671474,
+            "adv": 6305813,
             "reason": "liquidity"
           },
           {
             "symbol": "CPS",
             "name": "C P S Shapers",
-            "adv": 2287087,
+            "adv": 2125349,
             "reason": "liquidity"
           },
           {
             "symbol": "ZODIACLOTH",
             "name": "Zodiac Cloth. Co",
-            "adv": 242962,
+            "adv": 242455,
             "reason": "liquidity"
           },
           {
             "symbol": "VIPCLOTHNG",
             "name": "VIP Clothing",
-            "adv": 631680,
+            "adv": 657212,
             "reason": "liquidity"
           },
           {
             "symbol": "LAL",
             "name": "Lorenzini Appar.",
-            "adv": 941536,
+            "adv": 1424709,
             "reason": "liquidity"
           },
           {
             "symbol": "FILATFASH",
             "name": "Filatex Fash.",
-            "adv": 2617432,
+            "adv": 2478747,
             "reason": "liquidity"
           },
           {
             "symbol": "INDTERRAIN",
             "name": "Indian Terrain",
-            "adv": 291428,
+            "adv": 297418,
             "reason": "liquidity"
           },
           {
             "symbol": "LOVABLE",
             "name": "Lovable Lingerie",
-            "adv": 719339,
+            "adv": 715249,
             "reason": "liquidity"
           },
           {
             "symbol": "VEEKAYEM",
             "name": "Veekayem Fash.",
-            "adv": 1378417,
+            "adv": 1354107,
             "reason": "liquidity"
           },
           {
             "symbol": "ADDIND",
             "name": "Addi Industries",
-            "adv": 60186,
+            "adv": 68294,
             "reason": "liquidity"
           },
           {
             "symbol": "SIGNORIA",
             "name": "Signoria Creatio",
-            "adv": 95270,
+            "adv": 107870,
             "reason": "liquidity"
           },
           {
             "symbol": "JAIPURKURT",
             "name": "Nandani Creation",
-            "adv": 2965527,
+            "adv": 2955519,
             "reason": "liquidity"
           },
           {
             "symbol": "BANG",
             "name": "Bang Overseas",
-            "adv": 1146344,
+            "adv": 1087212,
             "reason": "liquidity"
           },
           {
             "symbol": "CELEBRITY",
             "name": "Celebrity Fash.",
-            "adv": 107388,
+            "adv": 113968,
             "reason": "liquidity"
           },
           {
             "symbol": "VINNY",
             "name": "Vinny Overseas",
-            "adv": 417449,
+            "adv": 423059,
             "reason": "liquidity"
           },
           {
             "symbol": "LIBAS",
             "name": "Libas Consumer",
-            "adv": 697731,
+            "adv": 692064,
             "reason": "liquidity"
           },
           {
             "symbol": "MITTAL",
             "name": "Mittal Life Styl",
-            "adv": 422357,
+            "adv": 463902,
             "reason": "liquidity"
           },
           {
             "symbol": "VCL",
             "name": "Vaxtex Cotfab",
-            "adv": 507489,
+            "adv": 499687,
             "reason": "liquidity"
           },
           {
             "symbol": "VIVIDHA",
             "name": "Visagar Polytex",
-            "adv": 95961,
+            "adv": 92148,
             "reason": "liquidity"
           },
           {
@@ -6278,7 +6296,7 @@
           {
             "symbol": "NICCOPAR",
             "name": "Nicco Parks",
-            "adv": 57801,
+            "adv": 59149,
             "reason": "liquidity"
           }
         ],
@@ -6286,85 +6304,85 @@
           {
             "symbol": "VINSYS",
             "name": "Vinsys IT Serv.",
-            "adv": 6068776,
+            "adv": 6870569,
             "reason": "liquidity"
           },
           {
             "symbol": "APTECHT",
             "name": "Aptech",
-            "adv": 5407748,
+            "adv": 5491922,
             "reason": "liquidity"
           },
           {
             "symbol": "CPEDU",
             "name": "Career Point Edu",
-            "adv": 665051,
+            "adv": 672175,
             "reason": "liquidity"
           },
           {
             "symbol": "CLEDUCATE",
             "name": "CL Educate",
-            "adv": 846717,
+            "adv": 826779,
             "reason": "liquidity"
           },
           {
             "symbol": "ARIHANTACA",
             "name": "Arihant Academy",
-            "adv": 70440,
+            "adv": 102128,
             "reason": "liquidity"
           },
           {
             "symbol": "ZEELEARN",
             "name": "Zee Learn",
-            "adv": 1522631,
+            "adv": 1424864,
             "reason": "liquidity"
           },
           {
             "symbol": "MOXSH",
             "name": "Moxsh Overseas",
-            "adv": 1538416,
+            "adv": 1508560,
             "reason": "liquidity"
           },
           {
             "symbol": "COMPUSOFT",
             "name": "Compucom Soft.",
-            "adv": 155477,
+            "adv": 146964,
             "reason": "liquidity"
           },
           {
             "symbol": "DRONE",
             "name": "Drone Destinatio",
-            "adv": 804081,
+            "adv": 787179,
             "reason": "liquidity"
           },
           {
             "symbol": "LCCINFOTEC",
             "name": "LCC Infotech",
-            "adv": 234478,
+            "adv": 233240,
             "reason": "liquidity"
           },
           {
             "symbol": "KEEPLEARN",
             "name": "DSJ Keep Learn",
-            "adv": 118645,
+            "adv": 116923,
             "reason": "liquidity"
           },
           {
             "symbol": "VIRTUALG",
             "name": "Virtual Global",
-            "adv": 95363,
+            "adv": 95742,
             "reason": "liquidity"
           },
           {
             "symbol": "TREEHOUSE",
             "name": "Tree House Edu.",
-            "adv": 114999,
+            "adv": 121352,
             "reason": "liquidity"
           },
           {
             "symbol": "MTEDUCARE",
             "name": "MT Educare",
-            "adv": 30270,
+            "adv": 30313,
             "reason": "liquidity"
           },
           {
@@ -6381,21 +6399,27 @@
         ],
         "CUSTOM-GAP-E-LEARNING": [
           {
+            "symbol": "VERANDA",
+            "name": "Veranda Learning",
+            "adv": 6354369,
+            "reason": "liquidity"
+          },
+          {
             "symbol": "GTECJAINX",
             "name": "G-Tec Janix",
-            "adv": 278092,
+            "adv": 252143,
             "reason": "liquidity"
           },
           {
             "symbol": "UMESLTD",
             "name": "Usha Mart. Edu.",
-            "adv": 118723,
+            "adv": 119887,
             "reason": "liquidity"
           },
           {
             "symbol": "DHTL",
             "name": "Docmode Health",
-            "adv": 166138,
+            "adv": 108188,
             "reason": "liquidity"
           },
           {
@@ -6408,25 +6432,25 @@
           {
             "symbol": "EFACTOR",
             "name": "E Factor Experie",
-            "adv": 1622042,
+            "adv": 1588277,
             "reason": "liquidity"
           },
           {
             "symbol": "PARTYCRUS",
             "name": "Party Cruisers",
-            "adv": 431437,
+            "adv": 421637,
             "reason": "liquidity"
           },
           {
             "symbol": "TOUCHWOOD",
             "name": "Touchwood Enter.",
-            "adv": 153642,
+            "adv": 137741,
             "reason": "liquidity"
           },
           {
             "symbol": "BLUEPEBBLE",
             "name": "Blue Pebble",
-            "adv": 99842,
+            "adv": 95402,
             "reason": "liquidity"
           },
           {
@@ -6444,49 +6468,49 @@
           {
             "symbol": "KORE",
             "name": "Jay Jalaram Tech",
-            "adv": 4172719,
+            "adv": 4288172,
             "reason": "liquidity"
           },
           {
             "symbol": "SPENCERS",
             "name": "Spencer's Retail",
-            "adv": 9597422,
+            "adv": 9737972,
             "reason": "liquidity"
           },
           {
             "symbol": "ONDOOR",
             "name": "On Door Concepts",
-            "adv": 618540,
+            "adv": 585435,
             "reason": "liquidity"
           },
           {
             "symbol": "OSIAHYPER",
             "name": "Osia Hyper Reta.",
-            "adv": 575632,
+            "adv": 532624,
             "reason": "liquidity"
           },
           {
             "symbol": "RETAIL",
             "name": "JHS Svend.Retail",
-            "adv": 346664,
+            "adv": 307658,
             "reason": "liquidity"
           },
           {
             "symbol": "FLFL",
             "name": "Future Lifestyle",
-            "adv": 49499,
+            "adv": 44750,
             "reason": "liquidity"
           },
           {
             "symbol": "FEL",
             "name": "Future Enterp.",
-            "adv": 86433,
+            "adv": 85562,
             "reason": "liquidity"
           },
           {
             "symbol": "FELDVR",
             "name": "Future Ent. DVR",
-            "adv": 2979,
+            "adv": 2667,
             "reason": "liquidity"
           }
         ],
@@ -6494,73 +6518,73 @@
           {
             "symbol": "BANARISUG",
             "name": "Bannari Amm.Sug.",
-            "adv": 2341283,
+            "adv": 3603007,
             "reason": "liquidity"
           },
           {
             "symbol": "UGARSUGAR",
             "name": "Ugar Sugar Works",
-            "adv": 7751807,
+            "adv": 7453168,
             "reason": "liquidity"
           },
           {
             "symbol": "KCPSUGIND",
             "name": "KCP Sugar &Inds.",
-            "adv": 3297339,
+            "adv": 3141587,
             "reason": "liquidity"
           },
           {
             "symbol": "KMSUGAR",
             "name": "KM Sugar Mills",
-            "adv": 8729281,
+            "adv": 8781504,
             "reason": "liquidity"
           },
           {
             "symbol": "SAKHTISUG",
             "name": "Sakthi Sugars",
-            "adv": 2283112,
+            "adv": 2264390,
             "reason": "liquidity"
           },
           {
             "symbol": "KOTARISUG",
             "name": "Kothari Sugars",
-            "adv": 753096,
+            "adv": 769748,
             "reason": "liquidity"
           },
           {
             "symbol": "RANASUG",
             "name": "Rana Sugars",
-            "adv": 3065912,
+            "adv": 2930267,
             "reason": "liquidity"
           },
           {
             "symbol": "DOLLEX",
             "name": "Dollex Agrotech",
-            "adv": 1986250,
+            "adv": 2010400,
             "reason": "liquidity"
           },
           {
             "symbol": "VISHWARAJ",
             "name": "Vishwaraj Sugar",
-            "adv": 2380231,
+            "adv": 2369819,
             "reason": "liquidity"
           },
           {
             "symbol": "RAJSREESUG",
             "name": "Rajshree Sugars",
-            "adv": 2081794,
+            "adv": 2025706,
             "reason": "liquidity"
           },
           {
             "symbol": "PRUDMOULI",
             "name": "Pruden. Sugar",
-            "adv": 175932,
+            "adv": 169298,
             "reason": "liquidity"
           },
           {
             "symbol": "SIMBHALS",
             "name": "Simbhaoli Sugar",
-            "adv": 85415,
+            "adv": 86598,
             "reason": "liquidity"
           },
           {
@@ -6573,55 +6597,55 @@
           {
             "symbol": "KRISHIVAL",
             "name": "Krishival Foods",
-            "adv": 6409767,
+            "adv": 6119354,
             "reason": "liquidity"
           },
           {
             "symbol": "PROV",
             "name": "Proventus Agro.",
-            "adv": 637642,
+            "adv": 716282,
             "reason": "liquidity"
           },
           {
             "symbol": "HOACFOODS",
             "name": "Hoac Foods",
-            "adv": 2285975,
+            "adv": 2162162,
             "reason": "liquidity"
           },
           {
             "symbol": "MADHUSUDAN",
             "name": "Madhusudan Masa",
-            "adv": 6316605,
+            "adv": 7052891,
             "reason": "liquidity"
           },
           {
             "symbol": "MEGASTAR",
             "name": "Megastar Foods",
-            "adv": 2979861,
+            "adv": 3189242,
             "reason": "liquidity"
           },
           {
             "symbol": "SSFL",
             "name": "Srivari Spices &",
-            "adv": 2145489,
+            "adv": 2138234,
             "reason": "liquidity"
           },
           {
             "symbol": "GOYALSALT",
             "name": "Goyal Salt",
-            "adv": 1537767,
+            "adv": 1543467,
             "reason": "liquidity"
           },
           {
             "symbol": "BABAFP",
             "name": "Baba Food",
-            "adv": 37888,
+            "adv": 41680,
             "reason": "liquidity"
           },
           {
             "symbol": "SANWARIA",
             "name": "Sanwaria Consum.",
-            "adv": 156478,
+            "adv": 155823,
             "reason": "liquidity"
           },
           {
@@ -6654,13 +6678,13 @@
           {
             "symbol": "COASTCORP",
             "name": "Coastal Corporat",
-            "adv": 2701138,
+            "adv": 2732363,
             "reason": "liquidity"
           },
           {
             "symbol": "WATERBASE",
             "name": "Waterbase",
-            "adv": 463950,
+            "adv": 468194,
             "reason": "liquidity"
           },
           {
@@ -6674,19 +6698,19 @@
           {
             "symbol": "KOKUYOCMLN",
             "name": "Kokuyo Camlin",
-            "adv": 2026559,
+            "adv": 1947609,
             "reason": "liquidity"
           },
           {
             "symbol": "LINC",
             "name": "Linc",
-            "adv": 5516954,
+            "adv": 5553537,
             "reason": "liquidity"
           },
           {
             "symbol": "SUNDARAM",
             "name": "Sundaram Multi.",
-            "adv": 583081,
+            "adv": 680882,
             "reason": "liquidity"
           },
           {
@@ -6700,13 +6724,13 @@
           {
             "symbol": "PILANIINVS",
             "name": "Pilani Invest.",
-            "adv": 5978355,
+            "adv": 5033234,
             "reason": "liquidity"
           },
           {
             "symbol": "KICL",
             "name": "Kalyani Invest.",
-            "adv": 8317134,
+            "adv": 6812025,
             "reason": "liquidity"
           },
           {
@@ -6718,145 +6742,145 @@
           {
             "symbol": "SCILAL",
             "name": "Shipping Land",
-            "adv": 7662677,
+            "adv": 7484051,
             "reason": "liquidity"
           },
           {
             "symbol": "SUMMITSEC",
             "name": "Summit Securitie",
-            "adv": 2345951,
+            "adv": 2654612,
             "reason": "liquidity"
           },
           {
             "symbol": "VHL",
             "name": "Vardhman Hold.",
-            "adv": 4125864,
+            "adv": 3878404,
             "reason": "liquidity"
           },
           {
             "symbol": "JINDALPHOT",
             "name": "Jindal Photo",
-            "adv": 5727147,
+            "adv": 6283256,
             "reason": "liquidity"
           },
           {
             "symbol": "STEL",
             "name": "STEL Holdings",
-            "adv": 1364562,
+            "adv": 1349413,
             "reason": "liquidity"
           },
           {
             "symbol": "INDPRUD",
             "name": "Indl.& Prud.Inv.",
-            "adv": 551633,
+            "adv": 591162,
             "reason": "liquidity"
           },
           {
             "symbol": "JPOLYINVST",
             "name": "Jindal Poly Inve",
-            "adv": 3432999,
+            "adv": 3247007,
             "reason": "liquidity"
           },
           {
             "symbol": "GKWLIMITED",
             "name": "GKW",
-            "adv": 4356457,
+            "adv": 3766344,
             "reason": "liquidity"
           },
           {
             "symbol": "HEXATRADEX",
             "name": "Hexa Tradex",
-            "adv": 486440,
+            "adv": 473953,
             "reason": "liquidity"
           },
           {
             "symbol": "WELINV",
             "name": "Welspun Investme",
-            "adv": 5735809,
+            "adv": 5815967,
             "reason": "liquidity"
           },
           {
             "symbol": "VLSFINANCE",
             "name": "VLS Finance",
-            "adv": 2236169,
+            "adv": 2175077,
             "reason": "liquidity"
           },
           {
             "symbol": "BLAL",
             "name": "BEML Land Assets",
-            "adv": 2821933,
+            "adv": 2826853,
             "reason": "liquidity"
           },
           {
             "symbol": "OSWALGREEN",
             "name": "Oswal Green Tech",
-            "adv": 2020137,
+            "adv": 2001307,
             "reason": "liquidity"
           },
           {
             "symbol": "SILINV",
             "name": "SIL Investments",
-            "adv": 939790,
+            "adv": 901730,
             "reason": "liquidity"
           },
           {
             "symbol": "NAHARCAP",
             "name": "Nahar Capital",
-            "adv": 519487,
+            "adv": 516042,
             "reason": "liquidity"
           },
           {
             "symbol": "BLBLIMITED",
             "name": "BLB",
-            "adv": 915516,
+            "adv": 811853,
             "reason": "liquidity"
           },
           {
             "symbol": "PARASPETRO",
             "name": "Paras Petrofils",
-            "adv": 234626,
+            "adv": 230060,
             "reason": "liquidity"
           },
           {
             "symbol": "3PLAND",
             "name": "3P Land Hold.",
-            "adv": 54555,
+            "adv": 58622,
             "reason": "liquidity"
           },
           {
             "symbol": "MASKINVEST",
             "name": "MASK INVESTMENTS",
-            "adv": 29136,
+            "adv": 28942,
             "reason": "liquidity"
           },
           {
             "symbol": "LFIC",
             "name": "Lak. Fin. & Indl",
-            "adv": 118283,
+            "adv": 108895,
             "reason": "liquidity"
           },
           {
             "symbol": "NAGREEKCAP",
             "name": "Nagreeka Cap.",
-            "adv": 276788,
+            "adv": 268818,
             "reason": "liquidity"
           },
           {
             "symbol": "WILLAMAGOR",
             "name": "Williamson Magor",
-            "adv": 108953,
+            "adv": 97938,
             "reason": "liquidity"
           },
           {
             "symbol": "DCMFINSERV",
             "name": "DCM Financial",
-            "adv": 47413,
+            "adv": 43951,
             "reason": "liquidity"
           },
           {
             "symbol": "BLUECHIP",
             "name": "Blue Chip India",
-            "adv": 3794,
+            "adv": 8158,
             "reason": "liquidity"
           }
         ],
@@ -6864,109 +6888,109 @@
           {
             "symbol": "CENTRUM",
             "name": "Centrum Capital",
-            "adv": 8882921,
+            "adv": 9037903,
             "reason": "liquidity"
           },
           {
             "symbol": "THEINVEST",
             "name": "The Invest.Trust",
-            "adv": 299337,
+            "adv": 268580,
             "reason": "liquidity"
           },
           {
             "symbol": "AKIKO",
             "name": "Akiko",
-            "adv": 5245816,
+            "adv": 5331863,
             "reason": "liquidity"
           },
           {
             "symbol": "NDLVENTURE",
             "name": "NDL Ventures",
-            "adv": 1058525,
+            "adv": 1080939,
             "reason": "liquidity"
           },
           {
             "symbol": "DELPHIFX",
             "name": "Delphi World",
-            "adv": 585325,
+            "adv": 724069,
             "reason": "liquidity"
           },
           {
             "symbol": "PML",
             "name": "Paul Merchants",
-            "adv": 100163,
+            "adv": 105267,
             "reason": "liquidity"
           },
           {
             "symbol": "RELIABLE",
             "name": "Reliable Data",
-            "adv": 6495442,
+            "adv": 6489762,
             "reason": "liquidity"
           },
           {
             "symbol": "MAHAPEXLTD",
             "name": "Maha Rashtra Apx",
-            "adv": 468867,
+            "adv": 510130,
             "reason": "liquidity"
           },
           {
             "symbol": "THACKER",
             "name": "Thacker & Co.",
-            "adv": 22172,
+            "adv": 26023,
             "reason": "liquidity"
           },
           {
             "symbol": "GATECH",
             "name": "GACM Tech",
-            "adv": 5750538,
+            "adv": 5478600,
             "reason": "liquidity"
           },
           {
             "symbol": "TRANSCOR",
             "name": "Transcorp Intl.",
-            "adv": 75403,
+            "adv": 74133,
             "reason": "liquidity"
           },
           {
             "symbol": "HBPOR",
             "name": "HB Portfolio",
-            "adv": 35609,
+            "adv": 35068,
             "reason": "liquidity"
           },
           {
             "symbol": "APOORVA",
             "name": "Apoorva Leasing",
-            "adv": 2519,
+            "adv": 2765,
             "reason": "liquidity"
           },
           {
             "symbol": "PIONRINV",
             "name": "Pioneer Invest",
-            "adv": 486934,
+            "adv": 449797,
             "reason": "liquidity"
           },
           {
             "symbol": "TOYAMSL",
             "name": "Toyam Sports",
-            "adv": 550407,
+            "adv": 532033,
             "reason": "liquidity"
           },
           {
             "symbol": "SUMEDHA",
             "name": "Sumedha Fiscal",
-            "adv": 90931,
+            "adv": 86564,
             "reason": "liquidity"
           },
           {
             "symbol": "GLFL",
             "name": "Guj. Lease Fin.",
-            "adv": 46323,
+            "adv": 42788,
             "reason": "liquidity"
           },
           {
             "symbol": "GATECHDVR",
             "name": "GACM Tech-DVR",
-            "adv": 91899,
+            "adv": 91091,
             "reason": "liquidity"
           },
           {
@@ -6984,43 +7008,43 @@
           {
             "symbol": "KAMAHOLD",
             "name": "Kama Holdings",
-            "adv": 3733096,
+            "adv": 3677465,
             "reason": "liquidity"
           },
           {
             "symbol": "BFINVEST",
             "name": "BF Investment",
-            "adv": 6261007,
+            "adv": 6232444,
             "reason": "liquidity"
           },
           {
             "symbol": "BLIL",
             "name": "Balmer Law. Inv.",
-            "adv": 4016256,
+            "adv": 4128183,
             "reason": "liquidity"
           },
           {
             "symbol": "AFSL",
             "name": "Abans Financial",
-            "adv": 792355,
+            "adv": 753122,
             "reason": "liquidity"
           },
           {
             "symbol": "GFLLIMITED",
             "name": "GFL",
-            "adv": 4573020,
+            "adv": 4374831,
             "reason": "liquidity"
           },
           {
             "symbol": "TAMBOLIIN",
             "name": "Tamboli Industri",
-            "adv": 9645217,
+            "adv": 9668776,
             "reason": "liquidity"
           },
           {
             "symbol": "BILVYAPAR",
             "name": "BIL Vyapar",
-            "adv": 32741,
+            "adv": 32819,
             "reason": "liquidity"
           }
         ],
@@ -7029,115 +7053,121 @@
           {
             "symbol": "DVL",
             "name": "Dhunseri Vent.",
-            "adv": 2402933,
+            "adv": 2377762,
             "reason": "liquidity"
           },
           {
             "symbol": "ESTER",
             "name": "Ester Industries",
-            "adv": 8228410,
+            "adv": 8155510,
             "reason": "liquidity"
           },
           {
             "symbol": "HITECHCORP",
             "name": "Hitech Corp.",
-            "adv": 9866982,
+            "adv": 9069288,
             "reason": "liquidity"
           },
           {
             "symbol": "SHRJAGP",
             "name": "Sh. Jagdamba Pol",
-            "adv": 299171,
+            "adv": 299142,
             "reason": "liquidity"
           },
           {
             "symbol": "KANPRPLA",
             "name": "Kanpur Plastipa.",
-            "adv": 6149235,
+            "adv": 5881631,
             "reason": "liquidity"
           },
           {
             "symbol": "PYRAMID",
             "name": "Pyramid Technopl",
-            "adv": 5382081,
+            "adv": 4922575,
+            "reason": "liquidity"
+          },
+          {
+            "symbol": "TPLPLASTEH",
+            "name": "TPL Plastech",
+            "adv": 9873465,
             "reason": "liquidity"
           },
           {
             "symbol": "NAHARPOLY",
             "name": "Nahar Poly",
-            "adv": 856139,
+            "adv": 887567,
             "reason": "liquidity"
           },
           {
             "symbol": "BBTCL",
             "name": "B&B Triplewall",
-            "adv": 1474692,
+            "adv": 1413142,
             "reason": "liquidity"
           },
           {
             "symbol": "WORTHPERI",
             "name": "Worth Peripheral",
-            "adv": 4674063,
+            "adv": 4685257,
             "reason": "liquidity"
           },
           {
             "symbol": "COOLCAPS",
             "name": "Cool Caps",
-            "adv": 622972,
+            "adv": 568697,
             "reason": "liquidity"
           },
           {
             "symbol": "MEGAFLEX",
             "name": "Mega Flex Plast.",
-            "adv": 243507,
+            "adv": 238052,
             "reason": "liquidity"
           },
           {
             "symbol": "BALAJEE",
             "name": "Shree TirupatiBa",
-            "adv": 1107889,
+            "adv": 1424295,
             "reason": "liquidity"
           },
           {
             "symbol": "AERONEU",
             "name": "Aeroflex Neu",
-            "adv": 7918233,
+            "adv": 8852479,
             "reason": "liquidity"
           },
           {
             "symbol": "EMMBI",
             "name": "Emmbi Industries",
-            "adv": 1334373,
+            "adv": 1295536,
             "reason": "liquidity"
           },
           {
             "symbol": "RPPL",
             "name": "Rajshree Polypac",
-            "adv": 1010861,
+            "adv": 1169290,
             "reason": "liquidity"
           },
           {
             "symbol": "ROLLT",
             "name": "Rollatainers",
-            "adv": 1569569,
+            "adv": 1404521,
             "reason": "liquidity"
           },
           {
             "symbol": "GSMFOILS",
             "name": "GSM Foils",
-            "adv": 9642211,
+            "adv": 9176433,
             "reason": "liquidity"
           },
           {
             "symbol": "AMDIND",
             "name": "AMD Industries",
-            "adv": 401085,
+            "adv": 377415,
             "reason": "liquidity"
           },
           {
             "symbol": "ORIENTLTD",
             "name": "Orient Press",
-            "adv": 184044,
+            "adv": 187112,
             "reason": "liquidity"
           },
           {
@@ -7149,7 +7179,7 @@
           {
             "symbol": "GUJRAFFIA",
             "name": "Guj. Raffia Inds",
-            "adv": 3883981,
+            "adv": 3884549,
             "reason": "liquidity"
           },
           {
@@ -7161,19 +7191,19 @@
           {
             "symbol": "POLYSPIN",
             "name": "Polyspin Exports",
-            "adv": 20590,
+            "adv": 30899,
             "reason": "liquidity"
           },
           {
             "symbol": "SATIPOLY",
             "name": "Sati Poly",
-            "adv": 61044,
+            "adv": 60339,
             "reason": "liquidity"
           },
           {
             "symbol": "ANTGRAPHIC",
             "name": "Antarctica",
-            "adv": 125962,
+            "adv": 122514,
             "reason": "liquidity"
           },
           {
@@ -7216,31 +7246,31 @@
           {
             "symbol": "RMDRIP",
             "name": "R M Drip & Sprin",
-            "adv": 4765039,
+            "adv": 4663899,
             "reason": "liquidity"
           },
           {
             "symbol": "PPL",
             "name": "Prakash Pipes",
-            "adv": 8194171,
+            "adv": 7120715,
             "reason": "liquidity"
           },
           {
             "symbol": "DHABRIYA",
             "name": "Dhabriya Poly.",
-            "adv": 4342932,
+            "adv": 4223035,
             "reason": "liquidity"
           },
           {
             "symbol": "CPL",
             "name": "Captain Polyplas",
-            "adv": 2628962,
+            "adv": 2622700,
             "reason": "liquidity"
           },
           {
             "symbol": "KRITI",
             "name": "Kriti Industries",
-            "adv": 685471,
+            "adv": 680474,
             "reason": "liquidity"
           },
           {
@@ -7252,67 +7282,67 @@
           {
             "symbol": "HINDADH",
             "name": "Hind.Adhesive",
-            "adv": 462887,
+            "adv": 450443,
             "reason": "liquidity"
           },
           {
             "symbol": "TAINWALCHM",
             "name": "Tainwala Chem.",
-            "adv": 714077,
+            "adv": 704425,
             "reason": "liquidity"
           },
           {
             "symbol": "MASTER",
             "name": "Master Component",
-            "adv": 406976,
+            "adv": 381551,
             "reason": "liquidity"
           },
           {
             "symbol": "SHRITECH",
             "name": "Shri Techtex",
-            "adv": 220490,
+            "adv": 302470,
             "reason": "liquidity"
           },
           {
             "symbol": "TEXMOPIPES",
             "name": "Texmo Pipes",
-            "adv": 4151818,
+            "adv": 3515528,
             "reason": "liquidity"
           },
           {
             "symbol": "POLYSIL",
             "name": "Polysil Irrigati",
-            "adv": 680797,
+            "adv": 688622,
             "reason": "liquidity"
           },
           {
             "symbol": "BRIGHTBR",
             "name": "Bright Brothers",
-            "adv": 913396,
+            "adv": 864744,
             "reason": "liquidity"
           },
           {
             "symbol": "PURVFLEXI",
             "name": "Purv Flexi",
-            "adv": 144944,
+            "adv": 147904,
             "reason": "liquidity"
           },
           {
             "symbol": "SRIKPRIND",
             "name": "Sri KPR Inds.",
-            "adv": 54194,
+            "adv": 50241,
             "reason": "liquidity"
           },
           {
             "symbol": "JISLDVREQS",
             "name": "Jain Irrigat-DVR",
-            "adv": 875278,
+            "adv": 953334,
             "reason": "liquidity"
           },
           {
             "symbol": "TIJARIA",
             "name": "Tijaria Polypipe",
-            "adv": 168881,
+            "adv": 175963,
             "reason": "liquidity"
           },
           {
@@ -7341,67 +7371,67 @@
           {
             "symbol": "VILAS",
             "name": "Vilas Transcore",
-            "adv": 8651909,
+            "adv": 7907314,
             "reason": "liquidity"
           },
           {
             "symbol": "MALLCOM",
             "name": "Mallcom (India)",
-            "adv": 1582919,
+            "adv": 1429888,
             "reason": "liquidity"
           },
           {
             "symbol": "MEGATHERM",
             "name": "Megatherm Indu.",
-            "adv": 4337674,
+            "adv": 4461364,
             "reason": "liquidity"
           },
           {
             "symbol": "CGRAPHICS",
             "name": "Creative Graphic",
-            "adv": 3550954,
+            "adv": 3466890,
             "reason": "liquidity"
           },
           {
             "symbol": "AMEYA",
             "name": "Ameya Precision",
-            "adv": 1444930,
+            "adv": 1424680,
             "reason": "liquidity"
           },
           {
             "symbol": "HOLMARC",
             "name": "Holmarc Opto",
-            "adv": 1346355,
+            "adv": 1283955,
             "reason": "liquidity"
           },
           {
             "symbol": "SRIVASAVI",
             "name": "Srivasavi Adhes.",
-            "adv": 1770858,
+            "adv": 1881968,
             "reason": "liquidity"
           },
           {
             "symbol": "WHBRADY",
             "name": "W H Brady",
-            "adv": 27966,
+            "adv": 29534,
             "reason": "liquidity"
           },
           {
             "symbol": "BEARDSELL",
             "name": "Beardsell",
-            "adv": 641709,
+            "adv": 651239,
             "reason": "liquidity"
           },
           {
             "symbol": "DELTAMAGNT",
             "name": "Delta Manufact.",
-            "adv": 193970,
+            "adv": 194353,
             "reason": "liquidity"
           },
           {
             "symbol": "JIWANRAM",
             "name": "Jiwanram Sheo",
-            "adv": 32010,
+            "adv": 33090,
             "reason": "liquidity"
           },
           {
@@ -7469,25 +7499,25 @@
           {
             "symbol": "CORDSCABLE",
             "name": "Cords Cable",
-            "adv": 9880758,
+            "adv": 9288272,
             "reason": "liquidity"
           },
           {
             "symbol": "PLAZACABLE",
             "name": "Plaza Wires",
-            "adv": 2783860,
+            "adv": 2610936,
             "reason": "liquidity"
           },
           {
             "symbol": "DCG",
             "name": "DCG Cables",
-            "adv": 898752,
+            "adv": 896298,
             "reason": "liquidity"
           },
           {
             "symbol": "MARCO",
             "name": "Marco Cables",
-            "adv": 572303,
+            "adv": 623531,
             "reason": "liquidity"
           },
           {
@@ -7516,7 +7546,7 @@
           {
             "symbol": "LATTEYS",
             "name": "Latteys Industri",
-            "adv": 969720,
+            "adv": 975141,
             "reason": "liquidity"
           },
           {
@@ -7530,37 +7560,37 @@
           {
             "symbol": "IFGLEXPOR",
             "name": "IFGL Refractori.",
-            "adv": 4005356,
+            "adv": 3799904,
             "reason": "liquidity"
           },
           {
             "symbol": "ORIENTCER",
             "name": "Orient Ceratech",
-            "adv": 1634813,
+            "adv": 1447356,
             "reason": "liquidity"
           },
           {
             "symbol": "DENORA",
             "name": "DE Nora India",
-            "adv": 3978576,
+            "adv": 4063923,
             "reason": "liquidity"
           },
           {
             "symbol": "REFRACTORY",
             "name": "Refractory Shap.",
-            "adv": 696897,
+            "adv": 673707,
             "reason": "liquidity"
           },
           {
             "symbol": "AUROIMPEX",
             "name": "Auro Impex",
-            "adv": 239396,
+            "adv": 246896,
             "reason": "liquidity"
           },
           {
             "symbol": "SPRL",
             "name": "SP Refractories",
-            "adv": 67796,
+            "adv": 56100,
             "reason": "liquidity"
           },
           {
@@ -7578,49 +7608,49 @@
           {
             "symbol": "GRPLTD",
             "name": "GRP",
-            "adv": 9307934,
+            "adv": 9312720,
             "reason": "liquidity"
           },
           {
             "symbol": "RUBFILA",
             "name": "Rubfila Intl.",
-            "adv": 5672714,
+            "adv": 5635102,
             "reason": "liquidity"
           },
           {
             "symbol": "GRCL",
             "name": "Gayatri Rubbers",
-            "adv": 382975,
+            "adv": 504603,
             "reason": "liquidity"
           },
           {
             "symbol": "HARRMALAYA",
             "name": "Harri. Malayalam",
-            "adv": 1399954,
+            "adv": 1389906,
             "reason": "liquidity"
           },
           {
             "symbol": "ELGIRUBCO",
             "name": "Elgi Rubber Co",
-            "adv": 2195237,
+            "adv": 2119588,
             "reason": "liquidity"
           },
           {
             "symbol": "SAMPANN",
             "name": "Sampann Utpadan",
-            "adv": 271574,
+            "adv": 271072,
             "reason": "liquidity"
           },
           {
             "symbol": "LRRPL",
             "name": "Lead Reclaim",
-            "adv": 610541,
+            "adv": 469867,
             "reason": "liquidity"
           },
           {
             "symbol": "PENTAGON",
             "name": "Pentagon Rubber",
-            "adv": 47293,
+            "adv": 43253,
             "reason": "liquidity"
           }
         ],
@@ -7628,169 +7658,169 @@
           {
             "symbol": "BNAGROCHEM",
             "name": "BN Agrochem",
-            "adv": 5268353,
+            "adv": 3422275,
             "reason": "liquidity"
           },
           {
             "symbol": "STCINDIA",
             "name": "S T C",
-            "adv": 2246472,
+            "adv": 2213829,
             "reason": "liquidity"
           },
           {
             "symbol": "OSWALAGRO",
             "name": "Oswal Agro Mills",
-            "adv": 6939509,
+            "adv": 7050921,
             "reason": "liquidity"
           },
           {
             "symbol": "KOTHARIPRO",
             "name": "Kothari Products",
-            "adv": 411770,
+            "adv": 408750,
             "reason": "liquidity"
           },
           {
             "symbol": "SAKUMA",
             "name": "Sakuma Exports",
-            "adv": 5213961,
+            "adv": 5305954,
             "reason": "liquidity"
           },
           {
             "symbol": "VIKASLIFE",
             "name": "Vikas Lifecare",
-            "adv": 2433130,
+            "adv": 2428969,
             "reason": "liquidity"
           },
           {
             "symbol": "SICAGEN",
             "name": "Sicagen India",
-            "adv": 503585,
+            "adv": 653615,
             "reason": "liquidity"
           },
           {
             "symbol": "ROCKINGDCE",
             "name": "Rockingdeals Cir",
-            "adv": 1213623,
+            "adv": 1218615,
             "reason": "liquidity"
           },
           {
             "symbol": "SIGIND",
             "name": "Signet Industrie",
-            "adv": 713729,
+            "adv": 685802,
             "reason": "liquidity"
           },
           {
             "symbol": "SPCENET",
             "name": "Spacenet Enterpr",
-            "adv": 1876587,
+            "adv": 1862527,
             "reason": "liquidity"
           },
           {
             "symbol": "ESSENTIA",
             "name": "Integra Essentia",
-            "adv": 1610445,
+            "adv": 1597062,
             "reason": "liquidity"
           },
           {
             "symbol": "METROGLOBL",
             "name": "Metroglobal",
-            "adv": 82668,
+            "adv": 77734,
             "reason": "liquidity"
           },
           {
             "symbol": "ANIKINDS",
             "name": "Anik Industries",
-            "adv": 380015,
+            "adv": 369275,
             "reason": "liquidity"
           },
           {
             "symbol": "LAHOTIOV",
             "name": "Lahoti Overseas",
-            "adv": 110889,
+            "adv": 110338,
             "reason": "liquidity"
           },
           {
             "symbol": "LANDSMILL",
             "name": "Landsmill Green",
-            "adv": 2647721,
+            "adv": 1645547,
             "reason": "liquidity"
           },
           {
             "symbol": "CFEL",
             "name": "Confidence Fut.",
-            "adv": 222025,
+            "adv": 212296,
             "reason": "liquidity"
           },
           {
             "symbol": "CRAVATEX",
             "name": "Cravatex",
-            "adv": 155321,
+            "adv": 187348,
             "reason": "liquidity"
           },
           {
             "symbol": "GOYALALUM",
             "name": "Goyal Aluminiums",
-            "adv": 248493,
+            "adv": 252057,
             "reason": "liquidity"
           },
           {
             "symbol": "MINALIND",
             "name": "Minal Industries",
-            "adv": 97383,
+            "adv": 100708,
             "reason": "liquidity"
           },
           {
             "symbol": "UMAEXPORTS",
             "name": "Uma Exports",
-            "adv": 463708,
+            "adv": 447228,
             "reason": "liquidity"
           },
           {
             "symbol": "KSR",
             "name": "KSR Footwear",
-            "adv": 366839,
+            "adv": 356615,
             "reason": "liquidity"
           },
           {
             "symbol": "BMETRICS",
             "name": "Bombay Metrics",
-            "adv": 166266,
+            "adv": 202554,
             "reason": "liquidity"
           },
           {
             "symbol": "ABMINTLLTD",
             "name": "A B M Internatl.",
-            "adv": 56371,
+            "adv": 55862,
             "reason": "liquidity"
           },
           {
             "symbol": "AKG",
             "name": "AKG Exim",
-            "adv": 99182,
+            "adv": 74762,
             "reason": "liquidity"
           },
           {
             "symbol": "PRISMX",
             "name": "Prismx Global",
-            "adv": 410799,
+            "adv": 404013,
             "reason": "liquidity"
           },
           {
             "symbol": "ASIANTNE",
             "name": "Asian Tea & Exp",
-            "adv": 88279,
+            "adv": 82444,
             "reason": "liquidity"
           },
           {
             "symbol": "CONTI",
             "name": "Continental Seed",
-            "adv": 40804,
+            "adv": 34072,
             "reason": "liquidity"
           },
           {
             "symbol": "SHYAMTEL",
             "name": "Shyam Telecom",
-            "adv": 114571,
+            "adv": 111900,
             "reason": "liquidity"
           },
           {
@@ -7813,25 +7843,25 @@
           {
             "symbol": "MARC",
             "name": "Marc Technocrats",
-            "adv": 488253,
+            "adv": 386445,
             "reason": "liquidity"
           },
           {
             "symbol": "EKI",
             "name": "EKI Energy",
-            "adv": 1035783,
+            "adv": 1006816,
             "reason": "liquidity"
           },
           {
             "symbol": "MITCON",
             "name": "Mitcon Consult.",
-            "adv": 230842,
+            "adv": 215261,
             "reason": "liquidity"
           },
           {
             "symbol": "DHRUV",
             "name": "Dhruv Consultanc",
-            "adv": 179030,
+            "adv": 167629,
             "reason": "liquidity"
           },
           {
@@ -7844,37 +7874,37 @@
           {
             "symbol": "HGS",
             "name": "Hinduja Global",
-            "adv": 4411092,
+            "adv": 4427067,
             "reason": "liquidity"
           },
           {
             "symbol": "ALLDIGI",
             "name": "Alldigi Tech",
-            "adv": 8506263,
+            "adv": 8649213,
             "reason": "liquidity"
           },
           {
             "symbol": "KANDARP",
             "name": "Kandarp Digi",
-            "adv": 658575,
+            "adv": 641068,
             "reason": "liquidity"
           },
           {
             "symbol": "WEWIN",
             "name": "We Win Ltd",
-            "adv": 118431,
+            "adv": 113107,
             "reason": "liquidity"
           },
           {
             "symbol": "CADSYS",
             "name": "Cadsys (India)",
-            "adv": 67067,
+            "adv": 87805,
             "reason": "liquidity"
           },
           {
             "symbol": "HRHNEXT",
             "name": "HRH Next",
-            "adv": 69368,
+            "adv": 69221,
             "reason": "liquidity"
           },
           {
@@ -7888,37 +7918,43 @@
           {
             "symbol": "NIRLON",
             "name": "Nirlon",
-            "adv": 3973119,
+            "adv": 4068923,
             "reason": "liquidity"
           },
           {
             "symbol": "INDIQUBE",
             "name": "Indiqube Spaces",
-            "adv": 8611828,
+            "adv": 8204124,
+            "reason": "liquidity"
+          },
+          {
+            "symbol": "KRYSTAL",
+            "name": "Krystal Integrat",
+            "adv": 9343200,
             "reason": "liquidity"
           },
           {
             "symbol": "PHOENXINTL",
             "name": "Phoenix Intl.",
-            "adv": 1367561,
+            "adv": 1367456,
             "reason": "liquidity"
           },
           {
             "symbol": "ICDSLTD",
             "name": "ICDS",
-            "adv": 32829,
+            "adv": 25408,
             "reason": "liquidity"
           },
           {
             "symbol": "FMNL",
             "name": "Future Market",
-            "adv": 208931,
+            "adv": 212467,
             "reason": "liquidity"
           },
           {
             "symbol": "SAICAPI",
             "name": "Sai Capital",
-            "adv": 63467,
+            "adv": 64255,
             "reason": "liquidity"
           },
           {
@@ -7930,13 +7966,13 @@
           {
             "symbol": "FALCONTECH",
             "name": "Falcon",
-            "adv": 57333,
+            "adv": 51675,
             "reason": "liquidity"
           },
           {
             "symbol": "KONTOR",
             "name": "Kontor Space",
-            "adv": 41701,
+            "adv": 47504,
             "reason": "liquidity"
           },
           {
@@ -8044,7 +8080,7 @@
           {
             "symbol": "PREMIER",
             "name": "PREMIER",
-            "adv": 26045,
+            "adv": 25060,
             "reason": "liquidity"
           },
           {
