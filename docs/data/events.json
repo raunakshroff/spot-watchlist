@@ -555,6 +555,49 @@
       ]
     },
     {
+      "id": "vistar-2026-11-04",
+      "title": "Cabinet — VISTAR: statistical system overhaul (₹4,371 Cr, MoSPI)",
+      "date": "2026-11-04",
+      "sector": "Govt IT / Data & analytics",
+      "amountCr": 4371.1,
+      "indigenousPct": null,
+      "summary": "On 4 Nov 2026 the Union Cabinet approved ‘Viksit Bharat Initiative for Statistical Transformation, Analytics & Research (VISTAR)’, a central sector scheme of ₹4,371.10 Cr for FY2026-27 to FY2030-31 covering all MoSPI statistical and data-management work. Three components: (1) Comprehensive Statistical Operations & Strengthening of Ecosystem — 59 surveys in the 16th FC cycle (vs 43 earlier), end-to-end digitalisation, AI/ML for data processing/validation/analysis, new indices (Headline Index of Services Production, Index of Unincorporated Sector Enterprises), data cataloguing/interoperability/privacy-by-design, alternate data (mobile phone, scanner, e-commerce); (2) Support for Statistical Strengthening (SSS 2.0) — deliverable-linked funds to States/UTs for district- and million-plus-city estimates, State/District GDP, State IIP; (3) 8th Economic Census with States/UTs down to Gram Panchayat/ward level, baseline for a National Statistical Business Register. Not stated: split of outlay by component, IT vendor budget. LISTED BENEFICIARIES: none verified. Known MoSPI IT work is small or unlisted — common data platform for National Accounts went to Bahwan CyberTek (unlisted); Unified Survey Platform tender is ~₹31.5 Cr (bids closed 14 Oct 2026, no award public); 7th Economic Census was run by CSC e-Governance SPV (unlisted). Tracking-only card; no companies added rather than padding with speculative names.",
+      "packages": [
+        "Comprehensive Statistical Operations & Ecosystem (59 surveys, AI/ML, digitalisation)",
+        "Support for Statistical Strengthening — SSS 2.0 (States/UTs)",
+        "8th Economic Census",
+        "New indices: Services Production, Unincorporated Sector Enterprises",
+        "FY27–FY31"
+      ],
+      "sources": [
+        {
+          "label": "PM India / PIB — Cabinet approves VISTAR (4 Nov 2026)",
+          "url": "https://www.pmindia.gov.in/en/news_updates/cabinet-approves-viksit-bharat-initiative-for-statistical-transformation-analytics-research-vistar-a-central-sector-scheme-for-the-period-2026-27-to-2030-31/"
+        },
+        {
+          "label": "Business Standard — ₹4,371 Cr VISTAR scheme",
+          "url": "https://www.business-standard.com/india-news/cabinet-clears-4-371-crore-vistar-scheme-to-revamp-india-s-statistics-126110401866_1.html"
+        },
+        {
+          "label": "MoSPI — Unified Survey Platform bid (GEM/2026/B/8045000)",
+          "url": "https://www.mospi.gov.in/uploads/announcements/announcements_1790246387440_8897f830-976c-44c6-92c8-597359d245e0_Bid.pdf"
+        },
+        {
+          "label": "Storyboard18 — Bahwan CyberTek (unlisted) builds MoSPI NAD data platform",
+          "url": "https://www.storyboard18.com/brand-makers/india-plans-unified-platform-for-official-economic-data-eyes-ai-model-report-102608.htm"
+        },
+        {
+          "label": "MoSPI — 8th Economic Census digital-solution RFP",
+          "url": "https://mospi.gov.in/sites/default/files/announcements/FINAL_RFP_13112024.pdf"
+        },
+        {
+          "label": "PM Modi on X",
+          "url": "https://x.com/narendramodi/status/2117965728829567097"
+        }
+      ],
+      "companies": []
+    },
+    {
       "id": "cmps-2026-10-28",
       "title": "Cabinet CMPS — Container Manufacturing Promotion Scheme (₹10,000 Cr)",
       "date": "2026-10-28",
