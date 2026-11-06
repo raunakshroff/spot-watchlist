@@ -1,5 +1,453 @@
 [
   {
+    "key": "UTLSOLAR",
+    "name": "Fujiyama Power Systems Limited",
+    "nameRaw": "FUJIYAMA POWER SYSTEMS LIMITED",
+    "codes": {
+      "NSE": "UTLSOLAR"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "UTLSOLAR.NS"
+    ],
+    "ticker": "UTLSOLAR.NS",
+    "firstCoveredBySovrenn": "2026-06-03",
+    "mentions": [
+      {
+        "date": "2026-10-13",
+        "tag": "FUND RAISE",
+        "filing": "(FUND RAISE) Company's Board of Directors have scheduled a meeting on October 15, 2026, to consider a proposal for raising funds through the issuance of equity shares. The fundraise, which may include a Qualified Institutional Placement (QIP) or other public and private offerings, aims to achieve minimum public shareholding compliance.",
+        "outlook": "Company has raised its FY27 revenue growth target to ~70% (from 50%) with an 11-13% PAT margin, backed by a sharply expanded capacity — solar panels 3.57 GW, power electronics 4.18 GW, 1 GW solar cells (80%+ utilised, 1.2 GW more coming) and 545 MWh batteries (2 GWh Ratlam line in Q2FY27). Company's new Ratlam site (peak revenue potential INR 5,000 Cr) starts at 40-50% utilisation, targeting 80% by Q4FY28. Company is backward-integrating into module components (stake raised 19%->50% in two associates, INR 180-200 Cr) and plans INR 500 Cr capex in FY27 funded by debt, IPO cash and accruals (no equity dilution), while meeting on 15 Oct to consider an equity raise for minimum public shareholding compliance.",
+        "sovrennMcap": "INR 12,159 Crore",
+        "sovrennPe": "41.3x"
+      },
+      {
+        "date": "2026-11-06",
+        "tag": "GOOD TO EXCELLENT RESULTS",
+        "filing": "(GOOD TO EXCELLENT RESULTS) For the quarter ending Sep-26, Sales up 2.3x (130%) YoY from INR 568 Cr in Sep-25 to INR 1,307 Cr in Sep-26. Over the same period, Operating Profit Margin decreased from 18% to 17%. Similarly, Net Profit up 2.1x (111%) from INR 63 Cr to INR 133 Cr. On a QoQ basis, Sales down 3% and Net Profit up 2.3x (129%).",
+        "outlook": "Company raised its FY27 revenue growth target to 70%, backed by aggressive capacity expansion at its integrated Ratlam site. Growth will be driven by scaling new 2 GW solar panel and power electronics lines, expanding Li-ion battery capacity to 2,545 MWh, increasing backward integration stakes to secure raw materials, and ramping up Ratlam facilities toward an INR 5,000 Cr peak revenue potential.",
+        "sovrennMcap": "INR 10,811 Crore",
+        "sovrennPe": "22.2x"
+      }
+    ],
+    "firstHighlighted": "2026-10-13",
+    "timesMentioned": 2,
+    "latestDate": "2026-11-06",
+    "latestTag": "GOOD TO EXCELLENT RESULTS",
+    "latestReason": "(GOOD TO EXCELLENT RESULTS) For the quarter ending Sep-26, Sales up 2.3x (130%) YoY from INR 568 Cr in Sep-25 to INR 1,307 Cr in Sep-26. Over the same period, Operating Profit Margin decreased from 18% to 17%. Similarly, Net Profit up 2.1x (111%) from INR 63 Cr to INR 133 Cr. On a QoQ basis, Sales down 3% and Net Profit up 2.3x (129%).",
+    "latestOutlook": "Company raised its FY27 revenue growth target to 70%, backed by aggressive capacity expansion at its integrated Ratlam site. Growth will be driven by scaling new 2 GW solar panel and power electronics lines, expanding Li-ion battery capacity to 2,545 MWh, increasing backward integration stakes to secure raw materials, and ramping up Ratlam facilities toward an INR 5,000 Cr peak revenue potential.",
+    "sovrennMcap": "INR 10,811 Crore",
+    "sovrennPe": "22.2x",
+    "price": 351.8,
+    "priceDate": "2026-11-06",
+    "dma20": 380.24,
+    "dma50": 408.6,
+    "dma200": 315.92,
+    "rsi14": 39.1,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport, rsiOk",
+    "bars": 239,
+    "priceAtHighlight": 402.7,
+    "priceAtHighlightDate": "2026-10-13",
+    "pctSinceHighlight": -12.64,
+    "mcapCr": 10811,
+    "lastUpdated": "2026-11-06 22:22 IST"
+  },
+  {
+    "key": "PRIMECAB",
+    "name": "Prime Cable Industries Limited",
+    "nameRaw": "PRIME CABLE INDUSTRIES LIMITED",
+    "codes": {
+      "NSE": "PRIMECAB"
+    },
+    "isin": null,
+    "sme": true,
+    "candidates": [
+      "PRIMECAB.NS"
+    ],
+    "ticker": "PRIMECAB-SM.NS",
+    "firstCoveredBySovrenn": "2025-11-20",
+    "mentions": [
+      {
+        "date": "2026-11-06",
+        "tag": "GOOD RESULTS",
+        "filing": "(GOOD RESULTS) For the half year ending Sep-26, Sales 2.2x (115% up) YoY from INR 91 Cr in Sep-25 to INR 196 Cr in Sep-26. Over the same period, Operating Profit Margin decreased from 11% to 8%. Similarly, Net Profit up 80% from INR 5 Cr to INR 9 Cr. On a HoH basis, Sales up 36% and Net Profit up 29%.",
+        "outlook": "Company guides for 40–50% revenue growth in FY27 with a 40% long-term CAGR, backed by record Q1 performance. Growth will be driven by executing a INR 210 Cr order book, scaling low-voltage capacity utilization to 80%, commissioning the new Ghiloth Unit 3 for medium-voltage cables and solar lines, and investing INR 40 Cr in expansion.",
+        "sovrennMcap": "INR 323 Crore",
+        "sovrennPe": "20.2x"
+      }
+    ],
+    "firstHighlighted": "2026-11-06",
+    "timesMentioned": 1,
+    "latestDate": "2026-11-06",
+    "latestTag": "GOOD RESULTS",
+    "latestReason": "(GOOD RESULTS) For the half year ending Sep-26, Sales 2.2x (115% up) YoY from INR 91 Cr in Sep-25 to INR 196 Cr in Sep-26. Over the same period, Operating Profit Margin decreased from 11% to 8%. Similarly, Net Profit up 80% from INR 5 Cr to INR 9 Cr. On a HoH basis, Sales up 36% and Net Profit up 29%.",
+    "latestOutlook": "Company guides for 40–50% revenue growth in FY27 with a 40% long-term CAGR, backed by record Q1 performance. Growth will be driven by executing a INR 210 Cr order book, scaling low-voltage capacity utilization to 80%, commissioning the new Ghiloth Unit 3 for medium-voltage cables and solar lines, and investing INR 40 Cr in expansion.",
+    "sovrennMcap": "INR 323 Crore",
+    "sovrennPe": "20.2x",
+    "tickerResolvedBy": "yahoo search",
+    "price": 170.8,
+    "priceDate": "2026-11-06",
+    "dma20": null,
+    "dma50": null,
+    "dma200": null,
+    "rsi14": null,
+    "buyZone": "n/a",
+    "buyZoneNote": "Yahoo has no daily history for this listing (latest quote only)",
+    "bars": 1,
+    "priceAtHighlight": 170.8,
+    "priceAtHighlightDate": "2026-11-06",
+    "pctSinceHighlight": 0.0,
+    "mcapCr": null,
+    "lastUpdated": "2026-11-06 22:22 IST"
+  },
+  {
+    "key": "KARAMTARA",
+    "name": "Karamtara Engineering Limited",
+    "nameRaw": "KARAMTARA ENGINEERING LIMITED",
+    "codes": {
+      "NSE": "KARAMTARA"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "KARAMTARA.NS"
+    ],
+    "ticker": "KARAMTARA.NS",
+    "firstCoveredBySovrenn": "2026-10-14",
+    "mentions": [
+      {
+        "date": "2026-10-14",
+        "tag": "GOOD TO EXCELLENT RESULTS",
+        "filing": "(GOOD TO EXCELLENT RESULTS) For the quarter ending Jun-26, Sales up 72% YoY from INR 918 Cr in Jun-25 to INR 1,581 Cr in Jun-26. Over the same period, Operating Profit Margin decreased from 13% to 11%. Similarly, Net Profit up 45% from INR 60 Cr to INR 87 Cr. On a QoQ basis, Sales up 26% and Net Profit up 2.3x (129%).",
+        "outlook": "Company targets 60–65% revenue growth in FY27, supported by an INR 6,000 Cr order book and capacity utilization improvement across its 8.9 lakh MTPA installed base. Planned INR 484 Cr capex will expand solar stamping and structural steel operations, while the Saudi facility and new PEB units are expected to contribute from FY28. Repayment of INR 600 Cr debt is expected to save INR 82 Cr in annual interest costs.",
+        "sovrennMcap": "INR 12,212 Crore",
+        "sovrennPe": "47.6x"
+      },
+      {
+        "date": "2026-11-06",
+        "tag": "GOOD TO EXCELLENT RESULTS",
+        "filing": "(GOOD TO EXCELLENT RESULTS) For the quarter ending Sep-26, Sales up 62% YoY from INR 1,017 Cr in Sep-25 to INR 1,647 Cr in Sep-26. Over the same period, Operating Profit Margin decreased from 13% to 12%. Similarly, Net Profit up 38% from INR 69 Cr to INR 95 Cr. On a QoQ basis, Sales up 4% and Net Profit up 9%.",
+        "outlook": "Company expects 60–65% revenue growth in FY27, backed by a strong FY26 performance. Growth will be driven by executing a INR 6,000 Cr order book, expanding capacity via a INR 484 Cr capex (including new units in Gujarat, Maharashtra, and Saudi Arabia), and saving INR 82 Cr in interest costs by paying off 58% of its debt.",
+        "sovrennMcap": "INR 12,043 Crore",
+        "sovrennPe": "52.3x"
+      }
+    ],
+    "firstHighlighted": "2026-10-14",
+    "timesMentioned": 2,
+    "latestDate": "2026-11-06",
+    "latestTag": "GOOD TO EXCELLENT RESULTS",
+    "latestReason": "(GOOD TO EXCELLENT RESULTS) For the quarter ending Sep-26, Sales up 62% YoY from INR 1,017 Cr in Sep-25 to INR 1,647 Cr in Sep-26. Over the same period, Operating Profit Margin decreased from 13% to 12%. Similarly, Net Profit up 38% from INR 69 Cr to INR 95 Cr. On a QoQ basis, Sales up 4% and Net Profit up 9%.",
+    "latestOutlook": "Company expects 60–65% revenue growth in FY27, backed by a strong FY26 performance. Growth will be driven by executing a INR 6,000 Cr order book, expanding capacity via a INR 484 Cr capex (including new units in Gujarat, Maharashtra, and Saudi Arabia), and saving INR 82 Cr in interest costs by paying off 58% of its debt.",
+    "sovrennMcap": "INR 12,043 Crore",
+    "sovrennPe": "52.3x",
+    "price": 375.7,
+    "priceDate": "2026-11-06",
+    "dma20": 370.92,
+    "dma50": null,
+    "dma200": null,
+    "rsi14": 53.7,
+    "buyZone": "n/a",
+    "buyZoneNote": "insufficient history (above200)",
+    "bars": 35,
+    "priceAtHighlight": 381.8,
+    "priceAtHighlightDate": "2026-10-14",
+    "pctSinceHighlight": -1.6,
+    "mcapCr": null,
+    "lastUpdated": "2026-11-06 22:22 IST"
+  },
+  {
+    "key": "CEIGALL",
+    "name": "Ceigall India Limited",
+    "nameRaw": "CEIGALL INDIA LIMITED",
+    "codes": {
+      "NSE": "CEIGALL"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "CEIGALL.NS"
+    ],
+    "ticker": "CEIGALL.NS",
+    "firstCoveredBySovrenn": "2024-09-23",
+    "mentions": [
+      {
+        "date": "2026-11-06",
+        "tag": "GOOD TO EXCELLENT RESULTS",
+        "filing": "(GOOD TO EXCELLENT RESULTS) For the quarter ending Sep-26, Sales up 27% YoY from INR 807 Cr in Sep-25 to INR 1,022 Cr in Sep-26. Over the same period, Operating Profit Margin increased from 14% to 17%. Similarly, Net Profit up 64% from INR 56 Cr to INR 92 Cr. On a QoQ basis, Sales up 5% and Net Profit up 44%.",
+        "outlook": "Company guides for a minimum 15% revenue growth with 11–12.5% EBITDA margins in FY27, backed by a strong track record of beating guidance. Growth will be driven by executing a massive INR 18,568 Cr order book (4.6x sales), deploying equity in high-IRR HAM and solar assets, and executing a 220 MW solar BESS project in Madhya Pradesh.",
+        "sovrennMcap": "INR 6,663 Crore",
+        "sovrennPe": "18.7x"
+      }
+    ],
+    "firstHighlighted": "2026-11-06",
+    "timesMentioned": 1,
+    "latestDate": "2026-11-06",
+    "latestTag": "GOOD TO EXCELLENT RESULTS",
+    "latestReason": "(GOOD TO EXCELLENT RESULTS) For the quarter ending Sep-26, Sales up 27% YoY from INR 807 Cr in Sep-25 to INR 1,022 Cr in Sep-26. Over the same period, Operating Profit Margin increased from 14% to 17%. Similarly, Net Profit up 64% from INR 56 Cr to INR 92 Cr. On a QoQ basis, Sales up 5% and Net Profit up 44%.",
+    "latestOutlook": "Company guides for a minimum 15% revenue growth with 11–12.5% EBITDA margins in FY27, backed by a strong track record of beating guidance. Growth will be driven by executing a massive INR 18,568 Cr order book (4.6x sales), deploying equity in high-IRR HAM and solar assets, and executing a 220 MW solar BESS project in Madhya Pradesh.",
+    "sovrennMcap": "INR 6,663 Crore",
+    "sovrennPe": "18.7x",
+    "price": 384.05,
+    "priceDate": "2026-11-06",
+    "dma20": 384.62,
+    "dma50": 375.9,
+    "dma200": 334.39,
+    "rsi14": 50.8,
+    "buyZone": "Y",
+    "buyZoneNote": "all rules met",
+    "bars": 495,
+    "priceAtHighlight": 384.05,
+    "priceAtHighlightDate": "2026-11-06",
+    "pctSinceHighlight": 0.0,
+    "mcapCr": 6690,
+    "lastUpdated": "2026-11-06 22:22 IST"
+  },
+  {
+    "key": "ARROWGREEN",
+    "name": "Arrow Greentech Limited",
+    "nameRaw": "ARROW GREENTECH LIMITED",
+    "codes": {
+      "BSE": "ARROWGREEN"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "ARROWGREEN.BO"
+    ],
+    "ticker": "ARROWGREEN.BO",
+    "firstCoveredBySovrenn": "2023-02-14",
+    "mentions": [
+      {
+        "date": "2026-11-06",
+        "tag": "GOOD TO EXCELLENT RESULTS",
+        "filing": "(GOOD TO EXCELLENT RESULTS) For the quarter ending Sep-26, Sales up 39% YoY from INR 61 Cr in Sep-25 to INR 85 Cr in Sep-26. Over the same period, Operating Profit Margin increased from 34% to 39%. Similarly, Net Profit up 56% from INR 16 Cr to INR 25 Cr. On a QoQ basis, Sales down 3% and Net Profit down 7%.",
+        "outlook": "Management has not provided official revenue guidance following FY26 revenue of INR 201 Cr, growth will be driven by expanding international patent protection in its high-tech security segment, scaling India’s largest water-soluble film operations from the Dahej facility, and rapidly growing CDMO and prescription product registrations through its Avery Pharmaceuticals subsidiary.",
+        "sovrennMcap": "INR 1,104 Crore",
+        "sovrennPe": "15.1x"
+      }
+    ],
+    "firstHighlighted": "2026-11-06",
+    "timesMentioned": 1,
+    "latestDate": "2026-11-06",
+    "latestTag": "GOOD TO EXCELLENT RESULTS",
+    "latestReason": "(GOOD TO EXCELLENT RESULTS) For the quarter ending Sep-26, Sales up 39% YoY from INR 61 Cr in Sep-25 to INR 85 Cr in Sep-26. Over the same period, Operating Profit Margin increased from 34% to 39%. Similarly, Net Profit up 56% from INR 16 Cr to INR 25 Cr. On a QoQ basis, Sales down 3% and Net Profit down 7%.",
+    "latestOutlook": "Management has not provided official revenue guidance following FY26 revenue of INR 201 Cr, growth will be driven by expanding international patent protection in its high-tech security segment, scaling India’s largest water-soluble film operations from the Dahej facility, and rapidly growing CDMO and prescription product registrations through its Avery Pharmaceuticals subsidiary.",
+    "sovrennMcap": "INR 1,104 Crore",
+    "sovrennPe": "15.1x",
+    "price": 722.5,
+    "priceDate": "2026-11-06",
+    "dma20": 751.29,
+    "dma50": 798.66,
+    "dma200": 609.78,
+    "rsi14": 42.8,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport",
+    "bars": 494,
+    "priceAtHighlight": 722.5,
+    "priceAtHighlightDate": "2026-11-06",
+    "pctSinceHighlight": 0.0,
+    "mcapCr": 1090,
+    "lastUpdated": "2026-11-06 22:22 IST"
+  },
+  {
+    "key": "ADISOFT TECHNOLOGIES LIMITED",
+    "name": "Adisoft Technologies Limited",
+    "nameRaw": "ADISOFT TECHNOLOGIES LIMITED",
+    "codes": {},
+    "isin": null,
+    "sme": true,
+    "candidates": [],
+    "ticker": "ADISOFT-SM.NS",
+    "firstCoveredBySovrenn": "2026-09-10",
+    "mentions": [
+      {
+        "date": "2026-11-06",
+        "tag": "GOOD RESULTS",
+        "filing": "(GOOD RESULTS) For the half year ending Sep-26, Sales up 47% YoY from INR 49 Cr in Sep-25 to INR 72 Cr in Sep-26. Over the same period, Operating Profit Margin increased from 16% to 22%. Similarly, Net Profit 2.4x (140% up) from INR 5 Cr to INR 12 Cr. On a HoH basis, Sales down 38% and Net Profit down 33%.",
+        "outlook": "Company guides for around 25% revenue growth in FY27 and over 30% in FY28. Growth will be driven by executing a INR 96 Cr order book, scaling the new 70,000 sq.ft. Pune facility (boosting capacity from 12k to 70k sq.ft. by March 2027), utilizing INR 38 Cr IPO capex, and unlocking a INR 650–700 Cr peak revenue potential.",
+        "sovrennMcap": "INR 455 Crore",
+        "sovrennPe": "15.7x"
+      }
+    ],
+    "firstHighlighted": "2026-11-06",
+    "timesMentioned": 1,
+    "latestDate": "2026-11-06",
+    "latestTag": "GOOD RESULTS",
+    "latestReason": "(GOOD RESULTS) For the half year ending Sep-26, Sales up 47% YoY from INR 49 Cr in Sep-25 to INR 72 Cr in Sep-26. Over the same period, Operating Profit Margin increased from 16% to 22%. Similarly, Net Profit 2.4x (140% up) from INR 5 Cr to INR 12 Cr. On a HoH basis, Sales down 38% and Net Profit down 33%.",
+    "latestOutlook": "Company guides for around 25% revenue growth in FY27 and over 30% in FY28. Growth will be driven by executing a INR 96 Cr order book, scaling the new 70,000 sq.ft. Pune facility (boosting capacity from 12k to 70k sq.ft. by March 2027), utilizing INR 38 Cr IPO capex, and unlocking a INR 650–700 Cr peak revenue potential.",
+    "sovrennMcap": "INR 455 Crore",
+    "sovrennPe": "15.7x",
+    "tickerResolvedBy": "yahoo search",
+    "price": 278.55,
+    "priceDate": "2026-11-06",
+    "dma20": null,
+    "dma50": null,
+    "dma200": null,
+    "rsi14": null,
+    "buyZone": "n/a",
+    "buyZoneNote": "Yahoo has no daily history for this listing (latest quote only)",
+    "bars": 1,
+    "priceAtHighlight": 278.55,
+    "priceAtHighlightDate": "2026-11-06",
+    "pctSinceHighlight": 0.0,
+    "mcapCr": null,
+    "lastUpdated": "2026-11-06 22:22 IST"
+  },
+  {
+    "key": "544009",
+    "name": "Blue Jet Healthcare Limited",
+    "nameRaw": "BLUE JET HEALTHCARE LIMITED",
+    "codes": {
+      "BSE": "544009"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "544009.BO"
+    ],
+    "ticker": "BLUEJET.NS",
+    "firstCoveredBySovrenn": "2025-04-04",
+    "mentions": [
+      {
+        "date": "2026-11-06",
+        "tag": "GOOD TO EXCELLENT RESULTS",
+        "filing": "(GOOD TO EXCELLENT RESULTS) For the quarter ending Sep-26, Sales up 2.3x (128%) YoY from INR 165 Cr in Sep-25 to INR 376 Cr in Sep-26. Over the same period, Operating Profit Margin decreased from 33% to 32%. Similarly, Net Profit up 98% from INR 52 Cr to INR 103 Cr. On a QoQ basis, Sales up 28% and Net Profit up 32%.",
+        "outlook": "Management has not provided overall FY27 revenue guidance, growth will be driven by double-digit expansion in contrast media intermediates (operating at 70% utilization), a 54% rebound in the PI/API segment, commissioning the Mahad Unit-3 plant for GLP-1 peptides, and executing a INR 1,000 Cr capex plan over three years to expand capacity to 2,178 KL.",
+        "sovrennMcap": "INR 10,491 Crore",
+        "sovrennPe": "36.8x"
+      }
+    ],
+    "firstHighlighted": "2026-11-06",
+    "timesMentioned": 1,
+    "latestDate": "2026-11-06",
+    "latestTag": "GOOD TO EXCELLENT RESULTS",
+    "latestReason": "(GOOD TO EXCELLENT RESULTS) For the quarter ending Sep-26, Sales up 2.3x (128%) YoY from INR 165 Cr in Sep-25 to INR 376 Cr in Sep-26. Over the same period, Operating Profit Margin decreased from 33% to 32%. Similarly, Net Profit up 98% from INR 52 Cr to INR 103 Cr. On a QoQ basis, Sales up 28% and Net Profit up 32%.",
+    "latestOutlook": "Management has not provided overall FY27 revenue guidance, growth will be driven by double-digit expansion in contrast media intermediates (operating at 70% utilization), a 54% rebound in the PI/API segment, commissioning the Mahad Unit-3 plant for GLP-1 peptides, and executing a INR 1,000 Cr capex plan over three years to expand capacity to 2,178 KL.",
+    "sovrennMcap": "INR 10,491 Crore",
+    "sovrennPe": "36.8x",
+    "tickerResolvedBy": "yahoo search",
+    "price": 553.8,
+    "priceDate": "2026-11-06",
+    "dma20": 511.98,
+    "dma50": 544.58,
+    "dma200": 488.89,
+    "rsi14": 58.0,
+    "buyZone": "N",
+    "buyZoneNote": "fails: notExtended",
+    "bars": 496,
+    "priceAtHighlight": 553.8,
+    "priceAtHighlightDate": "2026-11-06",
+    "pctSinceHighlight": 0.0,
+    "mcapCr": 9607,
+    "lastUpdated": "2026-11-06 22:22 IST"
+  },
+  {
+    "key": "539730",
+    "name": "Fredun Pharmaceuticals Limited",
+    "nameRaw": "FREDUN PHARMACEUTICALS LIMITED",
+    "codes": {
+      "BSE": "539730"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "539730.BO"
+    ],
+    "ticker": "FREDUN.NS",
+    "firstCoveredBySovrenn": "2024-02-20",
+    "mentions": [
+      {
+        "date": "2026-10-08",
+        "tag": "BUSINESS EXPANSION",
+        "filing": "(BUSINESS EXPANSION) Company is expanding to become a 100% branded healthcare platform by 2029, aiming to double revenue and profits in three to four years. Key growth drivers include building a pet-care ecosystem by acquiring a 26% stake in Goodman Vetcare, purchasing the pet-wellness brand Furlicks, and launching the WAGR platform. Additionally, company is scaling its domestic generics to over 500 SKUs through Fredun Gx, establishing its 53-country export footprint, and operationalizing a 40,000 sq. ft. manufacturing block in Palghar in October 2026.",
+        "outlook": "Company targets 26% revenue growth in FY27, followed by 30–35% annual growth for the next three years, with a PAT target of INR 90 Cr by FY29. Growth will be supported by the INR 320–330 Cr order book and higher tube-filling capacity of 4.8 tons/day. New-age businesses are expected to grow 40–50%+ annually, driving a gradual revenue mix shift toward 70% new-age businesses from 30% legacy.",
+        "sovrennMcap": "INR 2,626 Crore",
+        "sovrennPe": "59.7x"
+      },
+      {
+        "date": "2026-11-06",
+        "tag": "EXCELLENT RESULTS",
+        "filing": "(EXCELLENT RESULTS) For the quarter ending Sep-26, Sales up 85% YoY from INR 145 Cr in Sep-25 to INR 268 Cr in Sep-26. Over the same period, Operating Profit Margin increased from 15% to 16%. Similarly, Net Profit up 90% from INR 10 Cr to INR 19 Cr. On a QoQ basis, Sales up 18% and Net Profit up 46%.",
+        "outlook": "Company expects 26% revenue growth in FY27 and 30–35% annually post-FY27, targeting an INR 90 Cr PAT by FY29, backed by a strong track record. Growth will be driven by executing a INR 320–330 Cr order book, scaling high-margin new-age segments (pet care and skincare) to a 70% revenue mix, and expanding tube-filling capacity threefold.",
+        "sovrennMcap": "INR 2,490 Crore",
+        "sovrennPe": "46.1x"
+      }
+    ],
+    "firstHighlighted": "2026-10-08",
+    "timesMentioned": 2,
+    "latestDate": "2026-11-06",
+    "latestTag": "EXCELLENT RESULTS",
+    "latestReason": "(EXCELLENT RESULTS) For the quarter ending Sep-26, Sales up 85% YoY from INR 145 Cr in Sep-25 to INR 268 Cr in Sep-26. Over the same period, Operating Profit Margin increased from 15% to 16%. Similarly, Net Profit up 90% from INR 10 Cr to INR 19 Cr. On a QoQ basis, Sales up 18% and Net Profit up 46%.",
+    "latestOutlook": "Company expects 26% revenue growth in FY27 and 30–35% annually post-FY27, targeting an INR 90 Cr PAT by FY29, backed by a strong track record. Growth will be driven by executing a INR 320–330 Cr order book, scaling high-margin new-age segments (pet care and skincare) to a 70% revenue mix, and expanding tube-filling capacity threefold.",
+    "sovrennMcap": "INR 2,490 Crore",
+    "sovrennPe": "46.1x",
+    "price": 1472.6,
+    "priceDate": "2026-11-06",
+    "dma20": 1450.21,
+    "dma50": 1424.79,
+    "dma200": null,
+    "rsi14": 53.3,
+    "buyZone": "n/a",
+    "buyZoneNote": "insufficient history (above200)",
+    "bars": 56,
+    "priceAtHighlight": 1531.7,
+    "priceAtHighlightDate": "2026-10-08",
+    "pctSinceHighlight": -3.86,
+    "mcapCr": 2516,
+    "lastUpdated": "2026-11-06 22:22 IST",
+    "tickerResolvedBy": "yahoo search"
+  },
+  {
+    "key": "531287",
+    "name": "National Plastic Technologies Limited",
+    "nameRaw": "NATIONAL PLASTIC TECHNOLOGIES LIMITED",
+    "codes": {
+      "BSE": "531287"
+    },
+    "isin": null,
+    "sme": false,
+    "candidates": [
+      "531287.BO"
+    ],
+    "ticker": "NATPLASTI.BO",
+    "firstCoveredBySovrenn": "2023-02-09",
+    "mentions": [
+      {
+        "date": "2026-11-06",
+        "tag": "GOOD TO EXCELLENT RESULTS",
+        "filing": "(GOOD TO EXCELLENT RESULTS) For the quarter ending Sep-26, Sales up 44% YoY from INR 89 Cr in Sep-25 to INR 128 Cr in Sep-26. Over the same period, Operating Profit Margin decreased from 8% to 7%. Similarly, Net Profit up 53% from INR 3 Cr to INR 4 Cr. On a QoQ basis, Sales up 34% and Net Profit up 62%.",
+        "outlook": "Company targets 60% to 65% annual revenue growth, backed by a seasonal second-half volume weighting. Growth will be driven by scaling the newly operationalized Bhachau transmission facility to peak utilization, commissioning the Saudi Arabia multiproduct plant for high- margin local-content procurement, expanding into data center PEB infrastructure, and leveraging fully passed-through US Section 232 tariffs.",
+        "sovrennMcap": "INR 151 Crore",
+        "sovrennPe": "13.7x"
+      }
+    ],
+    "firstHighlighted": "2026-11-06",
+    "timesMentioned": 1,
+    "latestDate": "2026-11-06",
+    "latestTag": "GOOD TO EXCELLENT RESULTS",
+    "latestReason": "(GOOD TO EXCELLENT RESULTS) For the quarter ending Sep-26, Sales up 44% YoY from INR 89 Cr in Sep-25 to INR 128 Cr in Sep-26. Over the same period, Operating Profit Margin decreased from 8% to 7%. Similarly, Net Profit up 53% from INR 3 Cr to INR 4 Cr. On a QoQ basis, Sales up 34% and Net Profit up 62%.",
+    "latestOutlook": "Company targets 60% to 65% annual revenue growth, backed by a seasonal second-half volume weighting. Growth will be driven by scaling the newly operationalized Bhachau transmission facility to peak utilization, commissioning the Saudi Arabia multiproduct plant for high- margin local-content procurement, expanding into data center PEB infrastructure, and leveraging fully passed-through US Section 232 tariffs.",
+    "sovrennMcap": "INR 151 Crore",
+    "sovrennPe": "13.7x",
+    "tickerResolvedBy": "yahoo search",
+    "price": 245.0,
+    "priceDate": "2026-11-06",
+    "dma20": 220.86,
+    "dma50": 220.86,
+    "dma200": 227.0,
+    "rsi14": 62.7,
+    "buyZone": "N",
+    "buyZoneNote": "fails: nearSupport, rsiOk, notExtended",
+    "bars": 494,
+    "priceAtHighlight": 245.0,
+    "priceAtHighlightDate": "2026-11-06",
+    "pctSinceHighlight": 0.0,
+    "mcapCr": 149,
+    "lastUpdated": "2026-11-06 22:22 IST"
+  },
+  {
     "key": "SME",
     "name": "Msafe Equipments Limited",
     "nameRaw": "MSAFE EQUIPMENTS LIMITED",
@@ -71,7 +519,7 @@
     "priceAtHighlightDate": "2026-11-02",
     "pctSinceHighlight": -5.72,
     "mcapCr": 548,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "SBCL",
@@ -118,7 +566,7 @@
     "priceAtHighlightDate": "2026-11-05",
     "pctSinceHighlight": -0.04,
     "mcapCr": 5747,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "MARKSANS",
@@ -165,7 +613,7 @@
     "priceAtHighlightDate": "2026-11-05",
     "pctSinceHighlight": -3.2,
     "mcapCr": 13764,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "MARINE",
@@ -220,7 +668,7 @@
     "priceAtHighlightDate": "2026-10-05",
     "pctSinceHighlight": -16.59,
     "mcapCr": 5476,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "DANISH",
@@ -268,7 +716,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "CLEANMAX",
@@ -323,7 +771,7 @@
     "priceAtHighlightDate": "2026-10-12",
     "pctSinceHighlight": -2.81,
     "mcapCr": 14815,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "AIMTRON",
@@ -370,7 +818,7 @@
     "priceAtHighlightDate": "2026-11-05",
     "pctSinceHighlight": 0.0,
     "mcapCr": 1124,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "543517",
@@ -418,7 +866,7 @@
     "priceAtHighlightDate": "2026-11-05",
     "pctSinceHighlight": -2.8,
     "mcapCr": 1133,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "538882",
@@ -466,7 +914,7 @@
     "priceAtHighlightDate": "2026-11-05",
     "pctSinceHighlight": 0.16,
     "mcapCr": 200,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "YATHARTH",
@@ -513,7 +961,7 @@
     "priceAtHighlightDate": "2026-11-04",
     "pctSinceHighlight": -0.09,
     "mcapCr": 9895,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "ONEPOINT",
@@ -560,7 +1008,7 @@
     "priceAtHighlightDate": "2026-11-04",
     "pctSinceHighlight": 3.54,
     "mcapCr": 1987,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "GPECO",
@@ -607,7 +1055,7 @@
     "priceAtHighlightDate": "2026-11-04",
     "pctSinceHighlight": 1.61,
     "mcapCr": 427,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "DIACABS",
@@ -654,7 +1102,7 @@
     "priceAtHighlightDate": "2026-11-04",
     "pctSinceHighlight": -3.12,
     "mcapCr": 22302,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "523289",
@@ -702,7 +1150,7 @@
     "priceAtHighlightDate": "2026-11-04",
     "pctSinceHighlight": 5.92,
     "mcapCr": 214,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "VIVIANA",
@@ -765,7 +1213,7 @@
     "priceAtHighlightDate": "2026-10-07",
     "pctSinceHighlight": -12.94,
     "mcapCr": 721,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "TAURIAN",
@@ -813,7 +1261,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "SMARTEN",
@@ -861,7 +1309,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "MMP",
@@ -908,7 +1356,7 @@
     "priceAtHighlightDate": "2026-11-03",
     "pctSinceHighlight": 2.52,
     "mcapCr": 1086,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "KANOHAR",
@@ -963,7 +1411,7 @@
     "priceAtHighlightDate": "2026-10-07",
     "pctSinceHighlight": -9.05,
     "mcapCr": 7858,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -1011,7 +1459,7 @@
     "priceAtHighlightDate": "2026-11-03",
     "pctSinceHighlight": 1.0,
     "mcapCr": 507,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "BRAHMINFRA",
@@ -1068,7 +1516,7 @@
     "priceAtHighlightDate": "2026-10-09",
     "pctSinceHighlight": 26.71,
     "mcapCr": null,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "BAHETI",
@@ -1115,7 +1563,7 @@
     "priceAtHighlightDate": "2026-11-03",
     "pctSinceHighlight": 5.72,
     "mcapCr": 855,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "ZENTEC",
@@ -1162,7 +1610,7 @@
     "priceAtHighlightDate": "2026-11-02",
     "pctSinceHighlight": 0.01,
     "mcapCr": 15478,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "SSEGL",
@@ -1217,7 +1665,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "PRIZOR",
@@ -1272,7 +1720,7 @@
     "priceAtHighlightDate": "2026-10-07",
     "pctSinceHighlight": 4.42,
     "mcapCr": 195,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "CHEMKART",
@@ -1319,7 +1767,7 @@
     "priceAtHighlightDate": "2026-11-02",
     "pctSinceHighlight": -14.54,
     "mcapCr": 278,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "544501",
@@ -1374,7 +1822,7 @@
     "priceAtHighlightDate": "2026-09-30",
     "pctSinceHighlight": -6.96,
     "mcapCr": 606,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -1423,7 +1871,7 @@
     "priceAtHighlightDate": "2026-11-02",
     "pctSinceHighlight": -4.07,
     "mcapCr": 10560,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "543978",
@@ -1471,7 +1919,7 @@
     "priceAtHighlightDate": "2026-11-02",
     "pctSinceHighlight": -3.55,
     "mcapCr": 3070,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "543230",
@@ -1526,7 +1974,7 @@
     "priceAtHighlightDate": "2026-09-29",
     "pctSinceHighlight": -3.96,
     "mcapCr": 1999,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -1574,7 +2022,7 @@
     "priceAtHighlightDate": "2026-10-29",
     "pctSinceHighlight": -9.52,
     "mcapCr": 21726,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "ONEMI",
@@ -1629,7 +2077,7 @@
     "priceAtHighlightDate": "2026-10-05",
     "pctSinceHighlight": -8.91,
     "mcapCr": 7070,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -1677,7 +2125,7 @@
     "priceAtHighlightDate": "2026-10-29",
     "pctSinceHighlight": 5.13,
     "mcapCr": 4817,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "AEROFLEX",
@@ -1732,7 +2180,7 @@
     "priceAtHighlightDate": "2026-10-12",
     "pctSinceHighlight": -15.0,
     "mcapCr": 6388,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "ACMESOLAR",
@@ -1795,7 +2243,7 @@
     "priceAtHighlightDate": "2026-10-01",
     "pctSinceHighlight": -8.69,
     "mcapCr": 27883,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "543787",
@@ -1843,7 +2291,7 @@
     "priceAtHighlightDate": "2026-10-29",
     "pctSinceHighlight": -6.82,
     "mcapCr": 1110,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "SKYGOLD",
@@ -1906,7 +2354,7 @@
     "priceAtHighlightDate": "2026-10-08",
     "pctSinceHighlight": 7.63,
     "mcapCr": 14743,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "FLYSBS",
@@ -1954,7 +2402,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "BBL",
@@ -2001,7 +2449,7 @@
     "priceAtHighlightDate": "2026-10-28",
     "pctSinceHighlight": -0.73,
     "mcapCr": 2816,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "544332",
@@ -2056,7 +2504,7 @@
     "priceAtHighlightDate": "2026-10-12",
     "pctSinceHighlight": -25.47,
     "mcapCr": 448,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -2105,7 +2553,7 @@
     "priceAtHighlightDate": "2026-10-28",
     "pctSinceHighlight": 6.18,
     "mcapCr": 8853,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "543349",
@@ -2153,7 +2601,7 @@
     "priceAtHighlightDate": "2026-10-28",
     "pctSinceHighlight": 2.06,
     "mcapCr": 31001,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "PNGSREVA",
@@ -2224,7 +2672,7 @@
     "priceAtHighlightDate": "2026-10-06",
     "pctSinceHighlight": 10.22,
     "mcapCr": 1912,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "MACPOWER",
@@ -2271,7 +2719,7 @@
     "priceAtHighlightDate": "2026-10-27",
     "pctSinceHighlight": 20.78,
     "mcapCr": 2300,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "544669",
@@ -2327,7 +2775,7 @@
     "priceAtHighlightDate": "2026-10-15",
     "pctSinceHighlight": -15.67,
     "mcapCr": 297,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "543720",
@@ -2375,7 +2823,7 @@
     "priceAtHighlightDate": "2026-10-27",
     "pctSinceHighlight": 5.31,
     "mcapCr": 15835,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "543616",
@@ -2430,7 +2878,7 @@
     "priceAtHighlightDate": "2026-09-30",
     "pctSinceHighlight": 13.03,
     "mcapCr": 495,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -2479,7 +2927,7 @@
     "priceAtHighlightDate": "2026-10-27",
     "pctSinceHighlight": -2.17,
     "mcapCr": 2099,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "STLTECH",
@@ -2534,7 +2982,7 @@
     "priceAtHighlightDate": "2026-10-01",
     "pctSinceHighlight": -24.65,
     "mcapCr": 37018,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "SAKAR",
@@ -2581,7 +3029,7 @@
     "priceAtHighlightDate": "2026-10-26",
     "pctSinceHighlight": 0.49,
     "mcapCr": 2141,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "LUMAXTECH",
@@ -2628,7 +3076,7 @@
     "priceAtHighlightDate": "2026-10-26",
     "pctSinceHighlight": 25.9,
     "mcapCr": 15863,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "ESCONET",
@@ -2675,7 +3123,7 @@
     "priceAtHighlightDate": "2026-10-26",
     "pctSinceHighlight": 18.52,
     "mcapCr": 396,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "APOLLO",
@@ -2722,7 +3170,7 @@
     "priceAtHighlightDate": "2026-10-26",
     "pctSinceHighlight": 0.67,
     "mcapCr": 15371,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "543945",
@@ -2770,7 +3218,7 @@
     "priceAtHighlightDate": "2026-10-26",
     "pctSinceHighlight": -12.01,
     "mcapCr": 22420,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "PCJEWELLER",
@@ -2817,7 +3265,7 @@
     "priceAtHighlightDate": "2026-10-23",
     "pctSinceHighlight": -12.58,
     "mcapCr": 15467,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "FORCAS",
@@ -2865,7 +3313,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "544844",
@@ -2913,7 +3361,7 @@
     "priceAtHighlightDate": "2026-10-23",
     "pctSinceHighlight": 12.66,
     "mcapCr": 1894,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "544209",
@@ -2961,7 +3409,7 @@
     "priceAtHighlightDate": "2026-10-23",
     "pctSinceHighlight": 4.74,
     "mcapCr": 4878,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "530475",
@@ -3008,7 +3456,7 @@
     "priceAtHighlightDate": "2026-10-23",
     "pctSinceHighlight": 14.75,
     "mcapCr": 1534,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "YASHHV",
@@ -3056,7 +3504,7 @@
     "priceAtHighlightDate": "2026-10-22",
     "pctSinceHighlight": -1.64,
     "mcapCr": 3594,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "SWASTIKA",
@@ -3111,7 +3559,7 @@
     "priceAtHighlightDate": "2026-10-07",
     "pctSinceHighlight": -7.18,
     "mcapCr": 666,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -3159,7 +3607,7 @@
     "priceAtHighlightDate": "2026-10-22",
     "pctSinceHighlight": 15.35,
     "mcapCr": 17606,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "544567",
@@ -3207,7 +3655,7 @@
     "priceAtHighlightDate": "2026-10-22",
     "pctSinceHighlight": 20.66,
     "mcapCr": 398,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "VENUSPIPES",
@@ -3254,7 +3702,7 @@
     "priceAtHighlightDate": "2026-10-21",
     "pctSinceHighlight": -6.06,
     "mcapCr": 3952,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "NUVAMA",
@@ -3301,7 +3749,7 @@
     "priceAtHighlightDate": "2026-10-21",
     "pctSinceHighlight": 8.98,
     "mcapCr": 34107,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "MILLWORKS",
@@ -3348,7 +3796,7 @@
     "priceAtHighlightDate": "2026-10-21",
     "pctSinceHighlight": 1.95,
     "mcapCr": 1799,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "KARNIKA",
@@ -3403,7 +3851,7 @@
     "priceAtHighlightDate": "2026-10-13",
     "pctSinceHighlight": 0.76,
     "mcapCr": 1930,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "HFCL",
@@ -3450,7 +3898,7 @@
     "priceAtHighlightDate": "2026-10-21",
     "pctSinceHighlight": -20.44,
     "mcapCr": 32237,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "544091",
@@ -3498,7 +3946,7 @@
     "priceAtHighlightDate": "2026-10-21",
     "pctSinceHighlight": 0.63,
     "mcapCr": 619,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "SUPREMEPWR",
@@ -3545,7 +3993,7 @@
     "priceAtHighlightDate": "2026-10-19",
     "pctSinceHighlight": 9.17,
     "mcapCr": 765,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "SAHANA",
@@ -3592,7 +4040,7 @@
     "priceAtHighlightDate": "2026-10-19",
     "pctSinceHighlight": -1.5,
     "mcapCr": 1666,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "KROSS",
@@ -3639,7 +4087,7 @@
     "priceAtHighlightDate": "2026-10-19",
     "pctSinceHighlight": -2.2,
     "mcapCr": 1921,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "E2E",
@@ -3686,7 +4134,7 @@
     "priceAtHighlightDate": "2026-10-19",
     "pctSinceHighlight": -26.22,
     "mcapCr": 10007,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "539199",
@@ -3734,7 +4182,7 @@
     "priceAtHighlightDate": "2026-10-19",
     "pctSinceHighlight": 6.16,
     "mcapCr": 4593,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "TIPSMUSIC",
@@ -3781,7 +4229,7 @@
     "priceAtHighlightDate": "2026-10-16",
     "pctSinceHighlight": 2.99,
     "mcapCr": 9782,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "MWL",
@@ -3828,7 +4276,7 @@
     "priceAtHighlightDate": "2026-10-16",
     "pctSinceHighlight": -3.37,
     "mcapCr": 1142,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "ANGELONE",
@@ -3875,7 +4323,7 @@
     "priceAtHighlightDate": "2026-10-16",
     "pctSinceHighlight": 10.33,
     "mcapCr": 30290,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "ANAWIL",
@@ -3922,7 +4370,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "538920",
@@ -3969,7 +4417,7 @@
     "priceAtHighlightDate": "2026-10-16",
     "pctSinceHighlight": -9.7,
     "mcapCr": 2343,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "538715",
@@ -4024,7 +4472,7 @@
     "priceAtHighlightDate": "2026-09-30",
     "pctSinceHighlight": -0.16,
     "mcapCr": 509,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -4072,7 +4520,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "EMMVEE",
@@ -4119,7 +4567,7 @@
     "priceAtHighlightDate": "2026-10-15",
     "pctSinceHighlight": -10.91,
     "mcapCr": 17399,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "544751",
@@ -4167,7 +4615,7 @@
     "priceAtHighlightDate": "2026-10-15",
     "pctSinceHighlight": -1.0,
     "mcapCr": 135,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "544248",
@@ -4222,7 +4670,7 @@
     "priceAtHighlightDate": "2026-09-29",
     "pctSinceHighlight": 14.17,
     "mcapCr": 464,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -4271,7 +4719,7 @@
     "priceAtHighlightDate": "2026-10-15",
     "pctSinceHighlight": -8.84,
     "mcapCr": 688,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "TARIL",
@@ -4318,7 +4766,7 @@
     "priceAtHighlightDate": "2026-10-14",
     "pctSinceHighlight": -12.29,
     "mcapCr": 9202,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "SEJALLTD",
@@ -4365,7 +4813,7 @@
     "priceAtHighlightDate": "2026-10-14",
     "pctSinceHighlight": 0.41,
     "mcapCr": 1031,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "RECODE",
@@ -4412,7 +4860,7 @@
     "priceAtHighlightDate": "2026-10-14",
     "pctSinceHighlight": -10.8,
     "mcapCr": 434,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "OBSCP",
@@ -4467,7 +4915,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -4516,101 +4964,7 @@
     "priceAtHighlightDate": "2026-10-14",
     "pctSinceHighlight": -11.09,
     "mcapCr": 708,
-    "lastUpdated": "2026-11-06 16:37 IST"
-  },
-  {
-    "key": "KARAMTARA",
-    "name": "Karamtara Engineering Limited",
-    "nameRaw": "KARAMTARA ENGINEERING LIMITED",
-    "codes": {
-      "NSE": "KARAMTARA"
-    },
-    "isin": null,
-    "sme": false,
-    "candidates": [
-      "KARAMTARA.NS"
-    ],
-    "ticker": "KARAMTARA.NS",
-    "firstCoveredBySovrenn": "2026-10-14",
-    "mentions": [
-      {
-        "date": "2026-10-14",
-        "tag": "GOOD TO EXCELLENT RESULTS",
-        "filing": "(GOOD TO EXCELLENT RESULTS) For the quarter ending Jun-26, Sales up 72% YoY from INR 918 Cr in Jun-25 to INR 1,581 Cr in Jun-26. Over the same period, Operating Profit Margin decreased from 13% to 11%. Similarly, Net Profit up 45% from INR 60 Cr to INR 87 Cr. On a QoQ basis, Sales up 26% and Net Profit up 2.3x (129%).",
-        "outlook": "Company targets 60–65% revenue growth in FY27, supported by an INR 6,000 Cr order book and capacity utilization improvement across its 8.9 lakh MTPA installed base. Planned INR 484 Cr capex will expand solar stamping and structural steel operations, while the Saudi facility and new PEB units are expected to contribute from FY28. Repayment of INR 600 Cr debt is expected to save INR 82 Cr in annual interest costs.",
-        "sovrennMcap": "INR 12,212 Crore",
-        "sovrennPe": "47.6x"
-      }
-    ],
-    "firstHighlighted": "2026-10-14",
-    "timesMentioned": 1,
-    "latestDate": "2026-10-14",
-    "latestTag": "GOOD TO EXCELLENT RESULTS",
-    "latestReason": "(GOOD TO EXCELLENT RESULTS) For the quarter ending Jun-26, Sales up 72% YoY from INR 918 Cr in Jun-25 to INR 1,581 Cr in Jun-26. Over the same period, Operating Profit Margin decreased from 13% to 11%. Similarly, Net Profit up 45% from INR 60 Cr to INR 87 Cr. On a QoQ basis, Sales up 26% and Net Profit up 2.3x (129%).",
-    "latestOutlook": "Company targets 60–65% revenue growth in FY27, supported by an INR 6,000 Cr order book and capacity utilization improvement across its 8.9 lakh MTPA installed base. Planned INR 484 Cr capex will expand solar stamping and structural steel operations, while the Saudi facility and new PEB units are expected to contribute from FY28. Repayment of INR 600 Cr debt is expected to save INR 82 Cr in annual interest costs.",
-    "sovrennMcap": "INR 12,212 Crore",
-    "sovrennPe": "47.6x",
-    "price": 375.7,
-    "priceDate": "2026-11-06",
-    "dma20": 370.92,
-    "dma50": null,
-    "dma200": null,
-    "rsi14": 53.7,
-    "buyZone": "n/a",
-    "buyZoneNote": "insufficient history (above200)",
-    "bars": 35,
-    "priceAtHighlight": 381.8,
-    "priceAtHighlightDate": "2026-10-14",
-    "pctSinceHighlight": -1.6,
-    "mcapCr": null,
-    "lastUpdated": "2026-11-06 16:37 IST"
-  },
-  {
-    "key": "UTLSOLAR",
-    "name": "Fujiyama Power Systems Limited",
-    "nameRaw": "FUJIYAMA POWER SYSTEMS LIMITED",
-    "codes": {
-      "NSE": "UTLSOLAR"
-    },
-    "isin": null,
-    "sme": false,
-    "candidates": [
-      "UTLSOLAR.NS"
-    ],
-    "ticker": "UTLSOLAR.NS",
-    "firstCoveredBySovrenn": "2026-06-03",
-    "mentions": [
-      {
-        "date": "2026-10-13",
-        "tag": "FUND RAISE",
-        "filing": "(FUND RAISE) Company's Board of Directors have scheduled a meeting on October 15, 2026, to consider a proposal for raising funds through the issuance of equity shares. The fundraise, which may include a Qualified Institutional Placement (QIP) or other public and private offerings, aims to achieve minimum public shareholding compliance.",
-        "outlook": "Company has raised its FY27 revenue growth target to ~70% (from 50%) with an 11-13% PAT margin, backed by a sharply expanded capacity — solar panels 3.57 GW, power electronics 4.18 GW, 1 GW solar cells (80%+ utilised, 1.2 GW more coming) and 545 MWh batteries (2 GWh Ratlam line in Q2FY27). Company's new Ratlam site (peak revenue potential INR 5,000 Cr) starts at 40-50% utilisation, targeting 80% by Q4FY28. Company is backward-integrating into module components (stake raised 19%->50% in two associates, INR 180-200 Cr) and plans INR 500 Cr capex in FY27 funded by debt, IPO cash and accruals (no equity dilution), while meeting on 15 Oct to consider an equity raise for minimum public shareholding compliance.",
-        "sovrennMcap": "INR 12,159 Crore",
-        "sovrennPe": "41.3x"
-      }
-    ],
-    "firstHighlighted": "2026-10-13",
-    "timesMentioned": 1,
-    "latestDate": "2026-10-13",
-    "latestTag": "FUND RAISE",
-    "latestReason": "(FUND RAISE) Company's Board of Directors have scheduled a meeting on October 15, 2026, to consider a proposal for raising funds through the issuance of equity shares. The fundraise, which may include a Qualified Institutional Placement (QIP) or other public and private offerings, aims to achieve minimum public shareholding compliance.",
-    "latestOutlook": "Company has raised its FY27 revenue growth target to ~70% (from 50%) with an 11-13% PAT margin, backed by a sharply expanded capacity — solar panels 3.57 GW, power electronics 4.18 GW, 1 GW solar cells (80%+ utilised, 1.2 GW more coming) and 545 MWh batteries (2 GWh Ratlam line in Q2FY27). Company's new Ratlam site (peak revenue potential INR 5,000 Cr) starts at 40-50% utilisation, targeting 80% by Q4FY28. Company is backward-integrating into module components (stake raised 19%->50% in two associates, INR 180-200 Cr) and plans INR 500 Cr capex in FY27 funded by debt, IPO cash and accruals (no equity dilution), while meeting on 15 Oct to consider an equity raise for minimum public shareholding compliance.",
-    "sovrennMcap": "INR 12,159 Crore",
-    "sovrennPe": "41.3x",
-    "price": 351.8,
-    "priceDate": "2026-11-06",
-    "dma20": 380.24,
-    "dma50": 408.6,
-    "dma200": 315.92,
-    "rsi14": 39.1,
-    "buyZone": "N",
-    "buyZoneNote": "fails: nearSupport, rsiOk",
-    "bars": 239,
-    "priceAtHighlight": 402.7,
-    "priceAtHighlightDate": "2026-10-13",
-    "pctSinceHighlight": -12.64,
-    "mcapCr": 10811,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "PRECWIRE",
@@ -4659,7 +5013,7 @@
     "priceAtHighlightDate": "2026-10-13",
     "pctSinceHighlight": -15.66,
     "mcapCr": 7339,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "KERNEX",
@@ -4706,7 +5060,7 @@
     "priceAtHighlightDate": "2026-10-13",
     "pctSinceHighlight": -2.58,
     "mcapCr": 2854,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "543939",
@@ -4753,7 +5107,7 @@
     "priceAtHighlightDate": "2026-10-13",
     "pctSinceHighlight": -1.54,
     "mcapCr": 296,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -4801,7 +5155,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -4849,7 +5203,7 @@
     "priceAtHighlightDate": "2026-10-12",
     "pctSinceHighlight": -12.87,
     "mcapCr": 1162,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "STYLEBAAZA",
@@ -4896,7 +5250,7 @@
     "priceAtHighlightDate": "2026-10-09",
     "pctSinceHighlight": 3.58,
     "mcapCr": 3087,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "SHREEREF",
@@ -4943,7 +5297,7 @@
     "priceAtHighlightDate": "2026-10-09",
     "pctSinceHighlight": -20.07,
     "mcapCr": 1063,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "PURPLEUTED",
@@ -4998,7 +5352,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -5046,7 +5400,7 @@
     "priceAtHighlightDate": "2026-10-09",
     "pctSinceHighlight": -17.69,
     "mcapCr": 12668,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "VOLTAMP",
@@ -5093,7 +5447,7 @@
     "priceAtHighlightDate": "2026-10-08",
     "pctSinceHighlight": -6.42,
     "mcapCr": 9845,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "VINYAS",
@@ -5140,7 +5494,7 @@
     "priceAtHighlightDate": "2026-10-08",
     "pctSinceHighlight": 7.4,
     "mcapCr": 1441,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "UNIVASTU",
@@ -5187,7 +5541,7 @@
     "priceAtHighlightDate": "2026-10-08",
     "pctSinceHighlight": 10.87,
     "mcapCr": 518,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "KANORICHEM",
@@ -5236,55 +5590,7 @@
     "priceAtHighlightDate": "2026-10-08",
     "pctSinceHighlight": -7.58,
     "mcapCr": 717,
-    "lastUpdated": "2026-11-06 16:37 IST"
-  },
-  {
-    "key": "539730",
-    "name": "Fredun Pharmaceuticals Limited",
-    "nameRaw": "FREDUN PHARMACEUTICALS LIMITED",
-    "codes": {
-      "BSE": "539730"
-    },
-    "isin": null,
-    "sme": false,
-    "candidates": [
-      "539730.BO"
-    ],
-    "ticker": "FREDUN.NS",
-    "firstCoveredBySovrenn": "2024-02-20",
-    "mentions": [
-      {
-        "date": "2026-10-08",
-        "tag": "BUSINESS EXPANSION",
-        "filing": "(BUSINESS EXPANSION) Company is expanding to become a 100% branded healthcare platform by 2029, aiming to double revenue and profits in three to four years. Key growth drivers include building a pet-care ecosystem by acquiring a 26% stake in Goodman Vetcare, purchasing the pet-wellness brand Furlicks, and launching the WAGR platform. Additionally, company is scaling its domestic generics to over 500 SKUs through Fredun Gx, establishing its 53-country export footprint, and operationalizing a 40,000 sq. ft. manufacturing block in Palghar in October 2026.",
-        "outlook": "Company targets 26% revenue growth in FY27, followed by 30–35% annual growth for the next three years, with a PAT target of INR 90 Cr by FY29. Growth will be supported by the INR 320–330 Cr order book and higher tube-filling capacity of 4.8 tons/day. New-age businesses are expected to grow 40–50%+ annually, driving a gradual revenue mix shift toward 70% new-age businesses from 30% legacy.",
-        "sovrennMcap": "INR 2,626 Crore",
-        "sovrennPe": "59.7x"
-      }
-    ],
-    "firstHighlighted": "2026-10-08",
-    "timesMentioned": 1,
-    "latestDate": "2026-10-08",
-    "latestTag": "BUSINESS EXPANSION",
-    "latestReason": "(BUSINESS EXPANSION) Company is expanding to become a 100% branded healthcare platform by 2029, aiming to double revenue and profits in three to four years. Key growth drivers include building a pet-care ecosystem by acquiring a 26% stake in Goodman Vetcare, purchasing the pet-wellness brand Furlicks, and launching the WAGR platform. Additionally, company is scaling its domestic generics to over 500 SKUs through Fredun Gx, establishing its 53-country export footprint, and operationalizing a 40,000 sq. ft. manufacturing block in Palghar in October 2026.",
-    "latestOutlook": "Company targets 26% revenue growth in FY27, followed by 30–35% annual growth for the next three years, with a PAT target of INR 90 Cr by FY29. Growth will be supported by the INR 320–330 Cr order book and higher tube-filling capacity of 4.8 tons/day. New-age businesses are expected to grow 40–50%+ annually, driving a gradual revenue mix shift toward 70% new-age businesses from 30% legacy.",
-    "sovrennMcap": "INR 2,626 Crore",
-    "sovrennPe": "59.7x",
-    "price": 1472.6,
-    "priceDate": "2026-11-06",
-    "dma20": 1450.21,
-    "dma50": 1424.79,
-    "dma200": null,
-    "rsi14": 53.3,
-    "buyZone": "n/a",
-    "buyZoneNote": "insufficient history (above200)",
-    "bars": 56,
-    "priceAtHighlight": 1531.7,
-    "priceAtHighlightDate": "2026-10-08",
-    "pctSinceHighlight": -3.86,
-    "mcapCr": 2516,
-    "lastUpdated": "2026-11-06 16:37 IST",
-    "tickerResolvedBy": "yahoo search"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "PATELCHEM",
@@ -5333,7 +5639,7 @@
     "priceAtHighlightDate": "2026-10-07",
     "pctSinceHighlight": -13.72,
     "mcapCr": 308,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "KRMAYURVEDA",
@@ -5380,7 +5686,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -5428,7 +5734,7 @@
     "priceAtHighlightDate": "2026-10-06",
     "pctSinceHighlight": 11.36,
     "mcapCr": null,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "SKYWAYS",
@@ -5475,7 +5781,7 @@
     "priceAtHighlightDate": "2026-10-06",
     "pctSinceHighlight": -6.61,
     "mcapCr": 1541,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "MPIMANIPAL",
@@ -5522,7 +5828,7 @@
     "priceAtHighlightDate": "2026-10-06",
     "pctSinceHighlight": -14.55,
     "mcapCr": null,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "INDOSMC",
@@ -5571,7 +5877,7 @@
     "priceAtHighlightDate": "2026-10-06",
     "pctSinceHighlight": -27.45,
     "mcapCr": 827,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -5621,7 +5927,7 @@
     "priceAtHighlightDate": "2026-10-06",
     "pctSinceHighlight": 1.41,
     "mcapCr": 178,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -5671,7 +5977,7 @@
     "priceAtHighlightDate": "2026-10-05",
     "pctSinceHighlight": 57.53,
     "mcapCr": 1795,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -5719,7 +6025,7 @@
     "priceAtHighlightDate": "2026-10-05",
     "pctSinceHighlight": -8.94,
     "mcapCr": 681,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -5767,7 +6073,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -5815,7 +6121,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -5863,7 +6169,7 @@
     "priceAtHighlightDate": "2026-10-01",
     "pctSinceHighlight": 10.91,
     "mcapCr": null,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -5909,7 +6215,7 @@
     "priceAtHighlightDate": "2026-10-01",
     "pctSinceHighlight": 8.75,
     "mcapCr": 3594,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -5989,7 +6295,7 @@
     "priceAtHighlightDate": "2026-09-30",
     "pctSinceHighlight": 8.16,
     "mcapCr": 4417,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "526775",
@@ -6036,7 +6342,7 @@
     "priceAtHighlightDate": "2026-09-30",
     "pctSinceHighlight": -13.56,
     "mcapCr": 1753,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -6084,7 +6390,7 @@
     "priceAtHighlightDate": "2026-09-29",
     "pctSinceHighlight": -8.47,
     "mcapCr": 471,
-    "lastUpdated": "2026-11-06 16:37 IST"
+    "lastUpdated": "2026-11-06 22:22 IST"
   },
   {
     "key": "544695",
@@ -6131,7 +6437,7 @@
     "priceAtHighlightDate": null,
     "pctSinceHighlight": null,
     "mcapCr": null,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -6179,7 +6485,7 @@
     "priceAtHighlightDate": "2026-09-29",
     "pctSinceHighlight": -25.91,
     "mcapCr": 196,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   },
   {
@@ -6227,7 +6533,7 @@
     "priceAtHighlightDate": "2026-09-29",
     "pctSinceHighlight": -10.57,
     "mcapCr": 6766,
-    "lastUpdated": "2026-11-06 16:37 IST",
+    "lastUpdated": "2026-11-06 22:22 IST",
     "tickerResolvedBy": "yahoo search"
   }
 ]
