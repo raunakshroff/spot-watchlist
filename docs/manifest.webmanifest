@@ -1,0 +1,19 @@
+{
+  "name": "Spot Watchlist",
+  "short_name": "Watchlist",
+  "description": "NSE spot watchlist, events, Sovrenn picks and order filings",
+  "id": "/spot-watchlist/",
+  "start_url": "/spot-watchlist/",
+  "scope": "/spot-watchlist/",
+  "display": "standalone",
+  "background_color": "#0b1220",
+  "theme_color": "#0b1220",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Orders", "url": "/spot-watchlist/#orders" }
+  ]
+}
