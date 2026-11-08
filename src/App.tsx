@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Activity, LayoutDashboard, Layers, LineChart, Newspaper, History as HistoryIcon, Archive, ExternalLink, CalendarDays } from "lucide-react";
+import { Activity, ClipboardList, LayoutDashboard, Layers, LineChart, Newspaper, History as HistoryIcon, Archive, ExternalLink, CalendarDays } from "lucide-react";
 import type { DroppedStock, EventsData, HistoryEntry, IndexConstituentsData, IndexHistoryData, IndicesData, Meta, SovrennEntry, WatchlistStock } from "./types";
 import { SovrennView } from "./components/SovrennView";
 import { EventsView } from "./components/EventsView";
@@ -8,8 +8,9 @@ import { HistoryView } from "./components/HistoryView";
 import { DroppedView } from "./components/DroppedView";
 import { SectorView } from "./components/SectorView";
 import { IndexView } from "./components/IndexView";
+import { OrdersView, type OrdersData } from "./components/OrdersView";
 
-type Tab = "overview" | "sector" | "index" | "sovrenn" | "events" | "history" | "dropped";
+type Tab = "overview" | "sector" | "index" | "sovrenn" | "events" | "orders" | "history" | "dropped";
 
 async function loadJson<T>(path: string): Promise<T> {
   const base = import.meta.env.BASE_URL;
@@ -24,6 +25,7 @@ const TAB_HASH: Record<Tab, string> = {
   index: "indexes",
   sovrenn: "sovrenn",
   events: "events",
+  orders: "orders",
   history: "history",
   dropped: "dropped",
 };
@@ -59,6 +61,8 @@ export default function App() {
   const [sovrennError, setSovrennError] = useState<string | null>(null);
   const [events, setEvents] = useState<EventsData | null>(null);
   const [eventsError, setEventsError] = useState<string | null>(null);
+  const [orders, setOrders] = useState<OrdersData | null>(null);
+  const [ordersError, setOrdersError] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [search, setSearch] = useState("");
   const [statusFilter, setStatusFilter] = useState("All");
@@ -97,6 +101,10 @@ export default function App() {
     loadJson<EventsData>("data/events.json")
       .then(setEvents)
       .catch((e: Error) => setEventsError(e.message));
+
+    loadJson<OrdersData>("data/orders.json")
+      .then(setOrders)
+      .catch((e: Error) => setOrdersError(e.message));
   }, []);
 
   if (error) {
@@ -121,6 +129,7 @@ export default function App() {
     { id: "index", label: "Indexes", icon: LineChart, count: indices?.indices?.length ? indices.indices.length - 1 : undefined },
     { id: "sovrenn", label: "Sovrenn", icon: Newspaper, count: sovrenn?.length },
     { id: "events", label: "Events", icon: CalendarDays, count: events?.events?.reduce((n, e) => n + e.companies.length, 0) },
+    { id: "orders", label: "Orders", icon: ClipboardList, count: orders?.orders?.length },
     { id: "history", label: "History", icon: HistoryIcon },
     { id: "dropped", label: "Dropped", icon: Archive, count: dropped.length },
   ];
@@ -184,6 +193,7 @@ export default function App() {
       )}
       {tab === "sovrenn" && <SovrennView data={sovrenn} loadError={sovrennError} />}
       {tab === "events" && <EventsView data={events} loadError={eventsError} />}
+      {tab === "orders" && <OrdersView data={orders} loadError={ordersError} />}
       {tab === "history" && <HistoryView history={history} />}
       {tab === "dropped" && <DroppedView dropped={dropped} />}
 

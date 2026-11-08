@@ -673,3 +673,28 @@ td .ev-spark { margin: 0 auto; }
 .alert-when { font-weight: 500; opacity: 0.85; }
 .pill-alerts { display: inline-flex; align-items: center; gap: 5px; }
 .pill-hit { font-size: 0.66rem; font-weight: 700; padding: 0 6px; border-radius: 999px; color: var(--amber); background: var(--amber-soft); }
+
+/* ---- Orders tracker ---- */
+.ord-filters { display: grid; grid-template-columns: 1.4fr 1fr 0.8fr 0.8fr auto; gap: 8px; margin-bottom: 10px; }
+.ord-filters .select-box select { width: 100%; }
+.ord-sep { width: 1px; background: var(--border); margin: 0 4px; }
+.ord-table { min-width: 1380px; }
+.ord-table td { padding: 9px 10px; }
+.ord-co { min-width: 180px; max-width: 230px; }
+.ord-cust { max-width: 220px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ord-val { color: var(--green); font-family: var(--mono); }
+.nowrap { white-space: nowrap; }
+.link-btn { border: 0; background: none; padding: 0; color: var(--green); font-weight: 600; text-align: left; cursor: pointer; font-size: 0.85rem; }
+.link-btn:hover { text-decoration: underline; }
+.osz { display: inline-block; min-width: 64px; padding: 3px 8px; border-radius: 999px; font-family: var(--mono); font-size: 0.78rem; font-weight: 600; text-align: center; }
+.osz-xl { background: #16a34a; color: #fff; }
+.osz-l { background: rgba(34,197,94,0.55); color: #fff; }
+.osz-m { background: rgba(132,204,22,0.28); color: #bef264; }
+.osz-s { background: rgba(250,204,21,0.18); color: #fde047; }
+.osz-na { color: var(--text-dim); background: var(--surface-3); }
+.ord-pdf { display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 7px; color: var(--green); background: var(--green-soft); }
+.ord-pdf:hover { filter: brightness(1.3); }
+@media (max-width: 860px) {
+  .ord-filters { grid-template-columns: 1fr 1fr; }
+  .ord-filters .ord-company { grid-column: 1 / -1; }
+}
