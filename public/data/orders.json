@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-08T16:09+05:30",
+ "updatedAt": "2026-11-09T21:19+05:30",
  "windowStart": "2026-08-10",
  "trackedCompanies": 182,
  "sources": [
@@ -8,45 +8,45 @@
  ],
  "notes": "Values parsed from exchange filings; 'null' means the filing didn't state it or it couldn't be read. Order size % = annual value / company revenue (TTM where available). 1D/3D/5D = % move from the last close before the filing.",
  "fx": {
-  "USDINR": 93.91,
-  "EURINR": 104.63
+  "USDINR": 93.92,
+  "EURINR": 105.18
  },
  "companies": {
   "ACCORDTS.BO": {
-   "mcapCr": 177.9,
+   "mcapCr": 176.7,
    "revenueCr": 70.1,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "ACMESOLAR.NS": {
-   "mcapCr": 28493.5,
+   "mcapCr": 28751.2,
    "revenueCr": 2789.2,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "ADVAIT.NS": {
-   "mcapCr": 2059.7,
+   "mcapCr": 2072.6,
    "revenueCr": 839.4,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "ANAWIL-SM.NS": {
    "mcapCr": null,
    "revenueCr": null,
    "revenueBasis": null,
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "APSISAERO-SM.NS": {
    "mcapCr": null,
    "revenueCr": null,
    "revenueBasis": null,
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "AVANTEL.NS": {
-   "mcapCr": 3775.6,
+   "mcapCr": 3723.0,
    "revenueCr": 260.4,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "BBL.NS": {
    "mcapCr": 2858.0,
@@ -55,34 +55,34 @@
    "updated": "2026-11-08"
   },
   "BDL.NS": {
-   "mcapCr": 39185.5,
+   "mcapCr": 40675.6,
    "revenueCr": 2766.1,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "BEL.NS": {
-   "mcapCr": 290709.9,
+   "mcapCr": 288407.3,
    "revenueCr": 30253.0,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "BEML.NS": {
-   "mcapCr": 16537.0,
+   "mcapCr": 16587.8,
    "revenueCr": 4881.1,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "BHARATFORG.NS": {
-   "mcapCr": 84970.1,
+   "mcapCr": 84295.7,
    "revenueCr": 18380.9,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "CEIGALL.NS": {
-   "mcapCr": 6783.5,
+   "mcapCr": 6754.8,
    "revenueCr": 4355.8,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "CGPOWER.NS": {
    "mcapCr": 123313.7,
@@ -91,130 +91,130 @@
    "updated": "2026-11-08"
   },
   "COCHINSHIP.NS": {
-   "mcapCr": 32529.9,
+   "mcapCr": 33937.4,
    "revenueCr": 5047.5,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "CONCOR.NS": {
-   "mcapCr": 33633.0,
+   "mcapCr": 33968.2,
    "revenueCr": 9109.1,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "DANISH-SM.NS": {
    "mcapCr": null,
    "revenueCr": null,
    "revenueBasis": null,
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "DATAPATTNS.NS": {
-   "mcapCr": 20736.5,
+   "mcapCr": 22533.5,
    "revenueCr": 941.5,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "E2E.NS": {
-   "mcapCr": 10394.1,
+   "mcapCr": 10077.7,
    "revenueCr": 546.2,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "GRSE.NS": {
-   "mcapCr": 24702.0,
+   "mcapCr": 25179.7,
    "revenueCr": 7506.9,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "HAL.NS": {
-   "mcapCr": 333384.3,
+   "mcapCr": 334320.6,
    "revenueCr": 33785.0,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "HFCL.NS": {
-   "mcapCr": 33128.7,
+   "mcapCr": 31595.4,
    "revenueCr": 7491.7,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "IDEAFORGE.NS": {
-   "mcapCr": 3401.4,
+   "mcapCr": 3331.1,
    "revenueCr": 281.9,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "JWL.NS": {
-   "mcapCr": 8603.0,
+   "mcapCr": 8739.7,
    "revenueCr": 3127.1,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "KARAMTARA.NS": {
    "mcapCr": null,
    "revenueCr": 4975.3,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "KERNEX.NS": {
-   "mcapCr": 2912.7,
+   "mcapCr": 2864.5,
    "revenueCr": 877.9,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "LT.NS": {
-   "mcapCr": 565489.6,
+   "mcapCr": 575808.8,
    "revenueCr": 308589.2,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "MARINE.NS": {
-   "mcapCr": 5623.0,
+   "mcapCr": 5446.6,
    "revenueCr": 969.1,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "MAZDOCK.NS": {
-   "mcapCr": 74988.3,
+   "mcapCr": 75754.8,
    "revenueCr": 12840.3,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "MMP.NS": {
    "mcapCr": 1118.6,
    "revenueCr": 937.8,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "NEOGEN.NS": {
-   "mcapCr": 7896.7,
+   "mcapCr": 8006.9,
    "revenueCr": 1012.8,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "NIBE.NS": {
-   "mcapCr": 1816.7,
+   "mcapCr": 1905.6,
    "revenueCr": 455.0,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "OBSCP-SM.NS": {
    "mcapCr": null,
    "revenueCr": null,
    "revenueBasis": null,
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "PARAS.NS": {
-   "mcapCr": 10066.2,
+   "mcapCr": 10124.2,
    "revenueCr": 556.9,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "PARTH-SM.NS": {
    "mcapCr": null,
    "revenueCr": null,
    "revenueBasis": null,
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "PCJEWELLER.NS": {
    "mcapCr": 15535.5,
@@ -226,61 +226,61 @@
    "mcapCr": null,
    "revenueCr": null,
    "revenueBasis": null,
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "SSEGL-SM.NS": {
    "mcapCr": null,
    "revenueCr": null,
    "revenueBasis": null,
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "STEAMHOUSE.NS": {
    "mcapCr": null,
    "revenueCr": 509.7,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "STLTECH.NS": {
-   "mcapCr": 36316.1,
+   "mcapCr": 34501.0,
    "revenueCr": 7137.0,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "SWASTIKAIN.NS": {
-   "mcapCr": 672.5,
+   "mcapCr": 658.5,
    "revenueCr": 514.0,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "TARIL.NS": {
-   "mcapCr": 9384.7,
+   "mcapCr": 9308.1,
    "revenueCr": 2863.0,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "TATACHEM.NS": {
-   "mcapCr": 15495.5,
+   "mcapCr": 15406.4,
    "revenueCr": 15120.0,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "TEXRAIL.NS": {
-   "mcapCr": 4316.4,
+   "mcapCr": 4358.7,
    "revenueCr": 3846.2,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "TITAGARH.NS": {
-   "mcapCr": 9419.8,
+   "mcapCr": 9460.2,
    "revenueCr": 3271.6,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "UNIVASTU.NS": {
-   "mcapCr": 542.8,
+   "mcapCr": 534.8,
    "revenueCr": 317.7,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "UTLSOLAR.NS": {
    "mcapCr": 11031.0,
@@ -289,28 +289,28 @@
    "updated": "2026-11-08"
   },
   "VENUSPIPES.NS": {
-   "mcapCr": 4106.0,
+   "mcapCr": 4047.7,
    "revenueCr": 1284.6,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "VIVIANA.NS": {
-   "mcapCr": 715.5,
+   "mcapCr": 734.9,
    "revenueCr": 629.7,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "VMARCIND-SM.NS": {
    "mcapCr": null,
    "revenueCr": null,
    "revenueBasis": null,
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "ZENTEC.NS": {
-   "mcapCr": 15473.2,
+   "mcapCr": 15403.9,
    "revenueCr": 842.7,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "ADMACH.BO": {
    "mcapCr": 298.0,
@@ -319,25 +319,56 @@
    "updated": "2026-11-08"
   },
   "AIRFLOA.BO": {
-   "mcapCr": 1196.8,
+   "mcapCr": 1179.3,
    "revenueCr": 320.1,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "QLL.BO": {
-   "mcapCr": 632.7,
+   "mcapCr": 620.5,
    "revenueCr": 124.5,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   },
   "SHREEREF.BO": {
-   "mcapCr": 1096.3,
+   "mcapCr": 1092.0,
    "revenueCr": 196.3,
    "revenueBasis": "TTM",
-   "updated": "2026-11-08"
+   "updated": "2026-11-09"
   }
  },
  "orders": [
+  {
+   "id": "NSE-106853097",
+   "ticker": "LT.NS",
+   "symbol": "LT",
+   "company": "Larsen & Toubro",
+   "segments": [
+    "Active",
+    "Events"
+   ],
+   "date": "2026-11-09",
+   "announcedAt": "2026-11-09T10:37:33+05:30",
+   "customer": "Noida Metro Rail Corporation Ltd",
+   "orderType": "Contract",
+   "scope": null,
+   "valueCr": null,
+   "valueBand": "₹1,000–2,500 Cr (significant band)",
+   "durationMonths": 36.0,
+   "annualValueCr": null,
+   "summary": "Bagging/Receiving of orders/contracts",
+   "pdf": "https://nsearchives.nseindia.com/corporate/PAM_09112026103717_PressRelease09112026.pdf",
+   "source": "NSE",
+   "textRead": true,
+   "d1": 1.63,
+   "d3": null,
+   "d5": null,
+   "mcapCr": 575808.8,
+   "revenueCr": 308589.2,
+   "revenueBasis": "TTM",
+   "orderSizePct": null,
+   "pctOfMcap": null
+  },
   {
    "id": "NSE-106852858",
    "ticker": "NEOGEN.NS",
@@ -360,10 +391,10 @@
    "pdf": "https://nsearchives.nseindia.com/corporate/NEOGEN_08112026105638_GPCBorder.pdf",
    "source": "NSE",
    "textRead": true,
-   "d1": 3.14,
+   "d1": 4.58,
    "d3": null,
    "d5": null,
-   "mcapCr": 7896.7,
+   "mcapCr": 8006.9,
    "revenueCr": 1012.8,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -390,14 +421,14 @@
    "pdf": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/77edd241-f1e0-4c48-8513-2eaa6ecd9f73.pdf",
    "source": "BSE (via screener.in)",
    "textRead": true,
-   "d1": 3.17,
+   "d1": 2.76,
    "d3": null,
    "d5": null,
-   "mcapCr": 1096.3,
+   "mcapCr": 1092.0,
    "revenueCr": 196.3,
    "revenueBasis": "TTM",
    "orderSizePct": 13.47,
-   "pctOfMcap": 2.41
+   "pctOfMcap": 2.42
   },
   {
    "id": "NSE-106851825",
@@ -421,14 +452,14 @@
    "pdf": "https://nsearchives.nseindia.com/corporate/BEL_06112026225005_Press_Release_06112026_SIGNED.pdf",
    "source": "NSE",
    "textRead": true,
-   "d1": 0.43,
+   "d1": -0.37,
    "d3": null,
    "d5": null,
-   "mcapCr": 290709.9,
+   "mcapCr": 288407.3,
    "revenueCr": 30253.0,
    "revenueBasis": "TTM",
    "orderSizePct": 3.0,
-   "pctOfMcap": 0.31
+   "pctOfMcap": 0.32
   },
   {
    "id": "NSE-106849623",
@@ -484,11 +515,11 @@
    "d1": -11.56,
    "d3": null,
    "d5": null,
-   "mcapCr": 5623.0,
+   "mcapCr": 5446.6,
    "revenueCr": 969.1,
    "revenueBasis": "TTM",
    "orderSizePct": 2.69,
-   "pctOfMcap": 0.46
+   "pctOfMcap": 0.48
   },
   {
    "id": "NSE-106848893",
@@ -514,11 +545,11 @@
    "d1": 1.36,
    "d3": null,
    "d5": null,
-   "mcapCr": 4316.4,
+   "mcapCr": 4358.7,
    "revenueCr": 3846.2,
    "revenueBasis": "TTM",
    "orderSizePct": 11.14,
-   "pctOfMcap": 9.93
+   "pctOfMcap": 9.83
   },
   {
    "id": "BSE-29379e30-a5b2-45dd-b1a5-8c7d58466585",
@@ -542,13 +573,13 @@
    "source": "BSE (via screener.in)",
    "textRead": true,
    "d1": 4.14,
-   "d3": 9.6,
+   "d3": 8.0,
    "d5": null,
-   "mcapCr": 1196.8,
+   "mcapCr": 1179.3,
    "revenueCr": 320.1,
    "revenueBasis": "TTM",
    "orderSizePct": 1.29,
-   "pctOfMcap": 0.34
+   "pctOfMcap": 0.35
   },
   {
    "id": "NSE-106845166",
@@ -572,13 +603,13 @@
    "source": "NSE",
    "textRead": true,
    "d1": -1.26,
-   "d3": -0.16,
+   "d3": 0.46,
    "d5": null,
-   "mcapCr": 2059.7,
+   "mcapCr": 2072.6,
    "revenueCr": 839.4,
    "revenueBasis": "TTM",
    "orderSizePct": 4.14,
-   "pctOfMcap": 3.38
+   "pctOfMcap": 3.35
   },
   {
    "id": "NSE-106845153",
@@ -602,13 +633,13 @@
    "source": "NSE",
    "textRead": true,
    "d1": -1.26,
-   "d3": -0.16,
+   "d3": 0.46,
    "d5": null,
-   "mcapCr": 2059.7,
+   "mcapCr": 2072.6,
    "revenueCr": 839.4,
    "revenueBasis": "TTM",
    "orderSizePct": 3.7,
-   "pctOfMcap": 3.01
+   "pctOfMcap": 2.99
   },
   {
    "id": "NSE-106845099",
@@ -664,11 +695,11 @@
    "d1": 2.53,
    "d3": 3.0,
    "d5": null,
-   "mcapCr": 8603.0,
+   "mcapCr": 8739.7,
    "revenueCr": 3127.1,
    "revenueBasis": "TTM",
    "orderSizePct": 1.95,
-   "pctOfMcap": 0.71
+   "pctOfMcap": 0.7
   },
   {
    "id": "NSE-106843335",
@@ -754,11 +785,11 @@
    "d1": 4.11,
    "d3": 4.42,
    "d5": 5.35,
-   "mcapCr": 24702.0,
+   "mcapCr": 25179.7,
    "revenueCr": 7506.9,
    "revenueBasis": "TTM",
    "orderSizePct": 47.36,
-   "pctOfMcap": 129.54
+   "pctOfMcap": 127.09
   },
   {
    "id": "NSE-106839804",
@@ -784,11 +815,11 @@
    "d1": 2.07,
    "d3": 6.07,
    "d5": 6.92,
-   "mcapCr": 8603.0,
+   "mcapCr": 8739.7,
    "revenueCr": 3127.1,
    "revenueBasis": "TTM",
    "orderSizePct": 10.36,
-   "pctOfMcap": 3.77
+   "pctOfMcap": 3.71
   },
   {
    "id": "NSE-106839064",
@@ -814,11 +845,11 @@
    "d1": 3.58,
    "d3": 8.39,
    "d5": 8.89,
-   "mcapCr": 8603.0,
+   "mcapCr": 8739.7,
    "revenueCr": 3127.1,
    "revenueBasis": "TTM",
    "orderSizePct": 10.36,
-   "pctOfMcap": 3.77
+   "pctOfMcap": 3.71
   },
   {
    "id": "NSE-106839016",
@@ -845,7 +876,7 @@
    "d1": 1.76,
    "d3": 1.88,
    "d5": 6.35,
-   "mcapCr": 565489.6,
+   "mcapCr": 575808.8,
    "revenueCr": 308589.2,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -875,11 +906,11 @@
    "d1": -2.97,
    "d3": 1.97,
    "d5": -4.7,
-   "mcapCr": 4106.0,
+   "mcapCr": 4047.7,
    "revenueCr": 1284.6,
    "revenueBasis": "TTM",
    "orderSizePct": 14.4,
-   "pctOfMcap": 4.51
+   "pctOfMcap": 4.57
   },
   {
    "id": "NSE-106834531",
@@ -965,11 +996,11 @@
    "d1": 3.33,
    "d3": 3.36,
    "d5": 7.03,
-   "mcapCr": 4316.4,
+   "mcapCr": 4358.7,
    "revenueCr": 3846.2,
    "revenueBasis": "TTM",
    "orderSizePct": 46.45,
-   "pctOfMcap": 41.39
+   "pctOfMcap": 40.99
   },
   {
    "id": "NSE-106834042",
@@ -995,11 +1026,11 @@
    "d1": 0.73,
    "d3": -0.04,
    "d5": 1.7,
-   "mcapCr": 33633.0,
+   "mcapCr": 33968.2,
    "revenueCr": 9109.1,
    "revenueBasis": "TTM",
    "orderSizePct": 5.33,
-   "pctOfMcap": 1.44
+   "pctOfMcap": 1.43
   },
   {
    "id": "NSE-106833564",
@@ -1025,11 +1056,11 @@
    "d1": 6.66,
    "d3": 3.99,
    "d5": 8.83,
-   "mcapCr": 8603.0,
+   "mcapCr": 8739.7,
    "revenueCr": 3127.1,
    "revenueBasis": "TTM",
    "orderSizePct": 36.46,
-   "pctOfMcap": 13.25
+   "pctOfMcap": 13.04
   },
   {
    "id": "NSE-106833562",
@@ -1055,11 +1086,11 @@
    "d1": 6.66,
    "d3": 3.99,
    "d5": 8.83,
-   "mcapCr": 8603.0,
+   "mcapCr": 8739.7,
    "revenueCr": 3127.1,
    "revenueBasis": "TTM",
    "orderSizePct": 36.46,
-   "pctOfMcap": 13.25
+   "pctOfMcap": 13.04
   },
   {
    "id": "NSE-106833479",
@@ -1085,7 +1116,7 @@
    "d1": 1.13,
    "d3": 1.85,
    "d5": 2.4,
-   "mcapCr": 28493.5,
+   "mcapCr": 28751.2,
    "revenueCr": 2789.2,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -1115,11 +1146,11 @@
    "d1": -4.0,
    "d3": 0.46,
    "d5": -0.26,
-   "mcapCr": 9419.8,
+   "mcapCr": 9460.2,
    "revenueCr": 3271.6,
    "revenueBasis": "TTM",
    "orderSizePct": 52.48,
-   "pctOfMcap": 18.23
+   "pctOfMcap": 18.15
   },
   {
    "id": "NSE-106830273",
@@ -1175,11 +1206,11 @@
    "d1": 9.57,
    "d3": 8.43,
    "d5": 4.55,
-   "mcapCr": 5623.0,
+   "mcapCr": 5446.6,
    "revenueCr": 969.1,
    "revenueBasis": "TTM",
    "orderSizePct": 29.91,
-   "pctOfMcap": 6.44
+   "pctOfMcap": 6.65
   },
   {
    "id": "NSE-106829683",
@@ -1206,7 +1237,7 @@
    "d1": -0.4,
    "d3": 4.27,
    "d5": 7.06,
-   "mcapCr": 565489.6,
+   "mcapCr": 575808.8,
    "revenueCr": 308589.2,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -1237,7 +1268,7 @@
    "d1": -1.8,
    "d3": -2.21,
    "d5": -2.11,
-   "mcapCr": 290709.9,
+   "mcapCr": 288407.3,
    "revenueCr": 30253.0,
    "revenueBasis": "TTM",
    "orderSizePct": 3.34,
@@ -1268,7 +1299,7 @@
    "d1": -0.71,
    "d3": -0.41,
    "d5": 0.09,
-   "mcapCr": 565489.6,
+   "mcapCr": 575808.8,
    "revenueCr": 308589.2,
    "revenueBasis": "TTM",
    "orderSizePct": 0.0,
@@ -1298,11 +1329,11 @@
    "d1": -4.99,
    "d3": -14.25,
    "d5": -22.6,
-   "mcapCr": 177.9,
+   "mcapCr": 176.7,
    "revenueCr": 70.1,
    "revenueBasis": "TTM",
    "orderSizePct": 2.01,
-   "pctOfMcap": 0.79
+   "pctOfMcap": 0.8
   },
   {
    "id": "BSE-8cd7ef42-5701-4e94-850b-267f0dff4c90",
@@ -1328,7 +1359,7 @@
    "d1": -2.03,
    "d3": -1.76,
    "d5": -8.77,
-   "mcapCr": 632.7,
+   "mcapCr": 620.5,
    "revenueCr": 124.5,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -1358,7 +1389,7 @@
    "d1": -2.03,
    "d3": -1.76,
    "d5": -8.77,
-   "mcapCr": 632.7,
+   "mcapCr": 620.5,
    "revenueCr": 124.5,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -1389,7 +1420,7 @@
    "d1": 0.96,
    "d3": 0.31,
    "d5": 1.46,
-   "mcapCr": 565489.6,
+   "mcapCr": 575808.8,
    "revenueCr": 308589.2,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -1449,7 +1480,7 @@
    "d1": 1.89,
    "d3": -5.17,
    "d5": -6.79,
-   "mcapCr": 28493.5,
+   "mcapCr": 28751.2,
    "revenueCr": 2789.2,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -1479,11 +1510,11 @@
    "d1": -0.24,
    "d3": -3.63,
    "d5": -6.78,
-   "mcapCr": 39185.5,
+   "mcapCr": 40675.6,
    "revenueCr": 2766.1,
    "revenueBasis": "TTM",
    "orderSizePct": 13.5,
-   "pctOfMcap": 3.34
+   "pctOfMcap": 3.21
   },
   {
    "id": "NSE-106818461",
@@ -1540,7 +1571,7 @@
    "d1": 0.62,
    "d3": -0.83,
    "d5": -2.32,
-   "mcapCr": 290709.9,
+   "mcapCr": 288407.3,
    "revenueCr": 30253.0,
    "revenueBasis": "TTM",
    "orderSizePct": 1.76,
@@ -1600,11 +1631,11 @@
    "d1": 12.14,
    "d3": 13.72,
    "d5": 2.64,
-   "mcapCr": 177.9,
+   "mcapCr": 176.7,
    "revenueCr": 70.1,
    "revenueBasis": "TTM",
    "orderSizePct": 1.0,
-   "pctOfMcap": 0.39
+   "pctOfMcap": 0.4
   },
   {
    "id": "NSE-106814753",
@@ -1630,7 +1661,7 @@
    "d1": 0.83,
    "d3": 0.61,
    "d5": -1.84,
-   "mcapCr": 542.8,
+   "mcapCr": 534.8,
    "revenueCr": 317.7,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -1660,11 +1691,11 @@
    "d1": 3.67,
    "d3": 7.35,
    "d5": -2.66,
-   "mcapCr": 715.5,
+   "mcapCr": 734.9,
    "revenueCr": 629.7,
    "revenueBasis": "TTM",
    "orderSizePct": 74.12,
-   "pctOfMcap": 65.23
+   "pctOfMcap": 63.51
   },
   {
    "id": "NSE-106813383",
@@ -1690,7 +1721,7 @@
    "d1": 4.72,
    "d3": 7.04,
    "d5": 5.3,
-   "mcapCr": 3775.6,
+   "mcapCr": 3723.0,
    "revenueCr": 260.4,
    "revenueBasis": "TTM",
    "orderSizePct": 4.62,
@@ -1720,7 +1751,7 @@
    "d1": -0.28,
    "d3": 1.5,
    "d5": 1.35,
-   "mcapCr": 33633.0,
+   "mcapCr": 33968.2,
    "revenueCr": 9109.1,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -1750,7 +1781,7 @@
    "d1": 2.5,
    "d3": 5.42,
    "d5": 4.5,
-   "mcapCr": 32529.9,
+   "mcapCr": 33937.4,
    "revenueCr": 5047.5,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -1781,7 +1812,7 @@
    "d1": -0.86,
    "d3": 3.45,
    "d5": 1.26,
-   "mcapCr": 16537.0,
+   "mcapCr": 16587.8,
    "revenueCr": 4881.1,
    "revenueBasis": "TTM",
    "orderSizePct": 1.55,
@@ -1841,11 +1872,11 @@
    "d1": 5.0,
    "d3": 9.61,
    "d5": 2.09,
-   "mcapCr": 672.5,
+   "mcapCr": 658.5,
    "revenueCr": 514.0,
    "revenueBasis": "TTM",
    "orderSizePct": 59.9,
-   "pctOfMcap": 91.56
+   "pctOfMcap": 93.51
   },
   {
    "id": "NSE-106809242",
@@ -1872,7 +1903,7 @@
    "d1": -1.82,
    "d3": -1.77,
    "d5": -2.52,
-   "mcapCr": 565489.6,
+   "mcapCr": 575808.8,
    "revenueCr": 308589.2,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -1902,11 +1933,11 @@
    "d1": 5.0,
    "d3": 9.61,
    "d5": 2.09,
-   "mcapCr": 672.5,
+   "mcapCr": 658.5,
    "revenueCr": 514.0,
    "revenueBasis": "TTM",
    "orderSizePct": 7.99,
-   "pctOfMcap": 91.56
+   "pctOfMcap": 93.51
   },
   {
    "id": "NSE-106808706",
@@ -1932,7 +1963,7 @@
    "d1": -1.37,
    "d3": -0.86,
    "d5": 0.87,
-   "mcapCr": 33633.0,
+   "mcapCr": 33968.2,
    "revenueCr": 9109.1,
    "revenueBasis": "TTM",
    "orderSizePct": 0.96,
@@ -1992,11 +2023,11 @@
    "d1": -0.22,
    "d3": -0.17,
    "d5": -4.26,
-   "mcapCr": 8603.0,
+   "mcapCr": 8739.7,
    "revenueCr": 3127.1,
    "revenueBasis": "TTM",
    "orderSizePct": 3.2,
-   "pctOfMcap": 1.16
+   "pctOfMcap": 1.14
   },
   {
    "id": "NSE-106806743",
@@ -2022,7 +2053,7 @@
    "d1": -2.24,
    "d3": -1.77,
    "d5": -3.1,
-   "mcapCr": 84970.1,
+   "mcapCr": 84295.7,
    "revenueCr": 18380.9,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -2052,11 +2083,11 @@
    "d1": 7.47,
    "d3": 9.13,
    "d5": 4.38,
-   "mcapCr": 5623.0,
+   "mcapCr": 5446.6,
    "revenueCr": 969.1,
    "revenueBasis": "TTM",
    "orderSizePct": 20.3,
-   "pctOfMcap": 7.0
+   "pctOfMcap": 7.23
   },
   {
    "id": "NSE-106806591",
@@ -2082,11 +2113,11 @@
    "d1": 7.47,
    "d3": 9.13,
    "d5": 4.38,
-   "mcapCr": 5623.0,
+   "mcapCr": 5446.6,
    "revenueCr": 969.1,
    "revenueBasis": "TTM",
    "orderSizePct": 20.3,
-   "pctOfMcap": 7.0
+   "pctOfMcap": 7.23
   },
   {
    "id": "NSE-106806590",
@@ -2113,7 +2144,7 @@
    "d1": 1.53,
    "d3": 0.22,
    "d5": 0.27,
-   "mcapCr": 565489.6,
+   "mcapCr": 575808.8,
    "revenueCr": 308589.2,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -2143,7 +2174,7 @@
    "d1": -7.63,
    "d3": -9.55,
    "d5": -12.51,
-   "mcapCr": 4316.4,
+   "mcapCr": 4358.7,
    "revenueCr": 3846.2,
    "revenueBasis": "TTM",
    "orderSizePct": 0.09,
@@ -2173,7 +2204,7 @@
    "d1": 1.66,
    "d3": 2.97,
    "d5": 3.51,
-   "mcapCr": 9384.7,
+   "mcapCr": 9308.1,
    "revenueCr": 2863.0,
    "revenueBasis": "TTM",
    "orderSizePct": 1.4,
@@ -2203,7 +2234,7 @@
    "d1": 1.66,
    "d3": 2.97,
    "d5": 3.51,
-   "mcapCr": 9384.7,
+   "mcapCr": 9308.1,
    "revenueCr": 2863.0,
    "revenueBasis": "TTM",
    "orderSizePct": 1.5,
@@ -2263,7 +2294,7 @@
    "d1": -2.45,
    "d3": -1.93,
    "d5": -5.68,
-   "mcapCr": 3775.6,
+   "mcapCr": 3723.0,
    "revenueCr": 260.4,
    "revenueBasis": "TTM",
    "orderSizePct": 2.31,
@@ -2293,11 +2324,11 @@
    "d1": 5.0,
    "d3": 11.74,
    "d5": 11.17,
-   "mcapCr": 36316.1,
+   "mcapCr": 34501.0,
    "revenueCr": 7137.0,
    "revenueBasis": "TTM",
    "orderSizePct": 37.9,
-   "pctOfMcap": 31.03
+   "pctOfMcap": 32.66
   },
   {
    "id": "NSE-106802350",
@@ -2324,11 +2355,11 @@
    "d1": 0.55,
    "d3": -1.03,
    "d5": -8.45,
-   "mcapCr": 3401.4,
+   "mcapCr": 3331.1,
    "revenueCr": 281.9,
    "revenueBasis": "TTM",
    "orderSizePct": 8.38,
-   "pctOfMcap": 0.69
+   "pctOfMcap": 0.71
   },
   {
    "id": "NSE-106801893",
@@ -2355,7 +2386,7 @@
    "d1": 0.29,
    "d3": 0.02,
    "d5": -1.27,
-   "mcapCr": 565489.6,
+   "mcapCr": 575808.8,
    "revenueCr": 308589.2,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -2385,11 +2416,11 @@
    "d1": 1.38,
    "d3": 1.7,
    "d5": -1.26,
-   "mcapCr": 6783.5,
+   "mcapCr": 6754.8,
    "revenueCr": 4355.8,
    "revenueBasis": "TTM",
    "orderSizePct": 0.66,
-   "pctOfMcap": 0.42
+   "pctOfMcap": 0.43
   },
   {
    "id": "NSE-106801061",
@@ -2446,7 +2477,7 @@
    "d1": -0.45,
    "d3": -0.76,
    "d5": -4.15,
-   "mcapCr": 10066.2,
+   "mcapCr": 10124.2,
    "revenueCr": 556.9,
    "revenueBasis": "TTM",
    "orderSizePct": 4.77,
@@ -2476,11 +2507,11 @@
    "d1": 3.49,
    "d3": 3.82,
    "d5": 13.39,
-   "mcapCr": 5623.0,
+   "mcapCr": 5446.6,
    "revenueCr": 969.1,
    "revenueBasis": "TTM",
    "orderSizePct": 25.88,
-   "pctOfMcap": 4.46
+   "pctOfMcap": 4.6
   },
   {
    "id": "NSE-106792472",
@@ -2536,11 +2567,11 @@
    "d1": -0.52,
    "d3": -3.96,
    "d5": -4.38,
-   "mcapCr": 39185.5,
+   "mcapCr": 40675.6,
    "revenueCr": 2766.1,
    "revenueBasis": "TTM",
    "orderSizePct": 29.31,
-   "pctOfMcap": 2.07
+   "pctOfMcap": 1.99
   },
   {
    "id": "NSE-106789279",
@@ -2566,11 +2597,11 @@
    "d1": 6.27,
    "d3": 3.56,
    "d5": 5.4,
-   "mcapCr": 3775.6,
+   "mcapCr": 3723.0,
    "revenueCr": 260.4,
    "revenueBasis": "TTM",
    "orderSizePct": 68.11,
-   "pctOfMcap": 4.7
+   "pctOfMcap": 4.76
   },
   {
    "id": "NSE-106783907",
@@ -2597,11 +2628,11 @@
    "d1": 6.04,
    "d3": 4.15,
    "d5": 1.54,
-   "mcapCr": 16537.0,
+   "mcapCr": 16587.8,
    "revenueCr": 4881.1,
    "revenueBasis": "TTM",
    "orderSizePct": 110.63,
-   "pctOfMcap": 32.65
+   "pctOfMcap": 32.55
   },
   {
    "id": "NSE-106783602",
@@ -2627,7 +2658,7 @@
    "d1": 5.0,
    "d3": 2.18,
    "d5": -3.08,
-   "mcapCr": 542.8,
+   "mcapCr": 534.8,
    "revenueCr": 317.7,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -2658,7 +2689,7 @@
    "d1": -0.54,
    "d3": 0.62,
    "d5": -0.87,
-   "mcapCr": 290709.9,
+   "mcapCr": 288407.3,
    "revenueCr": 30253.0,
    "revenueBasis": "TTM",
    "orderSizePct": 2.14,
@@ -2718,7 +2749,7 @@
    "d1": -4.99,
    "d3": 4.74,
    "d5": 1.93,
-   "mcapCr": 542.8,
+   "mcapCr": 534.8,
    "revenueCr": 317.7,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -2748,11 +2779,11 @@
    "d1": 0.21,
    "d3": 3.23,
    "d5": 2.88,
-   "mcapCr": 9419.8,
+   "mcapCr": 9460.2,
    "revenueCr": 3271.6,
    "revenueBasis": "TTM",
    "orderSizePct": 733.59,
-   "pctOfMcap": 254.78
+   "pctOfMcap": 253.69
   },
   {
    "id": "NSE-106777776",
@@ -2778,7 +2809,7 @@
    "d1": 0.03,
    "d3": -7.77,
    "d5": -2.64,
-   "mcapCr": 4316.4,
+   "mcapCr": 4358.7,
    "revenueCr": 3846.2,
    "revenueBasis": "TTM",
    "orderSizePct": 0.72,
@@ -2839,7 +2870,7 @@
    "d1": -0.6,
    "d3": -0.39,
    "d5": -3.51,
-   "mcapCr": 565489.6,
+   "mcapCr": 575808.8,
    "revenueCr": 308589.2,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -2869,11 +2900,11 @@
    "d1": -1.05,
    "d3": -1.4,
    "d5": -5.64,
-   "mcapCr": 8603.0,
+   "mcapCr": 8739.7,
    "revenueCr": 3127.1,
    "revenueBasis": "TTM",
    "orderSizePct": 3.12,
-   "pctOfMcap": 1.14
+   "pctOfMcap": 1.12
   },
   {
    "id": "NSE-106774373",
@@ -2899,11 +2930,11 @@
    "d1": 1.23,
    "d3": 2.38,
    "d5": 3.23,
-   "mcapCr": 6783.5,
+   "mcapCr": 6754.8,
    "revenueCr": 4355.8,
    "revenueBasis": "TTM",
    "orderSizePct": 0.66,
-   "pctOfMcap": 0.42
+   "pctOfMcap": 0.43
   },
   {
    "id": "NSE-106773067",
@@ -2929,7 +2960,7 @@
    "d1": -0.38,
    "d3": 0.05,
    "d5": -4.01,
-   "mcapCr": 33633.0,
+   "mcapCr": 33968.2,
    "revenueCr": 9109.1,
    "revenueBasis": "TTM",
    "orderSizePct": 0.98,
@@ -2989,11 +3020,11 @@
    "d1": 2.99,
    "d3": -0.72,
    "d5": 1.57,
-   "mcapCr": 4316.4,
+   "mcapCr": 4358.7,
    "revenueCr": 3846.2,
    "revenueBasis": "TTM",
    "orderSizePct": 3.42,
-   "pctOfMcap": 3.04
+   "pctOfMcap": 3.01
   },
   {
    "id": "NSE-106770414",
@@ -3019,7 +3050,7 @@
    "d1": -0.84,
    "d3": -2.67,
    "d5": -5.49,
-   "mcapCr": 74988.3,
+   "mcapCr": 75754.8,
    "revenueCr": 12840.3,
    "revenueBasis": "TTM",
    "orderSizePct": 0.46,
@@ -3049,11 +3080,11 @@
    "d1": 0.41,
    "d3": -3.24,
    "d5": -5.01,
-   "mcapCr": 5623.0,
+   "mcapCr": 5446.6,
    "revenueCr": 969.1,
    "revenueBasis": "TTM",
    "orderSizePct": 8.33,
-   "pctOfMcap": 1.44
+   "pctOfMcap": 1.48
   },
   {
    "id": "NSE-106767735",
@@ -3079,11 +3110,11 @@
    "d1": 2.04,
    "d3": 8.72,
    "d5": 10.51,
-   "mcapCr": 6783.5,
+   "mcapCr": 6754.8,
    "revenueCr": 4355.8,
    "revenueBasis": "TTM",
    "orderSizePct": 4.66,
-   "pctOfMcap": 8.97
+   "pctOfMcap": 9.01
   },
   {
    "id": "NSE-106765439",
@@ -3110,7 +3141,7 @@
    "d1": 3.16,
    "d3": 4.45,
    "d5": 6.87,
-   "mcapCr": 16537.0,
+   "mcapCr": 16587.8,
    "revenueCr": 4881.1,
    "revenueBasis": "TTM",
    "orderSizePct": 3.7,
@@ -3140,11 +3171,11 @@
    "d1": 0.51,
    "d3": 2.58,
    "d5": 4.59,
-   "mcapCr": 4316.4,
+   "mcapCr": 4358.7,
    "revenueCr": 3846.2,
    "revenueBasis": "TTM",
    "orderSizePct": 0.64,
-   "pctOfMcap": 0.57
+   "pctOfMcap": 0.56
   },
   {
    "id": "NSE-106764010",
@@ -3200,11 +3231,11 @@
    "d1": 3.78,
    "d3": 4.3,
    "d5": 9.65,
-   "mcapCr": 4316.4,
+   "mcapCr": 4358.7,
    "revenueCr": 3846.2,
    "revenueBasis": "TTM",
    "orderSizePct": 16.48,
-   "pctOfMcap": 29.37
+   "pctOfMcap": 29.09
   },
   {
    "id": "NSE-106763604",
@@ -3230,11 +3261,11 @@
    "d1": 7.92,
    "d3": 7.37,
    "d5": 4.76,
-   "mcapCr": 5623.0,
+   "mcapCr": 5446.6,
    "revenueCr": 969.1,
    "revenueBasis": "TTM",
    "orderSizePct": 18.96,
-   "pctOfMcap": 4.09
+   "pctOfMcap": 4.22
   },
   {
    "id": "NSE-106763497",
@@ -3260,11 +3291,11 @@
    "d1": -5.0,
    "d3": -11.51,
    "d5": -2.44,
-   "mcapCr": 33128.7,
+   "mcapCr": 31595.4,
    "revenueCr": 7491.7,
    "revenueBasis": "TTM",
    "orderSizePct": 9.41,
-   "pctOfMcap": 6.92
+   "pctOfMcap": 7.25
   },
   {
    "id": "NSE-106762587",
@@ -3291,11 +3322,11 @@
    "d1": 0.35,
    "d3": -4.21,
    "d5": 1.85,
-   "mcapCr": 10394.1,
+   "mcapCr": 10077.7,
    "revenueCr": 546.2,
    "revenueBasis": "TTM",
    "orderSizePct": 64.62,
-   "pctOfMcap": 9.62
+   "pctOfMcap": 9.92
   },
   {
    "id": "NSE-106762313",
@@ -3381,11 +3412,11 @@
    "d1": -1.46,
    "d3": 6.07,
    "d5": 6.23,
-   "mcapCr": 5623.0,
+   "mcapCr": 5446.6,
    "revenueCr": 969.1,
    "revenueBasis": "TTM",
    "orderSizePct": 27.43,
-   "pctOfMcap": 7.09
+   "pctOfMcap": 7.32
   },
   {
    "id": "NSE-106761763",
@@ -3441,11 +3472,11 @@
    "d1": 0.65,
    "d3": -1.3,
    "d5": 3.47,
-   "mcapCr": 36316.1,
+   "mcapCr": 34501.0,
    "revenueCr": 7137.0,
    "revenueBasis": "TTM",
    "orderSizePct": 37.9,
-   "pctOfMcap": 7.45
+   "pctOfMcap": 7.84
   },
   {
    "id": "NSE-106761426",
@@ -3471,11 +3502,11 @@
    "d1": 2.14,
    "d3": 0.01,
    "d5": -1.17,
-   "mcapCr": 3775.6,
+   "mcapCr": 3723.0,
    "revenueCr": 260.4,
    "revenueBasis": "TTM",
    "orderSizePct": 15.09,
-   "pctOfMcap": 3.12
+   "pctOfMcap": 3.17
   },
   {
    "id": "NSE-106761279",
@@ -3501,7 +3532,7 @@
    "d1": 3.41,
    "d3": -0.48,
    "d5": -0.82,
-   "mcapCr": 9384.7,
+   "mcapCr": 9308.1,
    "revenueCr": 2863.0,
    "revenueBasis": "TTM",
    "orderSizePct": 1.2,
@@ -3531,11 +3562,11 @@
    "d1": -1.94,
    "d3": -3.32,
    "d5": -4.67,
-   "mcapCr": 15495.5,
+   "mcapCr": 15406.4,
    "revenueCr": 15120.0,
    "revenueBasis": "TTM",
    "orderSizePct": 1.31,
-   "pctOfMcap": 1.28
+   "pctOfMcap": 1.29
   },
   {
    "id": "NSE-106760361",
@@ -3561,7 +3592,7 @@
    "d1": 1.92,
    "d3": 4.5,
    "d5": 4.04,
-   "mcapCr": 28493.5,
+   "mcapCr": 28751.2,
    "revenueCr": 2789.2,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -3591,11 +3622,11 @@
    "d1": -0.71,
    "d3": -0.95,
    "d5": 2.16,
-   "mcapCr": 715.5,
+   "mcapCr": 734.9,
    "revenueCr": 629.7,
    "revenueBasis": "TTM",
    "orderSizePct": 1.55,
-   "pctOfMcap": 1.36
+   "pctOfMcap": 1.33
   },
   {
    "id": "NSE-106757382",
@@ -3622,7 +3653,7 @@
    "d1": 1.01,
    "d3": 1.86,
    "d5": -0.28,
-   "mcapCr": 290709.9,
+   "mcapCr": 288407.3,
    "revenueCr": 30253.0,
    "revenueBasis": "TTM",
    "orderSizePct": 2.41,
@@ -3652,7 +3683,7 @@
    "d1": 4.16,
    "d3": 5.13,
    "d5": 6.27,
-   "mcapCr": 6783.5,
+   "mcapCr": 6754.8,
    "revenueCr": 4355.8,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -3683,7 +3714,7 @@
    "d1": -0.7,
    "d3": -0.79,
    "d5": -1.89,
-   "mcapCr": 333384.3,
+   "mcapCr": 334320.6,
    "revenueCr": 33785.0,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -3713,7 +3744,7 @@
    "d1": 4.18,
    "d3": 6.74,
    "d5": 2.88,
-   "mcapCr": 2059.7,
+   "mcapCr": 2072.6,
    "revenueCr": 839.4,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -3744,7 +3775,7 @@
    "d1": 0.71,
    "d3": -1.54,
    "d5": -1.1,
-   "mcapCr": 565489.6,
+   "mcapCr": 575808.8,
    "revenueCr": 308589.2,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -3774,7 +3805,7 @@
    "d1": -0.21,
    "d3": 1.11,
    "d5": 0.44,
-   "mcapCr": 24702.0,
+   "mcapCr": 25179.7,
    "revenueCr": 7506.9,
    "revenueBasis": "TTM",
    "orderSizePct": 0.4,
@@ -3804,11 +3835,11 @@
    "d1": 2.48,
    "d3": 7.48,
    "d5": 8.48,
-   "mcapCr": 6783.5,
+   "mcapCr": 6754.8,
    "revenueCr": 4355.8,
    "revenueBasis": "TTM",
    "orderSizePct": 4.04,
-   "pctOfMcap": 10.39
+   "pctOfMcap": 10.43
   },
   {
    "id": "NSE-106753790",
@@ -3835,7 +3866,7 @@
    "d1": -0.07,
    "d3": -1.34,
    "d5": -1.15,
-   "mcapCr": 565489.6,
+   "mcapCr": 575808.8,
    "revenueCr": 308589.2,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -3895,11 +3926,11 @@
    "d1": 0.5,
    "d3": 3.69,
    "d5": 9.03,
-   "mcapCr": 6783.5,
+   "mcapCr": 6754.8,
    "revenueCr": 4355.8,
    "revenueBasis": "TTM",
    "orderSizePct": 3.44,
-   "pctOfMcap": 3.32
+   "pctOfMcap": 3.33
   },
   {
    "id": "NSE-106751871",
@@ -3926,11 +3957,11 @@
    "d1": 2.76,
    "d3": -3.36,
    "d5": -0.71,
-   "mcapCr": 20736.5,
+   "mcapCr": 22533.5,
    "revenueCr": 941.5,
    "revenueBasis": "TTM",
    "orderSizePct": 81.9,
-   "pctOfMcap": 3.72
+   "pctOfMcap": 3.42
   },
   {
    "id": "NSE-106750591",
@@ -3956,11 +3987,11 @@
    "d1": -2.03,
    "d3": 4.9,
    "d5": -0.78,
-   "mcapCr": 2912.7,
+   "mcapCr": 2864.5,
    "revenueCr": 877.9,
    "revenueBasis": "TTM",
    "orderSizePct": 3.63,
-   "pctOfMcap": 1.09
+   "pctOfMcap": 1.11
   },
   {
    "id": "NSE-106750535",
@@ -3987,7 +4018,7 @@
    "d1": 0.98,
    "d3": 1.21,
    "d5": -0.08,
-   "mcapCr": 565489.6,
+   "mcapCr": 575808.8,
    "revenueCr": 308589.2,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -4017,11 +4048,11 @@
    "d1": 1.46,
    "d3": 1.68,
    "d5": 4.92,
-   "mcapCr": 6783.5,
+   "mcapCr": 6754.8,
    "revenueCr": 4355.8,
    "revenueBasis": "TTM",
    "orderSizePct": 1.57,
-   "pctOfMcap": 4.04
+   "pctOfMcap": 4.06
   },
   {
    "id": "NSE-106748616",
@@ -4047,7 +4078,7 @@
    "d1": -2.31,
    "d3": 3.21,
    "d5": -3.44,
-   "mcapCr": 1816.7,
+   "mcapCr": 1905.6,
    "revenueCr": 455.0,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -4077,11 +4108,11 @@
    "d1": 2.26,
    "d3": 1.74,
    "d5": -0.49,
-   "mcapCr": 2059.7,
+   "mcapCr": 2072.6,
    "revenueCr": 839.4,
    "revenueBasis": "TTM",
    "orderSizePct": 13.82,
-   "pctOfMcap": 5.63
+   "pctOfMcap": 5.6
   },
   {
    "id": "NSE-106747940",
@@ -4107,11 +4138,11 @@
    "d1": -2.15,
    "d3": -1.0,
    "d5": 1.96,
-   "mcapCr": 6783.5,
+   "mcapCr": 6754.8,
    "revenueCr": 4355.8,
    "revenueBasis": "TTM",
    "orderSizePct": 3.77,
-   "pctOfMcap": 7.26
+   "pctOfMcap": 7.29
   },
   {
    "id": "NSE-106746612",
@@ -4138,7 +4169,7 @@
    "d1": 0.73,
    "d3": -0.39,
    "d5": 0.89,
-   "mcapCr": 565489.6,
+   "mcapCr": 575808.8,
    "revenueCr": 308589.2,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -4169,7 +4200,7 @@
    "d1": 1.82,
    "d3": 4.93,
    "d5": 3.25,
-   "mcapCr": 16537.0,
+   "mcapCr": 16587.8,
    "revenueCr": 4881.1,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -4199,11 +4230,11 @@
    "d1": -3.43,
    "d3": -5.3,
    "d5": 0.05,
-   "mcapCr": 1816.7,
+   "mcapCr": 1905.6,
    "revenueCr": 455.0,
    "revenueBasis": "TTM",
    "orderSizePct": 123.81,
-   "pctOfMcap": 31.01
+   "pctOfMcap": 29.56
   },
   {
    "id": "NSE-106743575",
@@ -4229,7 +4260,7 @@
    "d1": 2.07,
    "d3": 1.88,
    "d5": -2.35,
-   "mcapCr": 9384.7,
+   "mcapCr": 9308.1,
    "revenueCr": 2863.0,
    "revenueBasis": "TTM",
    "orderSizePct": 3.22,
@@ -4290,7 +4321,7 @@
    "d1": 1.26,
    "d3": 1.66,
    "d5": 0.53,
-   "mcapCr": 565489.6,
+   "mcapCr": 575808.8,
    "revenueCr": 308589.2,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -4320,11 +4351,11 @@
    "d1": -0.62,
    "d3": -0.81,
    "d5": -4.74,
-   "mcapCr": 4316.4,
+   "mcapCr": 4358.7,
    "revenueCr": 3846.2,
    "revenueBasis": "TTM",
    "orderSizePct": 2.02,
-   "pctOfMcap": 1.8
+   "pctOfMcap": 1.78
   },
   {
    "id": "NSE-106737605",
@@ -4381,7 +4412,7 @@
    "d1": -0.09,
    "d3": -1.47,
    "d5": 3.32,
-   "mcapCr": 16537.0,
+   "mcapCr": 16587.8,
    "revenueCr": 4881.1,
    "revenueBasis": "TTM",
    "orderSizePct": 3.77,
@@ -4411,7 +4442,7 @@
    "d1": -0.27,
    "d3": -4.77,
    "d5": -4.92,
-   "mcapCr": 2059.7,
+   "mcapCr": 2072.6,
    "revenueCr": 839.4,
    "revenueBasis": "TTM",
    "orderSizePct": null,
@@ -4443,11 +4474,11 @@
    "d1": 5.8,
    "d3": 6.5,
    "d5": 8.4,
-   "mcapCr": 15473.2,
+   "mcapCr": 15403.9,
    "revenueCr": 842.7,
    "revenueBasis": "TTM",
    "orderSizePct": 35.01,
-   "pctOfMcap": 1.91
+   "pctOfMcap": 1.92
   },
   {
    "id": "NSE-106734854",
@@ -4474,7 +4505,7 @@
    "d1": 0.37,
    "d3": 1.52,
    "d5": 2.0,
-   "mcapCr": 290709.9,
+   "mcapCr": 288407.3,
    "revenueCr": 30253.0,
    "revenueBasis": "TTM",
    "orderSizePct": 1.79,
