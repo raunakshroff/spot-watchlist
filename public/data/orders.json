@@ -1,7 +1,7 @@
 {
- "updatedAt": "2026-11-09T21:19+05:30",
+ "updatedAt": "2026-11-10T21:14+05:30",
  "windowStart": "2026-08-10",
- "trackedCompanies": 182,
+ "trackedCompanies": 187,
  "sources": [
   "NSE corporate announcements",
   "BSE filings via screener.in"
@@ -9,44 +9,44 @@
  "notes": "Values parsed from exchange filings; 'null' means the filing didn't state it or it couldn't be read. Order size % = annual value / company revenue (TTM where available). 1D/3D/5D = % move from the last close before the filing.",
  "fx": {
   "USDINR": 93.92,
-  "EURINR": 105.18
+  "EURINR": 105.41
  },
  "companies": {
   "ACCORDTS.BO": {
    "mcapCr": 176.7,
    "revenueCr": 70.1,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "ACMESOLAR.NS": {
    "mcapCr": 28751.2,
    "revenueCr": 2789.2,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "ADVAIT.NS": {
    "mcapCr": 2072.6,
    "revenueCr": 839.4,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "ANAWIL-SM.NS": {
    "mcapCr": null,
    "revenueCr": null,
    "revenueBasis": null,
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "APSISAERO-SM.NS": {
    "mcapCr": null,
    "revenueCr": null,
    "revenueBasis": null,
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "AVANTEL.NS": {
    "mcapCr": 3723.0,
    "revenueCr": 260.4,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "BBL.NS": {
    "mcapCr": 2858.0,
@@ -58,31 +58,31 @@
    "mcapCr": 40675.6,
    "revenueCr": 2766.1,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "BEL.NS": {
    "mcapCr": 288407.3,
    "revenueCr": 30253.0,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "BEML.NS": {
    "mcapCr": 16587.8,
    "revenueCr": 4881.1,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "BHARATFORG.NS": {
    "mcapCr": 84295.7,
    "revenueCr": 18380.9,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "CEIGALL.NS": {
    "mcapCr": 6754.8,
    "revenueCr": 4355.8,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "CGPOWER.NS": {
    "mcapCr": 123313.7,
@@ -94,127 +94,127 @@
    "mcapCr": 33937.4,
    "revenueCr": 5047.5,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "CONCOR.NS": {
    "mcapCr": 33968.2,
    "revenueCr": 9109.1,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "DANISH-SM.NS": {
    "mcapCr": null,
    "revenueCr": null,
    "revenueBasis": null,
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "DATAPATTNS.NS": {
    "mcapCr": 22533.5,
    "revenueCr": 941.5,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "E2E.NS": {
    "mcapCr": 10077.7,
    "revenueCr": 546.2,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "GRSE.NS": {
    "mcapCr": 25179.7,
    "revenueCr": 7506.9,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "HAL.NS": {
    "mcapCr": 334320.6,
    "revenueCr": 33785.0,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "HFCL.NS": {
    "mcapCr": 31595.4,
    "revenueCr": 7491.7,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "IDEAFORGE.NS": {
    "mcapCr": 3331.1,
    "revenueCr": 281.9,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "JWL.NS": {
    "mcapCr": 8739.7,
    "revenueCr": 3127.1,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "KARAMTARA.NS": {
    "mcapCr": null,
    "revenueCr": 4975.3,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "KERNEX.NS": {
    "mcapCr": 2864.5,
    "revenueCr": 877.9,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "LT.NS": {
    "mcapCr": 575808.8,
    "revenueCr": 308589.2,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "MARINE.NS": {
    "mcapCr": 5446.6,
    "revenueCr": 969.1,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "MAZDOCK.NS": {
    "mcapCr": 75754.8,
    "revenueCr": 12840.3,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "MMP.NS": {
    "mcapCr": 1118.6,
    "revenueCr": 937.8,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "NEOGEN.NS": {
    "mcapCr": 8006.9,
    "revenueCr": 1012.8,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "NIBE.NS": {
    "mcapCr": 1905.6,
    "revenueCr": 455.0,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "OBSCP-SM.NS": {
    "mcapCr": null,
    "revenueCr": null,
    "revenueBasis": null,
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "PARAS.NS": {
    "mcapCr": 10124.2,
    "revenueCr": 556.9,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "PARTH-SM.NS": {
    "mcapCr": null,
    "revenueCr": null,
    "revenueBasis": null,
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "PCJEWELLER.NS": {
    "mcapCr": 15535.5,
@@ -226,61 +226,61 @@
    "mcapCr": null,
    "revenueCr": null,
    "revenueBasis": null,
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "SSEGL-SM.NS": {
    "mcapCr": null,
    "revenueCr": null,
    "revenueBasis": null,
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "STEAMHOUSE.NS": {
    "mcapCr": null,
    "revenueCr": 509.7,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "STLTECH.NS": {
    "mcapCr": 34501.0,
    "revenueCr": 7137.0,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "SWASTIKAIN.NS": {
    "mcapCr": 658.5,
    "revenueCr": 514.0,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "TARIL.NS": {
    "mcapCr": 9308.1,
    "revenueCr": 2863.0,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "TATACHEM.NS": {
    "mcapCr": 15406.4,
    "revenueCr": 15120.0,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "TEXRAIL.NS": {
    "mcapCr": 4358.7,
-   "revenueCr": 3846.2,
+   "revenueCr": 3833.0,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "TITAGARH.NS": {
    "mcapCr": 9460.2,
    "revenueCr": 3271.6,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "UNIVASTU.NS": {
    "mcapCr": 534.8,
    "revenueCr": 317.7,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "UTLSOLAR.NS": {
    "mcapCr": 11031.0,
@@ -292,25 +292,25 @@
    "mcapCr": 4047.7,
    "revenueCr": 1284.6,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "VIVIANA.NS": {
    "mcapCr": 734.9,
    "revenueCr": 629.7,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "VMARCIND-SM.NS": {
    "mcapCr": null,
    "revenueCr": null,
    "revenueBasis": null,
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "ZENTEC.NS": {
    "mcapCr": 15403.9,
    "revenueCr": 842.7,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "ADMACH.BO": {
    "mcapCr": 298.0,
@@ -322,19 +322,19 @@
    "mcapCr": 1179.3,
    "revenueCr": 320.1,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "QLL.BO": {
    "mcapCr": 620.5,
    "revenueCr": 124.5,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   },
   "SHREEREF.BO": {
    "mcapCr": 1092.0,
    "revenueCr": 196.3,
    "revenueBasis": "TTM",
-   "updated": "2026-11-09"
+   "updated": "2026-11-10"
   }
  },
  "orders": [
@@ -546,9 +546,9 @@
    "d3": null,
    "d5": null,
    "mcapCr": 4358.7,
-   "revenueCr": 3846.2,
+   "revenueCr": 3833.0,
    "revenueBasis": "TTM",
-   "orderSizePct": 11.14,
+   "orderSizePct": 11.18,
    "pctOfMcap": 9.83
   },
   {
@@ -997,9 +997,9 @@
    "d3": 3.36,
    "d5": 7.03,
    "mcapCr": 4358.7,
-   "revenueCr": 3846.2,
+   "revenueCr": 3833.0,
    "revenueBasis": "TTM",
-   "orderSizePct": 46.45,
+   "orderSizePct": 46.61,
    "pctOfMcap": 40.99
   },
   {
@@ -2175,9 +2175,9 @@
    "d3": -9.55,
    "d5": -12.51,
    "mcapCr": 4358.7,
-   "revenueCr": 3846.2,
+   "revenueCr": 3833.0,
    "revenueBasis": "TTM",
-   "orderSizePct": 0.09,
+   "orderSizePct": 0.1,
    "pctOfMcap": 0.08
   },
   {
@@ -2810,9 +2810,9 @@
    "d3": -7.77,
    "d5": -2.64,
    "mcapCr": 4358.7,
-   "revenueCr": 3846.2,
+   "revenueCr": 3833.0,
    "revenueBasis": "TTM",
-   "orderSizePct": 0.72,
+   "orderSizePct": 0.73,
    "pctOfMcap": 0.64
   },
   {
@@ -3021,9 +3021,9 @@
    "d3": -0.72,
    "d5": 1.57,
    "mcapCr": 4358.7,
-   "revenueCr": 3846.2,
+   "revenueCr": 3833.0,
    "revenueBasis": "TTM",
-   "orderSizePct": 3.42,
+   "orderSizePct": 3.43,
    "pctOfMcap": 3.01
   },
   {
@@ -3172,7 +3172,7 @@
    "d3": 2.58,
    "d5": 4.59,
    "mcapCr": 4358.7,
-   "revenueCr": 3846.2,
+   "revenueCr": 3833.0,
    "revenueBasis": "TTM",
    "orderSizePct": 0.64,
    "pctOfMcap": 0.56
@@ -3232,9 +3232,9 @@
    "d3": 4.3,
    "d5": 9.65,
    "mcapCr": 4358.7,
-   "revenueCr": 3846.2,
+   "revenueCr": 3833.0,
    "revenueBasis": "TTM",
-   "orderSizePct": 16.48,
+   "orderSizePct": 16.54,
    "pctOfMcap": 29.09
   },
   {
@@ -4352,9 +4352,9 @@
    "d3": -0.81,
    "d5": -4.74,
    "mcapCr": 4358.7,
-   "revenueCr": 3846.2,
+   "revenueCr": 3833.0,
    "revenueBasis": "TTM",
-   "orderSizePct": 2.02,
+   "orderSizePct": 2.03,
    "pctOfMcap": 1.78
   },
   {
