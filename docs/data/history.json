@@ -8158,5 +8158,22 @@
     "stop": null,
     "notes": "Auto market update 2026-11-09",
     "droppedThatDay": false
+  },
+  {
+    "date": "2026-11-11",
+    "ticker": "PARADEEP.NS",
+    "name": "Paradeep Phosphates",
+    "status": "Watch",
+    "price": 143.91,
+    "dailyPct": 2.85,
+    "rsi14": 52.2,
+    "volume": null,
+    "volVs20d": null,
+    "support": null,
+    "resistance": null,
+    "buyZoneLevels": null,
+    "stop": null,
+    "notes": "Events auto-promote 2026-11-11",
+    "droppedThatDay": false
   }
 ]
